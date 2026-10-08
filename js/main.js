@@ -32,6 +32,7 @@
       units: [],
       buildings: [],
       resources: { ...CFG.START_RESOURCES },
+      aiResources: { ...CFG.START_RESOURCES },
       time: 0,
       cam: { x: 0, y: 0 },
       zoom: 1,
@@ -43,7 +44,7 @@
 
     map.bases.forEach((base, owner) => {
       const def = CFG.RACES[owner === 0 ? game.playerRace : game.aiRace].baseBuilding;
-      game.buildings.push({ owner, x: base.x, y: base.y, def, name: def.name, hp: def.hp, sight: 8 });
+      game.buildings.push({ owner, x: base.x, y: base.y, def, name: def.name, hp: def.hp, sight: 8, dropOff: true });
       spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
     });
 
@@ -71,8 +72,21 @@
       game.cam.y = wy - sy / game.zoom;
       game.moveCamera(0, 0);
     };
+    // Rozkaz kontekstowy: surowiec → robotnicy zbierają, własna baza → odnoszą ładunek, reszta → ruch
     game.command = (units, wx, wy) => {
-      Gra.commandMove(map, units, Math.floor(wx / TILE), Math.floor(wy / TILE));
+      const tx = Math.floor(wx / TILE), ty = Math.floor(wy / TILE);
+      let busy = [];
+      let kind = 'move';
+      if (map.resourceAt(tx, ty)) {
+        busy = Gra.economy.commandGather(game, units, tx, ty);
+        if (busy.length) kind = 'gather';
+      } else {
+        const b = game.buildings.find((b) => b.owner === 0 && b.dropOff &&
+                                             Math.abs(b.x - tx) <= 1 && Math.abs(b.y - ty) <= 1);
+        if (b) busy = Gra.economy.commandReturn(game, units, b);
+      }
+      Gra.commandMove(map, units.filter((u) => !busy.includes(u)), tx, ty);
+      return kind;
     };
     game.onSelectionChange = () => updateSelectionPanel(game);
 
@@ -97,6 +111,7 @@
 
       Gra.input.updateCamera(game, dt);
       for (const u of game.units) u.update(dt);
+      Gra.economy.update(game, dt);
       Gra.separateUnits(map, game.units);
       if (game.moveMarker && (game.moveMarker.age += dt) > 0.6) game.moveMarker = null;
 
@@ -112,6 +127,7 @@
         hudTimer = 0;
         Gra.render.drawMinimap(game.miniCtx, game);
         updateHud(game);
+        updateSelectionPanel(game);
       }
       requestAnimationFrame(frame);
     }
@@ -127,9 +143,9 @@
 
   function updateHud(game) {
     const r = game.resources;
-    document.getElementById('res-wood').textContent = r.wood;
-    document.getElementById('res-stone').textContent = r.stone;
-    document.getElementById('res-gold').textContent = r.gold;
+    document.getElementById('res-wood').textContent = Math.floor(r.wood);
+    document.getElementById('res-stone').textContent = Math.floor(r.stone);
+    document.getElementById('res-gold').textContent = Math.floor(r.gold);
     document.getElementById('res-pop').textContent = `${game.populationUsed()}/${game.populationCap()}`;
     const left = game.round.protectionMin * 60 - game.time;
     const prot = document.getElementById('protection');
@@ -142,21 +158,24 @@
     const sel = game.units.filter((u) => u.selected);
     if (!sel.length) {
       panel.textContent = document.body.classList.contains('touch')
-        ? 'Dotknij jednostkę, potem miejsce na mapie. Przeciągnij — kamera, dwa palce — zoom.'
-        : 'Zaznacz jednostki LPM (lub przeciągnij). PPM — ruch. Ctrl+A — wszystkie. Spacja — baza. Kółko — zoom.';
+        ? 'Dotknij jednostkę, potem miejsce na mapie. Robotnik + las/skała/złoto — zbieranie. Dwa palce — zoom.'
+        : 'LPM — zaznacz (przeciągnij — obszar). PPM — ruch, na lesie/skale/złocie — zbieranie. Spacja — baza. Kółko — zoom.';
       return;
     }
     if (sel.length === 1) {
       const u = sel[0];
       const d = u.def;
+      const status = Gra.economy.describe(u);
       panel.textContent = `${d.name} — HP ${u.hp}/${d.hp} · atak ${d.attack} co ${d.attackInterval} s · ` +
-        `zasięg ${d.range} · ruch ${d.speed} · pop ${d.pop} — ${d.desc}`;
+        `zasięg ${d.range} · ruch ${d.speed} · pop ${d.pop}` + (status ? ` — ${status}` : ` — ${d.desc}`);
       return;
     }
     const counts = {};
     for (const u of sel) counts[u.def.name] = (counts[u.def.name] || 0) + 1;
+    const gathering = sel.filter((u) => u.task && u.task.kind === 'gather').length;
     panel.textContent = `Zaznaczono ${sel.length}: ` +
-      Object.entries(counts).map(([n, c]) => `${n} ×${c}`).join(', ');
+      Object.entries(counts).map(([n, c]) => `${n} ×${c}`).join(', ') +
+      (gathering ? ` · zbiera: ${gathering}` : '');
   }
 
   Gra.startGame = startGame;

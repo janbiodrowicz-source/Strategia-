@@ -15,6 +15,8 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 | Dodaj/usuń z zaznaczenia | Shift + LPM |
 | Zaznacz wszystkie | Ctrl + A |
 | Ruch | PPM (na mapie lub minimapie) |
+| Zbieranie | zaznacz robotników, PPM na lesie / skale / złożu |
+| Odnieś ładunek | PPM na własnej bazie |
 | Przesuwanie kamery | WASD / strzałki / krawędź ekranu / LPM na minimapie |
 | Kamera na bazę | Spacja |
 | Przybliżanie | kółko myszy / + i − |
@@ -27,6 +29,7 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 | Zaznacz jednostkę | dotknij jej |
 | Zaznacz wszystkie tego typu na ekranie | dotknij dwa razy |
 | Rozkaz (ruch) | dotknij miejsca na mapie, gdy coś jest zaznaczone |
+| Zbieranie | zaznacz robotników, dotknij lasu / skały / złoża |
 | Przesuwanie kamery | przeciągnij palcem / dotknij minimapy |
 | Przybliżanie | rozsuń / zsuń dwa palce |
 | Zaznaczanie obszarem | przycisk ▢ Obszar, potem przeciągnij |
@@ -51,10 +54,22 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 - [x] Zaznaczanie, kamera z zoomem, minimapa, mgła wojny (runda 3), licznik okresu ochronnego
 - [x] Sterowanie dotykowe na telefon
 - [x] Balans jednostek, budynków i technologii z `balans_startowy.csv`
-- [ ] Zbieranie surowców
+- [x] Zbieranie surowców (robotnicy: las → drewno, skała → kamień, złoże → złoto)
 - [ ] Budowanie i produkcja jednostek
 - [ ] Walka i zdolności (leczenie Dryady, podpalanie Kapłana Ognia)
 - [ ] AI przeciwnika
+
+## Zbieranie surowców
+
+Robotnik niesie 10 jednostek surowca, zbiera 2/s × mnożnik rasy i sam kursuje między złożem a bazą.
+Wyczerpany kafelek znika z mapy, a robotnik przechodzi na najbliższy kafelek tego samego surowca.
+
+| Robotnik | Drewno | Kamień | Złoto |
+|---|---|---|---|
+| Zbieracz (Strażnicy Puszczy) | ×1.2 | ×0.8 | ×1.0 |
+| Górnik (Żelazny Zakon) | ×1.0 | ×1.2 | ×1.2 |
+
+Zasoby kafelka: las 60, skała 150, złoże 400. Ustawienia są w `js/config.js` → `GATHER`.
 
 ## Balans
 
@@ -80,6 +95,7 @@ js/balans.js      parser CSV, nakłada balans na konfigurację
 js/map.js         generowanie mapy
 js/pathfinding.js A*
 js/units.js       jednostki i rozkazy ruchu
+js/economy.js     zbieranie i odnoszenie surowców
 js/fog.js         mgła wojny
 js/render.js      rysowanie mapy, jednostek, minimapy
 js/input.js       mysz, klawiatura, kamera

@@ -24,7 +24,8 @@ Gra.CONFIG = {
       name: 'Strażnicy Puszczy',
       color: '#3fae4a',
       units: {
-        gatherer: { name: 'Zbieracz',         sight: 6, radius: 0.32, worker: true },
+        gatherer: { name: 'Zbieracz',         sight: 6, radius: 0.32, worker: true,
+                    gather: { wood: 1.2, stone: 0.8, gold: 1.0 } }, // mocni w drewnie, słabsi w kamieniu
         scout:    { name: 'Zwiadowca',        sight: 9, radius: 0.32 },
         archer:   { name: 'Łucznik Puszczy',  sight: 8, radius: 0.32 },
         warden:   { name: 'Strażnik Korzeni', sight: 6, radius: 0.38 },
@@ -36,13 +37,22 @@ Gra.CONFIG = {
       name: 'Żelazny Zakon',
       color: '#c0392b',
       units: {
-        miner:      { name: 'Górnik',      sight: 6, radius: 0.32, worker: true },
+        miner:      { name: 'Górnik',      sight: 6, radius: 0.32, worker: true,
+                      gather: { wood: 1.0, stone: 1.2, gold: 1.2 } }, // CSV: kamień i złoto +20%
         hammer:     { name: 'Młot',        sight: 6, radius: 0.38 },
         crossbow:   { name: 'Kusznik',     sight: 8, radius: 0.32 },
         firepriest: { name: 'Kapłan Ognia', sight: 7, radius: 0.32 },
       },
       startUnits: ['miner', 'miner', 'miner', 'miner', 'hammer'],
     },
+  },
+
+  // Zbieranie: ładunek robotnika, tempo (jednostek/s przed mnożnikiem rasy),
+  // zasoby jednego kafelka lasu / skały / złoża
+  GATHER: {
+    carry: 10,
+    rate: 2,
+    amount: { wood: 60, stone: 150, gold: 400 },
   },
 
   FOG_UPDATE_MS: 150,

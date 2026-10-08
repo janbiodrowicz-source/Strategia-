@@ -2,6 +2,8 @@
 // bazy w przeciwległych narożnikach.
 (function () {
   const T = Gra.TILES = { GRASS: 0, FOREST: 1, ROCK: 2, WATER: 3, GOLD: 4, BUILDING: 5 };
+  // Jaki surowiec daje dany kafelek
+  Gra.RESOURCE_OF_TILE = { [T.FOREST]: 'wood', [T.ROCK]: 'stone', [T.GOLD]: 'gold' };
 
   function mulberry32(a) {
     return function () {
@@ -39,7 +41,13 @@
       this.seed = seed;
       this.tiles = new Uint8Array(size * size);
       this.bases = []; // środki baz {x, y} w kafelkach, [gracz, AI]
+      this.amount = new Float32Array(size * size); // ile surowca zostało na kafelku
       this.generate();
+      const amounts = Gra.CONFIG.GATHER.amount;
+      for (let i = 0; i < this.tiles.length; i++) {
+        const res = Gra.RESOURCE_OF_TILE[this.tiles[i]];
+        if (res) this.amount[i] = amounts[res];
+      }
     }
 
     idx(x, y) { return y * this.w + x; }
@@ -47,6 +55,7 @@
     get(x, y) { return this.inBounds(x, y) ? this.tiles[this.idx(x, y)] : T.WATER; }
     set(x, y, t) { if (this.inBounds(x, y)) this.tiles[this.idx(x, y)] = t; }
     isWalkable(x, y) { return this.inBounds(x, y) && this.tiles[this.idx(x, y)] === T.GRASS; }
+    resourceAt(x, y) { return Gra.RESOURCE_OF_TILE[this.get(x, y)] || null; }
 
     fillCircle(cx, cy, r, t, onlyOn) {
       for (let y = cy - r; y <= cy + r; y++) {

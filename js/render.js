@@ -81,6 +81,25 @@
     return c;
   }
 
+  // Wyczerpany kafelek surowca zamienia się w trawę (mapa + minimapa)
+  function paintGrass(game, x, y) {
+    const ctx = game.mapImage.getContext('2d');
+    const shade = (x * 7 + y * 13) % 14;
+    ctx.fillStyle = `rgb(${74 + shade},${120 + shade},${52 + shade})`;
+    ctx.fillRect(x * TILE, y * TILE, TILE, TILE);
+    ctx.fillStyle = 'rgba(90,60,30,0.35)'; // pniaki / ślady po wydobyciu
+    ctx.beginPath();
+    ctx.arc(x * TILE + 12, y * TILE + 18, 3, 0, Math.PI * 2);
+    ctx.arc(x * TILE + 21, y * TILE + 11, 2.5, 0, Math.PI * 2);
+    ctx.fill();
+    const [r, g, b] = MINI_COLORS[T.GRASS];
+    const mctx = game.minimapImage.getContext('2d');
+    mctx.fillStyle = `rgb(${r},${g},${b})`;
+    mctx.fillRect(x, y, 1, 1);
+  }
+
+  const CARRY_COLORS = { wood: '#8b5a2b', stone: '#a8a59c', gold: '#f1c40f' };
+
   function teamColor(game, owner) {
     return Gra.CONFIG.RACES[owner === 0 ? game.playerRace : game.aiRace].color;
   }
@@ -121,7 +140,7 @@
     if (game.moveMarker) {
       const m = game.moveMarker;
       const t = m.age / 0.6;
-      ctx.strokeStyle = `rgba(80,255,120,${1 - t})`;
+      ctx.strokeStyle = m.kind === 'gather' ? `rgba(255,210,60,${1 - t})` : `rgba(80,255,120,${1 - t})`;
       ctx.lineWidth = 2;
       ctx.beginPath();
       ctx.arc(m.x, m.y, 4 + t * 12, 0, Math.PI * 2);
@@ -171,6 +190,25 @@
       ctx.font = 'bold 10px sans-serif';
       ctx.textAlign = 'center';
       ctx.fillText(u.def.name[0], u.x, u.y + 3.5);
+      // Praca przy surowcu: machające narzędzie
+      if (u.task && u.task.phase === 'gathering') {
+        const swing = Math.sin(game.time * 10 + u.id) * 0.6;
+        const a = u.facing + swing;
+        ctx.strokeStyle = '#ddd';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(u.x + Math.cos(a) * r, u.y + Math.sin(a) * r);
+        ctx.lineTo(u.x + Math.cos(a) * (r + 7), u.y + Math.sin(a) * (r + 7));
+        ctx.stroke();
+      }
+      // Niesiony ładunek
+      if (u.carry && u.carry.amount > 0) {
+        ctx.fillStyle = CARRY_COLORS[u.carry.type];
+        ctx.strokeStyle = '#111';
+        ctx.lineWidth = 1;
+        ctx.fillRect(u.x + r * 0.4, u.y - r - 1, 7, 7);
+        ctx.strokeRect(u.x + r * 0.4, u.y - r - 1, 7, 7);
+      }
       if (u.hp < u.def.hp || u.selected) {
         const w = r * 2;
         ctx.fillStyle = '#300';
@@ -244,5 +282,5 @@
     ctx.strokeRect(cam.x * k, cam.y * k, game.canvas.width / game.zoom * k, game.canvas.height / game.zoom * k);
   }
 
-  Gra.render = { buildMapImage, buildMinimapImage, draw, drawMinimap };
+  Gra.render = { buildMapImage, buildMinimapImage, draw, drawMinimap, paintGrass };
 })();

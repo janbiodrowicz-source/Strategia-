@@ -16,6 +16,8 @@
       this.path = [];
       this.selected = false;
       this.facing = 0;
+      this.task = null;  // np. zbieranie surowca (js/economy.js)
+      this.carry = null; // niesiony ładunek {type, amount}
     }
 
     get radius() { return this.def.radius * TILE; }
@@ -25,6 +27,8 @@
 
     moveTo(map, tx, ty) {
       this.path = Gra.findPath(map, this.tileX, this.tileY, tx, ty);
+      // Cel to kafelek, na którym już stoi (np. zepchnięty na skraj) — dojdź do jego środka
+      if (!this.path.length && tx === this.tileX && ty === this.tileY) this.path = [{ x: tx, y: ty }];
     }
 
     update(dt) {
@@ -49,6 +53,7 @@
   // Rozkaz ruchu dla grupy: każda jednostka dostaje własny kafelek w formacji
   function commandMove(map, units, tx, ty) {
     if (!units.length) return;
+    for (const u of units) u.task = null;
     const slots = map.formationTiles(tx, ty, units.length);
     const free = units.slice();
     for (const slot of slots) {

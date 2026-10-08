@@ -33,8 +33,8 @@
     function issueCommand(wx, wy) {
       const sel = game.units.filter((u) => u.selected && u.owner === 0);
       if (!sel.length) return false;
-      game.command(sel, wx, wy);
-      game.moveMarker = { x: wx, y: wy, age: 0 };
+      const kind = game.command(sel, wx, wy);
+      game.moveMarker = { x: wx, y: wy, age: 0, kind };
       return true;
     }
 
