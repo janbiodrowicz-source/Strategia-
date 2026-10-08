@@ -56,6 +56,8 @@
       spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
     });
 
+    game.ai = Gra.ai.create(game);
+
     game.populationCap = (owner = 0) => B().populationCap(game, owner);
     game.populationUsed = (owner = 0) => B().populationUsed(game, owner);
 
@@ -216,26 +218,30 @@
       `${round.name} · ${game.difficulty.name} · ${CFG.RACES[game.playerRace].name}`;
     updatePanel(game, true);
 
-    let last = performance.now(), fogTimer = 0, hudTimer = 0;
-    function frame(now) {
-      const dt = Math.min(0.05, (now - last) / 1000);
-      last = now;
+    // Jeden krok symulacji (bez rysowania) — używany przez pętlę gry i testy
+    let fogTimer = 0;
+    game.step = (dt) => {
       game.time += dt;
-
-      Gra.input.updateCamera(game, dt);
       for (const u of game.units) u.update(dt);
       Gra.economy.update(game, dt);
       Gra.buildings.update(game, dt);
       Gra.combat.update(game, dt);
+      Gra.ai.update(game, dt);
       Gra.separateUnits(map, game.units);
       if (game.moveMarker && (game.moveMarker.age += dt) > 0.6) game.moveMarker = null;
-
       fogTimer += dt * 1000;
       if (fogTimer >= CFG.FOG_UPDATE_MS) {
         fogTimer = 0;
         game.fog.update(game.units, game.buildings, 0);
       }
+    };
 
+    let last = performance.now(), hudTimer = 0;
+    function frame(now) {
+      const dt = Math.min(0.05, (now - last) / 1000);
+      last = now;
+      Gra.input.updateCamera(game, dt);
+      if (!game.paused) game.step(dt);
       Gra.render.draw(game.ctx, game);
       if (game.over) return; // zamrażamy grę po zwycięstwie / porażce
       hudTimer += dt;
@@ -265,7 +271,9 @@
     document.getElementById('res-pop').textContent = `${game.populationUsed()}/${game.populationCap()}`;
     const left = game.round.protectionMin * 60 - game.time;
     const prot = document.getElementById('protection');
-    prot.textContent = left > 0 ? `🛡️ Ochrona: ${fmtTime(left)}` : '⚔️ Ochrona minęła';
+    const wave = Gra.ai.nextWaveIn(game);
+    prot.textContent = left > 0 ? `🛡️ Ochrona: ${fmtTime(left)}`
+      : wave > 0 ? `🌊 Fala za ${fmtTime(wave)}` : '🌊 Fala nadciąga!';
     prot.classList.toggle('over', left <= 0);
   }
 

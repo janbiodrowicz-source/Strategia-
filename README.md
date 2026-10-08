@@ -72,7 +72,7 @@ Albo lokalnie: otwórz `index.html` w przeglądarce. Nie trzeba niczego instalow
 - [x] Zbieranie surowców (robotnicy: las → drewno, skała → kamień, złoże → złoto)
 - [x] Budowanie (plac budowy → budowa → gotowe) i produkcja jednostek z kolejką
 - [x] Walka: wręcz i dystans, wieże, Szturm, leczenie Dryady, podpalenie Kapłana Ognia, technologie, zwycięstwo/porażka
-- [ ] AI przeciwnika
+- [x] AI przeciwnika: ekonomia, budowa, armia, technologie, obrona bazy i fale ataku
 
 ## Zbieranie surowców
 
@@ -108,6 +108,7 @@ Zasoby kafelka: las 60, skała 150, złoże 400. Ustawienia są w `js/config.js`
 
 - Koszt budynku jest pobierany przy postawieniu placu budowy. Anulowanie placu oddaje 100%, rozpoczętej budowy 75%.
 - Każdy kolejny robotnik przy budowie przyspiesza ją o 50%.
+- Robotnicy przy pracy przenikają przez siebie, a jednostka, która utknie w zatorze, na chwilę przechodzi przez innych.
 - Koszt jednostki jest pobierany przy dodaniu do kolejki (maks. 5). Populacja liczy też jednostki w kolejce.
 - Bonus zrzutu działa na surowce odniesione do danego budynku.
 
@@ -132,6 +133,22 @@ Zasoby kafelka: las 60, skała 150, złoże 400. Ustawienia są w `js/config.js`
 | 🪨 | Żelazne Hełmy | 12:00 | 45 s | +1 pancerz jednostek |
 
 Koszty z CSV, czasy badań i „przy lesie” (las w sąsiednim kafelku) to założenia — do zmiany w `js/config.js`.
+
+## AI przeciwnika
+
+AI gra tymi samymi zasadami co gracz — te same koszty, kolejki, populacja i jednostki.
+Co sekundę: rozdziela robotników między surowce (i przenosi ich z nadmiarowego do brakującego),
+stawia farmy zanim zabraknie populacji, buduje koszary i wieże, produkuje armię w proporcjach rasy,
+bada technologie, broni bazy przed intruzami, a po okresie ochronnym wysyła fale ataku.
+
+| Poziom | Zbieranie | Fala | Co ile | Robotnicy | Koszary | Wieże | Technologie |
+|---|---|---|---|---|---|---|---|
+| 🟢 Łatwy | 80% | 5–8 | 4 min | 7 | 1 | 0 | nie |
+| 🟡 Średni | 100% | 10–14 | 3 min | 10 | 2 | 1 | tak |
+| 🔴 Trudny | 130% | 15–20 | 2 min | 13 | 3 | 2 | tak |
+
+Fala, której AI nie zdążyło skompletować, rusza najpóźniej 90 s po czasie, jeśli ma przynajmniej minimum jednostek.
+Górny pasek pokazuje czas do następnej fali (🌊). Ustawienia planu AI: `js/config.js` → `DIFFICULTY`, proporcje ras: `js/ai.js` → `PLAN`.
 
 ## Balans
 
@@ -160,6 +177,7 @@ js/units.js       jednostki i rozkazy ruchu
 js/economy.js     zbieranie i odnoszenie surowców
 js/buildings.js   stawianie, budowa, produkcja, kolejka, badania
 js/combat.js      walka, wieże, leczenie, podpalenie, koniec gry
+js/ai.js          AI przeciwnika
 js/fog.js         mgła wojny
 js/render.js      rysowanie mapy, jednostek, minimapy
 js/input.js       mysz, klawiatura, kamera

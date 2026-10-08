@@ -11,10 +11,15 @@ Gra.CONFIG = {
     3: { name: 'Runda 3', size: 128, protectionMin: 30, fog: true },
   },
 
+  // economy — mnożnik zbierania AI, wave — rozmiar fali, waveEveryMin — odstęp fal (CSV).
+  // Reszta to plan AI: docelowa liczba robotników, koszar, wież i czy bada technologie.
   DIFFICULTY: {
-    easy:   { name: 'Łatwy',  economy: 0.8, wave: [5, 8],   waveEveryMin: 4 },
-    medium: { name: 'Średni', economy: 1.0, wave: [10, 14], waveEveryMin: 3 },
-    hard:   { name: 'Trudny', economy: 1.3, wave: [15, 20], waveEveryMin: 2 },
+    easy:   { name: 'Łatwy',  economy: 0.8, wave: [5, 8],   waveEveryMin: 4,
+              workers: 7,  military: 1, towers: 0, techs: false },
+    medium: { name: 'Średni', economy: 1.0, wave: [10, 14], waveEveryMin: 3,
+              workers: 10, military: 2, towers: 1, techs: true },
+    hard:   { name: 'Trudny', economy: 1.3, wave: [15, 20], waveEveryMin: 2,
+              workers: 13, military: 3, towers: 2, techs: true },
   },
 
   // Tu tylko to, czego nie ma w CSV: sight — promień widzenia, radius — rozmiar

@@ -22,12 +22,26 @@
       this.speedMult = 1;   // np. Leśne Pieśni
       this.burn = null;     // podpalenie {dps, t}
       this.hitT = 0;        // błysk po trafieniu
+      this.ghostT = 0;      // > 0: chwilowo przenika przez inne jednostki (odblokowanie zatoru)
+      this.stuck = { t: 0, x: this.x, y: this.y };
     }
 
     get radius() { return this.def.radius * TILE; }
     get tileX() { return Math.floor(this.x / TILE); }
     get tileY() { return Math.floor(this.y / TILE); }
     get moving() { return this.path.length > 0; }
+
+    // Jednostka z trasą, która przez 0,5 s prawie się nie ruszyła (zator w wąskim przejściu),
+    // na 1,5 s staje się „duchem” i przechodzi przez innych
+    checkStuck(dt) {
+      const s = this.stuck;
+      s.t += dt;
+      if (s.t < 0.5) return;
+      if (this.path.length && Math.hypot(this.x - s.x, this.y - s.y) < 0.25 * TILE) this.ghostT = 1.5;
+      s.t = 0;
+      s.x = this.x;
+      s.y = this.y;
+    }
 
     moveTo(map, tx, ty) {
       this.path = Gra.findPath(map, this.tileX, this.tileY, tx, ty);
@@ -36,6 +50,8 @@
     }
 
     update(dt) {
+      this.ghostT = Math.max(0, this.ghostT - dt);
+      this.checkStuck(dt);
       if (!this.path.length) return;
       const wp = this.path[0];
       const wx = (wp.x + 0.5) * TILE, wy = (wp.y + 0.5) * TILE;
@@ -76,6 +92,7 @@
       const a = units[i];
       for (let j = i + 1; j < units.length; j++) {
         const b = units[j];
+        if (a.ghostT > 0 || b.ghostT > 0 || (a.owner === b.owner && isWorking(a) && isWorking(b))) continue;
         const dx = b.x - a.x, dy = b.y - a.y;
         const min = a.radius + b.radius;
         const d2 = dx * dx + dy * dy;
@@ -89,6 +106,11 @@
         nudge(map, b, nx * push * (2 - wa), ny * push * (2 - wa));
       }
     }
+  }
+
+  // Robotnicy przy pracy (zbieranie, budowa) nie rozpychają się nawzajem — jak w klasycznych RTS-ach
+  function isWorking(u) {
+    return u.def.worker && u.task && (u.task.kind === 'gather' || u.task.kind === 'build');
   }
 
   function nudge(map, u, dx, dy) {
