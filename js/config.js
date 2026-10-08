@@ -7,7 +7,7 @@ Gra.CONFIG = {
 
   ROUNDS: {
     1: { name: 'Runda 1', size: 64, protectionMin: 10, fog: false },
-    2: { name: 'Runda 2', size: 96, protectionMin: 20, fog: true },
+    2: { name: 'Runda 2', size: 96, protectionMin: 20, fog: false },
     3: { name: 'Runda 3', size: 128, protectionMin: 30, fog: true },
   },
 

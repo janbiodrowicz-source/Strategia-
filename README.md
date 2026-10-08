@@ -25,7 +25,7 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 - **Populacja:** baza +10, farma +6
 - **Rundy:**
   1. mała mapa (64×64), ochrona 10 min, bez mgły wojny
-  2. średnia mapa (96×96), ochrona 20 min, mgła wojny
+  2. średnia mapa (96×96), ochrona 20 min, bez mgły wojny
   3. duża mapa (128×128), ochrona 30 min, mgła wojny
 - **AI:** łatwy / średni / trudny. Te same zasady co gracz, różni się tempem ekonomii i wielkością fal.
 
@@ -33,7 +33,7 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 
 - [x] Generowana mapa (symetryczna, bazy w przeciwległych narożnikach, gwarantowane przejście)
 - [x] Ruch jednostek: A* + wygładzanie ścieżki, formacje grupowe, rozpychanie
-- [x] Zaznaczanie, kamera, minimapa, mgła wojny, licznik okresu ochronnego
+- [x] Zaznaczanie, kamera, minimapa, mgła wojny (runda 3), licznik okresu ochronnego
 - [x] Balans jednostek, budynków i technologii z `balans_startowy.csv`
 - [ ] Zbieranie surowców
 - [ ] Budowanie i produkcja jednostek
