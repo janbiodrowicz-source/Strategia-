@@ -1,0 +1,104 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #111;
+  color: #eee;
+  font-family: system-ui, sans-serif;
+  user-select: none;
+}
+
+#game { display: block; position: fixed; inset: 0; }
+
+#menu {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #2a3d22, #0d130b);
+  padding: 16px;
+}
+#menu[hidden], #hud[hidden] { display: none; }
+
+.panel {
+  background: rgba(20, 16, 10, 0.92);
+  border: 2px solid #8a6d3b;
+  border-radius: 10px;
+  padding: 24px 28px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.panel h1 { margin: 0; color: #f1c40f; letter-spacing: 2px; }
+.subtitle { margin: 4px 0 16px; color: #b9a77d; }
+
+fieldset {
+  border: 1px solid #5a4a2e;
+  border-radius: 6px;
+  margin: 0 0 12px;
+  padding: 8px 12px;
+}
+legend { color: #f1c40f; padding: 0 6px; }
+fieldset label { display: block; padding: 3px 0; cursor: pointer; }
+
+#start-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #8a6d3b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#start-btn:hover { background: #a8854a; }
+
+#topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  padding: 6px 14px;
+  background: rgba(20, 16, 10, 0.85);
+  border-bottom: 1px solid #5a4a2e;
+  pointer-events: none;
+  font-size: 15px;
+}
+#protection { color: #7fd8ff; }
+#protection.over { color: #ff7f7f; }
+#round-label { margin-left: auto; color: #b9a77d; }
+
+#bottombar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 8px;
+  pointer-events: none;
+}
+#minimap {
+  pointer-events: auto;
+  border: 2px solid #8a6d3b;
+  background: #000;
+  width: 200px;
+  height: 200px;
+  image-rendering: pixelated;
+  cursor: crosshair;
+}
+#selection {
+  flex: 1;
+  min-height: 48px;
+  padding: 10px 14px;
+  background: rgba(20, 16, 10, 0.85);
+  border: 1px solid #5a4a2e;
+  border-radius: 6px;
+  font-size: 14px;
+}

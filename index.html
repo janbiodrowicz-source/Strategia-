@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strategia — mini-RTS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="menu">
+    <div class="panel">
+      <h1>Strategia</h1>
+      <p class="subtitle">mini-RTS w przeglądarce</p>
+
+      <fieldset>
+        <legend>Rasa</legend>
+        <label><input type="radio" name="race" value="forest" checked> 🌲 Strażnicy Puszczy</label>
+        <label><input type="radio" name="race" value="iron"> 🪨 Żelazny Zakon</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Runda</legend>
+        <label><input type="radio" name="round" value="1" checked> 1 — mała mapa, ochrona 10 min, bez mgły</label>
+        <label><input type="radio" name="round" value="2"> 2 — średnia mapa, ochrona 20 min, mgła wojny</label>
+        <label><input type="radio" name="round" value="3"> 3 — duża mapa, ochrona 30 min, mgła wojny</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Poziom AI</legend>
+        <label><input type="radio" name="difficulty" value="easy"> Łatwy</label>
+        <label><input type="radio" name="difficulty" value="medium" checked> Średni</label>
+        <label><input type="radio" name="difficulty" value="hard"> Trudny</label>
+      </fieldset>
+
+      <button id="start-btn">Graj ▶</button>
+    </div>
+  </div>
+
+  <div id="hud" hidden>
+    <div id="topbar">
+      <span title="Drewno">🪵 <b id="res-wood">0</b></span>
+      <span title="Kamień">🪨 <b id="res-stone">0</b></span>
+      <span title="Złoto">🪙 <b id="res-gold">0</b></span>
+      <span title="Populacja">👥 <b id="res-pop">0/0</b></span>
+      <span id="protection"></span>
+      <span id="round-label"></span>
+    </div>
+    <div id="bottombar">
+      <canvas id="minimap" width="200" height="200"></canvas>
+      <div id="selection"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/pathfinding.js"></script>
+  <script src="js/units.js"></script>
+  <script src="js/fog.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/input.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
