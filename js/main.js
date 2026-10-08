@@ -1,7 +1,8 @@
-// Pętla gry, stan rozgrywki, HUD i menu startowe.
+// Pętla gry, stan rozgrywki, HUD, panel akcji i menu startowe.
 (function () {
   const CFG = Gra.CONFIG;
   const TILE = CFG.TILE;
+  const B = () => Gra.buildings;
 
   function fmtTime(sec) {
     sec = Math.max(0, Math.ceil(sec));
@@ -10,7 +11,7 @@
 
   function spawnAround(game, race, owner, base) {
     const types = CFG.RACES[race].startUnits;
-    const slots = game.map.formationTiles(base.x, base.y + 2, types.length);
+    const slots = game.map.formationTiles(base.x, base.y + 3, types.length);
     types.forEach((type, i) => game.units.push(new Gra.Unit(race, type, owner, slots[i].x, slots[i].y)));
   }
 
@@ -31,6 +32,8 @@
       aiRace: opts.race === 'forest' ? 'iron' : 'forest',
       units: [],
       buildings: [],
+      selectedBuilding: null,
+      placing: null, // { key, x, y, valid } — tryb stawiania budynku
       resources: { ...CFG.START_RESOURCES },
       aiResources: { ...CFG.START_RESOURCES },
       time: 0,
@@ -43,16 +46,15 @@
     };
 
     map.bases.forEach((base, owner) => {
-      const def = CFG.RACES[owner === 0 ? game.playerRace : game.aiRace].baseBuilding;
-      game.buildings.push({ owner, x: base.x, y: base.y, def, name: def.name, hp: def.hp, sight: 8, dropOff: true });
+      B().create(game, owner, 'base', base.x - 1, base.y - 1, 'done');
       spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
     });
 
-    game.populationCap = (owner = 0) =>
-      game.buildings.filter((b) => b.owner === owner).reduce((sum, b) => sum + b.def.pop, 0);
-    game.populationUsed = (owner = 0) =>
-      game.units.filter((u) => u.owner === owner).reduce((sum, u) => sum + u.def.pop, 0);
-    // Kamera: cam to lewy górny róg widoku w pikselach świata, zoom skaluje widok.
+    game.populationCap = (owner = 0) => B().populationCap(game, owner);
+    game.populationUsed = (owner = 0) => B().populationUsed(game, owner);
+
+    // ---------- Kamera ----------
+    // cam to lewy górny róg widoku w pikselach świata, zoom skaluje widok.
     // Gdy mapa jest mniejsza niż widok (oddalenie), zostaje wyśrodkowana.
     const clampAxis = (v, mapPx, viewPx) => (mapPx <= viewPx ? (mapPx - viewPx) / 2 : Math.max(0, Math.min(mapPx - viewPx, v)));
     game.moveCamera = (dx, dy) => {
@@ -72,27 +74,87 @@
       game.cam.y = wy - sy / game.zoom;
       game.moveCamera(0, 0);
     };
-    // Rozkaz kontekstowy: surowiec → robotnicy zbierają, własna baza → odnoszą ładunek, reszta → ruch
+
+    // ---------- Zaznaczenie ----------
+    game.selectedUnits = () => game.units.filter((u) => u.selected && u.owner === 0);
+    game.selectBuilding = (b) => {
+      for (const u of game.units) u.selected = false;
+      game.selectedBuilding = b;
+      game.placing = null;
+      game.onSelectionChange();
+    };
+    game.onSelectionChange = () => updatePanel(game, true);
+
+    // ---------- Rozkazy ----------
+    // Rozkaz kontekstowy jednostek: surowiec → zbieranie, niedokończony budynek → pomoc w budowie,
+    // własny punkt zrzutu → odniesienie ładunku, reszta → ruch
     game.command = (units, wx, wy) => {
       const tx = Math.floor(wx / TILE), ty = Math.floor(wy / TILE);
       let busy = [];
       let kind = 'move';
+      const b = B().buildingAt(game, tx, ty);
       if (map.resourceAt(tx, ty)) {
         busy = Gra.economy.commandGather(game, units, tx, ty);
         if (busy.length) kind = 'gather';
-      } else {
-        const b = game.buildings.find((b) => b.owner === 0 && b.dropOff &&
-                                             Math.abs(b.x - tx) <= 1 && Math.abs(b.y - ty) <= 1);
-        if (b) busy = Gra.economy.commandReturn(game, units, b);
+      } else if (b && b.owner === 0 && b.state !== 'done') {
+        busy = B().commandBuild(game, units, b);
+        if (busy.length) kind = 'gather';
+      } else if (b && b.owner === 0 && b.dropOff) {
+        busy = Gra.economy.commandReturn(game, units, b);
       }
       Gra.commandMove(map, units.filter((u) => !busy.includes(u)), tx, ty);
       return kind;
     };
-    game.onSelectionChange = () => updateSelectionPanel(game);
+    game.setRally = (wx, wy) => {
+      const b = game.selectedBuilding;
+      if (!b || b.owner !== 0 || !b.def.produces) return false;
+      B().setRally(b, Math.floor(wx / TILE), Math.floor(wy / TILE));
+      return true;
+    };
+
+    // ---------- Stawianie budynków ----------
+    game.startPlacing = (key) => {
+      game.placing = { key, x: 0, y: 0, valid: false };
+      game.movePlacing(game.cam.x + canvas.width / game.zoom / 2, game.cam.y + canvas.height / game.zoom / 2);
+      updatePanel(game, true);
+    };
+    game.movePlacing = (wx, wy) => {
+      const pl = game.placing;
+      if (!pl) return;
+      const size = CFG.RACES[game.playerRace].buildings[pl.key].size;
+      Object.assign(pl, B().topLeftAt(size, wx, wy));
+      pl.valid = B().canPlace(game, 0, pl.key, pl.x, pl.y);
+    };
+    game.confirmPlacing = (keepPlacing) => {
+      const pl = game.placing;
+      if (!pl) return;
+      const workers = game.selectedUnits().filter((u) => u.def.worker);
+      if (!workers.length) { game.cancelPlacing(); return; }
+      const res = B().order(game, workers, pl.key, pl.x, pl.y);
+      if (res.error) { game.toast(`⚠️ ${res.error}`); return; }
+      if (keepPlacing) pl.valid = B().canPlace(game, 0, pl.key, pl.x, pl.y);
+      else game.placing = null;
+      updatePanel(game, true);
+    };
+    game.cancelPlacing = () => {
+      game.placing = null;
+      updatePanel(game, true);
+    };
+
+    // ---------- Komunikaty ----------
+    let toastTimer = null;
+    game.toast = (msg) => {
+      const el = document.getElementById('toast');
+      el.textContent = msg;
+      el.hidden = false;
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => { el.hidden = true; }, 2500);
+    };
 
     resize(game);
     window.addEventListener('resize', () => resize(game));
     Gra.input.attach(game);
+    attachPanel(game);
     const base = map.bases[0];
     game.centerCamera((base.x + 0.5) * TILE, (base.y + 0.5) * TILE);
     game.fog.update(game.units, game.buildings, 0);
@@ -101,7 +163,7 @@
     document.getElementById('hud').hidden = false;
     document.getElementById('round-label').textContent =
       `${round.name} · ${game.difficulty.name} · ${CFG.RACES[game.playerRace].name}`;
-    updateSelectionPanel(game);
+    updatePanel(game, true);
 
     let last = performance.now(), fogTimer = 0, hudTimer = 0;
     function frame(now) {
@@ -112,6 +174,7 @@
       Gra.input.updateCamera(game, dt);
       for (const u of game.units) u.update(dt);
       Gra.economy.update(game, dt);
+      Gra.buildings.update(game, dt);
       Gra.separateUnits(map, game.units);
       if (game.moveMarker && (game.moveMarker.age += dt) > 0.6) game.moveMarker = null;
 
@@ -127,7 +190,7 @@
         hudTimer = 0;
         Gra.render.drawMinimap(game.miniCtx, game);
         updateHud(game);
-        updateSelectionPanel(game);
+        updatePanel(game, false);
       }
       requestAnimationFrame(frame);
     }
@@ -153,29 +216,127 @@
     prot.classList.toggle('over', left <= 0);
   }
 
-  function updateSelectionPanel(game) {
-    const panel = document.getElementById('selection');
-    const sel = game.units.filter((u) => u.selected);
+  // ---------- Panel: opis zaznaczenia + przyciski akcji ----------
+
+  const isTouch = () => document.body.classList.contains('touch');
+
+  // Zwraca { info, actions: [{ label, sub, disabled, on, run }] }
+  function panelModel(game) {
+    const race = CFG.RACES[game.playerRace];
+    const actions = [];
+
+    if (game.placing) {
+      const def = race.buildings[game.placing.key];
+      const where = isTouch() ? 'dotknij mapy, potem ✔ Postaw' : 'LPM — postaw (Shift — kilka), PPM / Esc — anuluj';
+      if (isTouch()) {
+        actions.push({ label: '✔ Postaw', sub: game.placing.valid ? '' : 'zajęte', disabled: !game.placing.valid,
+                       run: () => game.confirmPlacing(false) });
+      }
+      actions.push({ label: '✖ Anuluj', sub: '', run: () => game.cancelPlacing() });
+      return { info: `${def.icon} ${def.name} (${B().costText(def.cost)}) — ${where}`, actions };
+    }
+
+    const b = game.selectedBuilding;
+    if (b) {
+      let info = `${b.icon} ${b.name} — HP ${b.hp}/${b.def.hp}`;
+      if (b.state !== 'done') {
+        info += b.state === 'site' ? ' · czeka na budowniczego' : ` · budowa ${Math.floor(b.progress * 100)}%`;
+        actions.push({ label: '✖ Anuluj budowę', sub: b.state === 'site' ? 'zwrot 100%' : 'zwrot 75%',
+                       run: () => B().cancelConstruction(game, b) });
+        return { info, actions };
+      }
+      if (b.def.pop) info += ` · populacja +${b.def.pop}`;
+      if (b.def.depositBonus) {
+        info += ' · zrzut surowców: ' + Object.entries(b.def.depositBonus)
+          .map(([k, v]) => `${Gra.economy.RES_NAMES[k]} +${Math.round((v - 1) * 100)}%`).join(', ');
+      }
+      for (const type of b.def.produces || []) {
+        const u = race.units[type];
+        actions.push({ label: u.name, sub: `${B().costText(u.cost)} · ${u.time}s`,
+                       disabled: !!B().missing(game, 0, u.cost),
+                       run: () => { const err = B().enqueue(game, b, type); if (err) game.toast(`⚠️ ${err}`); } });
+      }
+      if (b.queue.length) {
+        const item = b.queue[0];
+        info += ` · produkcja: ${race.units[item.type].name} ${Math.floor(item.t / race.units[item.type].time * 100)}%`;
+        b.queue.forEach((q, i) => actions.push({ label: `⏳ ${race.units[q.type].name}`, sub: 'anuluj', on: i === 0,
+                                                run: () => B().cancelQueued(game, b, i) }));
+      }
+      if (b.def.produces) info += isTouch() ? ' · dotknij mapy — punkt zbiórki' : ' · PPM — punkt zbiórki';
+      if (!b.def.produces && !b.def.pop && !b.def.dropOff) info += ` — ${b.def.desc}`;
+      return { info, actions };
+    }
+
+    const sel = game.selectedUnits();
     if (!sel.length) {
-      panel.textContent = document.body.classList.contains('touch')
-        ? 'Dotknij jednostkę, potem miejsce na mapie. Robotnik + las/skała/złoto — zbieranie. Dwa palce — zoom.'
-        : 'LPM — zaznacz (przeciągnij — obszar). PPM — ruch, na lesie/skale/złocie — zbieranie. Spacja — baza. Kółko — zoom.';
-      return;
+      return { info: isTouch()
+        ? 'Dotknij jednostkę lub budynek. Robotnik + las/skała/złoto — zbieranie. Dwa palce — zoom.'
+        : 'LPM — zaznacz jednostkę lub budynek (przeciągnij — obszar). PPM — rozkaz. Spacja — baza. Kółko — zoom.',
+        actions };
     }
+
+    let info;
     if (sel.length === 1) {
-      const u = sel[0];
-      const d = u.def;
+      const u = sel[0], d = u.def;
       const status = Gra.economy.describe(u);
-      panel.textContent = `${d.name} — HP ${u.hp}/${d.hp} · atak ${d.attack} co ${d.attackInterval} s · ` +
-        `zasięg ${d.range} · ruch ${d.speed} · pop ${d.pop}` + (status ? ` — ${status}` : ` — ${d.desc}`);
-      return;
+      info = `${d.name} — HP ${u.hp}/${d.hp} · atak ${d.attack} co ${d.attackInterval} s · zasięg ${d.range} · ` +
+             `ruch ${d.speed} · pop ${d.pop}` + (status ? ` — ${status}` : ` — ${d.desc}`);
+    } else {
+      const counts = {};
+      for (const u of sel) counts[u.def.name] = (counts[u.def.name] || 0) + 1;
+      const working = sel.filter((u) => u.task).length;
+      info = `Zaznaczono ${sel.length}: ` + Object.entries(counts).map(([n, c]) => `${n} ×${c}`).join(', ') +
+             (working ? ` · pracuje: ${working}` : '');
     }
-    const counts = {};
-    for (const u of sel) counts[u.def.name] = (counts[u.def.name] || 0) + 1;
-    const gathering = sel.filter((u) => u.task && u.task.kind === 'gather').length;
-    panel.textContent = `Zaznaczono ${sel.length}: ` +
-      Object.entries(counts).map(([n, c]) => `${n} ×${c}`).join(', ') +
-      (gathering ? ` · zbiera: ${gathering}` : '');
+    if (sel.some((u) => u.def.worker)) {
+      for (const [key, def] of Object.entries(race.buildings)) {
+        if (def.buildable === false) continue;
+        actions.push({ label: `${def.icon} ${def.name.replace(/ \(.*\)/, '')}`, sub: B().costText(def.cost),
+                       disabled: !!B().missing(game, 0, def.cost),
+                       run: () => game.startPlacing(key) });
+      }
+    }
+    return { info, actions };
+  }
+
+  let panelKey = '';
+  let panelActions = [];
+  function updatePanel(game, force) {
+    const { info, actions } = panelModel(game);
+    document.getElementById('selection-info').textContent = info;
+    // Przyciski przebudowujemy tylko gdy się zmieniły — inaczej klik mógłby trafić w znikający element
+    const key = JSON.stringify(actions.map((a) => [a.label, a.sub, !!a.disabled, !!a.on]));
+    panelActions = actions;
+    if (!force && key === panelKey) return;
+    panelKey = key;
+    const box = document.getElementById('actions');
+    box.innerHTML = '';
+    actions.forEach((a, i) => {
+      const btn = document.createElement('button');
+      btn.dataset.i = i;
+      btn.className = (a.disabled ? 'disabled ' : '') + (a.on ? 'on' : '');
+      btn.innerHTML = '<b></b><span></span>';
+      btn.firstChild.textContent = a.label;
+      btn.lastChild.textContent = a.sub;
+      box.appendChild(btn);
+    });
+    box.hidden = !actions.length;
+  }
+
+  function attachPanel(game) {
+    document.getElementById('actions').addEventListener('click', (e) => {
+      const btn = e.target.closest('button');
+      if (!btn) return;
+      const a = panelActions[Number(btn.dataset.i)];
+      if (!a) return;
+      if (a.disabled) {
+        // Wyszarzony przycisk nadal tłumaczy, czego brakuje (ważne na telefonie — brak podpowiedzi)
+        if (a.sub && a.sub !== 'zajęte') game.toast(`⚠️ Za mało surowców: ${a.sub}`);
+        return;
+      }
+      a.run();
+      updatePanel(game, true);
+    });
   }
 
   Gra.startGame = startGame;

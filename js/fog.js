@@ -31,7 +31,7 @@
       if (!this.enabled) return;
       this.visible.fill(0);
       for (const u of units) if (u.owner === owner) this.reveal(u.x / TILE, u.y / TILE, u.def.sight);
-      for (const b of buildings) if (b.owner === owner) this.reveal(b.x + 0.5, b.y + 0.5, b.sight);
+      for (const b of buildings) if (b.owner === owner) this.reveal(b.x + b.size / 2, b.y + b.size / 2, b.sight);
     }
 
     isVisible(tx, ty) {

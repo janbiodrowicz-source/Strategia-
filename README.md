@@ -17,6 +17,10 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 | Ruch | PPM (na mapie lub minimapie) |
 | Zbieranie | zaznacz robotników, PPM na lesie / skale / złożu |
 | Odnieś ładunek | PPM na własnej bazie |
+| Budowa | zaznacz robotnika → przycisk budynku → LPM na mapie (Shift — kilka, PPM / Esc — anuluj) |
+| Pomoc w budowie | zaznacz robotników, PPM na niedokończonym budynku |
+| Produkcja | kliknij budynek → przycisk jednostki (kliknięcie ⏳ w kolejce anuluje) |
+| Punkt zbiórki | zaznacz budynek, PPM na mapie (na surowcu — nowi robotnicy od razu zbierają) |
 | Przesuwanie kamery | WASD / strzałki / krawędź ekranu / LPM na minimapie |
 | Kamera na bazę | Spacja |
 | Przybliżanie | kółko myszy / + i − |
@@ -30,6 +34,9 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 | Zaznacz wszystkie tego typu na ekranie | dotknij dwa razy |
 | Rozkaz (ruch) | dotknij miejsca na mapie, gdy coś jest zaznaczone |
 | Zbieranie | zaznacz robotników, dotknij lasu / skały / złoża |
+| Budowa | zaznacz robotnika → przycisk budynku → dotknij mapy → ✔ Postaw |
+| Produkcja | dotknij budynku → przycisk jednostki |
+| Punkt zbiórki | dotknij budynku, potem miejsca na mapie |
 | Przesuwanie kamery | przeciągnij palcem / dotknij minimapy |
 | Przybliżanie | rozsuń / zsuń dwa palce |
 | Zaznaczanie obszarem | przycisk ▢ Obszar, potem przeciągnij |
@@ -55,7 +62,7 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 - [x] Sterowanie dotykowe na telefon
 - [x] Balans jednostek, budynków i technologii z `balans_startowy.csv`
 - [x] Zbieranie surowców (robotnicy: las → drewno, skała → kamień, złoże → złoto)
-- [ ] Budowanie i produkcja jednostek
+- [x] Budowanie (plac budowy → budowa → gotowe) i produkcja jednostek z kolejką
 - [ ] Walka i zdolności (leczenie Dryady, podpalanie Kapłana Ognia)
 - [ ] AI przeciwnika
 
@@ -70,6 +77,31 @@ Wyczerpany kafelek znika z mapy, a robotnik przechodzi na najbliższy kafelek te
 | Górnik (Żelazny Zakon) | ×1.0 | ×1.2 | ×1.2 |
 
 Zasoby kafelka: las 60, skała 150, złoże 400. Ustawienia są w `js/config.js` → `GATHER`.
+
+## Budynki i produkcja
+
+| Rasa | Budynek | Rozmiar | Rola |
+|---|---|---|---|
+| 🌲 | Drzewo Rodowe | 3×3 | baza: Zbieracze, zrzut surowców, populacja +10 |
+| 🌲 | Gaj Zbieraczy | 2×2 | Zbieracze, zrzut surowców (drewno +20%) |
+| 🌲 | Gniazdo Łuczników | 2×2 | Łucznicy, Zwiadowcy, Strażnicy Korzeni* |
+| 🌲 | Sadzawka Życia | 2×2 | Dryady |
+| 🌲 | Wieża z Gałęzi | 2×2 | obrona (strzelanie — etap walki) |
+| 🌲 | Gaj Pod Gałęziami | 2×2 | farma, populacja +6 |
+| 🪨 | Twierdza | 3×3 | baza: Górnicy, zrzut surowców, populacja +10 |
+| 🪨 | Kopalnia Runiczna | 2×2 | zrzut surowców (kamień +35%, złoto +25%) |
+| 🪨 | Kuźnia | 2×2 | Młoty, Kapłani Ognia |
+| 🪨 | Warsztat Kuszników | 2×2 | Kusznicy |
+| 🪨 | Wieża Bojowa | 2×2 | obrona (strzelanie — etap walki) |
+| 🪨 | Mur Kamienny | 1×1 | blokuje drogę |
+| 🪨 | Dom Rodzinny | 2×2 | farma, populacja +6 |
+
+\* CSV nie mówi, gdzie powstaje Strażnik Korzeni — tymczasowo w Gnieździe Łuczników.
+
+- Koszt budynku jest pobierany przy postawieniu placu budowy. Anulowanie placu oddaje 100%, rozpoczętej budowy 75%.
+- Każdy kolejny robotnik przy budowie przyspiesza ją o 50%.
+- Koszt jednostki jest pobierany przy dodaniu do kolejki (maks. 5). Populacja liczy też jednostki w kolejce.
+- Bonus zrzutu działa na surowce odniesione do danego budynku.
 
 ## Balans
 
@@ -96,6 +128,7 @@ js/map.js         generowanie mapy
 js/pathfinding.js A*
 js/units.js       jednostki i rozkazy ruchu
 js/economy.js     zbieranie i odnoszenie surowców
+js/buildings.js   stawianie, budowa, produkcja, kolejka
 js/fog.js         mgła wojny
 js/render.js      rysowanie mapy, jednostek, minimapy
 js/input.js       mysz, klawiatura, kamera

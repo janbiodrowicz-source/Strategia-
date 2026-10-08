@@ -111,6 +111,54 @@ fieldset label { display: block; padding: 3px 0; cursor: pointer; }
   font-size: 14px;
 }
 
+/* ---------- Panel akcji (budowa, produkcja, kolejka) ---------- */
+#actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  pointer-events: auto;
+}
+#actions[hidden] { display: none; }
+#actions button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-height: 44px;
+  padding: 5px 10px;
+  color: #eee;
+  background: #3a2f1e;
+  border: 1px solid #8a6d3b;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  touch-action: manipulation;
+}
+#actions button:hover { background: #4d3e27; }
+#actions button b { font-size: 13px; font-weight: 600; white-space: nowrap; }
+#actions button span { font-size: 11px; color: #d8c79c; white-space: nowrap; }
+#actions button.disabled { opacity: 0.45; }
+#actions button.on { border-color: #4cd1ff; }
+
+#toast {
+  position: fixed;
+  top: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 32px);
+  padding: 8px 16px;
+  background: rgba(20, 16, 10, 0.92);
+  border: 1px solid #f1c40f;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 10;
+}
+#toast[hidden] { display: none; }
+
 /* ---------- Sterowanie dotykowe ---------- */
 #touchbar {
   display: none;
@@ -159,8 +207,17 @@ body.touch #touchbar { display: flex; }
     min-height: 0;
     padding: 6px 8px;
     font-size: 12px;
-    max-height: 56px;
+  }
+  #selection-info {
+    max-height: 32px;
     overflow: hidden;
   }
+  #actions {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 6px;
+    padding-bottom: 2px;
+  }
+  #actions button { flex-shrink: 0; min-height: 44px; padding: 4px 8px; }
   .panel { padding: 16px; }
 }

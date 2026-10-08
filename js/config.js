@@ -32,6 +32,19 @@ Gra.CONFIG = {
         dryad:    { name: 'Dryada',           sight: 7, radius: 0.32 },
       },
       startUnits: ['gatherer', 'gatherer', 'gatherer', 'gatherer', 'scout'],
+      // Budynki łączone z CSV po nazwie. size — bok w kafelkach, produces — klucze jednostek,
+      // dropOff — robotnicy mogą tu odnosić surowce, depositBonus — mnożnik odniesionego surowca
+      buildings: {
+        base:  { name: 'Drzewo Rodowe', size: 3, icon: '🌳', buildable: false, sight: 8,
+                 produces: ['gatherer'], dropOff: true },
+        grove: { name: 'Gaj Zbieraczy', size: 2, icon: '🪓', sight: 5,
+                 produces: ['gatherer'], dropOff: true, depositBonus: { wood: 1.2 } },
+        nest:  { name: 'Gniazdo Łuczników', size: 2, icon: '🏹', sight: 5,
+                 produces: ['archer', 'scout', 'warden'] }, // Strażnik Korzeni: brak w CSV, tymczasowo tutaj
+        pool:  { name: 'Sadzawka Życia', size: 2, icon: '💧', sight: 5, produces: ['dryad'] },
+        tower: { name: 'Wieża z Gałęzi', size: 2, icon: '🗼', sight: 8 },
+        farm:  { name: 'Gaj Pod Gałęziami (farma)', size: 2, icon: '🌾', sight: 4 },
+      },
     },
     iron: {
       name: 'Żelazny Zakon',
@@ -44,6 +57,17 @@ Gra.CONFIG = {
         firepriest: { name: 'Kapłan Ognia', sight: 7, radius: 0.32 },
       },
       startUnits: ['miner', 'miner', 'miner', 'miner', 'hammer'],
+      buildings: {
+        base:     { name: 'Twierdza', size: 3, icon: '🏰', buildable: false, sight: 8,
+                    produces: ['miner'], dropOff: true },
+        mine:     { name: 'Kopalnia Runiczna', size: 2, icon: '⛏️', sight: 5,
+                    dropOff: true, depositBonus: { stone: 1.35, gold: 1.25 } },
+        forge:    { name: 'Kuźnia', size: 2, icon: '🔨', sight: 5, produces: ['hammer', 'firepriest'] },
+        workshop: { name: 'Warsztat Kuszników', size: 2, icon: '🎯', sight: 5, produces: ['crossbow'] },
+        tower:    { name: 'Wieża Bojowa', size: 2, icon: '🗼', sight: 8 },
+        wall:     { name: 'Mur Kamienny (segment)', size: 1, icon: '🧱', sight: 2 },
+        farm:     { name: 'Dom Rodzinny (farma)', size: 2, icon: '🏠', sight: 4 },
+      },
     },
   },
 
@@ -54,6 +78,10 @@ Gra.CONFIG = {
     rate: 2,
     amount: { wood: 60, stone: 150, gold: 400 },
   },
+
+  QUEUE_MAX: 5,                // maks. jednostek w kolejce budynku
+  CANCEL_REFUND_STARTED: 0.75, // zwrot przy anulowaniu rozpoczętej budowy
+  EXTRA_BUILDER_RATE: 0.5,     // każdy kolejny budowniczy przyspiesza budowę o 50%
 
   FOG_UPDATE_MS: 150,
   EDGE_SCROLL_PX: 14,

@@ -106,12 +106,7 @@
 
       this.mirror();
       this.ensureConnected();
-
-      // Budynki baz 3x3
-      for (const base of this.bases) {
-        for (let dy = -1; dy <= 1; dy++)
-          for (let dx = -1; dx <= 1; dx++) this.set(base.x + dx, base.y + dy, T.BUILDING);
-      }
+      // Bazy (3x3 wokół this.bases) stawia js/buildings.js na starcie gry
     }
 
     // Symetria punktowa: kafelek (x,y) == kafelek (s-1-x, s-1-y).

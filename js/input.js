@@ -27,15 +27,34 @@
     function select(units, additive) {
       if (!additive) for (const u of game.units) u.selected = false;
       for (const u of units) u.selected = true;
+      if (units.length || !additive) game.selectedBuilding = null;
       game.onSelectionChange();
     }
 
+    // Rozkaz dla zaznaczonych jednostek albo punkt zbiórki zaznaczonego budynku
     function issueCommand(wx, wy) {
-      const sel = game.units.filter((u) => u.selected && u.owner === 0);
-      if (!sel.length) return false;
+      const sel = game.selectedUnits();
+      if (!sel.length) {
+        if (game.setRally(wx, wy)) game.moveMarker = { x: wx, y: wy, age: 0, kind: 'rally' };
+        return false;
+      }
       const kind = game.command(sel, wx, wy);
       game.moveMarker = { x: wx, y: wy, age: 0, kind };
       return true;
+    }
+
+    function ownBuildingAt(sx, sy) {
+      const w = toWorld(sx, sy);
+      const b = Gra.buildings.buildingAt(game, Math.floor(w.x / TILE), Math.floor(w.y / TILE));
+      return b && b.owner === 0 ? b : null;
+    }
+
+    // Czy dotknięcie budynku przy zaznaczonych jednostkach to rozkaz (pomoc w budowie / odniesienie
+    // ładunku), a nie zaznaczenie budynku
+    function isBuildingCommand(b) {
+      const sel = game.selectedUnits();
+      if (!sel.some((u) => u.def.worker)) return false;
+      return b.state !== 'done' || (b.dropOff && sel.some((u) => u.carry));
     }
 
     function unitAt(sx, sy, slack) {
@@ -68,6 +87,16 @@
 
     canvas.addEventListener('mousedown', (e) => {
       const p = local(e, canvas);
+      if (game.placing) {
+        if (e.button === 0) {
+          const w = toWorld(p.x, p.y);
+          game.movePlacing(w.x, w.y);
+          game.confirmPlacing(e.shiftKey);
+        } else if (e.button === 2) {
+          game.cancelPlacing();
+        }
+        return;
+      }
       if (e.button === 0) {
         input.drag = { sx: p.x, sy: p.y, ex: p.x, ey: p.y, active: false };
       } else if (e.button === 2) {
@@ -79,6 +108,10 @@
     window.addEventListener('mousemove', (e) => {
       const p = local(e, canvas);
       input.mouse = p;
+      if (game.placing && !input.touch && e.target === canvas) {
+        const w = toWorld(p.x, p.y);
+        game.movePlacing(w.x, w.y);
+      }
       const d = input.drag;
       if (d && !input.touch) {
         d.ex = p.x;
@@ -106,8 +139,12 @@
       if (best && e.shiftKey && best.selected) {
         best.selected = false;
         game.onSelectionChange();
+      } else if (best) {
+        select([best], e.shiftKey);
       } else {
-        select(best ? [best] : [], e.shiftKey);
+        const b = ownBuildingAt(d.sx, d.sy);
+        if (b) game.selectBuilding(b);
+        else if (!e.shiftKey) select([], false);
       }
     });
 
@@ -192,6 +229,12 @@
 
     function handleTap(p) {
       const now = performance.now();
+      if (game.placing) {
+        const w = toWorld(p.x, p.y);
+        game.movePlacing(w.x, w.y);
+        game.onSelectionChange();
+        return;
+      }
       const unit = unitAt(p.x, p.y, 14);
       if (unit) {
         if (input.lastTap && input.lastTap.unit === unit && now - input.lastTap.t < DOUBLE_TAP_MS) {
@@ -209,6 +252,11 @@
         return;
       }
       input.lastTap = null;
+      const b = ownBuildingAt(p.x, p.y);
+      if (b && !isBuildingCommand(b)) {
+        game.selectBuilding(b);
+        return;
+      }
       const w = toWorld(p.x, p.y);
       issueCommand(w.x, w.y);
     }
@@ -230,7 +278,7 @@
         case 'add': setAddMode(!input.addMode); break;
         case 'all': select(ownUnits(), false); break;
         case 'workers': select(ownUnits().filter((u) => u.def.worker), false); break;
-        case 'none': select([], false); break;
+        case 'none': game.placing = null; select([], false); break;
         case 'base': game.centerCamera((base.x + 0.5) * TILE, (base.y + 0.5) * TILE); break;
       }
     });
@@ -274,6 +322,10 @@
         e.preventDefault();
         const base = game.map.bases[0];
         game.centerCamera((base.x + 0.5) * TILE, (base.y + 0.5) * TILE);
+      }
+      if (e.key === 'Escape') {
+        if (game.placing) game.cancelPlacing();
+        else select([], false);
       }
       if (e.key === '+' || e.key === '=') game.setZoom(game.zoom * 1.1);
       if (e.key === '-') game.setZoom(game.zoom / 1.1);

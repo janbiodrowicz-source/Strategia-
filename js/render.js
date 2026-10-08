@@ -104,6 +104,88 @@
     return Gra.CONFIG.RACES[owner === 0 ? game.playerRace : game.aiRace].color;
   }
 
+  function progressBar(ctx, x, y, w, frac, color) {
+    ctx.fillStyle = 'rgba(0,0,0,0.6)';
+    ctx.fillRect(x, y, w, 5);
+    ctx.fillStyle = color;
+    ctx.fillRect(x + 1, y + 1, (w - 2) * Math.max(0, Math.min(1, frac)), 3);
+  }
+
+  function drawBuilding(ctx, game, b) {
+    const px = b.x * TILE, py = b.y * TILE, side = b.size * TILE;
+    const color = teamColor(game, b.owner);
+    const done = b.state === 'done';
+
+    if (b.state === 'site') {
+      // Plac budowy: tylko obrys
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2;
+      ctx.setLineDash([6, 4]);
+      ctx.strokeRect(px + 2, py + 2, side - 4, side - 4);
+      ctx.setLineDash([]);
+    } else {
+      ctx.globalAlpha = done ? 1 : 0.55 + 0.45 * b.progress;
+      ctx.fillStyle = '#4a3828';
+      ctx.fillRect(px + 2, py + 2, side - 4, side - 4);
+      ctx.fillStyle = color;
+      const inset = b.size === 1 ? 5 : 8;
+      ctx.fillRect(px + inset, py + inset, side - inset * 2, side - inset * 2);
+      ctx.globalAlpha = 1;
+      if (!done) {
+        // Rusztowanie
+        ctx.strokeStyle = 'rgba(230,200,140,0.8)';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        for (let k = -side; k < side; k += 10) {
+          ctx.moveTo(px + Math.max(0, k), py + Math.max(0, -k));
+          ctx.lineTo(px + Math.min(side, side + k), py + Math.min(side, side - k));
+        }
+        ctx.stroke();
+      }
+    }
+
+    ctx.textAlign = 'center';
+    ctx.globalAlpha = done ? 1 : 0.7;
+    ctx.font = `${b.size === 1 ? 16 : b.size === 2 ? 26 : 30}px sans-serif`;
+    ctx.fillText(b.icon, px + side / 2, py + side / 2 + (b.size === 3 ? 0 : b.size === 1 ? 6 : 9));
+    ctx.globalAlpha = 1;
+    if (b.size === 3) {
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 11px sans-serif';
+      ctx.fillText(b.name, px + side / 2, py + side - 14);
+    }
+
+    if (game.selectedBuilding === b) {
+      ctx.strokeStyle = '#5dff7a';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(px - 1, py - 1, side + 2, side + 2);
+    }
+    if (!done) progressBar(ctx, px + 2, py - 8, side - 4, b.progress, '#f1c40f');
+    else if (b.queue.length) {
+      const item = b.queue[0];
+      const unit = Gra.CONFIG.RACES[b.owner === 0 ? game.playerRace : game.aiRace].units[item.type];
+      progressBar(ctx, px + 2, py - 8, side - 4, item.t / unit.time, '#4cd1ff');
+    }
+    if (done && (b.hp < b.def.hp || game.selectedBuilding === b)) {
+      progressBar(ctx, px + 2, py + side + 2, side - 4, b.hp / b.def.hp, '#4cd137');
+    }
+  }
+
+  function drawGhost(ctx, game, pl) {
+    const def = Gra.CONFIG.RACES[game.playerRace].buildings[pl.key];
+    const side = def.size * TILE;
+    ctx.fillStyle = pl.valid ? 'rgba(80,255,120,0.35)' : 'rgba(255,70,70,0.4)';
+    ctx.fillRect(pl.x * TILE, pl.y * TILE, side, side);
+    ctx.strokeStyle = pl.valid ? '#5dff7a' : '#ff5555';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(pl.x * TILE, pl.y * TILE, side, side);
+    ctx.globalAlpha = 0.8;
+    ctx.font = `${def.size === 1 ? 16 : 26}px sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.fillText(def.icon, pl.x * TILE + side / 2, pl.y * TILE + side / 2 + (def.size === 1 ? 6 : 9));
+    ctx.globalAlpha = 1;
+  }
+
   function draw(ctx, game) {
     const { map, cam, fog, zoom } = game;
     const vw = ctx.canvas.width / zoom, vh = ctx.canvas.height / zoom; // widok w pikselach świata
@@ -122,25 +204,35 @@
     // Budynki
     for (const b of game.buildings) {
       if (!fog.isExplored(b.x, b.y)) continue;
-      const px = (b.x - 1) * TILE, py = (b.y - 1) * TILE;
-      ctx.fillStyle = '#4a3828';
-      ctx.fillRect(px + 2, py + 2, TILE * 3 - 4, TILE * 3 - 4);
-      ctx.fillStyle = teamColor(game, b.owner);
-      ctx.fillRect(px + 10, py + 10, TILE * 3 - 20, TILE * 3 - 20);
-      ctx.fillStyle = '#fff';
-      ctx.font = 'bold 12px sans-serif';
-      ctx.textAlign = 'center';
-      const lines = ctx.measureText(b.name).width > TILE * 3 - 24 ? b.name.split(' ') : [b.name];
-      lines.forEach((line, i) => {
-        ctx.fillText(line, px + TILE * 1.5, py + TILE * 1.5 + 4 + (i - (lines.length - 1) / 2) * 14);
-      });
+      drawBuilding(ctx, game, b);
     }
+
+    // Punkt zbiórki zaznaczonego budynku
+    const selB = game.selectedBuilding;
+    if (selB && selB.rally) {
+      const c = Gra.buildings.center(selB);
+      const rx = (selB.rally.x + 0.5) * TILE, ry = (selB.rally.y + 0.5) * TILE;
+      ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+      ctx.setLineDash([5, 5]);
+      ctx.beginPath();
+      ctx.moveTo(c.x * TILE, c.y * TILE);
+      ctx.lineTo(rx, ry);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.font = '18px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('🚩', rx + 4, ry + 2);
+    }
+
+    // Podgląd stawianego budynku
+    if (game.placing) drawGhost(ctx, game, game.placing);
 
     // Znacznik rozkazu ruchu
     if (game.moveMarker) {
       const m = game.moveMarker;
       const t = m.age / 0.6;
-      ctx.strokeStyle = m.kind === 'gather' ? `rgba(255,210,60,${1 - t})` : `rgba(80,255,120,${1 - t})`;
+      ctx.strokeStyle = m.kind === 'gather' ? `rgba(255,210,60,${1 - t})`
+        : m.kind === 'rally' ? `rgba(255,255,255,${1 - t})` : `rgba(80,255,120,${1 - t})`;
       ctx.lineWidth = 2;
       ctx.beginPath();
       ctx.arc(m.x, m.y, 4 + t * 12, 0, Math.PI * 2);
@@ -269,7 +361,7 @@
     for (const b of game.buildings) {
       if (!fog.isExplored(b.x, b.y)) continue;
       ctx.fillStyle = teamColor(game, b.owner);
-      ctx.fillRect((b.x - 1) * s, (b.y - 1) * s, 3 * s, 3 * s);
+      ctx.fillRect(b.x * s, b.y * s, b.size * s, b.size * s);
     }
     for (const u of game.units) {
       if (u.owner !== 0 && !fog.isVisible(u.tileX, u.tileY)) continue;

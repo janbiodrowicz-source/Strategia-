@@ -1,4 +1,4 @@
-// Parsuje balans_startowy.csv i nakłada wartości na Gra.CONFIG.
+// Parsuje balans_startowy.csv i nakłada wartości na Gra.CONFIG (jednostki i budynki łączone po nazwie).
 (function () {
   const CFG = Gra.CONFIG;
 
@@ -70,10 +70,12 @@
         if (!e) { console.error(`Brak jednostki w CSV: ${unit.name}`); continue; }
         Object.assign(unit, e);
       }
-      race.buildings = data.buildings;
+      for (const building of Object.values(race.buildings)) {
+        const e = data.buildings.find((b) => b.name === building.name);
+        if (!e) { console.error(`Brak budynku w CSV: ${building.name}`); continue; }
+        Object.assign(building, e);
+      }
       race.techs = data.techs;
-      race.baseBuilding = data.buildings.find((b) => /baza/i.test(b.desc));
-      race.farmBuilding = data.buildings.find((b) => /farma/i.test(b.desc));
     }
   }
 

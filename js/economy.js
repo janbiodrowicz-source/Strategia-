@@ -9,7 +9,6 @@
   const T = Gra.TILES;
   const DIRS8 = [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]];
   const GATHER_REACH = 1.6 * TILE;  // max odległość od środka kafelka surowca
-  const DROP_REACH = 2.4;           // max odległość (w kafelkach, Czebyszew) od środka budynku 3x3
   const SEARCH_RADIUS = 12;
   const MAX_RETRIES = 3;
 
@@ -47,10 +46,6 @@
     return Math.hypot(u.x - (x + 0.5) * TILE, u.y - (y + 0.5) * TILE) <= GATHER_REACH;
   }
 
-  function nearBuilding(u, b) {
-    return Math.max(Math.abs(u.x / TILE - (b.x + 0.5)), Math.abs(u.y / TILE - (b.y + 0.5))) <= DROP_REACH;
-  }
-
   // Podejdź do kafelka surowca: wolny sąsiad najbliżej robotnika, omijając pola zajęte przez innych
   function approachResource(game, u) {
     const { map } = game;
@@ -70,32 +65,15 @@
     return true;
   }
 
-  function dropOffs(game, owner) {
-    return game.buildings.filter((b) => b.owner === owner && b.dropOff);
-  }
-
   function nearestDropOff(game, u) {
     let best = null, bestD = Infinity;
-    for (const b of dropOffs(game, u.owner)) {
-      const d = Math.hypot(u.x / TILE - b.x, u.y / TILE - b.y);
+    for (const b of game.buildings) {
+      if (b.owner !== u.owner || !b.dropOff || b.state !== 'done') continue;
+      const c = Gra.buildings.center(b);
+      const d = Math.hypot(u.x / TILE - c.x, u.y / TILE - c.y);
       if (d < bestD) { bestD = d; best = b; }
     }
     return best;
-  }
-
-  // Podejdź do budynku: najbliższy wolny kafelek na obwodzie wokół 3x3
-  function approachBuilding(game, u, b) {
-    let best = null, bestD = Infinity;
-    for (let dy = -2; dy <= 2; dy++) {
-      for (let dx = -2; dx <= 2; dx++) {
-        if (Math.max(Math.abs(dx), Math.abs(dy)) !== 2) continue;
-        const x = b.x + dx, y = b.y + dy;
-        if (!game.map.isWalkable(x, y)) continue;
-        const d = Math.hypot(u.tileX - x, u.tileY - y);
-        if (d < bestD) { bestD = d; best = { x, y }; }
-      }
-    }
-    if (best) u.moveTo(game.map, best.x, best.y);
   }
 
   function startReturn(game, u) {
@@ -105,7 +83,7 @@
     u.task.dropOff = b;
     u.task.retries = 0;
     u.task.slot = null;
-    approachBuilding(game, u, b);
+    Gra.buildings.approach(game, u, b);
   }
 
   function goToResource(game, u) {
@@ -176,7 +154,7 @@
       const prev = u.task && u.task.kind === 'gather' ? u.task : null;
       u.task = { kind: 'gather', res: u.carry.type, x: prev ? prev.x : null, y: prev ? prev.y : null,
                  phase: 'returning', dropOff: building, retries: 0, slot: null };
-      approachBuilding(game, u, building);
+      Gra.buildings.approach(game, u, building);
     }
     return carriers;
   }
@@ -226,8 +204,11 @@
     if (t.phase === 'returning') {
       if (!t.dropOff || !game.buildings.includes(t.dropOff)) t.dropOff = nearestDropOff(game, u);
       if (!t.dropOff) { u.task = null; return; }
-      if (nearBuilding(u, t.dropOff)) {
-        if (u.carry) resourcesOf(game, u.owner)[u.carry.type] += u.carry.amount;
+      if (Gra.buildings.isNear(u, t.dropOff)) {
+        if (u.carry) {
+          const bonus = (t.dropOff.def.depositBonus && t.dropOff.def.depositBonus[u.carry.type]) || 1;
+          resourcesOf(game, u.owner)[u.carry.type] += u.carry.amount * bonus;
+        }
         u.carry = null;
         u.path = [];
         if (t.x === null) { u.task = null; return; }
@@ -236,7 +217,7 @@
       }
       if (!u.moving) {
         if (++t.retries > MAX_RETRIES) { u.task = null; return; }
-        approachBuilding(game, u, t.dropOff);
+        Gra.buildings.approach(game, u, t.dropOff);
       }
     }
   }
@@ -252,6 +233,8 @@
     if (u.task && u.task.kind === 'gather') {
       const name = RES_NAMES[u.task.res];
       parts.push({ toResource: `idzie po ${name}`, gathering: `zbiera ${name}`, returning: 'odnosi do bazy' }[u.task.phase]);
+    } else if (u.task && u.task.kind === 'build') {
+      parts.push(`${u.task.working ? 'buduje' : 'idzie budować'}: ${u.task.building.name}`);
     }
     if (u.carry) parts.push(`niesie ${Math.floor(u.carry.amount)}/${CFG.GATHER.carry} ${RES_NAMES[u.carry.type]}`);
     return parts.join(' · ');
