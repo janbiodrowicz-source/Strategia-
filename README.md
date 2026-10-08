@@ -4,7 +4,9 @@ Strategia czasu rzeczywistego w stylu klasycznych RTS-ów: dwie rasy, trzy surow
 
 ## Uruchomienie
 
-Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budować.
+▶️ **Zagraj online:** https://janbiodrowicz-source.github.io/Strategia-/ (GitHub Pages z gałęzi `main`)
+
+Albo lokalnie: otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budować.
 
 ## Sterowanie
 
