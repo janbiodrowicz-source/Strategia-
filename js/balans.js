@@ -75,7 +75,11 @@
         if (!e) { console.error(`Brak budynku w CSV: ${building.name}`); continue; }
         Object.assign(building, e);
       }
-      race.techs = data.techs;
+      for (const tech of Object.values(race.techs)) {
+        const e = data.techs.find((t) => t.name === tech.name);
+        if (!e) { console.error(`Brak technologii w CSV: ${tech.name}`); continue; }
+        Object.assign(tech, e, { time: tech.time }); // czas badania nie jest w CSV (czas_s = 0)
+      }
     }
   }
 

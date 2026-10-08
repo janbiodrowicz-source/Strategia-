@@ -159,6 +159,31 @@ fieldset label { display: block; padding: 3px 0; cursor: pointer; }
 }
 #toast[hidden] { display: none; }
 
+#endscreen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+}
+#endscreen[hidden] { display: none; }
+#endscreen .panel { text-align: center; }
+#endscreen h2 { margin: 0 0 8px; font-size: 32px; color: #f1c40f; }
+#endscreen button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #8a6d3b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 /* ---------- Sterowanie dotykowe ---------- */
 #touchbar {
   display: none;

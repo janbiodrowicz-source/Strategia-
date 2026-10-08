@@ -88,14 +88,22 @@
 
   // ---------- Stawianie ----------
 
+  function maxHpOf(game, owner, def) {
+    const mult = Gra.combat.hasTech(game, owner, 'buildingHp') ? CFG.COMBAT.buildingHp : 1;
+    return Math.round(def.hp * mult);
+  }
+
   function create(game, owner, key, x, y, state) {
     const def = CFG.RACES[raceOf(game, owner)].buildings[key];
+    const maxHp = maxHpOf(game, owner, def);
     const b = {
       id: nextId++, owner, key, def, name: def.name, icon: def.icon,
       x, y, size: def.size, state,
       progress: state === 'done' ? 1 : 0,
-      hp: state === 'done' ? def.hp : 1,
-      queue: [], rally: null,
+      maxHp,
+      hp: state === 'done' ? maxHp : 1,
+      queue: [], rally: null, research: null,
+      cd: 0, burn: null, hitT: 0,
       dropOff: !!def.dropOff,
       sight: def.sight || 5,
     };
@@ -209,6 +217,50 @@
     b.queue.splice(index, 1);
   }
 
+  // ---------- Technologie ----------
+
+  const techsOf = (game, owner) => CFG.RACES[raceOf(game, owner)].techs;
+
+  // null — można badać, albo powód, dla którego nie
+  function researchBlocker(game, b, key) {
+    const tech = techsOf(game, b.owner)[key];
+    if (b.key !== 'base' || b.state !== 'done') return 'Technologie bada się w bazie';
+    if (Gra.combat.hasTech(game, b.owner, tech.effect)) return 'Już zbadane';
+    if (b.research) return 'Baza już coś bada';
+    const wait = tech.unlockMin * 60 - game.time;
+    if (wait > 0) return `Dostępne od ${tech.unlockMin}:00 gry`;
+    return null;
+  }
+
+  function startResearch(game, b, key) {
+    const block = researchBlocker(game, b, key);
+    if (block) return block;
+    const tech = techsOf(game, b.owner)[key];
+    const lack = missing(game, b.owner, tech.cost);
+    if (lack) return `Brakuje: ${lack}`;
+    pay(game, b.owner, tech.cost);
+    b.research = { key, t: 0 };
+    return null;
+  }
+
+  function cancelResearch(game, b) {
+    if (!b.research) return;
+    pay(game, b.owner, techsOf(game, b.owner)[b.research.key].cost, +1);
+    b.research = null;
+  }
+
+  function applyTech(game, owner, tech) {
+    game.techs[owner].add(tech.effect);
+    if (tech.effect === 'buildingHp') {
+      for (const b of game.buildings) {
+        if (b.owner !== owner) continue;
+        const max = maxHpOf(game, owner, b.def);
+        b.hp = Math.round(b.hp * max / b.maxHp);
+        b.maxHp = max;
+      }
+    }
+  }
+
   function spawn(game, b, type) {
     const race = raceOf(game, b.owner);
     const c = center(b);
@@ -263,15 +315,26 @@
         const n = game.units.filter((u) => u.task && u.task.kind === 'build' && u.task.building === b && u.task.working).length;
         if (!n) continue;
         const rate = 1 + CFG.EXTRA_BUILDER_RATE * (n - 1);
+        const before = b.progress;
         b.progress = Math.min(1, b.progress + dt * rate / Math.max(1, b.def.time));
-        b.hp = Math.max(1, Math.round(b.def.hp * b.progress));
+        b.hp = Math.min(b.maxHp, b.hp + (b.progress - before) * b.maxHp); // budowa dodaje HP, obrażenia zostają
         if (b.progress >= 1) {
           b.state = 'done';
-          b.hp = b.def.hp;
+          b.hp = Math.min(b.maxHp, b.hp);
           for (const u of game.units) if (u.task && u.task.building === b) u.task = null;
           if (b.owner === 0) game.toast(`✅ Gotowe: ${b.name}`);
         }
-      } else if (b.state === 'done' && b.queue.length) {
+      }
+      if (b.state === 'done' && b.research) {
+        const tech = techsOf(game, b.owner)[b.research.key];
+        b.research.t += dt;
+        if (b.research.t >= tech.time) {
+          b.research = null;
+          applyTech(game, b.owner, tech);
+          if (b.owner === 0) game.toast(`📜 Zbadano: ${tech.name} — ${tech.desc.replace(/^Tier \d+ \([^)]*\): /, '')}`);
+        }
+      }
+      if (b.state === 'done' && b.queue.length) {
         const item = b.queue[0];
         const unit = CFG.RACES[raceOf(game, b.owner)].units[item.type];
         item.t += dt;
@@ -286,7 +349,8 @@
   Gra.buildings = {
     center, contains, buildingAt, isNear, approach, ringTiles,
     costText, missing, populationCap, populationUsed, populationQueued,
-    create, canPlace, topLeftAt, order, commandBuild, cancelConstruction,
+    create, canPlace, topLeftAt, order, commandBuild, cancelConstruction, destroy: remove,
     enqueue, cancelQueued, setRally, update,
+    researchBlocker, startResearch, cancelResearch,
   };
 })();

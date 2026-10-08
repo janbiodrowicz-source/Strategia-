@@ -97,6 +97,12 @@
         }
         return;
       }
+      if (e.button === 0 && game.attackMoveArmed) {
+        const w = toWorld(p.x, p.y);
+        issueCommand(w.x, w.y);
+        game.onSelectionChange();
+        return;
+      }
       if (e.button === 0) {
         input.drag = { sx: p.x, sy: p.y, ex: p.x, ey: p.y, active: false };
       } else if (e.button === 2) {
@@ -143,7 +149,10 @@
         select([best], e.shiftKey);
       } else {
         const b = ownBuildingAt(d.sx, d.sy);
+        const w = toWorld(d.sx, d.sy);
+        const enemy = !b && game.enemyAt(w.x, w.y);
         if (b) game.selectBuilding(b);
+        else if (enemy) game.inspect(enemy);
         else if (!e.shiftKey) select([], false);
       }
     });
@@ -253,12 +262,19 @@
       }
       input.lastTap = null;
       const b = ownBuildingAt(p.x, p.y);
-      if (b && !isBuildingCommand(b)) {
+      if (b && !isBuildingCommand(b) && !game.attackMoveArmed) {
         game.selectBuilding(b);
         return;
       }
       const w = toWorld(p.x, p.y);
+      // Bez zaznaczonych jednostek dotknięcie wroga pokazuje jego dane
+      const enemy = game.enemyAt(w.x, w.y, 14);
+      if (enemy && !game.selectedUnits().length) {
+        game.inspect(enemy);
+        return;
+      }
       issueCommand(w.x, w.y);
+      game.onSelectionChange();
     }
 
     // ---------- Przyciski dotykowe ----------
@@ -325,7 +341,12 @@
       }
       if (e.key === 'Escape') {
         if (game.placing) game.cancelPlacing();
+        else if (game.attackMoveArmed) { game.attackMoveArmed = false; game.onSelectionChange(); }
         else select([], false);
+      }
+      if (e.key.toLowerCase() === 'q' && game.selectedUnits().some((u) => !u.def.worker)) {
+        game.attackMoveArmed = !game.attackMoveArmed;
+        game.onSelectionChange();
       }
       if (e.key === '+' || e.key === '=') game.setZoom(game.zoom * 1.1);
       if (e.key === '-') game.setZoom(game.zoom / 1.1);

@@ -33,7 +33,13 @@
       units: [],
       buildings: [],
       selectedBuilding: null,
-      placing: null, // { key, x, y, valid } — tryb stawiania budynku
+      inspected: null,        // podglądany wróg (jednostka lub budynek)
+      placing: null,          // { key, x, y, valid } — tryb stawiania budynku
+      attackMoveArmed: false, // następny rozkaz na mapie to Szturm
+      techs: { 0: new Set(), 1: new Set() }, // efekty zbadanych technologii
+      projectiles: [],
+      effects: [],
+      over: null,
       resources: { ...CFG.START_RESOURCES },
       aiResources: { ...CFG.START_RESOURCES },
       time: 0,
@@ -80,10 +86,35 @@
     game.selectBuilding = (b) => {
       for (const u of game.units) u.selected = false;
       game.selectedBuilding = b;
+      game.inspected = null;
       game.placing = null;
+      game.attackMoveArmed = false;
       game.onSelectionChange();
     };
-    game.onSelectionChange = () => updatePanel(game, true);
+    game.inspect = (t) => {
+      for (const u of game.units) u.selected = false;
+      game.selectedBuilding = null;
+      game.inspected = t;
+      game.onSelectionChange();
+    };
+    game.onSelectionChange = () => {
+      if (game.selectedUnits().length || game.selectedBuilding) game.inspected = null;
+      if (!game.selectedUnits().length) game.attackMoveArmed = false;
+      updatePanel(game, true);
+    };
+
+    // Wróg pod punktem świata (jednostka albo budynek), widoczny dla gracza
+    game.enemyAt = (wx, wy, slack = 6) => {
+      let best = null, bestD = Infinity;
+      for (const u of game.units) {
+        if (u.owner === 0 || !game.fog.isVisible(u.tileX, u.tileY)) continue;
+        const d = Math.hypot(u.x - wx, u.y - wy);
+        if (d <= u.radius + slack / game.zoom && d < bestD) { bestD = d; best = u; }
+      }
+      if (best) return best;
+      const b = B().buildingAt(game, Math.floor(wx / TILE), Math.floor(wy / TILE));
+      return b && b.owner !== 0 && game.fog.isExplored(b.x, b.y) ? b : null;
+    };
 
     // ---------- Rozkazy ----------
     // Rozkaz kontekstowy jednostek: surowiec → zbieranie, niedokończony budynek → pomoc w budowie,
@@ -93,7 +124,18 @@
       let busy = [];
       let kind = 'move';
       const b = B().buildingAt(game, tx, ty);
-      if (map.resourceAt(tx, ty)) {
+      const enemy = game.enemyAt(wx, wy);
+      if (game.attackMoveArmed) {
+        game.attackMoveArmed = false;
+        busy = Gra.combat.commandAttackMove(game, units, tx, ty);
+        if (busy.length) kind = 'attack';
+      } else if (enemy) {
+        if (!Gra.combat.combatAllowed(game)) {
+          game.toast(`🛡️ Okres ochronny — atak możliwy za ${fmtTime(Gra.combat.protectionLeft(game))}`);
+        }
+        busy = Gra.combat.commandAttack(game, units, enemy);
+        if (busy.length) kind = 'attack';
+      } else if (map.resourceAt(tx, ty)) {
         busy = Gra.economy.commandGather(game, units, tx, ty);
         if (busy.length) kind = 'gather';
       } else if (b && b.owner === 0 && b.state !== 'done') {
@@ -141,6 +183,15 @@
       updatePanel(game, true);
     };
 
+    game.onGameOver = (won) => {
+      const el = document.getElementById('endscreen');
+      el.querySelector('h2').textContent = won ? '🏆 Zwycięstwo!' : '💀 Porażka';
+      el.querySelector('p').textContent = won
+        ? `Wszystkie budynki wroga zniszczone w ${fmtTime(game.time)}.`
+        : `Wszystkie Twoje budynki zostały zniszczone po ${fmtTime(game.time)}.`;
+      el.hidden = false;
+    };
+
     // ---------- Komunikaty ----------
     let toastTimer = null;
     game.toast = (msg) => {
@@ -175,6 +226,7 @@
       for (const u of game.units) u.update(dt);
       Gra.economy.update(game, dt);
       Gra.buildings.update(game, dt);
+      Gra.combat.update(game, dt);
       Gra.separateUnits(map, game.units);
       if (game.moveMarker && (game.moveMarker.age += dt) > 0.6) game.moveMarker = null;
 
@@ -185,6 +237,7 @@
       }
 
       Gra.render.draw(game.ctx, game);
+      if (game.over) return; // zamrażamy grę po zwycięstwie / porażce
       hudTimer += dt;
       if (hudTimer >= 0.2) {
         hudTimer = 0;
@@ -238,7 +291,8 @@
 
     const b = game.selectedBuilding;
     if (b) {
-      let info = `${b.icon} ${b.name} — HP ${b.hp}/${b.def.hp}`;
+      let info = `${b.icon} ${b.name} — HP ${Math.ceil(b.hp)}/${b.maxHp}`;
+      if (b.def.attack) info += ` · atak ${b.def.attack} co ${b.def.attackInterval} s · zasięg ${b.def.range}`;
       if (b.state !== 'done') {
         info += b.state === 'site' ? ' · czeka na budowniczego' : ` · budowa ${Math.floor(b.progress * 100)}%`;
         actions.push({ label: '✖ Anuluj budowę', sub: b.state === 'site' ? 'zwrot 100%' : 'zwrot 75%',
@@ -262,8 +316,35 @@
         b.queue.forEach((q, i) => actions.push({ label: `⏳ ${race.units[q.type].name}`, sub: 'anuluj', on: i === 0,
                                                 run: () => B().cancelQueued(game, b, i) }));
       }
+      if (b.key === 'base') {
+        for (const [key, tech] of Object.entries(race.techs)) {
+          if (Gra.combat.hasTech(game, 0, tech.effect)) continue;
+          if (b.research && b.research.key === key) {
+            info += ` · badanie: ${tech.name} ${Math.floor(b.research.t / tech.time * 100)}%`;
+            actions.push({ label: `⏳ ${tech.name}`, sub: 'anuluj', on: true, run: () => B().cancelResearch(game, b) });
+            continue;
+          }
+          const block = B().researchBlocker(game, b, key);
+          const locked = block && block.startsWith('Dostępne');
+          actions.push({ label: `${tech.icon} ${tech.name}`,
+                         sub: locked ? `od ${tech.unlockMin}:00` : `${B().costText(tech.cost)} · ${tech.time}s`,
+                         disabled: !!block || !!B().missing(game, 0, tech.cost),
+                         reason: block || null,
+                         run: () => { const err = B().startResearch(game, b, key); if (err) game.toast(`⚠️ ${err}`); } });
+        }
+      }
       if (b.def.produces) info += isTouch() ? ' · dotknij mapy — punkt zbiórki' : ' · PPM — punkt zbiórki';
       if (!b.def.produces && !b.def.pop && !b.def.dropOff) info += ` — ${b.def.desc}`;
+      return { info, actions };
+    }
+
+    const enemy = game.inspected;
+    if (enemy) {
+      const name = enemy.def.name || enemy.name;
+      const max = enemy.maxHp || enemy.def.hp;
+      let info = `🔴 ${enemy.icon ? enemy.icon + ' ' : ''}${name} (wróg) — HP ${Math.ceil(enemy.hp)}/${max}`;
+      if (enemy.def.attack) info += ` · atak ${enemy.def.attack} · zasięg ${enemy.def.range}`;
+      if (enemy.def.desc) info += ` — ${enemy.def.desc}`;
       return { info, actions };
     }
 
@@ -278,15 +359,25 @@
     let info;
     if (sel.length === 1) {
       const u = sel[0], d = u.def;
-      const status = Gra.economy.describe(u);
-      info = `${d.name} — HP ${u.hp}/${d.hp} · atak ${d.attack} co ${d.attackInterval} s · zasięg ${d.range} · ` +
-             `ruch ${d.speed} · pop ${d.pop}` + (status ? ` — ${status}` : ` — ${d.desc}`);
+      const status = Gra.economy.describe(u) || Gra.combat.describe(u);
+      const armor = Gra.combat.armorOf(game, u);
+      info = `${d.name} — HP ${Math.ceil(u.hp)}/${d.hp} · atak ${Gra.combat.attackOf(game, u)} co ${d.attackInterval} s · ` +
+             `zasięg ${d.range}${armor ? ` · pancerz ${armor}` : ''} · ruch ${d.speed} · pop ${d.pop}` +
+             (u.burn ? ' · 🔥 płonie' : '') + (status ? ` — ${status}` : ` — ${d.desc}`);
     } else {
       const counts = {};
       for (const u of sel) counts[u.def.name] = (counts[u.def.name] || 0) + 1;
       const working = sel.filter((u) => u.task).length;
       info = `Zaznaczono ${sel.length}: ` + Object.entries(counts).map(([n, c]) => `${n} ×${c}`).join(', ') +
              (working ? ` · pracuje: ${working}` : '');
+    }
+    if (sel.some((u) => !u.def.worker && (u.def.attack > 0 || u.def.healer))) {
+      actions.push({ label: '⚔️ Szturm', sub: game.attackMoveArmed ? 'wskaż cel' : 'atak po drodze', on: game.attackMoveArmed,
+                     run: () => { game.attackMoveArmed = !game.attackMoveArmed; } });
+      actions.push({ label: '✋ Stop', sub: '', run: () => { Gra.combat.stop(sel); game.attackMoveArmed = false; } });
+    }
+    if (!Gra.combat.combatAllowed(game) && sel.some((u) => !u.def.worker)) {
+      info += ` · 🛡️ walka za ${fmtTime(Gra.combat.protectionLeft(game))}`;
     }
     if (sel.some((u) => u.def.worker)) {
       for (const [key, def] of Object.entries(race.buildings)) {
@@ -331,7 +422,8 @@
       if (!a) return;
       if (a.disabled) {
         // Wyszarzony przycisk nadal tłumaczy, czego brakuje (ważne na telefonie — brak podpowiedzi)
-        if (a.sub && a.sub !== 'zajęte') game.toast(`⚠️ Za mało surowców: ${a.sub}`);
+        if (a.reason) game.toast(`⚠️ ${a.reason}`);
+        else if (a.sub && a.sub !== 'zajęte') game.toast(`⚠️ Za mało surowców: ${a.sub}`);
         return;
       }
       a.run();

@@ -18,6 +18,10 @@
       this.facing = 0;
       this.task = null;  // np. zbieranie surowca (js/economy.js)
       this.carry = null; // niesiony ładunek {type, amount}
+      this.cd = 0;          // odnowienie ataku (s)
+      this.speedMult = 1;   // np. Leśne Pieśni
+      this.burn = null;     // podpalenie {dps, t}
+      this.hitT = 0;        // błysk po trafieniu
     }
 
     get radius() { return this.def.radius * TILE; }
@@ -37,7 +41,7 @@
       const wx = (wp.x + 0.5) * TILE, wy = (wp.y + 0.5) * TILE;
       const dx = wx - this.x, dy = wy - this.y;
       const dist = Math.hypot(dx, dy);
-      const step = this.def.speed * TILE * dt;
+      const step = this.def.speed * this.speedMult * TILE * dt;
       if (dist <= step) {
         this.x = wx;
         this.y = wy;

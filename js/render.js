@@ -155,8 +155,8 @@
       ctx.fillText(b.name, px + side / 2, py + side - 14);
     }
 
-    if (game.selectedBuilding === b) {
-      ctx.strokeStyle = '#5dff7a';
+    if (game.selectedBuilding === b || game.inspected === b) {
+      ctx.strokeStyle = game.inspected === b ? '#ff5555' : '#5dff7a';
       ctx.lineWidth = 2;
       ctx.strokeRect(px - 1, py - 1, side + 2, side + 2);
     }
@@ -166,8 +166,54 @@
       const unit = Gra.CONFIG.RACES[b.owner === 0 ? game.playerRace : game.aiRace].units[item.type];
       progressBar(ctx, px + 2, py - 8, side - 4, item.t / unit.time, '#4cd1ff');
     }
-    if (done && (b.hp < b.def.hp || game.selectedBuilding === b)) {
-      progressBar(ctx, px + 2, py + side + 2, side - 4, b.hp / b.def.hp, '#4cd137');
+    if (b.hp < b.maxHp || game.selectedBuilding === b || game.inspected === b) {
+      progressBar(ctx, px + 2, py + side + 2, side - 4, b.hp / b.maxHp, b.owner === 0 ? '#4cd137' : '#e74c3c');
+    }
+    if (b.hitT > 0) {
+      ctx.fillStyle = `rgba(255,255,255,${b.hitT * 2})`;
+      ctx.fillRect(px + 2, py + 2, side - 4, side - 4);
+    }
+    if (b.burn) drawFlames(ctx, game, px + side / 2, py + side / 2, side * 0.3);
+  }
+
+  function drawFlames(ctx, game, x, y, spread) {
+    for (let k = 0; k < 3; k++) {
+      const a = game.time * 7 + k * 2.1;
+      const fx = x + Math.cos(a) * spread * 0.5, fy = y + Math.sin(a * 1.3) * spread * 0.4 - 4;
+      ctx.fillStyle = k % 2 ? 'rgba(255,90,20,0.85)' : 'rgba(255,190,40,0.85)';
+      ctx.beginPath();
+      ctx.arc(fx, fy, 3 + Math.sin(a * 2) * 1.2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function drawCombatEffects(ctx, game) {
+    // Pociski
+    for (const p of game.projectiles) {
+      ctx.strokeStyle = p.color;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(p.x, p.y);
+      ctx.lineTo(p.x - Math.cos(p.angle || 0) * 8, p.y - Math.sin(p.angle || 0) * 8);
+      ctx.stroke();
+    }
+    // Leczenie Dryady
+    for (const u of game.units) {
+      if (!u.healing) continue;
+      ctx.strokeStyle = `rgba(120,255,140,${0.5 + Math.sin(game.time * 12) * 0.3})`;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(u.x, u.y);
+      ctx.lineTo(u.healing.x, u.healing.y);
+      ctx.stroke();
+    }
+    // Śmierć / zniszczenie
+    for (const e of game.effects) {
+      const t = e.t / 0.6;
+      ctx.fillStyle = `rgba(80,70,60,${0.6 * (1 - t)})`;
+      ctx.beginPath();
+      ctx.arc(e.x, e.y, e.size * (0.6 + t), 0, Math.PI * 2);
+      ctx.fill();
     }
   }
 
@@ -232,6 +278,7 @@
       const m = game.moveMarker;
       const t = m.age / 0.6;
       ctx.strokeStyle = m.kind === 'gather' ? `rgba(255,210,60,${1 - t})`
+        : m.kind === 'attack' ? `rgba(255,70,60,${1 - t})`
         : m.kind === 'rally' ? `rgba(255,255,255,${1 - t})` : `rgba(80,255,120,${1 - t})`;
       ctx.lineWidth = 2;
       ctx.beginPath();
@@ -301,14 +348,30 @@
         ctx.fillRect(u.x + r * 0.4, u.y - r - 1, 7, 7);
         ctx.strokeRect(u.x + r * 0.4, u.y - r - 1, 7, 7);
       }
-      if (u.hp < u.def.hp || u.selected) {
+      if (u.hp < u.def.hp || u.selected || game.inspected === u) {
         const w = r * 2;
         ctx.fillStyle = '#300';
         ctx.fillRect(u.x - w / 2, u.y - r - 7, w, 3);
-        ctx.fillStyle = '#4cd137';
-        ctx.fillRect(u.x - w / 2, u.y - r - 7, w * u.hp / u.def.hp, 3);
+        ctx.fillStyle = u.owner === 0 ? '#4cd137' : '#e74c3c';
+        ctx.fillRect(u.x - w / 2, u.y - r - 7, w * Math.max(0, u.hp) / u.def.hp, 3);
+      }
+      if (u.hitT > 0) {
+        ctx.fillStyle = `rgba(255,255,255,${u.hitT * 4})`;
+        ctx.beginPath();
+        ctx.arc(u.x, u.y, r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      if (u.burn) drawFlames(ctx, game, u.x, u.y - 2, r);
+      if (game.inspected === u) {
+        ctx.strokeStyle = '#ff5555';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.ellipse(u.x, u.y + r * 0.6, r + 4, (r + 4) * 0.55, 0, 0, Math.PI * 2);
+        ctx.stroke();
       }
     }
+
+    drawCombatEffects(ctx, game);
 
     // Mgła wojny (tylko kafelki w widoku)
     if (fog.enabled) {
