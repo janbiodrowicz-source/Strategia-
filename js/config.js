@@ -48,4 +48,6 @@ Gra.CONFIG = {
   FOG_UPDATE_MS: 150,
   EDGE_SCROLL_PX: 14,
   CAMERA_SPEED: 900, // px/s
+  ZOOM_MIN: 0.5,
+  ZOOM_MAX: 1.75,
 };

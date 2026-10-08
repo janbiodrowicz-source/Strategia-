@@ -86,14 +86,19 @@
   }
 
   function draw(ctx, game) {
-    const { map, cam, fog } = game;
-    const vw = ctx.canvas.width, vh = ctx.canvas.height;
+    const { map, cam, fog, zoom } = game;
+    const vw = ctx.canvas.width / zoom, vh = ctx.canvas.height / zoom; // widok w pikselach świata
     ctx.fillStyle = '#000';
-    ctx.fillRect(0, 0, vw, vh);
-    ctx.drawImage(game.mapImage, cam.x, cam.y, vw, vh, 0, 0, vw, vh);
+    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
     ctx.save();
+    ctx.scale(zoom, zoom);
     ctx.translate(-cam.x, -cam.y);
+    ctx.imageSmoothingEnabled = zoom < 1;
+
+    const sx = Math.max(0, cam.x), sy = Math.max(0, cam.y);
+    const sw = Math.min(vw, map.w * TILE - sx), sh = Math.min(vh, map.h * TILE - sy);
+    ctx.drawImage(game.mapImage, sx, sy, sw, sh, sx, sy, sw, sh);
 
     // Budynki
     for (const b of game.buildings) {
@@ -177,7 +182,7 @@
 
     // Mgła wojny (tylko kafelki w widoku)
     if (fog.enabled) {
-      const x0 = Math.floor(cam.x / TILE), y0 = Math.floor(cam.y / TILE);
+      const x0 = Math.max(0, Math.floor(cam.x / TILE)), y0 = Math.max(0, Math.floor(cam.y / TILE));
       const x1 = Math.min(map.w - 1, Math.ceil((cam.x + vw) / TILE));
       const y1 = Math.min(map.h - 1, Math.ceil((cam.y + vh) / TILE));
       for (let y = y0; y <= y1; y++) {
@@ -236,7 +241,7 @@
     const k = s / TILE;
     ctx.strokeStyle = '#fff';
     ctx.lineWidth = 1;
-    ctx.strokeRect(cam.x * k, cam.y * k, game.canvas.width * k, game.canvas.height * k);
+    ctx.strokeRect(cam.x * k, cam.y * k, game.canvas.width / game.zoom * k, game.canvas.height / game.zoom * k);
   }
 
   Gra.render = { buildMapImage, buildMinimapImage, draw, drawMinimap };

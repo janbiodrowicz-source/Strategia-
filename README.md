@@ -17,6 +17,21 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 | Ruch | PPM (na mapie lub minimapie) |
 | Przesuwanie kamery | WASD / strzałki / krawędź ekranu / LPM na minimapie |
 | Kamera na bazę | Spacja |
+| Przybliżanie | kółko myszy / + i − |
+| Zaznacz wszystkie tego typu na ekranie | podwójny klik w jednostkę |
+
+### Telefon / tablet
+
+| Akcja | Gest |
+|---|---|
+| Zaznacz jednostkę | dotknij jej |
+| Zaznacz wszystkie tego typu na ekranie | dotknij dwa razy |
+| Rozkaz (ruch) | dotknij miejsca na mapie, gdy coś jest zaznaczone |
+| Przesuwanie kamery | przeciągnij palcem / dotknij minimapy |
+| Przybliżanie | rozsuń / zsuń dwa palce |
+| Zaznaczanie obszarem | przycisk ▢ Obszar, potem przeciągnij |
+| Dodawanie do zaznaczenia | przycisk ➕ Dodaj (przełącznik) |
+| Robotnicy / wszyscy / odznacz / baza | przyciski na dolnym pasku |
 
 ## Założenia gry
 
@@ -33,7 +48,8 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 
 - [x] Generowana mapa (symetryczna, bazy w przeciwległych narożnikach, gwarantowane przejście)
 - [x] Ruch jednostek: A* + wygładzanie ścieżki, formacje grupowe, rozpychanie
-- [x] Zaznaczanie, kamera, minimapa, mgła wojny (runda 3), licznik okresu ochronnego
+- [x] Zaznaczanie, kamera z zoomem, minimapa, mgła wojny (runda 3), licznik okresu ochronnego
+- [x] Sterowanie dotykowe na telefon
 - [x] Balans jednostek, budynków i technologii z `balans_startowy.csv`
 - [ ] Zbieranie surowców
 - [ ] Budowanie i produkcja jednostek

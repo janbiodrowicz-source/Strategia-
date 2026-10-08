@@ -2,7 +2,9 @@
 <html lang="pl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Strategia — mini-RTS</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -49,7 +51,17 @@
     </div>
     <div id="bottombar">
       <canvas id="minimap" width="200" height="200"></canvas>
-      <div id="selection"></div>
+      <div id="sidepanel">
+        <div id="touchbar">
+          <button data-action="box" title="Zaznacz obszarem">▢<span>Obszar</span></button>
+          <button data-action="add" title="Dodawaj do zaznaczenia">➕<span>Dodaj</span></button>
+          <button data-action="workers" title="Zaznacz robotników">⛏️<span>Robotnicy</span></button>
+          <button data-action="all" title="Zaznacz wszystkie">👥<span>Wszyscy</span></button>
+          <button data-action="none" title="Odznacz">✖<span>Odznacz</span></button>
+          <button data-action="base" title="Kamera na bazę">🏠<span>Baza</span></button>
+        </div>
+        <div id="selection"></div>
+      </div>
     </div>
   </div>
 

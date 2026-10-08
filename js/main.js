@@ -34,6 +34,7 @@
       resources: { ...CFG.START_RESOURCES },
       time: 0,
       cam: { x: 0, y: 0 },
+      zoom: 1,
       moveMarker: null,
       fog: new Gra.Fog(map, round.fog),
       mapImage: Gra.render.buildMapImage(map),
@@ -50,14 +51,28 @@
       game.buildings.filter((b) => b.owner === owner).reduce((sum, b) => sum + b.def.pop, 0);
     game.populationUsed = (owner = 0) =>
       game.units.filter((u) => u.owner === owner).reduce((sum, u) => sum + u.def.pop, 0);
+    // Kamera: cam to lewy górny róg widoku w pikselach świata, zoom skaluje widok.
+    // Gdy mapa jest mniejsza niż widok (oddalenie), zostaje wyśrodkowana.
+    const clampAxis = (v, mapPx, viewPx) => (mapPx <= viewPx ? (mapPx - viewPx) / 2 : Math.max(0, Math.min(mapPx - viewPx, v)));
     game.moveCamera = (dx, dy) => {
-      game.cam.x = Math.max(0, Math.min(map.w * TILE - canvas.width, game.cam.x + dx));
-      game.cam.y = Math.max(0, Math.min(map.h * TILE - canvas.height, game.cam.y + dy));
+      game.cam.x = clampAxis(game.cam.x + dx, map.w * TILE, canvas.width / game.zoom);
+      game.cam.y = clampAxis(game.cam.y + dy, map.h * TILE, canvas.height / game.zoom);
     };
     game.centerCamera = (x, y) => {
-      game.cam.x = x - canvas.width / 2;
-      game.cam.y = y - canvas.height / 2;
+      game.cam.x = x - canvas.width / game.zoom / 2;
+      game.cam.y = y - canvas.height / game.zoom / 2;
       game.moveCamera(0, 0);
+    };
+    // Zoom wokół punktu ekranu (sx, sy) — ten punkt świata zostaje pod palcem/kursorem
+    game.setZoom = (z, sx = canvas.width / 2, sy = canvas.height / 2) => {
+      const wx = sx / game.zoom + game.cam.x, wy = sy / game.zoom + game.cam.y;
+      game.zoom = Math.max(CFG.ZOOM_MIN, Math.min(CFG.ZOOM_MAX, z));
+      game.cam.x = wx - sx / game.zoom;
+      game.cam.y = wy - sy / game.zoom;
+      game.moveCamera(0, 0);
+    };
+    game.command = (units, wx, wy) => {
+      Gra.commandMove(map, units, Math.floor(wx / TILE), Math.floor(wy / TILE));
     };
     game.onSelectionChange = () => updateSelectionPanel(game);
 
@@ -126,7 +141,9 @@
     const panel = document.getElementById('selection');
     const sel = game.units.filter((u) => u.selected);
     if (!sel.length) {
-      panel.textContent = 'Zaznacz jednostki LPM (lub przeciągnij). PPM — ruch. Ctrl+A — wszystkie. Spacja — baza.';
+      panel.textContent = document.body.classList.contains('touch')
+        ? 'Dotknij jednostkę, potem miejsce na mapie. Przeciągnij — kamera, dwa palce — zoom.'
+        : 'Zaznacz jednostki LPM (lub przeciągnij). PPM — ruch. Ctrl+A — wszystkie. Spacja — baza. Kółko — zoom.';
       return;
     }
     if (sel.length === 1) {
