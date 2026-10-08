@@ -439,6 +439,8 @@
     });
   }
 
+  document.getElementById('version').textContent = CFG.VERSION;
+
   Gra.startGame = startGame;
 
   document.getElementById('start-btn').addEventListener('click', () => {
