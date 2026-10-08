@@ -34,18 +34,33 @@ Otwórz `index.html` w przeglądarce. Nie trzeba niczego instalować ani budowa�
 - [x] Generowana mapa (symetryczna, bazy w przeciwległych narożnikach, gwarantowane przejście)
 - [x] Ruch jednostek: A* + wygładzanie ścieżki, formacje grupowe, rozpychanie
 - [x] Zaznaczanie, kamera, minimapa, mgła wojny, licznik okresu ochronnego
-- [ ] Wczytanie balansu z `balans_startowy.csv` (obecne statystyki w `js/config.js` to placeholdery)
+- [x] Balans jednostek, budynków i technologii z `balans_startowy.csv`
 - [ ] Zbieranie surowców
 - [ ] Budowanie i produkcja jednostek
 - [ ] Walka i zdolności (leczenie Dryady, podpalanie Kapłana Ognia)
 - [ ] AI przeciwnika
+
+## Balans
+
+Wszystkie koszty, HP, ataki, zasięgi, prędkości i populacja są w `balans_startowy.csv`.
+Po edycji CSV uruchom:
+
+```
+node tools/build-balans.js
+```
+
+Skrypt przepisze CSV do `js/balans-data.js`. Jest to potrzebne, bo przeglądarka nie pozwala
+wczytać pliku CSV z dysku, gdy gra jest otwierana bez serwera.
 
 ## Struktura
 
 ```
 index.html        menu + HUD
 css/style.css
+balans_startowy.csv  dane balansu (źródło prawdy)
+tools/build-balans.js  CSV → js/balans-data.js
 js/config.js      ustawienia, rasy, rundy, poziomy AI
+js/balans.js      parser CSV, nakłada balans na konfigurację
 js/map.js         generowanie mapy
 js/pathfinding.js A*
 js/units.js       jednostki i rozkazy ruchu

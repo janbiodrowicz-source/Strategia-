@@ -41,11 +41,15 @@
     };
 
     map.bases.forEach((base, owner) => {
-      game.buildings.push({ owner, x: base.x, y: base.y, name: 'Baza', sight: 8 });
+      const def = CFG.RACES[owner === 0 ? game.playerRace : game.aiRace].baseBuilding;
+      game.buildings.push({ owner, x: base.x, y: base.y, def, name: def.name, hp: def.hp, sight: 8 });
       spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
     });
 
-    game.populationCap = () => game.buildings.filter((b) => b.owner === 0).length * CFG.POPULATION.base;
+    game.populationCap = (owner = 0) =>
+      game.buildings.filter((b) => b.owner === owner).reduce((sum, b) => sum + b.def.pop, 0);
+    game.populationUsed = (owner = 0) =>
+      game.units.filter((u) => u.owner === owner).reduce((sum, u) => sum + u.def.pop, 0);
     game.moveCamera = (dx, dy) => {
       game.cam.x = Math.max(0, Math.min(map.w * TILE - canvas.width, game.cam.x + dx));
       game.cam.y = Math.max(0, Math.min(map.h * TILE - canvas.height, game.cam.y + dy));
@@ -111,8 +115,7 @@
     document.getElementById('res-wood').textContent = r.wood;
     document.getElementById('res-stone').textContent = r.stone;
     document.getElementById('res-gold').textContent = r.gold;
-    const pop = game.units.filter((u) => u.owner === 0).length;
-    document.getElementById('res-pop').textContent = `${pop}/${game.populationCap()}`;
+    document.getElementById('res-pop').textContent = `${game.populationUsed()}/${game.populationCap()}`;
     const left = game.round.protectionMin * 60 - game.time;
     const prot = document.getElementById('protection');
     prot.textContent = left > 0 ? `🛡️ Ochrona: ${fmtTime(left)}` : '⚔️ Ochrona minęła';
@@ -128,7 +131,9 @@
     }
     if (sel.length === 1) {
       const u = sel[0];
-      panel.textContent = `${u.def.name} — HP ${u.hp}/${u.def.hp}, prędkość ${u.def.speed}, wzrok ${u.def.sight}`;
+      const d = u.def;
+      panel.textContent = `${d.name} — HP ${u.hp}/${d.hp} · atak ${d.attack} co ${d.attackInterval} s · ` +
+        `zasięg ${d.range} · ruch ${d.speed} · pop ${d.pop} — ${d.desc}`;
       return;
     }
     const counts = {};

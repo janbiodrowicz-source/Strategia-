@@ -106,7 +106,10 @@
       ctx.fillStyle = '#fff';
       ctx.font = 'bold 12px sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(b.name, px + TILE * 1.5, py + TILE * 1.5 + 4);
+      const lines = ctx.measureText(b.name).width > TILE * 3 - 24 ? b.name.split(' ') : [b.name];
+      lines.forEach((line, i) => {
+        ctx.fillText(line, px + TILE * 1.5, py + TILE * 1.5 + 4 + (i - (lines.length - 1) / 2) * 14);
+      });
     }
 
     // Znacznik rozkazu ruchu
