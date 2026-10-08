@@ -125,12 +125,13 @@
     return fighters;
   }
 
-  function commandAttackMove(game, units, tx, ty) {
+  // pace (kafelki/s, opcjonalnie) — marsz tempem najwolniejszego, żeby grupa dotarła razem (fale AI)
+  function commandAttackMove(game, units, tx, ty, pace = null) {
     const fighters = units.filter((u) => canFight(u) || u.def.healer);
     const slots = game.map.formationTiles(tx, ty, fighters.length);
     fighters.forEach((u, i) => {
       const dest = slots[i] || { x: tx, y: ty };
-      u.task = { kind: 'attackMove', dest, target: null, acquire: 0, repath: 0 };
+      u.task = { kind: 'attackMove', dest, target: null, acquire: 0, repath: 0, pace };
       u.moveTo(game.map, dest.x, dest.y);
     });
     return fighters;
@@ -212,6 +213,8 @@
     u.healing = null;
     u.speedMult = hasTech(game, u.owner, 'forestSpeed') && nearForest(game, u) ? C.forestSpeed : 1;
     const t = u.task;
+    // W marszu trzymamy tempo grupy, w walce — pełna prędkość
+    if (t && t.kind === 'attackMove' && t.pace && !t.target) u.speedMult = Math.min(u.speedMult, t.pace / u.def.speed);
 
     if (t && t.kind === 'attack') {
       if (!attackStep(game, u, t, dt)) u.task = null;

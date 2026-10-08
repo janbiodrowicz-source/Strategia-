@@ -14,23 +14,31 @@
 
   const RES_NAMES = { wood: 'drewno', stone: 'kamień', gold: 'złoto' };
 
-  function hasWalkableNeighbor(map, x, y) {
-    return DIRS8.some(([dx, dy]) => map.isWalkable(x + dx, y + dy));
+  // Czy (x, y) jest stanowiskiem przy surowcu: przejezdny i (gdy region >= 0) osiągalny z tego obszaru
+  function isStand(map, x, y, region) {
+    return map.isWalkable(x, y) && (region < 0 || map.regionAt(x, y) === region);
   }
 
-  function isHarvestable(map, x, y, res) {
-    return map.resourceAt(x, y) === res && map.amount[map.idx(x, y)] > 0 && hasWalkableNeighbor(map, x, y);
+  function hasWalkableNeighbor(map, x, y, region) {
+    return DIRS8.some(([dx, dy]) => isStand(map, x + dx, y + dy, region));
   }
 
-  // Do n kafelków surowca res najbliżej (x, y), do których da się podejść
-  function findResourceTiles(map, x, y, res, n) {
+  // region — obszar robotnika (map.regionAt); kafelek w niedostępnej kieszeni się nie liczy
+  function isHarvestable(map, x, y, res, region = -1) {
+    return map.resourceAt(x, y) === res && map.amount[map.idx(x, y)] > 0 && hasWalkableNeighbor(map, x, y, region);
+  }
+
+  const regionOf = (game, u) => game.map.regionAt(u.tileX, u.tileY);
+
+  // Do n kafelków surowca res najbliżej (x, y), do których da się podejść z obszaru region
+  function findResourceTiles(map, x, y, res, n, region = -1) {
     const out = [];
     const seen = new Uint8Array(map.tiles.length);
     const queue = [[x, y]];
     seen[map.idx(x, y)] = 1;
     for (let qi = 0; qi < queue.length && out.length < n; qi++) {
       const [cx, cy] = queue[qi];
-      if (isHarvestable(map, cx, cy, res)) out.push({ x: cx, y: cy });
+      if (isHarvestable(map, cx, cy, res, region)) out.push({ x: cx, y: cy });
       for (const [dx, dy] of DIRS8) {
         const nx = cx + dx, ny = cy + dy;
         if (!map.inBounds(nx, ny) || seen[map.idx(nx, ny)]) continue;
@@ -50,10 +58,11 @@
   function approachResource(game, u) {
     const { map } = game;
     const t = u.task;
+    const region = regionOf(game, u);
     let best = null, bestScore = Infinity;
     for (const [dx, dy] of DIRS8) {
       const nx = t.x + dx, ny = t.y + dy;
-      if (!map.isWalkable(nx, ny)) continue;
+      if (!isStand(map, nx, ny, region)) continue;
       const taken = game.units.filter((o) => o !== u && o.task && o.task.slot &&
                                              o.task.slot.x === nx && o.task.slot.y === ny).length;
       const score = Math.hypot(u.tileX - nx, u.tileY - ny) + taken * 3;
@@ -96,7 +105,7 @@
   function retarget(game, u) {
     const t = u.task;
     // Najbliższy kafelek inny niż obecny (obecny jest wyczerpany albo nie da się do niego dojść)
-    const next = findResourceTiles(game.map, t.x, t.y, t.res, 2).find((c) => c.x !== t.x || c.y !== t.y);
+    const next = findResourceTiles(game.map, t.x, t.y, t.res, 2, regionOf(game, u)).find((c) => c.x !== t.x || c.y !== t.y);
     if (next) {
       t.x = next.x;
       t.y = next.y;
@@ -135,7 +144,7 @@
     const workers = units.filter((u) => u.def.worker);
     if (!res || !workers.length) return [];
     // Rozkładamy robotników na kilka sąsiednich kafelków, max 2 na kafelek
-    const tiles = findResourceTiles(map, tx, ty, res, Math.ceil(workers.length / 2));
+    const tiles = findResourceTiles(map, tx, ty, res, Math.ceil(workers.length / 2), regionOf(game, workers[0]));
     if (!tiles.length) return [];
     workers.forEach((u, i) => {
       const tile = tiles[i % tiles.length];
@@ -167,7 +176,7 @@
     const cap = CFG.GATHER.carry;
 
     if (t.phase === 'toResource') {
-      if (!isHarvestable(map, t.x, t.y, t.res)) { retarget(game, u); return; }
+      if (!isHarvestable(map, t.x, t.y, t.res, regionOf(game, u))) { retarget(game, u); return; }
       // Na miejscu: stoi przy kafelku albo idzie już tylko do ostatniego punktu obok niego
       if (nearTile(u, t.x, t.y) && u.path.length <= 1) {
         u.path = [];
@@ -212,7 +221,7 @@
         u.carry = null;
         u.path = [];
         if (t.x === null) { u.task = null; return; }
-        if (isHarvestable(map, t.x, t.y, t.res)) goToResource(game, u); else retarget(game, u);
+        if (isHarvestable(map, t.x, t.y, t.res, regionOf(game, u))) goToResource(game, u); else retarget(game, u);
         return;
       }
       if (!u.moving) {

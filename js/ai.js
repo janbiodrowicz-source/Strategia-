@@ -20,8 +20,8 @@
   const PLAN = {
     forest: {
       worker: 'gatherer',
-      ratio: { wood: 0.55, stone: 0.15, gold: 0.3 },
-      military: ['nest', 'pool', 'nest'],
+      ratio: { wood: 0.6, stone: 0.2, gold: 0.2 },
+      military: ['nest', 'nest', 'pool'],
       mix: { archer: 4, warden: 2, dryad: 1, scout: 1 },
     },
     iron: {
@@ -61,15 +61,16 @@
     return ['wood', 'stone', 'gold'].every((k) => res[k] - (cost[k] || 0) >= ((reserve && reserve[k]) || 0));
   }
 
-  // Najbliższy kafelek surowca, do którego da się podejść (BFS bez limitu odległości)
-  function nearestResource(map, sx, sy, res) {
+  // Najbliższy kafelek surowca, do którego da się podejść z obszaru region (BFS bez limitu odległości)
+  function nearestResource(map, sx, sy, res, region) {
     const seen = new Uint8Array(map.tiles.length);
     const queue = [[sx, sy]];
     seen[map.idx(sx, sy)] = 1;
     for (let qi = 0; qi < queue.length; qi++) {
       const [x, y] = queue[qi];
       if (map.resourceAt(x, y) === res && map.amount[map.idx(x, y)] > 0 &&
-          DIRS4.some(([dx, dy]) => map.isWalkable(x + dx, y + dy))) return { x, y };
+          DIRS4.some(([dx, dy]) => map.isWalkable(x + dx, y + dy) &&
+                                   (region < 0 || map.regionAt(x + dx, y + dy) === region))) return { x, y };
       for (const [dx, dy] of DIRS4) {
         const nx = x + dx, ny = y + dy;
         if (!map.inBounds(nx, ny) || seen[map.idx(nx, ny)]) continue;
@@ -124,7 +125,7 @@
       const order = Object.keys(plan.ratio).sort((a, b) =>
         (counts[a] - plan.ratio[a] * total) - (counts[b] - plan.ratio[b] * total));
       for (const res of order) {
-        const tile = nearestResource(game.map, Math.floor(c.x), Math.floor(c.y), res);
+        const tile = nearestResource(game.map, Math.floor(c.x), Math.floor(c.y), res, game.map.regionAt(u.tileX, u.tileY));
         if (tile && Gra.economy.commandGather(game, [u], tile.x, tile.y).length) { counts[res]++; break; }
       }
     }
@@ -141,7 +142,7 @@
     const u = workers.find((w) => w.task && w.task.kind === 'gather' && w.task.res === rich && !w.carry);
     if (!u) return;
     const c = B().center(base);
-    const tile = nearestResource(game.map, Math.floor(c.x), Math.floor(c.y), poor);
+    const tile = nearestResource(game.map, Math.floor(c.x), Math.floor(c.y), poor, game.map.regionAt(u.tileX, u.tileY));
     if (tile) Gra.economy.commandGather(game, [u], tile.x, tile.y);
     ai.rebalanceAt = game.time + 8;
   }
@@ -234,12 +235,14 @@
     return best;
   }
 
+  // Fala maszeruje tempem najwolniejszej jednostki — inaczej szybkie docierają same i giną na raty
   function sendToAttack(game, units) {
+    const pace = Math.min(...units.map((u) => u.def.speed));
     for (const u of units) {
       const target = nearestPlayerBuilding(game, u.tileX, u.tileY);
       if (!target) return;
       const c = B().center(target);
-      Gra.combat.commandAttackMove(game, [u], Math.floor(c.x), Math.floor(c.y));
+      Gra.combat.commandAttackMove(game, [u], Math.floor(c.x), Math.floor(c.y), pace);
     }
   }
 

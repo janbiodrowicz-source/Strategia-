@@ -42,6 +42,7 @@
       this.tiles = new Uint8Array(size * size);
       this.bases = []; // środki baz {x, y} w kafelkach, [gracz, AI]
       this.amount = new Float32Array(size * size); // ile surowca zostało na kafelku
+      this.regions = null; // obszary spójności (liczone leniwie, patrz regionAt)
       this.generate();
       const amounts = Gra.CONFIG.GATHER.amount;
       for (let i = 0; i < this.tiles.length; i++) {
@@ -53,8 +54,43 @@
     idx(x, y) { return y * this.w + x; }
     inBounds(x, y) { return x >= 0 && y >= 0 && x < this.w && y < this.h; }
     get(x, y) { return this.inBounds(x, y) ? this.tiles[this.idx(x, y)] : T.WATER; }
-    set(x, y, t) { if (this.inBounds(x, y)) this.tiles[this.idx(x, y)] = t; }
+    set(x, y, t) {
+      if (!this.inBounds(x, y)) return;
+      const i = this.idx(x, y);
+      if ((this.tiles[i] === T.GRASS) !== (t === T.GRASS)) this.regions = null; // zmiana przejezdności
+      this.tiles[i] = t;
+    }
     isWalkable(x, y) { return this.inBounds(x, y) && this.tiles[this.idx(x, y)] === T.GRASS; }
+
+    // Numer obszaru, po którym da się przejść (ten sam numer = jest droga), -1 gdy kafelek nieprzejezdny.
+    // A* nie ścina narożników, więc spójność 4-kierunkowa dokładnie odpowiada osiągalności.
+    regionAt(x, y) {
+      if (!this.isWalkable(x, y)) return -1;
+      if (!this.regions) this.labelRegions();
+      return this.regions[this.idx(x, y)];
+    }
+
+    labelRegions() {
+      const r = this.regions = new Int32Array(this.tiles.length).fill(-1);
+      const queue = new Int32Array(this.tiles.length);
+      let next = 0;
+      for (let s = 0; s < r.length; s++) {
+        if (r[s] !== -1 || this.tiles[s] !== T.GRASS) continue;
+        let head = 0, tail = 0;
+        queue[tail++] = s;
+        r[s] = next;
+        while (head < tail) {
+          const i = queue[head++], x = i % this.w, y = (i / this.w) | 0;
+          for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+            const nx = x + dx, ny = y + dy;
+            if (!this.isWalkable(nx, ny)) continue;
+            const ni = this.idx(nx, ny);
+            if (r[ni] === -1) { r[ni] = next; queue[tail++] = ni; }
+          }
+        }
+        next++;
+      }
+    }
     resourceAt(x, y) { return Gra.RESOURCE_OF_TILE[this.get(x, y)] || null; }
 
     fillCircle(cx, cy, r, t, onlyOn) {
@@ -145,11 +181,12 @@
       }
     }
 
-    // Najbliższy kafelek po którym da się chodzić (BFS od zadanego)
-    nearestWalkable(x, y) {
+    // Najbliższy kafelek po którym da się chodzić (BFS od zadanego); region >= 0 — tylko z tego obszaru
+    nearestWalkable(x, y, region = -1) {
       x = Math.max(0, Math.min(this.w - 1, x));
       y = Math.max(0, Math.min(this.h - 1, y));
-      if (this.isWalkable(x, y)) return { x, y };
+      const ok = (cx, cy) => this.isWalkable(cx, cy) && (region < 0 || this.regionAt(cx, cy) === region);
+      if (ok(x, y)) return { x, y };
       const seen = new Uint8Array(this.tiles.length);
       const queue = [[x, y]];
       seen[this.idx(x, y)] = 1;
@@ -158,7 +195,7 @@
         for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
           const nx = cx + dx, ny = cy + dy;
           if (!this.inBounds(nx, ny) || seen[this.idx(nx, ny)]) continue;
-          if (this.isWalkable(nx, ny)) return { x: nx, y: ny };
+          if (ok(nx, ny)) return { x: nx, y: ny };
           seen[this.idx(nx, ny)] = 1;
           queue.push([nx, ny]);
         }

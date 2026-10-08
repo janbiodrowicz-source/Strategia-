@@ -46,9 +46,11 @@
     return Math.max(dx, dy) + (SQRT2 - 1) * Math.min(dx, dy);
   }
 
-  // Zwraca listę kafelków [{x,y}] od startu (bez niego) do celu, albo [] gdy brak drogi
+  // Zwraca listę kafelków [{x,y}] od startu (bez niego) do celu, albo [] gdy brak drogi.
+  // Cel nieosiągalny (np. polanka w środku lasu) zamieniamy na najbliższy osiągalny kafelek —
+  // dzięki temu A* nigdy nie przeszukuje całej mapy na próżno.
   function findPath(map, sx, sy, tx, ty) {
-    const goal = map.nearestWalkable(tx, ty);
+    const goal = map.nearestWalkable(tx, ty, map.regionAt(sx, sy));
     if (!goal) return [];
     if (goal.x === sx && goal.y === sy) return [];
 

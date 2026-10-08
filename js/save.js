@@ -42,6 +42,7 @@
   function applyMap(map, m) {
     map.tiles.set(m.tiles);
     map.amount.set(m.amount);
+    map.regions = null;
   }
 
   function restore(game, s) {

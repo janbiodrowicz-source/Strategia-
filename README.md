@@ -4,7 +4,7 @@ Strategia czasu rzeczywistego w stylu klasycznych RTS-ów: dwie rasy, trzy surow
 
 ## Uruchomienie
 
-Aktualna wersja: **v0.9** (numer w menu startowym, stała `VERSION` w `js/config.js`).
+Aktualna wersja: **v0.10** (numer w menu startowym, stała `VERSION` w `js/config.js`).
 
 ▶️ **Zagraj online:** https://janbiodrowicz-source.github.io/Strategia-/ (GitHub Pages z gałęzi `main`)
 
@@ -88,6 +88,8 @@ Albo lokalnie: otwórz `index.html` w przeglądarce. Nie trzeba niczego instalow
 
 Robotnik niesie 10 jednostek surowca, zbiera 2/s × mnożnik rasy i sam kursuje między złożem a bazą.
 Wyczerpany kafelek znika z mapy, a robotnik przechodzi na najbliższy kafelek tego samego surowca.
+Robotnicy wybierają tylko surowce, do których da się dojść (polanki zamknięte w lesie są pomijane).
+Rozkaz ruchu w miejsce nieosiągalne prowadzi jednostki jak najbliżej celu.
 
 | Robotnik | Drewno | Kamień | Złoto |
 |---|---|---|---|
@@ -157,6 +159,7 @@ bada technologie, broni bazy przed intruzami, a po okresie ochronnym wysyła fal
 | 🟡 Średni | 100% | 10–14 | 3 min | 10 | 2 | 1 | tak |
 | 🔴 Trudny | 130% | 15–20 | 2 min | 13 | 3 | 2 | tak |
 
+Fala maszeruje tempem najwolniejszej jednostki, żeby dotrzeć razem, a w walce każdy rusza pełną prędkością.
 Fala, której AI nie zdążyło skompletować, rusza najpóźniej 90 s po czasie, jeśli ma przynajmniej minimum jednostek.
 Górny pasek pokazuje czas do następnej fali (🌊). Ustawienia planu AI: `js/config.js` → `DIFFICULTY`, proporcje ras: `js/ai.js` → `PLAN`.
 
@@ -172,6 +175,27 @@ node tools/build-balans.js
 Skrypt przepisze CSV do `js/balans-data.js`. Jest to potrzebne, bo przeglądarka nie pozwala
 wczytać pliku CSV z dysku, gdy gra jest otwierana bez serwera.
 
+### Sprawdzanie balansu (AI kontra AI)
+
+```
+node tools/symulacja.js              # wszystkie rundy, poziom średni, 6 partii na stronę
+node tools/symulacja.js 1 hard 3     # runda 1, trudny, 3 partie na stronę
+```
+
+Skrypt rozgrywa partie, w których obie strony prowadzi AI, i liczy zwycięstwa ras.
+Wypisuje też błędy JS i podejrzane stany (NaN, ujemne surowce). Wymaga Node i Playwright.
+Na poziomie łatwym i trudnym wynik jest przekrzywiony, bo mnożnik ekonomii dostaje tylko AI-przeciwnik.
+
+Wynik po zmianach z v0.10 (poziom średni, 36 partii): runda 1 — Puszcza 5 : 7 Zakon,
+runda 2 — 5 : 7, runda 3 — 11 : 1. Przed nimi Zakon wygrywał 28 z 29 partii.
+
+Zmiany balansu w v0.10 (wobec pierwotnego CSV):
+- Strażnik Korzeni: koszt 120🪵 80🪨 → 100🪵 60🪨, HP 220 → 300, atak 14 → 16
+  (przegrywał każdy pojedynek z Młotem)
+- Dryada: koszt złota 120 → 80
+- AI Puszczy: drugie Gniazdo Łuczników przed Sadzawką, robotnicy 60% drewno / 20% kamień / 20% złoto
+  (wcześniej armia stała, bo brakowało kamienia na Strażników)
+
 ## Struktura
 
 ```
@@ -179,6 +203,7 @@ index.html        menu + HUD
 css/style.css
 balans_startowy.csv  dane balansu (źródło prawdy)
 tools/build-balans.js  CSV → js/balans-data.js
+tools/symulacja.js     turniej AI kontra AI (balans, błędy)
 js/config.js      ustawienia, rasy, rundy, poziomy AI
 js/balans.js      parser CSV, nakłada balans na konfigurację
 js/map.js         generowanie mapy

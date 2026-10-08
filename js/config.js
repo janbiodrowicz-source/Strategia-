@@ -3,7 +3,7 @@
 window.Gra = window.Gra || {};
 
 Gra.CONFIG = {
-  VERSION: 'v0.9', // numer wersji pokazywany w menu — podbijaj przy każdej publikacji
+  VERSION: 'v0.10', // numer wersji pokazywany w menu — podbijaj przy każdej publikacji
   TILE: 32, // rozmiar kafelka w pikselach
 
   ROUNDS: {
