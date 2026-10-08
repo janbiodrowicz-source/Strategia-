@@ -76,6 +76,14 @@ Albo lokalnie: otwórz `index.html` w przeglądarce. Nie trzeba niczego instalow
 - [x] Walka: wręcz i dystans, wieże, Szturm, leczenie Dryady, podpalenie Kapłana Ognia, technologie, zwycięstwo/porażka
 - [x] AI przeciwnika: ekonomia, budowa, armia, technologie, obrona bazy i fale ataku
 
+## Zapis gry
+
+- Gra zapisuje się w przeglądarce co 30 s, przy przełączeniu karty i po kliknięciu 💾 w górnym pasku.
+- W menu startowym pojawia się przycisk **📂 Wczytaj zapis** (tylko gdy zapis istnieje).
+- Zapis jest jeden, na tej przeglądarce i tym urządzeniu. Wyczyszczenie danych witryny go usuwa.
+- Po zakończeniu partii zapis jest kasowany.
+- Trasy jednostek nie są zapisywane: po wczytaniu jednostki stoją w miejscu.
+
 ## Zbieranie surowców
 
 Robotnik niesie 10 jednostek surowca, zbiera 2/s × mnożnik rasy i sam kursuje między złożem a bazą.
@@ -180,6 +188,7 @@ js/economy.js     zbieranie i odnoszenie surowców
 js/buildings.js   stawianie, budowa, produkcja, kolejka, badania
 js/combat.js      walka, wieże, leczenie, podpalenie, koniec gry
 js/ai.js          AI przeciwnika
+js/save.js        zapis partii w localStorage
 js/fog.js         mgła wojny
 js/render.js      rysowanie mapy, jednostek, minimapy
 js/input.js       mysz, klawiatura, kamera

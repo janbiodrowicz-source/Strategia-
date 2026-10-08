@@ -142,6 +142,29 @@ fieldset label { display: block; padding: 3px 0; cursor: pointer; }
 #actions button.disabled { opacity: 0.45; }
 #actions button.on { border-color: #4cd1ff; }
 
+#load-btn {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  background: #3a2f1e;
+  color: #f1e6c8;
+  border: 1px solid #8a6d3b;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#load-btn[hidden] { display: none; }
+#save-btn {
+  pointer-events: auto;
+  background: rgba(20, 16, 10, 0.85);
+  color: #eee;
+  border: 1px solid #5a4a2e;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font: inherit;
+  cursor: pointer;
+}
+
 #toast {
   position: fixed;
   top: 44px;

@@ -22,11 +22,12 @@
     const canvas = document.getElementById('game');
     const minimap = document.getElementById('minimap');
 
+    if (opts.snapshot) Gra.save.applyMap(map, opts.snapshot.map);
     const game = Gra.game = {
       canvas, minimap,
       ctx: canvas.getContext('2d'),
       miniCtx: minimap.getContext('2d'),
-      map, round, seed,
+      map, round, seed, roundNo: opts.round, difficultyKey: opts.difficulty,
       difficulty: CFG.DIFFICULTY[opts.difficulty],
       playerRace: opts.race,
       aiRace: opts.race === 'forest' ? 'iron' : 'forest',
@@ -51,12 +52,15 @@
       minimapImage: Gra.render.buildMinimapImage(map),
     };
 
-    map.bases.forEach((base, owner) => {
-      B().create(game, owner, 'base', base.x - 1, base.y - 1, 'done');
-      spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
-    });
-
     game.ai = Gra.ai.create(game);
+    if (opts.snapshot) {
+      Gra.save.restore(game, opts.snapshot);
+    } else {
+      map.bases.forEach((base, owner) => {
+        B().create(game, owner, 'base', base.x - 1, base.y - 1, 'done');
+        spawnAround(game, owner === 0 ? game.playerRace : game.aiRace, owner, base);
+      });
+    }
 
     game.populationCap = (owner = 0) => B().populationCap(game, owner);
     game.populationUsed = (owner = 0) => B().populationUsed(game, owner);
@@ -186,6 +190,7 @@
     };
 
     game.onGameOver = (won) => {
+      Gra.save.clear();
       const el = document.getElementById('endscreen');
       el.querySelector('h2').textContent = won ? '🏆 Zwycięstwo!' : '💀 Porażka';
       el.querySelector('p').textContent = won
@@ -204,8 +209,12 @@
       toastTimer = setTimeout(() => { el.hidden = true; }, 2500);
     };
 
+    document.getElementById('save-btn').addEventListener('click', () => {
+      game.toast(Gra.save.write(game) ? '💾 Zapisano w przeglądarce' : '⚠️ Nie udało się zapisać');
+    });
     resize(game);
     window.addEventListener('resize', () => resize(game));
+    document.addEventListener('visibilitychange', () => { if (document.hidden) Gra.save.write(game); });
     Gra.input.attach(game);
     attachPanel(game);
     const base = map.bases[0];
@@ -236,12 +245,13 @@
       }
     };
 
-    let last = performance.now(), hudTimer = 0;
+    let last = performance.now(), hudTimer = 0, autosaveT = 0;
     function frame(now) {
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
       Gra.input.updateCamera(game, dt);
       if (!game.paused) game.step(dt);
+      if ((autosaveT += dt) >= 30) { autosaveT = 0; Gra.save.write(game); }
       Gra.render.draw(game.ctx, game);
       if (game.over) return; // zamrażamy grę po zwycięstwie / porażce
       hudTimer += dt;
@@ -446,5 +456,17 @@
   document.getElementById('start-btn').addEventListener('click', () => {
     const val = (name) => document.querySelector(`input[name="${name}"]:checked`).value;
     startGame({ race: val('race'), round: Number(val('round')), difficulty: val('difficulty') });
+  });
+
+  // Przycisk „Wczytaj zapis” pojawia się tylko, gdy zapis istnieje
+  const loadBtn = document.getElementById('load-btn');
+  const saved = Gra.save.read();
+  if (saved) {
+    loadBtn.hidden = false;
+    loadBtn.textContent = `📂 Wczytaj zapis: ${CFG.RACES[saved.race].name}, ${CFG.ROUNDS[saved.round].name}, ${fmtTime(saved.time)}`;
+  }
+  loadBtn.addEventListener('click', () => {
+    const s = Gra.save.read();
+    if (s) startGame({ race: s.race, round: s.round, difficulty: s.difficulty, seed: s.seed, snapshot: s });
   });
 })();
