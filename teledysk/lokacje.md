@@ -36,12 +36,14 @@ DOM: a wide modern single-storey suburban house, long side facing the street, lo
 ![Kawalerka](referencje/kawalerka.jpg)
 
 ```text
-KAWALERKA: a small narrow studio room in an old Polish tenement, seen from the white double entrance door. High ceiling with an ornate plaster cornice, warm-white walls, worn honey-oak herringbone parquet, a woven jute rug. On the far wall, one tall old double-casement window with white wooden frames looking at the pale ochre tenement facade across the street, a white radiator under it, a small round light-oak table with two chairs. Along the left wall, a sage-green fabric sofa bed with a folded oatmeal knit blanket and a narrow white wardrobe behind it. Along the right wall, a long low oak bookshelf packed with books and a tall monstera in a terracotta pot on the floor in the right corner.
+KAWALERKA: a small narrow studio room in an old Polish tenement, seen from the white double entrance door. High ceiling with an ornate plaster cornice, warm-white walls, worn honey-oak herringbone parquet, a woven jute rug. On the far wall, one tall old double-casement window with white wooden frames looking at the pale ochre tenement facade across the street, a white radiator under it, a small round light-oak table with two chairs. Along the left wall, a compact two-seater mid-century sofa bed in deep bottle-green velvet on slim tapered oak legs, a narrow white wardrobe behind it. Along the right wall, a long low oak bookshelf packed with books and a tall monstera in a terracotta pot on the floor in the right corner.
 ```
+
+**Wersja z 9.10:** nowa referencja z butelkowo-zieloną rozkładaną kanapą mid-century (edycja NBP, pokój zachowany 1:1). Stara wersja z szałwiową wersalką i kocem: `referencje/kawalerka-wersalka.jpg`.
 
 **Uwaga:** światło na referencji jest przygaszone i chłodnawe. W ujęciach dziennych możemy dodać słońce wpadające przez okno. Kontrast między ciemną, ciasną kawalerką a jasnym domem jest celowy.
 
-## KAWALERKA: nowa kanapa (w toku)
+## KAWALERKA: nowa kanapa ✅ (zrobione 9.10)
 
 Cel: w tym samym kadrze stara kanapa szałwiowa zamieniona na kompaktową dwuosobową sofę mid-century z butelkowo-zielonego weluru na dębowych nóżkach.
 
@@ -85,6 +87,8 @@ ONLY CHANGE: the sofa. 100% identical otherwise.
 ```
 
 **Wynik 1 (9.10):** pokój przetrwał. Drzwi, okno, szafa, stolik, regał i monstera są w tych samych miejscach, a kanapa jest podmieniona. Dwie poprawki: koc ma zniknąć (zmiana w prompcie powyżej), a wyjście było w 768p, więc generujemy ponownie w 2k lub 4k.
+
+**Wynik 2 (9.10): ✅ zaakceptowany.** Bez koca, 2752×1536, pokój zachowany. Zapisany jako `referencje/kawalerka.jpg`.
 
 Jeśli NBP dalej rusza pokój, jedna zmiana na iterację: najpierw dopisz na początku „Keep the exact same composition and camera as image 1.”. Potem spróbuj **GPT Image 2** (ostatnia deska ratunku, ale lokalnie jest mocny) z tym samym promptem i obiema referencjami.
 
