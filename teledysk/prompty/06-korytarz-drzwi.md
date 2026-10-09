@@ -42,7 +42,7 @@ ACTION TIMING
 
 PERFORMANCE
 @TOMEK treats the key as something bigger than a key: unhurried, careful, almost ceremonial. When the lock clicks he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm at the same time, a joke he does not need to say. Slow amused blinks, steady eye contact with her.
-@ANIA is seen only from behind: her shoulders are a little raised with held breath and drop on the laugh. Her hair moves with the small motion. No words from either.
+@ANIA is seen only from behind: her shoulders are a little raised with held breath and drop on the laugh. Her hair moves with the small motion. Neither of them speaks; @TOMEK's lips stay closed through the smile.
 
 PHYSICS
 The key goes into the lock with a slight resistance and turns with a firm mechanical click. The heavy old door swings slowly on stiff hinges. The guitar case on his back shifts with his turn. Dust motes float in the line of daylight from the door gap.

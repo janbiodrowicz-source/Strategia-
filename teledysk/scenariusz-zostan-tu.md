@@ -3,7 +3,7 @@
 **Utwór:** „Zostań tu” (Google), 3:02, około 128 BPM. Jeden takt to około 1,875 s, 2 takty około 3,75 s, 4 takty około 7,5 s.
 **Postacie:** @ANIA, @TOMEK (zob. `postacie.md`) + **SZCZENIAK** (złoty kundelek z targu).
 **Zasada montażu:** ujęcia 7,5 s (4 takty) generujemy jako 8 s, a ujęcia 3,75 s (2 takty) jako 4 s. Potem przycinamy je dokładnie do taktu, żeby cięcia trafiały w beat. Czasy w tabelach są przybliżone, w montażu dociągnij je do najbliższego uderzenia.
-**Dźwięk:** w teledysku gra piosenka, więc w nowych promptach nie ma dialogów, a ruch ust bez dźwięku jest OK. W gotowych scenach z dialogiem wycisz oryginalne audio.
+**Dźwięk:** w teledysku gra piosenka. **Bohaterowie nic nie mówią**: w promptach nie ma kwestii, usta są zamknięte albo tylko śmiech i oddech. Historię opowiadamy grą aktorską i tekstem piosenki. W gotowych klipach z dialogiem (01, 02, 03) wyciszamy audio, a w montażu wybieramy fragmenty z jak najmniejszym ruchem ust. Jeśli wyglądają jak źle zsynchronizowany śpiew, generujemy je od nowa bez kwestii.
 
 ## Tekst piosenki z czasami
 
@@ -21,7 +21,7 @@
 
 ## Historia w jednym zdaniu
 
-Ania i Tomek mieszkają w ciasnej kawalerce w kamienicy (30 m²). Gdy Ania przynosi do domu psa, 30 m² przestaje wystarczać i para przeprowadza się do domu z ogrodem na przedmieściach. Słowa Tomka „Kochanie… mamy trzydzieści metrów” są zawiasem całej historii, a w dropie zaczyna się przeprowadzka.
+Ania i Tomek mieszkają w ciasnej kawalerce w kamienicy (30 m²). Gdy Ania przynosi do domu psa, 30 m² przestaje wystarczać i para przeprowadza się do domu z ogrodem na przedmieściach. Zawiasem całej historii jest reakcja Tomka na psa: zamarł z kubkami w powietrzu, a w oczach ma „mamy trzydzieści metrów”. W dropie zaczyna się przeprowadzka.
 
 Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kawalerki, a na końcu Tomek wkłada jej do dłoni klucz do domu.
 
@@ -59,7 +59,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 9 | 1:00–1:03,75 | ✅ **03-współlokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
 | 10 | 1:03,75–1:07,5 | ✅ **03-współlokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
 | 11 | 1:07,5–1:11,25 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem | 18°, makro-portret |
-| 12 | **1:11,25–1:15** | ✅ **03-współlokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, bezgłośne „mamy trzydzieści metrów”… | 18° |
+| 12 | **1:11,25–1:15** | ✅ **03-współlokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
 
 ---
 
