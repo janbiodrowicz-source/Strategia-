@@ -5,6 +5,20 @@
 **Zasada montażu:** ujęcia 7,5 s (4 takty) generujemy jako 8 s, a ujęcia 3,75 s (2 takty) jako 4 s. Potem przycinamy je dokładnie do taktu, żeby cięcia trafiały w beat. Czasy w tabelach są przybliżone, w montażu dociągnij je do najbliższego uderzenia.
 **Dźwięk:** w teledysku gra piosenka, więc w nowych promptach nie ma dialogów, a ruch ust bez dźwięku jest OK. W gotowych scenach z dialogiem wycisz oryginalne audio.
 
+## Tekst piosenki z czasami
+
+| Czas | Tekst | Ujęcie pod tekstem |
+|---|---|---|
+| 0:15–0:20 | „klucz w mojej dłoni, drżą mi ręce” | 3 (klip 01): Ania przesuwa klucz po stole, nerwowe palce |
+| 0:23–0:27 | „nowe drzwi i świat za nimi” | 4: Tomek otwiera kluczem drzwi kawalerki |
+| 0:30–0:35 | „nie pytam, co będzie dalej” | 5: wnosi pudło i gitarę bez zastanowienia |
+| 0:38–0:43 | „wiem, że chcę tu być z tobą” | 6: wieczór, jedzą na podłodze |
+| 0:45–0:49, 0:53–0:55, 1:00–1:03, 1:08–1:10 | „o o o o” | 7–12: park, plakat ADOPCJE, targ, pauza |
+| 1:15–1:45 | refren 1: „zostań tu, zostań tu ze mną, niech ten dom będzie nasz, światło w oknie, cicho w sercu, tańczymy aż do rana. Hej!” | 13–20: drop i przeprowadzka. „Hej!” w 1:45 = cięcie na ujęcie 21 (klucz do domu) |
+| 2:15–2:44 | refren 2: to samo, bez „Hej” | 25–32: girlanda, taniec, dom nocą. „tańczymy aż do rana” = taniec |
+
+**Zasada:** cięcie na słowo kluczowe, a nie tylko na beat. Gdy słowo pada w środku ujęcia, akcja w prompcie ma trafić na tę sekundę.
+
 ## Historia w jednym zdaniu
 
 Ania i Tomek mieszkają w ciasnej kawalerce w kamienicy (30 m²). Gdy Ania przynosi do domu psa, 30 m² przestaje wystarczać i para przeprowadza się do domu z ogrodem na przedmieściach. Słowa Tomka „Kochanie… mamy trzydzieści metrów” są zawiasem całej historii, a w dropie zaczyna się przeprowadzka.
