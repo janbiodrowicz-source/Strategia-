@@ -1,7 +1,7 @@
 # 05: Ania z kluczem o świcie (ujęcie 2, 0:07,5–0:15)
 
 **Wynik:** ⏳ do wygenerowania.
-**Technika:** jedno ujęcie, teleobiektyw 18°, statyczna kamera, Ania przy oknie kuchni, w kadrze naraz dłonie z kluczem i twarz. Bez dialogu (gra piosenka). Generujemy 10 s, w montażu tniemy do 7,5 s.
+**Technika:** jedno ujęcie, teleobiektyw 18°, statyczna kamera, Ania przy oknie kuchni, w kadrze naraz dłonie z kluczem i twarz. Bez dialogu (gra piosenka). Generujemy **8 s**, w montażu tniemy do 7,5 s.
 **Referencje:** `@ANIA` = `referencje/ania.png`. Opcjonalnie klatka kuchni z klipu 01 jako lokacja.
 **Ciągłość:**
 - z ujęciem 1: to jest to zapalone okno. Kremowe firanki i mała lampka z białym abażurem, na zewnątrz niebieski świt.
@@ -33,10 +33,10 @@ CAMERA
 Camera locked on a tripod at her eye level, static. Medium close-up from the chest up: her face holds the right third of the frame, her hands with the key sit in the lower center. Rule of thirds.
 
 ACTION TIMING
-0:00 to 0:03: @ANIA turns the key slowly between her thumb and fingers, eyes fixed on it.
-0:03 to 0:05: Her eyes flick up toward screen-left, toward the room where he sleeps, a quick blink burst, then back down to the key.
-0:05 to 0:07: She closes her fingers around the key and presses her closed fist lightly against her chin.
-0:07 to 0:10: She lets out a long slow breath through slightly parted lips; her shoulders drop; a small hopeful half-smile appears and stays.
+0:00 to 0:02: @ANIA turns the key slowly between her thumb and fingers, eyes fixed on it.
+0:02 to 0:04: Her eyes flick up toward screen-left, toward the room where he sleeps, a quick blink burst, then back down to the key.
+0:04 to 0:05.5: She closes her fingers around the key and presses her closed fist lightly against her chin.
+0:05.5 to 0:08: She lets out a long slow breath through slightly parted lips; her shoulders drop; a small hopeful half-smile appears and stays.
 
 PERFORMANCE
 @ANIA is a woman who acts first and worries later, and now the worrying has caught up with her. Her posture is a little too still, weight on one leg. The key is her fidget: thumb rubbing its teeth, turning it over and back. Her eyes are alive and wet, catchlights from the window, quick blink bursts each time the thought of him arrives. The exhale is the decision: tension leaves her shoulders first, then the half-smile comes, nervous and certain at the same time. No words.
@@ -56,5 +56,5 @@ Exactly one person in frame. The key stays one small brass key on a ring, the sa
 
 **Na co patrzeć:**
 - Klucz ma być jeden, mały i mosiężny, i nie może zmieniać rozmiaru.
-- Spojrzenie w lewo w 0:03 to Tomek, który jeszcze śpi. Jeśli model obróci całą głowę, dopisz „eyes move, head stays still”.
+- Spojrzenie w lewo w 0:02 to Tomek, który jeszcze śpi. Jeśli model obróci całą głowę, dopisz „eyes move, head stays still”.
 - Tło ma być rozmyte (18°). Jeśli wyjdzie ostre jak w klipie 02, wzmacniamy rozmycie.

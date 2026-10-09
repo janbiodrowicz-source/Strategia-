@@ -11,7 +11,7 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 
 ## Nasze zasady (ustalone w praktyce)
 
-1. **Flow: maksymalnie 10 sekund na generację.** Każdy prompt rozpisujemy na 10 s.
+1. **Długość generacji = długość w montażu + mały zapas.** Ujęcie 7,5 s generujemy jako **8 s**, ujęcie 3,75 s jako **4 s**, a dwa ujęcia po 3,75 s z jednej sceny jako 8 s przecięte na pół. Prompt (ACTION TIMING) rozpisujemy na tę długość, a kluczowy moment musi się skończyć przed cięciem. Maksimum to 10 s (Flow, Omni).
 2. **Dialogi zawsze po polsku.** Opisy głosu (voice prompt) piszemy po angielsku, bo opisują brzmienie, nie język.
 3. **Napisy w kadrze od razu w prompcie.** Każdy szyld i baner ma dokładny tekst w cudzysłowie oraz font, wagę i kolor. Pozostałe szyldy opisujemy jako „only painted pictures, no lettering”. Bez tego model pisze bełkot.
 4. **Kwestia zaczyna się od razu:** „line begins within the first 0.3 seconds of the shot”. Inaczej model ją utnie.

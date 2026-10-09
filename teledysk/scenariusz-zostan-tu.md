@@ -2,7 +2,7 @@
 
 **Utwór:** „Zostań tu” (Google), 3:02, około 128 BPM. Jeden takt to około 1,875 s, 2 takty około 3,75 s, 4 takty około 7,5 s.
 **Postacie:** @ANIA, @TOMEK (zob. `postacie.md`) + **SZCZENIAK** (złoty kundelek z targu).
-**Zasada montażu:** każda generacja we Flow trwa maksymalnie 10 s. Przycinamy ją do 7,5 s (4 takty) albo 3,75 s (2 takty), żeby cięcia trafiały w beat. Czasy w tabelach są przybliżone, w montażu dociągnij je do najbliższego uderzenia.
+**Zasada montażu:** ujęcia 7,5 s (4 takty) generujemy jako 8 s, a ujęcia 3,75 s (2 takty) jako 4 s. Potem przycinamy je dokładnie do taktu, żeby cięcia trafiały w beat. Czasy w tabelach są przybliżone, w montażu dociągnij je do najbliższego uderzenia.
 **Dźwięk:** w teledysku gra piosenka, więc w nowych promptach nie ma dialogów, a ruch ust bez dźwięku jest OK. W gotowych scenach z dialogiem wycisz oryginalne audio.
 
 ## Historia w jednym zdaniu
