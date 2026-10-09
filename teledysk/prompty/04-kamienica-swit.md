@@ -1,7 +1,9 @@
 # 04: Kamienica o świcie (ujęcie 1, 0:00–0:07,5)
 
 **Wynik 1 (9.10):** ❌ okno. Model otwierał skrzydła okna do środka, wywiewał firankę na zewnątrz i wstawiał dziwną geometrię w środku. Winowajca: linijki o firance poruszanej przeciągiem. Poprawka (jedna zmiana): okno zamknięte, firanka nieruchoma. Najbliżej celu był wariant z zamkniętym oknem i firankami po bokach.
-**Wynik 2:** ⏳ do wygenerowania.
+**Wynik 2 (9.10):** prawie gotowe. Studnia, rowerek, drzewko, gołębie i jedno ciepłe okno z lampką wyszły świetnie, ale okno było otwarte przez cały film. Model wideo nie słucha w tej sprawie tekstu.
+**Wynik 3 (9.10):** ✅ **działa.** Pierwszą klatkę z wyniku 2 (`referencje/ujecie01-start-otwarte.png`) poprawiliśmy w NBP (zamknięte okno) i daliśmy do Omni 1.1 Flash jako klatkę startową, z tym samym promptem.
+**Lekcja:** gdy model uparcie zmienia stan obiektu (okno, drzwi), nie walczymy tekstem. Poprawiamy klatkę startową w NBP i animujemy od niej.
 **Technika:** jedno ujęcie bez postaci, szeroko 84°, kamera nisko na podwórku patrzy w górę, powolny najazd na jedyne zapalone okno. Generujemy 10 s, w montażu tniemy do 7,5 s (4 takty).
 **Ciągłość:** fasady są w tym samym bladym ochrowym tynku, który widać za oknem kawalerki (`referencje/kawalerka.jpg`), a okno ma takie same białe drewniane ramy.
 

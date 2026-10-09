@@ -19,8 +19,8 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 1 | 0:00–0:07,5 | ✏️ **04-kamienica-swit** | Świt, podwórko-studnia starej kamienicy. W jednym oknie na 4. piętrze pali się ciepłe światło | 84°, statyczna, lekki najazd |
-| 2 | 0:07,5–0:15 | 🆕 | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
+| 1 | 0:00–0:07,5 | ✅ **04-kamienica-swit** | Świt, podwórko-studnia starej kamienicy. W jednym oknie na 4. piętrze pali się ciepłe światło | 84°, statyczna, lekki najazd |
+| 2 | 0:07,5–0:15 | ✏️ **05-ania-klucz-swit** | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
 
 ### Zwrotka 1 (0:15–0:45). Kick, wciąż spokojnie
 
