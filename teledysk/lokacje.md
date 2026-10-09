@@ -99,3 +99,17 @@ Tylko jeśli kroki 1–2 zawiodą. Parametry w UI: 16:9, 2k, referencja: `kawale
 ```text
 Eye-level straight-on wide shot from the open white double door of a small narrow studio room in an old Polish tenement, the two door leaves framing both edges of the frame, one-point perspective toward the window. The room is about 3 metres wide and 4.5 metres deep with a 3.2-metre ceiling and an ornate plaster cornice, warm-white walls, worn honey-oak herringbone parquet, a woven jute rug. On the far wall one tall old double-casement window with white wooden frames looking at a pale ochre tenement facade, a white radiator under it, a small round light-oak table with two chairs. Along the left wall a compact two-seater mid-century sofa in deep bottle-green velvet on slim tapered oak legs, a folded oatmeal knit blanket on the seat, a narrow white wardrobe behind it. Along the right wall a long low oak bookshelf packed with books and a tall monstera in a terracotta pot in the corner. Soft overcast daylight from the window, gentle falloff toward the door. Palette of 60% warm white and oatmeal, 30% honey oak, 10% bottle green. Rule of thirds. Clean modern digital cinematic capture, true-to-life colour.
 ```
+
+## Rekwizyty
+
+### BUS
+
+![Bus](referencje/bus.jpg)
+
+```text
+BUS: a large plain white panel van with a high roof and a long cargo box, sliding side door, black plastic bumpers and side rub strips, black steel wheels, a horizontal black front grille with slim angular headlights, tall red vertical tail lights and twin rear cargo doors. Blank white license plates, plain unbranded bodywork with no badges or lettering.
+```
+
+Ujęcia: 18, 19, 20. Na referencji widać przód i tył, a światło jest studyjne, neutralne.
+
+**Uwaga:** tablice rejestracyjne są puste i tak zostają. W promptach wideo piszemy „blank white license plates”, żeby model nie wymyślił napisów.
