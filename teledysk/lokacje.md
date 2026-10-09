@@ -70,7 +70,7 @@ Parametry w UI: **16:9**, 2k lub 4k. Kolejność referencji: **obraz 1 = `kawale
 ```text
 Edit image 1: replace the sage-green sofa bed along the left wall with the bottle-green velvet sofa from image 2.
 
-CHANGE: the sofa only. The new sofa stands against the left wall in the same spot as the old one, its back to the wall, facing the right side of the room, same three-quarter view as in image 2. It is smaller than the old sofa bed: the floor it frees shows continuous herringbone parquet and the edge of the jute rug, and the left wall above it is continuous warm-white plaster. The folded oatmeal knit blanket lies on the near seat cushion of the new sofa.
+CHANGE: the sofa only. The new sofa stands against the left wall in the same spot as the old one, its back to the wall, facing the right side of the room, same three-quarter view as in image 2. It is smaller than the old sofa bed: the floor it frees shows continuous herringbone parquet and the edge of the jute rug, and the left wall above it is continuous warm-white plaster. The folded oatmeal knit blanket is removed together with the old sofa: the new sofa is bare and empty, its seat and back cushions plain bottle-green velvet only.
 
 PRESERVE EXACTLY:
 - Camera position, height, lens and framing: the white double-door leaves on both edges of the frame, one-point perspective toward the window
@@ -83,6 +83,8 @@ PRESERVE EXACTLY:
 
 ONLY CHANGE: the sofa. 100% identical otherwise.
 ```
+
+**Wynik 1 (9.10):** pokój przetrwał. Drzwi, okno, szafa, stolik, regał i monstera są w tych samych miejscach, a kanapa jest podmieniona. Dwie poprawki: koc ma zniknąć (zmiana w prompcie powyżej), a wyjście było w 768p, więc generujemy ponownie w 2k lub 4k.
 
 Jeśli NBP dalej rusza pokój, jedna zmiana na iterację: najpierw dopisz na początku „Keep the exact same composition and camera as image 1.”. Potem spróbuj **GPT Image 2** (ostatnia deska ratunku, ale lokalnie jest mocny) z tym samym promptem i obiema referencjami.
 
