@@ -20,14 +20,14 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
 | 1 | 0:00–0:07,5 | ✅ **04-kamienica-swit** | Świt, podwórko-studnia starej kamienicy. W jednym oknie na 4. piętrze pali się ciepłe światło | 84°, statyczna, lekki najazd |
-| 2 | 0:07,5–0:15 | ✏️ **05-ania-klucz-swit** | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
+| 2 | 0:07,5–0:15 | ✅ **05-ania-klucz-swit** | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
 
 ### Zwrotka 1 (0:15–0:45). Kick, wciąż spokojnie
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
 | 3 | 0:15–0:22,5 | ✅ **01-klucz** | Klucz na stole, łyżeczka staje, uśmiech Tomka | 47° |
-| 4 | 0:22,5–0:30 | 🆕 | Wąski korytarz kamienicy. Tomek wkłada klucz w drzwi kawalerki, klucz pasuje i Tomek z uśmiechem patrzy na Anię („Nowe drzwi i świat za nimi”) | 47°, przez ramię |
+| 4 | 0:22,5–0:30 | ✏️ **06-korytarz-drzwi** | Wąski korytarz kamienicy. Tomek wkłada klucz w drzwi kawalerki, klucz pasuje i Tomek z uśmiechem patrzy na Anię („Nowe drzwi i świat za nimi”) | 47°, przez ramię |
 | 5 | 0:30–0:37,5 | 🆕 | Tomek wnosi jedno pudło i gitarę, a mieszkanie jest tak małe, że zahacza gitarą o szafę. Oboje się śmieją | 84°, szeroko, żeby było widać ciasnotę |
 | 6 | 0:37,5–0:45 | 🆕 | Wieczór. Jedzą na podłodze z pudełek na wynos, bo stolik jest za mały, a za oknem świecą miejskie światła | 29°, ciepło |
 

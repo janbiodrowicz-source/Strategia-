@@ -1,6 +1,7 @@
 # 05: Ania z kluczem o świcie (ujęcie 2, 0:07,5–0:15)
 
-**Wynik:** ⏳ do wygenerowania.
+**Wynik (9.10):** ✅ **działa** (Omni 1.1 Flash, 8 s, przycięte do 0:00–7,5). Ania zgodna z referencją (piegi, kolczyk, strój), lampka z abażurem, zioła, zamknięte okno, ochrowa ściana za oknem. Klucz mały i mosiężny, gest pięści przy brodzie i uśmiech na końcu wyszły.
+**Słabość:** tło za ostre jak na 18°, podobnie jak w klipie 02. Model zrobił zwykły kadr, a lampka jest ostra. Światło też jest cieplejsze niż niebieski świt. Do montażu wystarczy.
 **Technika:** jedno ujęcie, teleobiektyw 18°, statyczna kamera, Ania przy oknie kuchni, w kadrze naraz dłonie z kluczem i twarz. Bez dialogu (gra piosenka). Generujemy **8 s**, w montażu tniemy do 7,5 s.
 **Referencje:** `@ANIA` = `referencje/ania.png`. Opcjonalnie klatka kuchni z klipu 01 jako lokacja.
 **Ciągłość:**
