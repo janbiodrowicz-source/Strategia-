@@ -1,4 +1,4 @@
-# 06: Klucz pasuje (korytarz kamienicy, ujęcie 4, 0:22,5–0:30)
+# Ujęcie 4: Drzwi się otwierają (korytarz kamienicy, 0:22,5–0:30)
 
 **Wynik 1 (9.10, 2 filmy):** ❌ Model wkładał klucz w klamkę zamiast w zamek, a drzwi zmieniały kształt w trakcie (pojedyncze, potem podwójne). W drugim filmie Ania odwróciła się twarzą do kamery. Dobrze wyszły: dwukolorowe ściany, „12”, gitara i uśmiech Tomka.
 **Poprawka (v2):** Tomek stoi plecami i zasłania ciałem zamek i dłonie, więc nie widać, jak wkłada klucz (pomysł autora). Drzwi to jedno skrzydło z zawiasami po lewej („double-panel” myliło model). Ania nie pokazuje twarzy.

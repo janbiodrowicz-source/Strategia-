@@ -26,6 +26,6 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 - [`postacie.md`](postacie.md): Ania i Tomek, opisy do promptów i głosy
 - [`lokacje.md`](lokacje.md): lokacje z referencjami (salon, dom, kawalerka)
 - [`referencje/`](referencje/): planszki postaci i zdjęcia lokacji
-- [`prompty/`](prompty/): sprawdzone prompty z notatkami, co wyszło
+- [`prompty/`](prompty/): prompty z notatkami, co wyszło. Nazwa pliku = numer ujęcia ze scenariusza (`u01-…`, `u09-12-…`)
 - [`STATUS.md`](STATUS.md): co jest zrobione, co w toku i co dalej
 - [`scenariusz-zostan-tu.md`](scenariusz-zostan-tu.md): scenariusz teledysku „Zostań tu” (34 ujęcia pod mapę energii utworu)

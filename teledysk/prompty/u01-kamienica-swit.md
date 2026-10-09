@@ -1,4 +1,4 @@
-# 04: Kamienica o świcie (ujęcie 1, 0:00–0:07,5)
+# Ujęcie 1: Kamienica o świcie (0:00–0:07,5)
 
 **Wynik 1 (9.10):** ❌ okno. Model otwierał skrzydła okna do środka, wywiewał firankę na zewnątrz i wstawiał dziwną geometrię w środku. Winowajca: linijki o firance poruszanej przeciągiem. Poprawka (jedna zmiana): okno zamknięte, firanka nieruchoma. Najbliżej celu był wariant z zamkniętym oknem i firankami po bokach.
 **Wynik 2 (9.10):** prawie gotowe. Studnia, rowerek, drzewko, gołębie i jedno ciepłe okno z lampką wyszły świetnie, ale okno było otwarte przez cały film. Model wideo nie słucha w tej sprawie tekstu.

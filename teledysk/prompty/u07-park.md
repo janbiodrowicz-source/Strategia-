@@ -1,4 +1,4 @@
-# 02: Przeprowadzka (park, złota godzina)
+# Ujęcie 7: Spacer w parku (złota godzina)
 
 **Wynik:** ✅ działa. Kontra słoneczna i złote obrysy wyszły świetnie, szturchnięcie ramieniem i klucz w dłoni też.
 **Słabość:** tło za ostre jak na 18°. Widać ławkę i całą alejkę, więc model zrobił zwykły kadr zamiast teleobiektywu. Przy następnej iteracji trzeba wzmocnić rozmycie tła.

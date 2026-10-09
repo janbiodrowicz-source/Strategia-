@@ -33,15 +33,15 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 1 | 0:00–0:07,5 | ✅ **04-kamienica-swit** | Świt, podwórko-studnia starej kamienicy. W jednym oknie na 4. piętrze pali się ciepłe światło | 84°, statyczna, lekki najazd |
-| 2 | 0:07,5–0:15 | ✅ **05-ania-klucz-swit** | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
+| 1 | 0:00–0:07,5 | ✅ **u01-kamienica-swit** | Świt, podwórko-studnia starej kamienicy. W jednym oknie na 4. piętrze pali się ciepłe światło | 84°, statyczna, lekki najazd |
+| 2 | 0:07,5–0:15 | ✅ **u02-ania-klucz-swit** | W ciasnej kuchence przy oknie Ania obraca w palcach mosiężny klucz i nerwowo wypuszcza powietrze | 18°, zbliżenie na dłonie i twarz |
 
 ### Zwrotka 1 (0:15–0:45). Kick, wciąż spokojnie
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 3 | 0:15–0:22,5 | ✅ **01-klucz** | Klucz na stole, łyżeczka staje, uśmiech Tomka | 47° |
-| 4 | 0:22,5–0:30 | ✏️ **06-korytarz-drzwi** | Wąski korytarz kamienicy. Tomek wkłada klucz w drzwi kawalerki, klucz pasuje i Tomek z uśmiechem patrzy na Anię („Nowe drzwi i świat za nimi”) | 47°, przez ramię |
+| 3 | 0:15–0:22,5 | ✅ **u03-klucz-stol** | Klucz na stole, łyżeczka staje, uśmiech Tomka | 47° |
+| 4 | 0:22,5–0:30 | ✏️ **u04-korytarz-drzwi** | Wąski korytarz kamienicy. Tomek wkłada klucz w drzwi kawalerki, klucz pasuje i Tomek z uśmiechem patrzy na Anię („Nowe drzwi i świat za nimi”) | 47°, przez ramię |
 | 5 | 0:30–0:37,5 | 🆕 | Tomek wnosi jedno pudło i gitarę, a mieszkanie jest tak małe, że zahacza gitarą o szafę. Oboje się śmieją | 84°, szeroko, żeby było widać ciasnotę |
 | 6 | 0:37,5–0:45 | 🆕 | Wieczór. Jedzą na podłodze z pudełek na wynos, bo stolik jest za mały, a za oknem świecą miejskie światła | 29°, ciepło |
 
@@ -49,17 +49,17 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 7 | 0:45–0:52,5 | ✅ **02-park** | Spacer w złotej godzinie, klucz kręci się na palcu | 18° |
+| 7 | 0:45–0:52,5 | ✅ **u07-park** | Spacer w złotej godzinie, klucz kręci się na palcu | 18° |
 | 8 | 0:52,5–1:00 | 🆕 | Zapowiedź: Ania mija słup z plakatem szczeniaka i napisem „ADOPCJE”, a jej oczy się zapalają. Tomek tego nie zauważa | 29° |
 
 ### Budowanie napięcia + pauza (1:00–1:15)
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 9 | 1:00–1:03,75 | ✅ **03-współlokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
-| 10 | 1:03,75–1:07,5 | ✅ **03-współlokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
+| 9 | 1:00–1:03,75 | ✅ **u09-12-wspollokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
+| 10 | 1:03,75–1:07,5 | ✅ **u09-12-wspollokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
 | 11 | 1:07,5–1:11,25 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem | 18°, makro-portret |
-| 12 | **1:11,25–1:15** | ✅ **03-współlokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
+| 12 | **1:11,25–1:15** | ✅ **u09-12-wspollokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
 
 ---
 

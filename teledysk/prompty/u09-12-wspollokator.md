@@ -1,4 +1,4 @@
-# 03: Współlokator (targ, tłum, multi-shot)
+# Ujęcia 9–12: Współlokator (targ, tłum, multi-shot)
 
 **Wynik:** ✅ działa (wersja 2, 10 s we Flow). Trzy ujęcia z twardymi cięciami, kubki przetrwały oba cięcia, pies jeden i tej samej rasy, Tomek zdążył z kwestią, polski brzmi bardzo dobrze. Teleobiektyw 18° na zbliżeniu dał piękne bokeh.
 

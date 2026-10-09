@@ -1,4 +1,4 @@
-# 05: Ania z kluczem o świcie (ujęcie 2, 0:07,5–0:15)
+# Ujęcie 2: Ania z kluczem o świcie (0:07,5–0:15)
 
 **Wynik (9.10):** ✅ **działa** (Omni 1.1 Flash, 8 s, przycięte do 0:00–7,5). Ania zgodna z referencją (piegi, kolczyk, strój), lampka z abażurem, zioła, zamknięte okno, ochrowa ściana za oknem. Klucz mały i mosiężny, gest pięści przy brodzie i uśmiech na końcu wyszły.
 **Słabość:** tło za ostre jak na 18°, podobnie jak w klipie 02. Model zrobił zwykły kadr, a lampka jest ostra. Światło też jest cieplejsze niż niebieski świt. Do montażu wystarczy.

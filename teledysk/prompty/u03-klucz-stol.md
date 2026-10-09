@@ -1,4 +1,4 @@
-# 01: Klucz (kuchnia)
+# Ujęcie 3: Klucz na stole (kuchnia)
 
 **Wynik:** ✅ działa (wygenerowane w innym narzędziu niż Higgsfield). Twarze zgodne z referencjami, ładne światło z okna. Model ustawił kamerę bardziej z przodu (3/4) niż z profilu, ale wyszło lepiej.
 **Technika:** jedno ujęcie, 47° (normalny obiektyw), miękkie światło z okna, przerwana czynność (łyżeczka).
