@@ -16,4 +16,4 @@ Ostatnia aktualizacja: 9.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć, zaczynając od ujęcia 1 (kamienica o świcie).
+- Prompty wideo do 29 nowych ujęć. Ujęcie 1: prompt gotowy (`prompty/04-kamienica-swit.md`), czeka na generację. Następne: ujęcie 2 (Ania z kluczem w kuchni).
