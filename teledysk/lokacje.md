@@ -6,7 +6,7 @@ Referencje robimy tylko dla miejsc, które powtarzają się w kilku ujęciach (z
 |---|---|---|
 | Pusty salon w domu | 23–30, 32–33 | ✅ `referencje/salon.jpg` |
 | Dom z zewnątrz (front, podjazd) | 20, 21, 22, 31, 34 | ✅ `referencje/dom.png` |
-| Pokój w kawalerce | 5, 6, 13, 14, 17 | ⏳ do zrobienia |
+| Pokój w kawalerce | 5, 6, 13, 14, 17 | ✅ `referencje/kawalerka.jpg` |
 | Kuchnia w kawalerce | 2, 3 | ♻️ klatka z klipu 01 |
 
 ## SALON
@@ -30,3 +30,13 @@ DOM: a wide modern single-storey suburban house, long side facing the street, lo
 ```
 
 **Uwaga:** na referencji słońce zachodzi z prawej strony, za domem, a fasada jest ciepło oświetlona, nie w cieniu. W promptach wideo trzymamy się tego, co jest na referencji.
+
+## KAWALERKA
+
+![Kawalerka](referencje/kawalerka.jpg)
+
+```text
+KAWALERKA: a small narrow studio room in an old Polish tenement, seen from the white double entrance door. High ceiling with an ornate plaster cornice, warm-white walls, worn honey-oak herringbone parquet, a woven jute rug. On the far wall, one tall old double-casement window with white wooden frames looking at the pale ochre tenement facade across the street, a white radiator under it, a small round light-oak table with two chairs. Along the left wall, a sage-green fabric sofa bed with a folded oatmeal knit blanket and a narrow white wardrobe behind it. Along the right wall, a long low oak bookshelf packed with books and a tall monstera in a terracotta pot on the floor in the right corner.
+```
+
+**Uwaga:** światło na referencji jest przygaszone i chłodnawe. W ujęciach dziennych możemy dodać słońce wpadające przez okno. Kontrast między ciemną, ciasną kawalerką a jasnym domem jest celowy.
