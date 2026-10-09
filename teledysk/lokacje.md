@@ -59,6 +59,10 @@ Photorealistic three-quarter product shot of a compact two-seater mid-century mo
 
 Zapisz jako `referencje/kanapa.jpg`.
 
+**Wynik (9.10):** wariant zaakceptowany. Butelkowy welur, dwie poduszki oparcia, jedno siedzisko z lamówką, rozchylone dębowe nóżki, kąt z przodu i z lewej strony kadru (jak w kawalerce). Potrzebny oryginał pliku, bo mamy tylko zrzut ekranu z telefonu.
+
+**Decyzja fabularna:** kanapa jest **rozkładana**, a mechanizm schowany pod siedziskiem. Złożona wygląda dokładnie jak na referencji. Rozłożoną robimy osobno tylko wtedy, gdy któreś ujęcie ją pokaże.
+
 ### Krok 2: podmiana kanapy w kawalerce (NBP, edycja)
 
 Parametry w UI: **16:9**, 2k lub 4k. Kolejność referencji: **obraz 1 = `kawalerka.jpg`**, **obraz 2 = `kanapa.jpg`**.
