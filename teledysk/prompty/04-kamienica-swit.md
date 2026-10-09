@@ -1,6 +1,7 @@
 # 04: Kamienica o świcie (ujęcie 1, 0:00–0:07,5)
 
-**Wynik:** ⏳ do wygenerowania.
+**Wynik 1 (9.10):** ❌ okno. Model otwierał skrzydła okna do środka, wywiewał firankę na zewnątrz i wstawiał dziwną geometrię w środku. Winowajca: linijki o firance poruszanej przeciągiem. Poprawka (jedna zmiana): okno zamknięte, firanka nieruchoma. Najbliżej celu był wariant z zamkniętym oknem i firankami po bokach.
+**Wynik 2:** ⏳ do wygenerowania.
 **Technika:** jedno ujęcie bez postaci, szeroko 84°, kamera nisko na podwórku patrzy w górę, powolny najazd na jedyne zapalone okno. Generujemy 10 s, w montażu tniemy do 7,5 s (4 takty).
 **Ciągłość:** fasady są w tym samym bladym ochrowym tynku, który widać za oknem kawalerki (`referencje/kawalerka.jpg`), a okno ma takie same białe drewniane ramy.
 
@@ -15,6 +16,7 @@ FIRST FRAME AND SPATIAL BLOCKING
 The first visible frame already shows the courtyard walls rising around the camera and the one lit window, visible from the very first frame. No black frame, no fade-in.
 The lit window is on the fourth floor of the far wall, on the right third of the frame, upper half. Every other window is dark, reflecting the cold pale sky.
 Exactly one window glows warm; it stays the only lit window for the whole shot.
+The lit window stays closed for the whole shot: both white casements shut flat in the frame, glass intact, a sheer white curtain hanging straight and still behind the glass, soft warm lamp glow from deep inside the room.
 
 FORMAT MODE
 Single continuous take. Real-time motion. No cuts.
@@ -28,10 +30,10 @@ Camera at a low angle, 1.2 meters above the cobblestones, tilted up about 25 deg
 ACTION TIMING
 0:00 to 0:04: Still courtyard in blue dawn light. The warm window glows on the fourth floor. Two pigeons sit on a balcony railing on the left wall.
 0:04 to 0:07: The pigeons take off and fly up out of the courtyard toward the square of sky. The first pale pink light touches the top edge of the roofs.
-0:07 to 0:10: The push-in continues slowly; the warm window grows a little larger in the frame. A thin white curtain inside it moves gently.
+0:07 to 0:10: The push-in continues slowly; the warm window grows a little larger in the frame. The window stays closed and calm.
 
 PHYSICS
-Pigeons fly with real wing beats and weight, rising in a curved path. The thin curtain moves softly in a slight draft. Faint breath of morning mist hangs low over the cobblestones and drifts slowly. Nothing else moves.
+Pigeons fly with real wing beats and weight, rising in a curved path. Windows, curtains and walls stay completely still. Faint breath of morning mist hangs low over the cobblestones and drifts slowly. Nothing else moves.
 
 LIGHTING
 Blue hour turning into dawn. The courtyard is filled with cool soft blue ambient light from the sky above, no direct sun on the walls. The single window glows warm tungsten amber, the only warm source in the frame, casting a soft warm spill on the window frame and sill. The roof edges catch a first thin line of pale pink light from 0:04. Palette: 60% cool dawn blue and grey, 30% pale ochre plaster in shadow, 10% warm amber from the window.
