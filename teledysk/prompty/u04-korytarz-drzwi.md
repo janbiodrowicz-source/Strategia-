@@ -2,7 +2,9 @@
 
 **Wynik 1 (9.10, 2 filmy):** ❌ Model wkładał klucz w klamkę zamiast w zamek, a drzwi zmieniały kształt w trakcie (pojedyncze, potem podwójne). W drugim filmie Ania odwróciła się twarzą do kamery. Dobrze wyszły: dwukolorowe ściany, „12”, gitara i uśmiech Tomka.
 **Poprawka (v2):** Tomek stoi plecami i zasłania ciałem zamek i dłonie, więc nie widać, jak wkłada klucz (pomysł autora). Drzwi to jedno skrzydło z zawiasami po lewej („double-panel” myliło model). Ania nie pokazuje twarzy.
-**Wynik 2:** ⏳ do wygenerowania.
+**Wynik 2 (10.10):** prawie dobrze. Jedno skrzydło drzwi, zielone ściany, Ania tyłem i piękny uśmiech Tomka w otwartych drzwiach w 0:06. Problemy: numer „12” był i na drzwiach, i na ościeżnicy, a dłoń z kluczem przy klamce była widoczna.
+**Poprawka (v3):** bez numeru na drzwiach. Tomek stoi plecami tuż przy prawej krawędzi drzwi i tułowiem zasłania klamkę, zamek i dłonie.
+**Wynik 3:** ⏳ do wygenerowania.
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
@@ -20,11 +22,11 @@ ACTIVE REFERENCES
 @ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind. 100% matches the reference.
 
 LOCATION MAP
-A narrow tenement landing, 2 meters wide. Walls painted in the classic two-tone style: glossy bottle-green oil paint on the lower half, worn cream on the upper half. Worn terrazzo floor. On the far wall, the apartment door: one single tall wooden door leaf with raised panels, painted dark brown, hinges on its left edge, a small brass number plate "12" in simple serif digits near the top. Daylight comes from a tall stairwell window off-screen on the left.
+A narrow tenement landing, 2 meters wide. Walls painted in the classic two-tone style: glossy bottle-green oil paint on the lower half, worn cream on the upper half. Worn terrazzo floor. On the far wall, the apartment door: one single tall wooden door leaf with raised panels, painted dark brown, hinges on its left edge, the brass handle and lock on its right edge. The door and its frame are plain painted wood without any plate, number or lettering. Daylight comes from a tall stairwell window off-screen on the left.
 
 FIRST FRAME AND SPATIAL BLOCKING
 The first visible frame already contains both characters in place. No empty establishing frame.
-@TOMEK stands close to the door, squarely in front of its right half, his back almost fully to the camera. His body and the guitar case completely hide the door handle, the lock and both of his hands. His right elbow is bent, his hands working at the lock in front of him, out of sight.
+@TOMEK stands close to the door, directly in front of its right edge, his back fully to the camera, his chest almost touching the door. His torso covers the handle and the lock completely: they are behind his body and never visible. Both of his hands stay in front of his chest, hidden from the camera; only his elbows show at his sides.
 @ANIA stands 1 meter behind him and to the left, closest to the camera. Only her left shoulder, the back of her head and her hair are visible in the left foreground, soft and out of focus. She faces the door and @TOMEK for the whole shot; her face is never visible.
 
 FORMAT MODE
@@ -37,7 +39,7 @@ CAMERA
 Over-the-shoulder shot, camera static on a tripod. @TOMEK holds the right third, @ANIA's soft shoulder frames the left edge. Rule of thirds.
 
 ACTION TIMING
-0:00 to 0:02: @TOMEK unlocks the door; only his right shoulder and elbow move with a short twisting motion, his hands stay hidden in front of his body.
+0:00 to 0:02: @TOMEK stands still at the door, his back to the camera; his right shoulder makes one small turn as he unlocks it, hands and lock hidden in front of his body.
 0:02 to 0:04: The door swings slowly inward, away from the camera, opening a widening gap of warm golden daylight beside him.
 0:04 to 0:06: He turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
 0:06 to 0:08: @ANIA's shoulder lifts with a quiet laugh, her head still turned toward him; warm daylight from inside the apartment spills across @TOMEK's face and chest.
@@ -56,7 +58,7 @@ AUDIO
 Quiet stairwell echo, a solid lock click, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
 
 POSITIVE CONSTRAINTS
-Exactly two people in frame. The door stays one single wooden door of the same shape, size and color for the whole shot; only its opening angle changes. The number plate shows only "12". Natural skin texture, real fine film grain, stable picture, no flickering.
+Exactly two people in frame. The door stays one single wooden door of the same shape, size and color for the whole shot; only its opening angle changes. The handle, the lock and the key stay hidden behind @TOMEK's body until the door is open. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
 **Na co patrzeć:**
