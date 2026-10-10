@@ -91,6 +91,47 @@ Exactly two people in frame. The door stays one single wooden door of the same s
 ```
 
 **Wynik 7 (10.10, klatka z NBP):** ❌ klucz w zamku pod klamką i pudło są OK, ale NBP przekadrował obraz: zbliżenie z boku, Ania wypadła z kadru. Do dokończenia w nowym wątku. Pomysły: (a) ten sam prompt NBP z ustawionym 16:9 i dopiskiem „Keep the exact same composition and camera as image 1” na początku, (b) dwie osobne edycje: najpierw pudło, potem klucz, (c) zaakceptować kadr bez Ani i zrobić ujęcie z boku.
+**v8 (10.10): bez edycji w NBP.** Klatka `u04-start-przed-edycja.png` już jest dobrą klatką startową (jedno skrzydło, Ania tyłem, Tomek plecami, ręce przy piersi). Prawdziwy błąd to „klucz w klamce”, a nie sama klamka: przy otwartym zamku naciśnięcie klamki jest naturalne. Ręce przy piersi wykorzystujemy tak, że Tomek chowa klucz do kieszeni na piersi (klucz zostaje w historii). Pudła nie ma w kadrze, więc w ujęciu 5 trzeba je rozwiązać inaczej (Ania podaje je w progu albo stoi poza kadrem). Plan B: pomysły (a)–(c) powyżej.
+
+### v8: wideo (Omni 1.1 Flash, 8 s), klatka startowa = `u04-start-przed-edycja.png` bez edycji, `@TOMEK`, `@ANIA`
+
+```text
+SCENE CONTEXT
+Late morning on the fourth-floor landing of an old Polish tenement. A young man has just unlocked the door of his girlfriend's tiny studio apartment with the key she gave him. He pockets the key, opens the door and turns to her with a smile. A small moment that means he is moving in.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt, khaki chinos, brown suede sneakers. A black soft guitar case on his back. Calm, quietly moved. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind. 100% matches the reference.
+
+FIRST FRAME
+The video starts exactly from the provided start frame: same camera, same framing, same positions, same single dark-brown wooden door. @TOMEK stands with his back to the camera, his hands in front of his chest. @ANIA's shoulder and hair fill the left foreground, her face never visible.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts. Camera static on a tripod, 47° normal lens, over @ANIA's shoulder. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:01: @TOMEK slips a small brass key into the chest pocket of his overshirt.
+0:01 to 0:03: He presses the brass lever handle down with his right hand and pushes; the single wooden door swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him.
+0:03 to 0:05: He lets go of the handle and stops in the doorway for a beat, looking inside.
+0:05 to 0:07: He turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
+0:07 to 0:08: @ANIA's shoulder lifts with a quiet laugh; warm daylight spills across @TOMEK's face and chest.
+
+PERFORMANCE
+@TOMEK is unhurried, almost ceremonial. When the door gives, he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm, a joke he does not need to say. Neither of them speaks; his lips stay closed. @ANIA, seen only from behind, drops her raised shoulders on the laugh.
+
+PHYSICS
+The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
+
+LIGHTING
+Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
+
+AUDIO
+Quiet stairwell echo, the clack of the lever handle, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. Natural skin texture, real fine film grain, stable picture, no flickering.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.

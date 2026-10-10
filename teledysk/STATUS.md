@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 10.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- **Ujęcie 4 (drzwi, 0:22,5–0:30):** 7 prób, historia i wnioski w `prompty/u04-korytarz-drzwi.md`. Model myli zamek z klamką i zmienia drzwi, więc idziemy przez klatkę startową z Nano Banana Pro. Ostatnio (v7) NBP przekadrował obraz i zgubił Anię. Następny krok: pomysły (a)–(c) na końcu pliku.
+- **Ujęcie 4 (drzwi, 0:22,5–0:30):** 7 prób, historia w `prompty/u04-korytarz-drzwi.md`. v7 (edycja w NBP) zgubiła Anię. **v8:** bez NBP, Omni od surowej klatki `u04-start-przed-edycja.png`. Tomek chowa klucz do kieszeni, naciska klamkę (zamek już otwarty) i pcha drzwi. Czeka na generację. Do decyzji: skąd pudło w ujęciu 5.
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Cała praca jest na gałęzi **`ccr-a8de49cd-ag2gzs`** (na `main` jej nie ma!).
@@ -23,4 +23,4 @@ Ostatnia aktualizacja: 10.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4: prompt gotowy (`prompty/u04-korytarz-drzwi.md`), czeka na generację.
+- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4: prompt v8 gotowy (`prompty/u04-korytarz-drzwi.md`), czeka na generację.
