@@ -132,6 +132,34 @@ POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
+**Wynik 7b (10.10, NBP, autor):** ✅ prawie: kadr jak w oryginale, Ania po lewej, klucz w zamku pod klamką, pudło przy stopach. Tomek trzyma klucz prawą ręką, a autor chce lewą.
+**v9:** krok 1 = edycja tego zdjęcia w NBP (tylko zmiana ręki; prawa ręka trzyma pasek pokrowca na piersi, tułów lekko obrócony w prawo, bo zamek jest po prawej stronie Tomka). Krok 2 = prompt wideo v7 z lewą ręką. Zastępuje v8 (v8 nie miało pudła).
+
+### v9, krok 1: NBP (16:9, 2k), obraz 1 = wynik 7b
+
+```text
+Keep the exact same composition and camera as image 1. Edit the image: the man turns the key with his LEFT hand instead of his right.
+
+CHANGE:
+- The man's LEFT hand holds the small brass key that is already in the lock below the door handle, between thumb and fingers; his left arm reaches naturally across in front of his body, his torso turned slightly to the right toward the lock.
+- His RIGHT hand now holds the shoulder strap of the guitar case at his chest, elbow bent and relaxed.
+
+PRESERVE EXACTLY:
+- The key in the lock, the brass lever handle and lock plate, the single dark-brown wooden door with raised panels, closed, and its frame
+- The sealed cardboard box on the floor by his feet, its size and position
+- The woman in the left foreground seen from behind, her hair, her cream linen shirt, her position
+- The man's identity, hair, dark teal shirt, khaki chinos, brown sneakers, the black guitar case on his back, his position with his back to the camera
+- The two-tone corridor walls (bottle green below, cream above), the terrazzo floor, the window on the left, the light switch
+- Camera position, angle, lens and framing
+- Light direction, colour grade, contrast, grain
+
+ONLY CHANGE: which hand holds the key, and his right hand on the guitar strap. 100% identical otherwise.
+```
+
+### v9, krok 2: wideo (Omni 1.1 Flash, 8 s), klatka startowa = wynik kroku 1
+
+Prompt v7 (krok 2) z tymi zmianami: w FIRST FRAME „@TOMEK's left hand on it, his right hand on the guitar strap at his chest”, „The cardboard box stands by his feet”; w ACTION TIMING „turns the key once with his left hand” i „pushes the door with the same left hand”; w PHYSICS dopisane „opening inward into the apartment”. Pełna wersja jest w historii czatu z 10.10, a do wklejenia wystarczy v7 z tymi podmianami.
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
