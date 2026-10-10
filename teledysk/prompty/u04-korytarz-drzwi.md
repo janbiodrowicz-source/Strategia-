@@ -28,7 +28,69 @@ ONLY CHANGE: the man's position, hiding the door handle. 100% identical otherwis
 **v5 (pomysł autora):** Tomek wkłada klucz do **górnego zamka** (okrągły mosiężny zamek na wysokości ramienia, 40 cm nad klamką), a drzwi pcha otwartą lewą dłonią. Klamki nikt nie dotyka. Model nie myli już zamka z klamką, bo to dwa osobne elementy, a klucz może być widoczny.
 **Wynik 5 (10.10):** ❌ klucz znów w szyldzie klamki (logiczne, bo zamek jest przy klamce), Ania wypadła z kadru, kamera z boku zamiast przez ramię. Pudło wyszło.
 **v6:** w ogóle bez wkładania klucza. Drzwi są już otwarte z klucza, Tomek pcha je dłonią. Klucz ma swoje momenty w ujęciach 2 i 3, a pod „nowe drzwi” liczy się samo otwarcie i światło. Ania wpisana jako stała ćwiartka kadru po lewej.
-**Wynik 6:** ⏳
+**Wynik 6 (10.10):** ❌ znów drzwi dwuskrzydłowe, Tomek bokiem.
+**v7 (zasada: upraszczamy + klatka startowa):** `referencje/u04-start-przed-edycja.png` → edycja w NBP: klucz już tkwi w zamku pod klamką, dłoń Tomka na kluczu, pudło przy stopie. Potem Omni animuje od tej klatki: przekręcenie klucza, pchnięcie drzwi, odwrócenie głowy. Model niczego już nie wkłada ani nie wymyśla.
+
+### v7, krok 1: klatka startowa (NBP, 16:9, 2k), obraz 1 = `u04-start-przed-edycja.png`
+
+```text
+Edit the image: the man is about to open the door with a key that is already in the lock.
+
+CHANGE:
+- A single small brass key on a small metal ring is already inserted in the keyhole of the brass lock plate, just below the lever handle.
+- The man's right hand holds that key between thumb and fingers, his arm bent naturally; his left hand hangs relaxed at his side.
+- A single closed cardboard moving box, plain brown and sealed with tape, stands on the floor beside his right foot.
+
+PRESERVE EXACTLY:
+- The single dark-brown wooden door with raised panels, closed, its frame, the brass handle and lock plate
+- The woman in the left foreground seen from behind, her hair, her cream linen shirt, her position
+- The man's identity, hair, dark teal shirt, khaki chinos, brown sneakers, the black guitar case on his back, his position and his back turned to the camera
+- The two-tone corridor walls (bottle green below, cream above), the terrazzo floor, the window on the left, the light switch
+- Camera position, angle, lens and framing
+- Light direction, colour grade, contrast, grain
+
+ONLY CHANGE: the key in the lock with his hand on it, and the box by his foot. 100% identical otherwise.
+```
+
+### v7, krok 2: wideo (Omni 1.1 Flash, 8 s), klatka startowa = wynik kroku 1, `@TOMEK`, `@ANIA`
+
+```text
+SCENE CONTEXT
+Late morning on the fourth-floor landing of an old Polish tenement. A young man opens the door of his girlfriend's tiny studio apartment with the key she has just given him, then turns to her with a smile. A small moment that means he is moving in.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt open over a white t-shirt, khaki chinos, brown suede sneakers. A black soft guitar case on his back. Calm, quietly moved. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind. 100% matches the reference.
+
+FIRST FRAME
+The video starts exactly from the provided start frame: same camera, same framing, same positions. The key is already in the lock below the handle, @TOMEK's right hand on it. The cardboard box stands by his right foot. @ANIA's shoulder and hair fill the left foreground, her face never visible.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts. Camera static on a tripod, 47° normal lens, over @ANIA's shoulder. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:02: @TOMEK turns the key once; a solid lock click.
+0:02 to 0:04: He pushes the door with the same hand; the single wooden door swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him. The key stays in the lock.
+0:04 to 0:06: He turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
+0:06 to 0:08: @ANIA's shoulder lifts with a quiet laugh; warm daylight from inside the apartment spills across @TOMEK's face and chest.
+
+PERFORMANCE
+@TOMEK is unhurried, almost ceremonial. When the door gives, he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm, a joke he does not need to say. Neither of them speaks; his lips stay closed. @ANIA, seen only from behind, drops her raised shoulders on the laugh.
+
+PHYSICS
+The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
+
+LIGHTING
+Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
+
+AUDIO
+Quiet stairwell echo, a lock click, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
+```
+
+**Wynik 7:** ⏳
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
