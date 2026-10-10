@@ -84,7 +84,7 @@ LIGHTING
 Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
 
 AUDIO
-Quiet stairwell echo, a lock click, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
+Quiet stairwell echo, a lock click, the clack of the lever handle, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
 
 POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
@@ -120,7 +120,7 @@ PERFORMANCE
 @TOMEK is unhurried, almost ceremonial. When the door gives, he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm, a joke he does not need to say. Neither of them speaks; his lips stay closed. @ANIA, seen only from behind, drops her raised shoulders on the laugh.
 
 PHYSICS
-The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
+The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The key stays in the lock and swings with the door. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
 
 LIGHTING
 Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
@@ -156,7 +156,7 @@ PRESERVE EXACTLY:
 ONLY CHANGE: which hand holds the key, and his right hand on the guitar strap. 100% identical otherwise.
 ```
 
-### v9, krok 2: wideo (Omni 1.1 Flash, 8 s), klatka startowa = wynik kroku 1
+### v9b, krok 2: wideo (Omni 1.1 Flash, 8 s), klatka startowa = wynik kroku 1
 
 ```text
 SCENE CONTEXT
@@ -173,26 +173,30 @@ FORMAT MODE
 Single continuous take. Real-time motion. No cuts. Camera static on a tripod, 47° normal lens, over @ANIA's shoulder. Rule of thirds.
 
 ACTION TIMING
-0:00 to 0:02: @TOMEK turns the key once with his left hand; a solid lock click.
-0:02 to 0:04: He pushes the door with the same left hand; the single wooden door swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him. The key stays in the lock.
-0:04 to 0:06: He turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
+0:00 to 0:02: @TOMEK turns the key once with his left hand; a solid lock click. The key stays in the lock.
+0:02 to 0:04: He moves the same left hand up to the brass lever handle just above the key, presses it down and pushes; the single wooden door swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him.
+0:04 to 0:06: He lets go of the handle and turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
 0:06 to 0:08: @ANIA's shoulder lifts with a quiet laugh; warm daylight from inside the apartment spills across @TOMEK's face and chest.
 
 PERFORMANCE
 @TOMEK is unhurried, almost ceremonial. When the door gives, he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm, a joke he does not need to say. Neither of them speaks; his lips stay closed. @ANIA, seen only from behind, drops her raised shoulders on the laugh.
 
 PHYSICS
-The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
+The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The key stays in the lock and swings with the door. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
 
 LIGHTING
 Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
 
 AUDIO
-Quiet stairwell echo, a lock click, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
+Quiet stairwell echo, a lock click, the clack of the lever handle, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
 
 POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
+
+**Wynik 9 (10.10, NBP):** ✅ klatka OK: lewa dłoń na kluczu w zamku pod klamką, prawa na pasku pokrowca, Ania i pudło w kadrze. (Autor spodziewał się dłoni na klamce, bo pomylił v8 z v9.)
+**v9b (wideo):** dopisany ruch przekręcić klucz, przenieść dłoń na klamkę, nacisnąć, pchnąć (tak otwiera się prawdziwe drzwi). Klucz zostaje w zamku i jedzie z drzwiami.
+**Plan B:** edycja NBP „left hand moves from the key up to the brass lever handle directly above it… key stays inserted”, a potem wideo od naciśnięcia klamki.
 
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.

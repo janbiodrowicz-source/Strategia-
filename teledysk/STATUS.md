@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 10.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- **Ujęcie 4 (drzwi, 0:22,5–0:30):** historia w `prompty/u04-korytarz-drzwi.md`. Autor ma prawie dobrą klatkę z NBP (wynik 7b: Ania, klucz w zamku, pudło). **v9:** w NBP tylko zamiana na lewą rękę na kluczu, potem Omni (prompt v7 z lewą ręką). Czeka na generację.
+- **Ujęcie 4 (drzwi, 0:22,5–0:30):** historia w `prompty/u04-korytarz-drzwi.md`. Autor ma prawie dobrą klatkę z NBP (wynik 7b: Ania, klucz w zamku, pudło). **v9:** klatka z lewą ręką na kluczu gotowa ✅. Wideo v9b (klucz, klamka, pchnięcie, uśmiech) czeka na generację.
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Cała praca jest na gałęzi **`ccr-a8de49cd-ag2gzs`** (na `main` jej nie ma!).
