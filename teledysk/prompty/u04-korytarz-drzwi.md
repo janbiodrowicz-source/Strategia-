@@ -10,21 +10,56 @@
 ### Klatka startowa: edycja w NBP (16:9, 2k), obraz 1 = klatka z wyniku 3
 
 ```text
-Edit the image: hide the man's hands and the door handle behind his body.
+SCENE CONTEXT
+Late morning on the fourth-floor landing of an old Polish tenement. A young man unlocks the door of his girlfriend's tiny studio apartment with the key she has just given him. The door opens; he turns to her with a smile. A small moment that means he is moving in.
 
-CHANGE: the man with the guitar case stands 40 centimeters further to the right, directly in front of the brass door handle, his back fully to the camera, close to the door. The handle, the lock and both of his hands are hidden behind his torso; his elbows are bent at his sides, his hands in front of his chest, out of sight. The door behind him is closed, plain dark-brown wood with raised panels.
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt open over a white t-shirt, khaki chinos, brown suede sneakers. A black soft guitar case on his back. Calm, quietly moved. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind. 100% matches the reference.
 
-PRESERVE EXACTLY:
-- The woman in the left foreground seen from behind, her hair, her cream linen shirt, her position
-- The man's identity, hair, dark teal shirt, khaki chinos, brown sneakers, the black guitar case on his back
-- The two-tone corridor walls (bottle green below, cream above), the terrazzo floor, the window on the left, the light switch, the stair railing
-- Camera position, angle, lens and framing
-- Light direction, colour grade, contrast, grain
+LOCATION MAP
+A narrow tenement landing, 2 meters wide. Walls painted in the classic two-tone style: glossy bottle-green oil paint on the lower half, worn cream on the upper half. Worn terrazzo floor. On the far wall, the apartment door: one single tall wooden door leaf with raised panels, painted dark brown, hinges on its left edge. Near its right edge, two separate fittings: a round brass upper lock with a keyhole at shoulder height, and 40 centimeters below it a long brass lever handle. The door and its frame are plain painted wood without any plate, number or lettering. Daylight comes from a tall stairwell window off-screen on the left.
 
-ONLY CHANGE: the man's position and hidden hands. 100% identical otherwise.
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame already contains both characters in place. No empty establishing frame.
+@TOMEK stands in front of the right half of the door, three-quarter back to the camera. His right hand is raised to shoulder height, holding a single small brass key on a small metal ring, the key tip touching the keyhole of the round upper lock. His left hand rests flat on the door panel. The lever handle below stays untouched.
+@ANIA stands 1 meter behind him and to the left, closest to the camera. Only her left shoulder, the back of her head and her hair are visible in the left foreground, soft and out of focus. She faces the door and @TOMEK for the whole shot; her face is never visible.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, camera 1.5 meters behind @ANIA's shoulder at her head height. Focus on @TOMEK, the key and the upper lock; @ANIA's shoulder and hair in the foreground stay soft. Natural human-eye perspective.
+
+CAMERA
+Over-the-shoulder shot, camera static on a tripod. @TOMEK holds the right third, @ANIA's soft shoulder frames the left edge. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:02: @TOMEK slides the key into the round upper lock at shoulder height.
+0:02 to 0:04: He turns the key once; the lock clicks; his left palm pushes the door and it swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him. The key stays in the upper lock.
+0:04 to 0:06: He turns his head over his left shoulder toward @ANIA, eyes first; a slow closed-lip smile spreads.
+0:06 to 0:08: @ANIA's shoulder lifts with a quiet laugh, her head still turned toward him; warm daylight from inside the apartment spills across @TOMEK's face and chest.
+
+PERFORMANCE
+@TOMEK treats the moment as bigger than opening a door: unhurried, almost ceremonial. When the lock clicks he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm at the same time, a joke he does not need to say. Slow amused blinks, steady eye contact with her. Neither of them speaks; his lips stay closed.
+@ANIA is seen only from behind: her shoulders are a little raised with held breath and drop on the laugh.
+
+PHYSICS
+The key goes into the upper lock with slight resistance and turns with a firm mechanical click. The heavy old door swings slowly and evenly on stiff hinges, one solid wooden leaf turning around its left edge, pushed by his flat palm. The guitar case on his back shifts with his turn. Dust motes float in the line of daylight from the doorway.
+
+LIGHTING
+Cool soft daylight from the stairwell window on the left fills the landing. As the door opens, a warm golden wedge of daylight from inside the apartment falls across @TOMEK, the only warm light in the frame. Palette: 60% muted bottle green and cream walls, 30% warm wood and skin tones, 10% golden light from the doorway. No flat front light.
+
+AUDIO
+Quiet stairwell echo, the metallic slide of the key, a solid lock click, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. The key goes only into the round upper lock; the lever handle below stays untouched for the whole shot. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
-**Wynik 4:** ⏳
+**Wynik 4 (10.10):** ❌ dłoń dalej przy klamce.
+**v5 (pomysł autora):** Tomek wkłada klucz do **górnego zamka** (okrągły mosiężny zamek na wysokości ramienia, 40 cm nad klamką), a drzwi pcha otwartą lewą dłonią. Klamki nikt nie dotyka. Model nie myli już zamka z klamką, bo to dwa osobne elementy, a klucz może być widoczny.
+**Wynik 5:** ⏳
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
