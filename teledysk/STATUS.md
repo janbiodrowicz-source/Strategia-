@@ -1,6 +1,6 @@
 # Status prac: teledysk „Zostań tu”
 
-Ostatnia aktualizacja: 9.10.2026
+Ostatnia aktualizacja: 10.10.2026
 
 ## Zrobione ✅
 - Skille: `cinedance`, `lira-image-prompts`, `acting` (w `.claude/skills/`)
@@ -12,7 +12,14 @@ Ostatnia aktualizacja: 9.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- (pusto, wszystkie assety gotowe 🎉)
+- **Ujęcie 4 (drzwi, 0:22,5–0:30):** 7 prób, historia i wnioski w `prompty/u04-korytarz-drzwi.md`. Model myli zamek z klamką i zmienia drzwi, więc idziemy przez klatkę startową z Nano Banana Pro. Ostatnio (v7) NBP przekadrował obraz i zgubił Anię. Następny krok: pomysły (a)–(c) na końcu pliku.
+
+## Jak wrócić do pracy (nowy wątek) 🔁
+- Cała praca jest na gałęzi **`ccr-a8de49cd-ag2gzs`** (na `main` jej nie ma!).
+- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady 1–9 i podział pracy), `postacie.md`, `lokacje.md`, `scenariusz-zostan-tu.md` (z tekstem piosenki i czasami), ten plik.
+- Autor generuje we **Flow**: obrazy w Nano Banana Pro, wideo w Omni 1.1 Flash (8 s pod ujęcia 7,5 s). Claude pisze prompty, wycina klatki z wideo (ffmpeg), ocenia wyniki i przycina klipy do taktu.
+- Gotowe przycięte klipy (u01, u02) są u autora. Wideo nie trzymamy w repo.
+- Lekcje: bohaterowie nie mówią; gdy model uparcie zmienia obiekt (okno, drzwi, klamka), poprawiamy klatkę startową w NBP zamiast walczyć tekstem; przy każdym ujęciu: cały prompt + referencje + ustawienia.
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.

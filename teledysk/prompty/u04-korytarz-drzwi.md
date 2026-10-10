@@ -90,7 +90,7 @@ POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
-**Wynik 7:** ⏳
+**Wynik 7 (10.10, klatka z NBP):** ❌ klucz w zamku pod klamką i pudło są OK, ale NBP przekadrował obraz: zbliżenie z boku, Ania wypadła z kadru. Do dokończenia w nowym wątku. Pomysły: (a) ten sam prompt NBP z ustawionym 16:9 i dopiskiem „Keep the exact same composition and camera as image 1” na początku, (b) dwie osobne edycje: najpierw pudło, potem klucz, (c) zaakceptować kadr bez Ani i zrobić ujęcie z boku.
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
