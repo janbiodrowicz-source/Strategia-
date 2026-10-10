@@ -4,7 +4,27 @@
 **Poprawka (v2):** Tomek stoi plecami i zasłania ciałem zamek i dłonie, więc nie widać, jak wkłada klucz (pomysł autora). Drzwi to jedno skrzydło z zawiasami po lewej („double-panel” myliło model). Ania nie pokazuje twarzy.
 **Wynik 2 (10.10):** prawie dobrze. Jedno skrzydło drzwi, zielone ściany, Ania tyłem i piękny uśmiech Tomka w otwartych drzwiach w 0:06. Problemy: numer „12” był i na drzwiach, i na ościeżnicy, a dłoń z kluczem przy klamce była widoczna.
 **Poprawka (v3):** bez numeru na drzwiach. Tomek stoi plecami tuż przy prawej krawędzi drzwi i tułowiem zasłania klamkę, zamek i dłonie.
-**Wynik 3:** ⏳ do wygenerowania.
+**Wynik 3 (10.10):** ❌ numer zniknął, ale Tomek dalej stoi obok klamki i widać dłoń z kluczem. Tekstem tego nie wygramy.
+**v4 = klatka startowa (jak w ujęciu 1):** klatka 0:01 z wyniku 3 (korytarz wyszedł najlepiej), w NBP przesuwamy Tomka przed klamkę i chowamy mu dłonie, potem Omni animuje od tej klatki tym samym promptem v3.
+
+### Klatka startowa: edycja w NBP (16:9, 2k), obraz 1 = klatka z wyniku 3
+
+```text
+Edit the image: hide the man's hands and the door handle behind his body.
+
+CHANGE: the man with the guitar case stands 40 centimeters further to the right, directly in front of the brass door handle, his back fully to the camera, close to the door. The handle, the lock and both of his hands are hidden behind his torso; his elbows are bent at his sides, his hands in front of his chest, out of sight. The door behind him is closed, plain dark-brown wood with raised panels.
+
+PRESERVE EXACTLY:
+- The woman in the left foreground seen from behind, her hair, her cream linen shirt, her position
+- The man's identity, hair, dark teal shirt, khaki chinos, brown sneakers, the black guitar case on his back
+- The two-tone corridor walls (bottle green below, cream above), the terrazzo floor, the window on the left, the light switch, the stair railing
+- Camera position, angle, lens and framing
+- Light direction, colour grade, contrast, grain
+
+ONLY CHANGE: the man's position and hidden hands. 100% identical otherwise.
+```
+
+**Wynik 4:** ⏳
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
