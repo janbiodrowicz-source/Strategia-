@@ -5,7 +5,7 @@
 **Wynik 2 (10.10):** prawie dobrze. Jedno skrzydło drzwi, zielone ściany, Ania tyłem i piękny uśmiech Tomka w otwartych drzwiach w 0:06. Problemy: numer „12” był i na drzwiach, i na ościeżnicy, a dłoń z kluczem przy klamce była widoczna.
 **Poprawka (v3):** bez numeru na drzwiach. Tomek stoi plecami tuż przy prawej krawędzi drzwi i tułowiem zasłania klamkę, zamek i dłonie.
 **Wynik 3 (10.10):** ❌ numer zniknął, ale Tomek dalej stoi obok klamki i widać dłoń z kluczem. Tekstem tego nie wygramy.
-**v4 = klatka startowa (jak w ujęciu 1):** klatka 0:01 z wyniku 3 (korytarz wyszedł najlepiej), w NBP przesuwamy Tomka przed klamkę i chowamy mu dłonie, potem Omni animuje od tej klatki tym samym promptem v3.
+**v4 = klatka startowa (jak w ujęciu 1):** klatka 0:00 z wyniku 3 (`referencje/u04-start-przed-edycja.png`, 1280×720; dłonie już przy piersi, widać tylko klamkę) (korytarz wyszedł najlepiej), w NBP przesuwamy Tomka przed klamkę i chowamy mu dłonie, potem Omni animuje od tej klatki tym samym promptem v3.
 
 ### Klatka startowa: edycja w NBP (16:9, 2k), obraz 1 = klatka z wyniku 3
 
