@@ -23,7 +23,7 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 
 ## Podział pracy
 
-Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor w Higgsfieldzie, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
+Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
 
 ## Zawartość
 
