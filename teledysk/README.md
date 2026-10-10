@@ -21,6 +21,10 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 8. **Obiektyw w stopniach, osobny dla każdego ujęcia.** Teleobiektyw (18°) najlepiej działa na zbliżeniach twarzy. W szerszym planie model ma tendencję do zwykłego kadru.
 9. **Każde ujęcie = cały prompt + lista referencji.** Do każdego ujęcia podajemy prompt w całości (do skopiowania) i listę zdjęć referencyjnych: tag, plik i co jest w nim kluczowe. Do tego ustawienia generatora.
 
+## Podział pracy
+
+Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor w Higgsfieldzie, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
+
 ## Zawartość
 
 - [`postacie.md`](postacie.md): Ania i Tomek, opisy do promptów i głosy
