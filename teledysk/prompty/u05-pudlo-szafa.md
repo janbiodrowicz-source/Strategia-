@@ -479,7 +479,7 @@ Static camera, fixed frame for the whole shot, no drift, no push-in. The image i
 ACTION TIMING
 0:00 to 0:02: @TOMEK walks three steps into the room along the narrow path between the coffee table and the bookshelf, carrying the box. @ANIA steps into the doorway behind him and stops there, one hand on the door frame.
 0:02 to 0:03: He lowers the box onto the sofa seat with both hands and lets go; the guitar case swings slightly on his back.
-0:03 to 0:05: He takes one step to the wardrobe in the right foreground, and opens both of its doors. The wardrobe is crammed full of her women's clothes: colorful dresses, floral and mustard blouses, pleated skirts, knit cardigans and a few handbags, hangers jammed edge to edge, skirt hems and sleeves bulging toward the opening, shelves stacked to the top with folded sweaters and scarves.
+0:03 to 0:05: He takes one step to the wardrobe in the right foreground and opens both of its doors. The wardrobe is crammed full of her women's clothes: colorful dresses, floral and mustard blouses, pleated skirts, knit cardigans and a few handbags, hangers jammed edge to edge, skirt hems and sleeves bulging toward the opening, shelves stacked to the top with folded sweaters and scarves.
 0:05 to 0:06: He freezes in front of the open wardrobe, looks at the crammed clothes, then turns only his head toward @ANIA, eyes first, his face dry and deadpan.
 0:06 to 0:08: @ANIA in the doorway bursts into silent laughter, one hand covering her mouth, shoulders shaking. @TOMEK's deadpan cracks into a slow closed-lip smile.
 
@@ -496,5 +496,5 @@ AUDIO
 Footsteps on old parquet, the soft thud of the box on the sofa, the click and creak of the wardrobe doors, @ANIA's muffled laugh. No music, no voices, no subtitles.
 
 POSITIVE CONSTRAINTS
-Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. Tomek opens both wardrobe doors. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
+Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. @TOMEK opens both wardrobe doors. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
