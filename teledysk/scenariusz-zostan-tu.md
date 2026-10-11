@@ -43,7 +43,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 3 | 0:15–0:22,5 | ✅ **u03-klucz-stol** | Klucz na stole, łyżeczka staje, uśmiech Tomka | 47° |
 | 4 | 0:22,5–0:30 | ✏️ **u04-korytarz-drzwi** | Wąski korytarz kamienicy. Tomek wkłada klucz w drzwi kawalerki, klucz pasuje i Tomek z uśmiechem patrzy na Anię („Nowe drzwi i świat za nimi”) | 47°, przez ramię |
 | 5 | 0:30–0:37,5 | 🆕 | Tomek wnosi jedno pudło i gitarę, a mieszkanie jest tak małe, że zahacza gitarą o szafę. Oboje się śmieją | 84°, szeroko, żeby było widać ciasnotę |
-| 6 | 0:37,5–0:45 | 🆕 | Wieczór. Jedzą na podłodze z pudełek na wynos, bo stolik jest za mały, a za oknem świecą miejskie światła | 29°, ciepło |
+| 6 | 0:37,5–0:45 | ✏️ **u06-kolacja-kuchnia** | Wieczór, pierwsza wspólna kolacja w kuchni przy tym samym stoliku co w ujęciu 3. Tomek karmi Anię z widelca, ona się śmieje. W tle pokrowiec z gitarą Tomka (zmiana 11.10) | 29°, ciepło |
 
 ### Spokojny refren (0:45–1:00)
 
@@ -73,7 +73,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 14 | 1:18,75–1:22,5 | 🆕 | Ania i Tomek na podłodze nad laptopem, na ekranie samo zdjęcie białego domu z ogrodem, a pies wciska się między nich | 47° |
 | 15 | 1:22,5–1:26,25 | 🆕 | Taśma przeciąga się przez karton z napisem markerem „KUCHNIA” | 18°, wstawka |
 | 16 | 1:26,25–1:30 | 🆕 | „Pudła w korytarzu”: znoszą kanapę kręconymi schodami kamienicy, pies zbiega przodem | 107°, z dołu klatki |
-| 17 | 1:30–1:33,75 | 🆕 | „Kawa w dwóch kubkach”: dwa białe kubki z kuchni na stosie kartonów, dwie dłonie je zabierają | 29°, wstawka |
+| 17 | 1:30–1:33,75 | 🆕 | Kuchnia wśród kartonów: jedzą przy stoliku, a pies pod ich nogami je ze swojej miski (zmiana 11.10, zastępuje wstawkę z kubkami) | 47° |
 | 18 | 1:33,75–1:37,5 | 🆕 | Pod kamienicą Tomek zatrzaskuje drzwi wynajętego busa | 47° |
 | 19 | 1:37,5–1:41,25 | 🆕 | Bus wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
 | 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Bus skręca na podjazd | 84° |

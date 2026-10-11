@@ -16,7 +16,7 @@ Ostatnia aktualizacja: 11.10.2026
 - Inspiracje autora (4 zdjęcia małych mieszkań z internetu, 11.10): nowe bloki (PCV, niski sufit, panele), więc nie wgrywamy ich jako referencji do NBP, bo rozjechałyby kamienicę. Służą tylko za wzór kadru (zdjęcie z TV i turkusową kanapą = widok wzdłuż pokoju na okno, jak u nas).
 
 ## Do decyzji: logika scenariusza 🧐
-1. **Ujęcie 6:** „jedzą na podłodze, bo stolik jest za mały”. Na referencji okrągły stolik z dwoma krzesłami wystarcza dla dwojga. Propozycja: na stoliku stoi pudło Tomka i leży gitara (ciąg dalszy u05), więc jedzą na dywanie.
+1. ✅ **Ujęcie 6 (rozstrzygnięte 11.10):** kolacja w kuchni bez psa. Pies z miską pod stołem idzie do ujęcia 17.
 2. **Ujęcie 13:** trzymiesięczny szczeniak nie przewróci wysokiej monstery w ciężkiej donicy. Propozycja: ryje w ziemi w donicy albo przewraca małą doniczkę z parapetu.
 3. **Ujęcie 33:** śpią na materacu, ale jeśli zielona kanapa jedzie z nimi (ujęcie 16 i pomysł niżej), logiczniej będzie, gdy śpią na niej rozłożonej. Rozłożoną kanapę trzeba by wtedy zrobić jako osobny rekwizyt.
 4. **Ujęcie 16:** „kręcone schody”. Klatka z u04 (lastryko, dwukolorowe ściany) pasuje do zwykłych schodów zabiegowych ze stalową balustradą. Bez znaczenia, dopóki nie zrobimy referencji klatki.
@@ -31,4 +31,4 @@ Ostatnia aktualizacja: 11.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcie 5 ✅. Następne: ujęcie 6 (najpierw decyzja o logice stolika, zob. „Do decyzji”).
+- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcie 5 ✅. Ujęcie 6: prompt v1 gotowy (`u06-kolacja-kuchnia.md`).
