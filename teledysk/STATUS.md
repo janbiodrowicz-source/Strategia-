@@ -12,6 +12,7 @@ Ostatnia aktualizacja: 11.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
+- Ujęcie 5: najpierw nowa referencja, kawalerka od okna na drzwi (`lokacje.md`, sekcja „KAWALERKA: widok odwrotny”). Plan ujęcia: kamera przy oknie, 84°, Tomek wchodzi z pudłem przez białe drzwi, przy szafie (prawy pierwszy plan) gryf gitary uderza w drzwi szafy, Ania śmieje się w progu.
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Najnowsza praca jest na gałęzi **`ccr-63159242-oid2q7`** (zbudowana na `ccr-a8de49cd-ag2gzs`; na `main` jej nie ma!).

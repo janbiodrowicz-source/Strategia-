@@ -6,7 +6,7 @@ Referencje robimy tylko dla miejsc, które powtarzają się w kilku ujęciach (z
 |---|---|---|
 | Pusty salon w domu | 23–30, 32–33 | ✅ `referencje/salon.jpg` |
 | Dom z zewnątrz (front, podjazd) | 20, 21, 22, 31, 34 | ✅ `referencje/dom.png` |
-| Pokój w kawalerce | 5, 6, 13, 14, 17 | ✅ `referencje/kawalerka.jpg` |
+| Pokój w kawalerce | 5, 6, 13, 14, 17 | ✅ `referencje/kawalerka.jpg`, ⏳ widok od okna `kawalerka-od-okna.jpg` |
 | Kuchnia w kawalerce | 2, 3 | ♻️ klatka z klipu 01 |
 
 ## SALON
@@ -99,6 +99,37 @@ Tylko jeśli kroki 1–2 zawiodą. Parametry w UI: 16:9, 2k, referencja: `kawale
 ```text
 Eye-level straight-on wide shot from the open white double door of a small narrow studio room in an old Polish tenement, the two door leaves framing both edges of the frame, one-point perspective toward the window. The room is about 3 metres wide and 4.5 metres deep with a 3.2-metre ceiling and an ornate plaster cornice, warm-white walls, worn honey-oak herringbone parquet, a woven jute rug. On the far wall one tall old double-casement window with white wooden frames looking at a pale ochre tenement facade, a white radiator under it, a small round light-oak table with two chairs. Along the left wall a compact two-seater mid-century sofa in deep bottle-green velvet on slim tapered oak legs, a folded oatmeal knit blanket on the seat, a narrow white wardrobe behind it. Along the right wall a long low oak bookshelf packed with books and a tall monstera in a terracotta pot in the corner. Soft overcast daylight from the window, gentle falloff toward the door. Palette of 60% warm white and oatmeal, 30% honey oak, 10% bottle green. Rule of thirds. Clean modern digital cinematic capture, true-to-life colour.
 ```
+
+## KAWALERKA: widok odwrotny (od okna na drzwi) ⏳
+
+Cel: druga strona pokoju do ujęcia 5 (Tomek wchodzi z pudłem i gitarą, przy szafie zahacza gryfem). Lekcja z „Hell Grind”: lokacja z dwóch stron, żeby model nie zgadywał, co jest za postacią.
+
+**Nowy układ (lustro widoku z drzwi):** kamera stoi przy oknie i patrzy na drzwi. Regał i monstera są teraz **po lewej**, kanapa i szafa **po prawej**. Szafa stoi najbliżej kamery, przy prawej krawędzi kadru. W głębi są białe drzwi dwuskrzydłowe, otwarte, a za nimi mały przedpokój z ciemnobrązowymi drzwiami wejściowymi (te z ujęcia 4). Stolik z krzesłami jest za kamerą, więc w kadrze go nie ma.
+
+Parametry w UI: NBP, **16:9**, 2k, **x4** (seria, żeby odróżnić pecha od złego promptu). Obraz 1 = `kawalerka.jpg`. Jeśli NBP pomiesza układ, ten sam prompt w GPT Image 2.
+
+```text
+Using image 1 as the exact room, show the reverse view of the same studio room: the camera now stands in front of the window and looks back toward the white double entrance door.
+
+NEW CAMERA: standing eye level, about 1.6 meters high, camera placed against the window wall just right of the window center, looking straight down the length of the room toward the door. Wide real-estate interior view, one-point perspective toward the doorway, straight vertical lines.
+
+NEW ARRANGEMENT (mirror of image 1):
+- Along the LEFT wall: the long low oak bookshelf packed with books, running from the camera toward the door; the tall monstera in the terracotta pot stands at the far end of the left wall, next to the door.
+- Along the RIGHT wall: the narrow white wardrobe closest to the camera, its edge cut by the right frame edge; beyond it the compact bottle-green velvet sofa on slim tapered oak legs, its seat facing the left wall.
+- Far wall, centered: the white double door with both leaves standing wide open into the room; through it a small dim entrance hall with cream walls and a closed dark-brown wooden apartment door with raised panels and a brass lever handle.
+- The woven jute rug lies in the middle of the floor between the sofa and the bookshelf.
+- The round table and the two chairs are behind the camera, outside the frame.
+
+PRESERVE EXACTLY from image 1:
+- Room size and proportions: about 3 meters wide, 4.5 meters deep, high ceiling with the ornate plaster cornice
+- Warm-white plastered walls, worn honey-oak herringbone parquet, the jute rug
+- The exact look of the sofa, the wardrobe, the bookshelf with its books, the monstera and its pot
+- Colour grade, contrast, grain
+
+LIGHT: soft overcast daylight from the window behind the camera falls down the room toward the door, brightest in the foreground, gentle falloff into the dimmer entrance hall. Empty room, still air. Rule of thirds.
+```
+
+**Na co patrzeć:** kanapa ma być po **prawej**, a regał po **lewej**. Szafa ma stać najbliżej kamery. Drzwi mają być białe i dwuskrzydłowe, a za nimi ciemnobrązowe drzwi wejściowe. Zapisz jako `referencje/kawalerka-od-okna.jpg`.
 
 ## Rekwizyty
 
