@@ -362,6 +362,55 @@ POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The box stays on the floor by his foot. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
+**Wyniki v13 (11.10, 2 klipy):** drzwi się otwierają, Tomek zostaje w progu i się uśmiecha (✅), ale za drzwiami jest **puste, nieumeblowane mieszkanie**, a to nie pasuje do autora. Winne jest „empty and tidy” w LOCATION MAP: model zrozumiał to jako pustostan. **Klip ze starego promptu:** wyszedł, ale przy otwieraniu (1,5–2,6 s) widać **drugi klucz po wewnętrznej stronie drzwi**.
+**v13b:** tylko blokada klucza (jeden klucz od strony klatki, od środka sama klamka i pusta dziurka). Zmiana wnętrza czeka na decyzję autora.
+
+```text
+SCENE CONTEXT
+Late morning on the landing of an old Polish tenement. A young man opens the door of his girlfriend's small apartment, stops on the threshold and turns his head to smile at her. A quiet moment that means he is moving in.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt over a white t-shirt, khaki chinos, brown suede sneakers, black soft guitar case on his back, right hand holding the guitar strap at his chest, left hand on the brass lever handle. Calm, quietly moved. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind. 100% matches the reference.
+
+LOCATION MAP
+Camera stands on the landing, 3 meters from the apartment door, facing it. Foreground screen-left: @ANIA's back, shoulder and hair. Midground center: @TOMEK at the door. Background: the single tall dark-brown wooden door with raised panels, hinges on its left edge, brass lever handle on its right edge, a single small brass key inserted from the landing side in the lock below the handle. The inner side of the door has only a plain lever handle and an empty keyhole. Walls in two-tone paint, glossy bottle green below and worn cream above, worn terrazzo floor. A tall stairwell window off-screen camera-left. Behind the door: a small bright entrance hall with cream walls, light wooden floor and a closed white interior door, empty and tidy.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The video starts exactly from the provided start frame: same camera, same framing, same positions. The first visible frame already contains both characters in place.
+@TOMEK stands within 30 centimeters of the door, back to the camera, torso facing the door, left hand on the lever handle, right hand on the guitar strap at his chest.
+@ANIA stands 2 meters behind him, closest to the camera, her back and hair filling the left third of the frame. Her body and eyes face @TOMEK for the whole shot; her face is never visible.
+A single closed cardboard moving box, plain brown and sealed with tape, stands on the floor within 50 centimeters of @TOMEK's right foot for the whole shot.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, camera 3 meters from @TOMEK, natural human-eye perspective. Zero obvious distortion, natural body proportions, @ANIA soft in the foreground, @TOMEK and the door in sharp focus.
+
+CAMERA
+Over-the-shoulder shot from behind @ANIA at her head height. Camera locked off on a tripod for the whole shot, no drift, no push-in. @ANIA holds the left third, @TOMEK and the door hold the center-right.
+
+ACTION TIMING
+0:00 to 0:01: @TOMEK presses the lever handle down with his left hand; a soft metallic clack.
+0:01 to 0:03: He pushes with the same hand; the single wooden door swings slowly and fully open, inward into the apartment, turning on its left-edge hinges. The bright empty entrance hall appears behind it. The one brass key stays in the outer lock and travels with the door; when the door edge turns toward the camera, the inner side shows only the handle and an empty keyhole, no second key.
+0:03 to 0:04: He lets go of the handle and stays standing on the threshold, back to the camera, looking into the apartment for one breath.
+0:04 to 0:06: He turns only his head over his left shoulder toward @ANIA, eyes first, torso still facing the doorway; a slow closed-lip smile spreads.
+0:06 to 0:08: He holds her gaze with the smile; @ANIA's shoulders drop with a quiet laugh. He stays on the threshold until the end.
+
+PHYSICS
+The heavy old door has real mass and stiff hinges: it starts slowly, swings evenly and settles against its stop. The guitar case shifts slightly with his head turn. His feet stay planted on the threshold. Dust motes float in the daylight from the doorway.
+
+LIGHTING
+Cool soft daylight from the stairwell window camera-left fills the landing. As the door opens, warm golden daylight from the apartment spills through the doorway onto @TOMEK's chest and the side of his face, the only warm light in the frame. No flat front light.
+
+AUDIO
+Quiet stairwell echo, the clack of the lever handle, the creak of old hinges, @ANIA's soft laugh. No music, no voices, no subtitles. Neither of them speaks; his lips stay closed.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. Exactly one key in the whole shot, on the landing side of the door. The box stays on the floor by his foot. Natural skin texture, real fine film grain, stable picture, no flickering.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
