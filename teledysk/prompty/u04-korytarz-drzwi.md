@@ -413,7 +413,7 @@ Exactly two people in frame. The door stays one single wooden door of the same s
 
 ## ✅ DECYZJA (11.10): ujęcie 4 = klip B
 Autor kończy walkę z promptami. Do montażu idzie **klip B** (plik u autora: `446292864_1791729881951863.mp4`, 8 s). Sprawdzone: w drzwiach jest jeden klucz (od strony klatki), jedno pudło na korytarzu, a w mieszkaniu nie ma pudeł. Tomek otwiera drzwi, przytrzymuje je, odwraca się całym ciałem i robi krok w stronę Ani. Kończy z uśmiechem przy progu, obok pudła.
-**Ciągłość z u05:** u05 musi zaczynać się od Tomka stojącego przodem do Ani przy progu, obok pudła, który schyla się po pudło i wnosi je do środka.
+**Ciągłość z u05 (zmiana 11.10):** podniesienia pudła nie pokazujemy, bo wypada w cięciu. u05 zaczyna się w pokoju (widok od okna): Tomek stoi w progu białych drzwi z pudłem w rękach i gitarą na plecach.
 Decyzja autora: **klipu nie przycinamy** (zostaje 8 s).
 
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
@@ -422,7 +422,7 @@ Decyzja autora: **klipu nie przycinamy** (zostaje 8 s).
 **Ciągłość:**
 - ten sam mosiężny klucz na małym kółku co w ujęciach 2 i 3,
 - strój jak w klipach 01 i 02,
-- Tomek ma na plecach gitarę w miękkim pokrowcu, a przy stopie stoi jedno pudło, bo w ujęciu 5 wnosi oba do środka (pudło = cały jego dobytek, „nie pytam, co będzie dalej”). Ujęcie 5 zaczyna się od podniesienia tego pudła.
+- Tomek ma na plecach gitarę w miękkim pokrowcu, a przy stopie stoi jedno pudło, bo w ujęciu 5 wnosi oba do środka (pudło = cały jego dobytek, „nie pytam, co będzie dalej”). Podniesienie pudła wypada w cięciu między u04 a u05.
 
 ```text
 SCENE CONTEXT
