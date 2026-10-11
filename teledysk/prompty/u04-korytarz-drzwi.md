@@ -221,6 +221,47 @@ PRESERVE EXACTLY:
 ONLY CHANGE: the left hand on the handle instead of on the key, and the faces matching the references. 100% identical otherwise.
 ```
 
+**Wynik 10 (11.10, NBP):** dłoń prawie bez zmian (przy klamce, klucz wisi w zamku pod nią), ale Ania jest większa i wyraźniejsza na pierwszym planie, a to dobry kadr przez ramię. Klatka: `referencje/u04-start-v10.jpg`. Akceptujemy ją.
+
+### v10, wideo (Omni 1.1 Flash, 8 s), klatka startowa = `u04-start-v10.jpg`, referencja `@TOMEK` = zbliżenie twarzy z planszy `tomek.png`
+
+```text
+SCENE CONTEXT
+Late morning on the fourth-floor landing of an old Polish tenement. A young man has just unlocked the door of his girlfriend's tiny studio apartment with the key she gave him. He opens the door and turns to her with a smile. A small moment that means he is moving in.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, warm brown eyes, dark teal overshirt over a white t-shirt, khaki chinos, brown suede sneakers. A black soft guitar case on his back. Calm, quietly moved. His face 100% matches the reference.
+The woman in the left foreground: early 30s, wavy shoulder-length dark brown hair with caramel ends, cream linen overshirt. Seen only from behind for the whole shot, her face never visible.
+
+FIRST FRAME
+The video starts exactly from the provided start frame: same camera, same framing, same positions. @TOMEK stands with his back to the camera, his left hand on the brass lever handle, his right hand on the guitar strap at his chest. The small brass key is already turned and stays inserted in the lock below the handle. The cardboard box stands on the floor by his feet. The woman's shoulder and hair fill the left foreground.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts. Camera static on a tripod, 47° normal lens, over the woman's shoulder. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:01: @TOMEK presses the lever handle down with his left hand; a soft metallic clack.
+0:01 to 0:03: He pushes; the single wooden door swings slowly inward, away from the camera, a widening gap of warm golden daylight opening beside him. The key stays in the lock and moves with the door.
+0:03 to 0:04: He lets go of the handle and stands still in the doorway for a beat, looking inside.
+0:04 to 0:06: He turns his head over his left shoulder toward the woman, eyes first; a slow closed-lip smile spreads, warm and a little amused, exactly like the reference.
+0:06 to 0:08: The woman's shoulder lifts with a quiet laugh; warm daylight from inside the apartment spills across @TOMEK's face and chest.
+
+PERFORMANCE
+@TOMEK is unhurried, almost ceremonial. When the door gives, he freezes for a beat, the thought arriving in his eyes before his head turns. The smile is dry and warm, a joke he does not need to say. Neither of them speaks; his lips stay closed. The woman, seen only from behind, drops her raised shoulders on the laugh.
+
+PHYSICS
+The heavy old door swings slowly on stiff hinges, one solid leaf turning around its left edge, opening inward into the apartment. The guitar case shifts with his turn. Dust motes float in the line of daylight from the doorway.
+
+LIGHTING
+Cool soft daylight from the stairwell window on the left. As the door opens, a warm golden wedge of daylight from the apartment falls across @TOMEK, the only warm light in the frame.
+
+AUDIO
+Quiet stairwell echo, the clack of the lever handle, the creak of old hinges, the woman's soft laugh. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The key stays in the lock. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
