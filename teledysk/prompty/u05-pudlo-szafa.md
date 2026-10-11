@@ -502,7 +502,7 @@ Exactly two people in the room. One single box, plain brown with blank sides. Th
 **Wynik v8 (11.10):** ❌ szafa otwiera się sama, a Tomek tylko rozchyla ubrania.
 
 ## ✅ DECYZJA (11.10): ujęcie 5 = najlepszy klip z v3
-Autor zostaje przy najlepszym klipie z v3 (szafa z męskimi ubraniami). Gra, pokój i tempo są tam najlepsze. Przy szerokim kadrze 84° i krótkim pokazaniu szafy męskie ubrania mało rzucają się w oczy.
+Autor zostaje przy najlepszym klipie z v3 (szafa z męskimi ubraniami). Gra, pokój i tempo są tam najlepsze. **Nowe odczytanie (autor):** to ostatnie pudło Tomka, a część jego rzeczy już wisi w szafie. Męskie ubrania przestają być błędem i stają się historią: Ania zrobiła mu miejsce, Tomek naprawdę się wprowadza.
 
 **Lekcje z u05:**
 - Słowo „tripod” w sekcji CAMERA = statyw w kadrze. Piszemy „static camera, fixed frame… the camera itself is never visible”.

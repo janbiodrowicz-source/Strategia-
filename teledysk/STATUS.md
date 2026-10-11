@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 11.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- Ujęcie 5 ✅ zamknięte (zob. `prompty/u05-pudlo-szafa.md`, lekcje na końcu). Referencja `tomek-gitara-pudlo.jpg` gotowa. Widok kawalerki od okna niezrobiony (opcjonalny, przyda się w ujęciach 13, 14 i 17).
+- Ujęcie 5 ✅ zamknięte (zob. `prompty/u05-pudlo-szafa.md`, lekcje na końcu). Referencja `tomek-gitara-pudlo.jpg` gotowa. Odczytanie: to ostatnie pudło Tomka, a jego ubrania już wiszą w szafie Ani. Widok kawalerki od okna niezrobiony (opcjonalny, przyda się w ujęciach 13, 14 i 17).
 - Inspiracje autora (4 zdjęcia małych mieszkań z internetu, 11.10): nowe bloki (PCV, niski sufit, panele), więc nie wgrywamy ich jako referencji do NBP, bo rozjechałyby kamienicę. Służą tylko za wzór kadru (zdjęcie z TV i turkusową kanapą = widok wzdłuż pokoju na okno, jak u nas).
 
 ## Do decyzji: logika scenariusza 🧐

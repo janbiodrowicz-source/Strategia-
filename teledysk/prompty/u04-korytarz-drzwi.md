@@ -422,7 +422,7 @@ Decyzja autora: **klipu nie przycinamy** (zostaje 8 s).
 **Ciągłość:**
 - ten sam mosiężny klucz na małym kółku co w ujęciach 2 i 3,
 - strój jak w klipach 01 i 02,
-- Tomek ma na plecach gitarę w miękkim pokrowcu, a przy stopie stoi jedno pudło, bo w ujęciu 5 wnosi oba do środka (pudło = cały jego dobytek, „nie pytam, co będzie dalej”). Podniesienie pudła wypada w cięciu między u04 a u05.
+- Tomek ma na plecach gitarę w miękkim pokrowcu, a przy stopie stoi jedno pudło, bo w ujęciu 5 wnosi oba do środka (pudło = jego **ostatnie** pudło, bo część rzeczy jest już w szafie Ani, zob. u05; „nie pytam, co będzie dalej”). Podniesienie pudła wypada w cięciu między u04 a u05.
 
 ```text
 SCENE CONTEXT
