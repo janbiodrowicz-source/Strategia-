@@ -282,3 +282,57 @@ Footsteps on old parquet, the soft thud of the box on the sofa, the click and cr
 POSITIVE CONSTRAINTS
 Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. The wardrobe has exactly one door from top to bottom, and nothing else on it opens. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
+
+**Wynik v4 (11.10, klip `323305376…mp4`):** ✅ „zadziałał świetnie”: pokój umeblowany (telewizor, regał, obrazy, monstera), damskie ubrania, gra i śmiech Ani. ❌ Szafa jest dwudrzwiowa od pierwszej klatki (dwa uchwyty), mimo że prompt mówi „single-door”, i znów otwierają się oboje drzwi.
+**v4b (zamiast v5):** nie walczymy z modelem. Szafa zostaje dwudrzwiowa (tak ją rysuje), a blokujemy tylko prawe drzwi: Tomek ciągnie lewy uchwyt, prawe drzwi zostają zamknięte do końca. Reszta v4 bez zmian, żeby nie zepsuć tego, co działa. v5 (50 cm, jedne drzwi) zostaje w zapasie.
+
+```text
+SCENE CONTEXT
+Late morning in a tiny, fully furnished studio apartment in an old Polish tenement. A young man carries his only moving box into his girlfriend's room, sets it on the sofa and opens her wardrobe to make space for his things. It is crammed full of her clothes. He looks back at her, and she bursts out laughing in the doorway.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt open over a white t-shirt, khaki chinos, brown suede sneakers. A black soft guitar case on his back, its single strap over his right shoulder only; it stays on his back for the whole shot. He carries one plain brown cardboard box sealed with tape in both arms. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, cream linen overshirt over a mustard t-shirt, light blue jeans. 100% matches the reference.
+
+LOCATION MAP
+A small, cozy, lived-in studio room, 3 meters wide and 4.5 meters deep, high ceiling with an ornate plaster cornice, warm-white plastered walls, honey-oak herringbone parquet, a woven jute rug. The camera stands at the window end of the room and looks down its length toward the entrance; the only window is behind the camera. Far wall, centered: a white double door, both leaves wide open, a small dim entrance hall behind it.
+Left wall, from the camera to the door: a long low oak bookshelf packed with books, a small flat black TV standing on top of it with its screen dark, and a tall monstera in a terracotta pot at the far end next to the door.
+Right wall, from the door to the camera: a compact bottle-green velvet sofa on slim tapered oak legs, a large framed botanical print of green leaves on the wall above the sofa, then a white two-door wardrobe in the right foreground, closest to the camera, its doors facing the left wall, two vertical black bar handles side by side at the center seam.
+Middle of the room: a small round light-oak coffee table on the jute rug in front of the sofa, a mug and a stack of books on it. The furniture leaves a narrow walking path along the rug.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame already contains both characters. No empty establishing frame.
+@TOMEK stands on the threshold of the white double door, 4 meters from the camera, facing the camera, the box in both arms at waist height, the guitar case on his back.
+@ANIA stands in the entrance hall half a step behind his left shoulder, facing the room, her face visible.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+84° diagonal field of view, classic wide-angle lens character, camera at chest height, 1 to 4 meters from @TOMEK as he approaches. The whole furnished room stays visible to the frame edges, deep edge-to-edge focus, straight architectural lines stay rectilinear. As @TOMEK comes close, his body looms larger in the right foreground. No part of this shot becomes telephoto portrait coverage.
+
+CAMERA
+Static camera, fixed frame for the whole shot, no drift, no push-in. The image is the camera's point of view; the camera itself is never visible. The doorway holds the center of the frame, the wardrobe holds the right edge. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:02: @TOMEK walks three steps into the room along the narrow path between the coffee table and the bookshelf, carrying the box. @ANIA steps into the doorway behind him and stops there, one hand on the door frame.
+0:02 to 0:03: He lowers the box onto the sofa seat with both hands and lets go; the guitar case swings slightly on his back.
+0:03 to 0:05: He takes one step to the wardrobe in the right foreground, grips the left black bar handle with his right hand and pulls only the left door open. The right door stays shut, its handle untouched. The wardrobe is crammed full of her women's clothes: colorful dresses, floral and mustard blouses, pleated skirts, knit cardigans and a few handbags, hangers jammed edge to edge, skirt hems and sleeves bulging toward the opening, shelves stacked to the top with folded sweaters and scarves.
+0:05 to 0:06: He freezes with his right hand still on the handle, looks at the crammed clothes, then turns only his head toward @ANIA, eyes first, his face dry and deadpan.
+0:06 to 0:08: @ANIA in the doorway bursts into silent laughter, one hand covering her mouth, shoulders shaking. @TOMEK's deadpan cracks into a slow closed-lip smile.
+
+PERFORMANCE
+@TOMEK wants to make his place in her life, one box at a time. The full wardrobe is the obstacle; he answers it with stillness, not frustration: his hand stays on the handle, his eyes reach her before his head turns, his look says "so where do I go?". @ANIA knew this would happen; she tries to hold the laugh for half a second, then gives up. Neither of them speaks; laughter and breath only, lips closed except for her laugh.
+
+PHYSICS
+The box has real weight: his arms carry it low, his steps are short, the sofa cushion compresses under it. The guitar case lags behind his movements and settles against his back. His fingers close around the handle before the door moves; the left door swings on its hinges and stops; the right door does not move. The packed clothes shift slightly as the door opens.
+
+LIGHTING
+Late-morning sun enters through the window behind camera-right and rakes diagonally across the room, a warm bright patch on the parquet and the rug, warm side light on @TOMEK's face as he turns. The entrance hall behind @ANIA stays dimmer and cooler. No flat front light.
+
+AUDIO
+Footsteps on old parquet, the soft thud of the box on the sofa, the click and creak of the wardrobe door, @ANIA's muffled laugh. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. Only the left wardrobe door opens; the right wardrobe door stays closed for the whole shot. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
+```
