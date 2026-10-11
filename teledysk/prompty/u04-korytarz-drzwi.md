@@ -274,6 +274,39 @@ The man presses the door handle down with his left hand and pushes the door open
 Keep his face, hairstyle and outfit consistent with the reference. The woman stays in the left foreground, seen from behind, for the whole clip. Only these two people in the shot. Keep the door, the key in the lock, the cardboard box on the floor, the green-and-cream walls and the window exactly as they appear in the starting image. Quiet stairwell sound, the creak of the door, no music, no speech.
 ```
 
+**Wynik v11 (11.10):** ❌ ale z perełką. Drzwi **w ogóle się nie otwierają**. Tomek naciska klamkę, puszcza ją i odwraca się całym ciałem przodem do kamery. Kamera dryfuje i się przybliża, pudło znika po 0:02. ✅ Za to od 0:05 do 0:08 jest piękny, naturalny uśmiech Tomka do Ani pod zamkniętymi drzwiami. Zachowujemy go jako zapas (przebitka albo alternatywny montaż).
+**Diagnoza:** model nie wie, co jest za drzwiami, więc woli ich nie otwierać. To ta sama lekcja co zawsze: poprawiamy klatkę startową.
+**v12:** w NBP drzwi już **uchylone** (szpara ciepłego światła), a Omni tylko je dopycha. Prompt wideo krótki, prozą.
+
+### v12, krok 1: NBP (16:9, x2), obraz 1 = `u04-start-v10.jpg`
+
+```text
+Keep the exact same composition, camera and framing as image 1. Edit image 1: the door is already slightly open.
+
+CHANGE:
+- The single wooden door is pushed open inward about 20 centimeters, away from the camera, turning on its hinges at its left edge; the man's left hand is on the lever handle, pushing it.
+- Through the narrow gap, a bright vertical sliver of warm golden morning daylight from inside the apartment, falling onto the terrazzo floor and the edge of the man's sleeve.
+
+PRESERVE EXACTLY:
+- The key in the lock, the brass handle, the door's shape, color and raised panels, its frame
+- The man's identity, pose, back to the camera, right hand on the guitar strap, the guitar case, his clothes
+- The woman in the left foreground seen from behind, her size and position
+- The cardboard box on the floor, the two-tone walls, the window, the light switch
+- Camera position, angle, lens, framing, colour grade, grain
+
+ONLY CHANGE: the door slightly open with warm light in the gap. 100% identical otherwise.
+```
+
+### v12, krok 2: wideo (Omni 1.1 Flash, 8 s, x2), klatka startowa = wynik kroku 1, referencja = twarz Tomka
+
+```text
+Photorealistic cinematic video clip, continuing exactly from this starting image — same framing, lighting, stairwell. Single continuous take, no cuts. The camera is locked on a tripod and does not move.
+
+The man keeps pushing the already open door with his left hand. The door swings slowly and fully open, inward into the apartment, and warm golden daylight from inside floods over him. He stays standing on the threshold with his back to the camera, then turns only his head over his left shoulder toward the woman and smiles softly with closed lips. Calm, everyday pacing — not rushed.
+
+Keep his face, hairstyle and outfit consistent with the reference. The woman stays in the left foreground, seen from behind, for the whole clip. Only these two people in the shot. Keep the key in the lock, the cardboard box on the floor by his feet, the green-and-cream walls and the window exactly as they appear in the starting image. Quiet stairwell sound, the creak of the door, no music, no speech.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
