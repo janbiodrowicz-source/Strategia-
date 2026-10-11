@@ -47,6 +47,6 @@ Voice @TOMEK: "A 30-year-old Polish man, warm low baritone with a slight rasp; r
 
 **Uwaga:** na planszce sierść jest nieco bardziej miodowo-pomarańczowa niż u szczeniaka w klipie z targu (03), gdzie pies był jaśniejszy, kremowo-złoty. Przy ciepłym świetle żarówek na targu ta różnica nie rzuca się w oczy.
 
-## @TOMEK z gitarą i pudłem (przeprowadzka, ujęcia 4–5) ⏳
+## @TOMEK z gitarą i pudłem (przeprowadzka, ujęcia 4–5) ✅
 
-Cała sylwetka Tomka: `referencje/tomek-cala-postac.png` (zrzut 523×1024, oryginał u autora). Edycja w NBP (Flow): gitara w miękkim pokrowcu na plecach, pasek tylko na prawym ramieniu, pudło w obu rękach. Jak na końcu klipu B z u04. Wynik zapisz jako `referencje/tomek-gitara-pudlo.png`.
+Cała sylwetka Tomka: `referencje/tomek-cala-postac.png` (zrzut 523×1024, oryginał u autora). Edycja w NBP (Flow): gitara w miękkim pokrowcu na plecach, pasek tylko na prawym ramieniu, pudło w obu rękach. Jak na końcu klipu B z u04. **Wynik (11.10):** ✅ `referencje/tomek-gitara-pudlo.jpg`.
