@@ -12,7 +12,14 @@ Ostatnia aktualizacja: 11.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- Ujęcie 5: najpierw nowa referencja, kawalerka od okna na drzwi (`lokacje.md`, sekcja „KAWALERKA: widok odwrotny”). Plan ujęcia: kamera przy oknie, 84°, Tomek wchodzi z pudłem przez białe drzwi, przy szafie (prawy pierwszy plan) gryf gitary uderza w drzwi szafy, Ania śmieje się w progu.
+- Ujęcie 5: najpierw nowa referencja, kawalerka od okna na drzwi (`lokacje.md`, sekcja „KAWALERKA: widok odwrotny”). Gitara już w nic nie uderza (autor 11.10). Propozycja akcji: kamera przy oknie, 84°. Tomek wchodzi z pudłem przez białe drzwi i odstawia je na kanapę. Otwiera szafę (prawy pierwszy plan), a ta jest wypchana ubraniami Ani i wysuwa się z niej sweter. Tomek patrzy na Anię, a ona śmieje się w progu. Do decyzji.
+- Inspiracje autora (4 zdjęcia małych mieszkań z internetu, 11.10): nowe bloki (PCV, niski sufit, panele), więc nie wgrywamy ich jako referencji do NBP, bo rozjechałyby kamienicę. Służą tylko za wzór kadru (zdjęcie z TV i turkusową kanapą = widok wzdłuż pokoju na okno, jak u nas).
+
+## Do decyzji: logika scenariusza 🧐
+1. **Ujęcie 6:** „jedzą na podłodze, bo stolik jest za mały”. Na referencji okrągły stolik z dwoma krzesłami wystarcza dla dwojga. Propozycja: na stoliku stoi pudło Tomka i leży gitara (ciąg dalszy u05), więc jedzą na dywanie.
+2. **Ujęcie 13:** trzymiesięczny szczeniak nie przewróci wysokiej monstery w ciężkiej donicy. Propozycja: ryje w ziemi w donicy albo przewraca małą doniczkę z parapetu.
+3. **Ujęcie 33:** śpią na materacu, ale jeśli zielona kanapa jedzie z nimi (ujęcie 16 i pomysł niżej), logiczniej będzie, gdy śpią na niej rozłożonej. Rozłożoną kanapę trzeba by wtedy zrobić jako osobny rekwizyt.
+4. **Ujęcie 16:** „kręcone schody”. Klatka z u04 (lastryko, dwukolorowe ściany) pasuje do zwykłych schodów zabiegowych ze stalową balustradą. Bez znaczenia, dopóki nie zrobimy referencji klatki.
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Najnowsza praca jest na gałęzi **`ccr-63159242-oid2q7`** (zbudowana na `ccr-a8de49cd-ag2gzs`; na `main` jej nie ma!).
