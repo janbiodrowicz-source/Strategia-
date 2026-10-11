@@ -198,6 +198,29 @@ Exactly two people in frame. The door stays one single wooden door of the same s
 **v9b (wideo):** dopisany ruch przekręcić klucz, przenieść dłoń na klamkę, nacisnąć, pchnąć (tak otwiera się prawdziwe drzwi). Klucz zostaje w zamku i jedzie z drzwiami.
 **Plan B:** edycja NBP „left hand moves from the key up to the brass lever handle directly above it… key stays inserted”, a potem wideo od naciśnięcia klamki.
 
+**v10 (11.10, decyzja autora):** klatka v9 (`referencje/u04-start-v9-klucz.jpg`, 1376×768) przerobiona w NBP z referencjami postaci: klucz zostaje w zamku, lewa dłoń Tomka na klamce. Wideo zaczyna się od naciśnięcia klamki (bez przekręcania klucza).
+
+### v10: NBP (16:9, 2k), obraz 1 = `u04-start-v9-klucz.jpg`, obraz 2 = `tomek.png`, obraz 3 = `ania.png`
+
+```text
+Keep the exact same composition, camera and framing as image 1. Edit image 1: the man's left hand moves from the key up to the brass lever handle directly above it, fingers wrapped around the lever, ready to press it down. The small brass key stays inserted in the lock below the handle, untouched.
+
+IDENTITY:
+- The man matches image 2 exactly: face, tousled dark brown hair, short stubble, build.
+- The woman in the left foreground matches image 3 exactly: wavy shoulder-length dark brown hair with caramel ends, cream linen shirt. She stays seen from behind, her face not visible.
+
+PRESERVE EXACTLY:
+- The man's right hand on the guitar strap at his chest, his dark teal shirt, khaki chinos, brown sneakers, the black guitar case on his back, his position with his back to the camera
+- The woman's position and size in the left foreground
+- The sealed cardboard box on the floor, its size and position
+- The single dark-brown wooden door with raised panels, closed, its frame, the round lock above
+- The two-tone corridor walls (bottle green below, cream above), the terrazzo floor, the window on the left, the light switch
+- Camera position, angle, lens and framing
+- Light direction, colour grade, contrast, grain
+
+ONLY CHANGE: the left hand on the handle instead of on the key, and the faces matching the references. 100% identical otherwise.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.

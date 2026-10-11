@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 10.10.2026
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- **Ujęcie 4 (drzwi, 0:22,5–0:30):** historia w `prompty/u04-korytarz-drzwi.md`. Autor ma prawie dobrą klatkę z NBP (wynik 7b: Ania, klucz w zamku, pudło). **v9:** klatka z lewą ręką na kluczu gotowa ✅. Wideo v9b (klucz, klamka, pchnięcie, uśmiech) czeka na generację.
+- **Ujęcie 4 (drzwi, 0:22,5–0:30):** historia w `prompty/u04-korytarz-drzwi.md`. Autor ma prawie dobrą klatkę z NBP (wynik 7b: Ania, klucz w zamku, pudło). **v9:** klatka z lewą ręką na kluczu gotowa ✅. **v10:** autor chce dłoń na klamce, a klucz ma zostać w zamku. Edycja NBP z referencjami postaci, potem wideo od naciśnięcia klamki.
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Cała praca jest na gałęzi **`ccr-a8de49cd-ag2gzs`** (na `main` jej nie ma!).
