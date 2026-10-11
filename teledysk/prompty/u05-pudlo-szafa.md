@@ -230,7 +230,7 @@ Exactly two people in the room. One single box, plain brown with blank sides. Th
 ```
 
 **Wynik v4 (11.10):** ❌ model znów otwiera dwoje drzwi szafy. Sama szafa „single-door” to za mało: model ma w pamięci szafy dwudrzwiowe.
-**v5:** jedna zmiana (opis szafy), ale twardymi liczbami według lekcji z „Hell Grind”: szerokość 50 cm, dokładnie jedne drzwi z zawiasami po dalszej stronie, otwierają się na 90° od kamery, reszta frontu to stała boczna ścianka. Jeśli dalej nie wychodzi: klatka startowa z szafą w NBP (lekcja z u04).
+**v5:** jedna zmiana (opis szafy), ale twardymi liczbami według lekcji z „Hell Grind”: szerokość 50 cm, dokładnie jedne drzwi z zawiasami po dalszej stronie, otwierają się na 90° od kamery, a poza nimi nic w szafie się nie otwiera. Jeśli dalej nie wychodzi: klatka startowa z szafą w NBP (lekcja z u04).
 
 ```text
 SCENE CONTEXT
@@ -271,7 +271,7 @@ PERFORMANCE
 @TOMEK wants to make his place in her life, one box at a time. The full wardrobe is the obstacle; he answers it with stillness, not frustration: his hand stays on the handle, his eyes reach her before his head turns, his look says "so where do I go?". @ANIA knew this would happen; she tries to hold the laugh for half a second, then gives up. Neither of them speaks; laughter and breath only, lips closed except for her laugh.
 
 PHYSICS
-The box has real weight: his arms carry it low, his steps are short, the sofa cushion compresses under it. The guitar case lags behind his movements and settles against his back. His fingers close around the handle before the door moves; the door swings on its hinges and stops. The packed clothes shift slightly as the door opens.
+The box has real weight: his arms carry it low, his steps are short, the sofa cushion compresses under it. The guitar case lags behind his movements and settles against his back. His fingers close around the handle before the door moves; the single door swings on its hinges and stops. The packed clothes shift slightly as the door opens.
 
 LIGHTING
 Late-morning sun enters through the window behind camera-right and rakes diagonally across the room, a warm bright patch on the parquet and the rug, warm side light on @TOMEK's face as he turns. The entrance hall behind @ANIA stays dimmer and cooler. No flat front light.
@@ -280,5 +280,5 @@ AUDIO
 Footsteps on old parquet, the soft thud of the box on the sofa, the click and creak of the wardrobe door, @ANIA's muffled laugh. No music, no voices, no subtitles.
 
 POSITIVE CONSTRAINTS
-Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. The wardrobe has one single door from top to bottom; the rest of the wardrobe front is a fixed white side panel that never moves. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
+Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. The wardrobe has exactly one door from top to bottom, and nothing else on it opens. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
