@@ -22,6 +22,13 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 9. **Każde ujęcie = cały prompt + lista referencji.** Do każdego ujęcia podajemy prompt w całości (do skopiowania) i listę zdjęć referencyjnych: tag, plik i co jest w nim kluczowe. Do tego ustawienia generatora.
 10. **Animacja od klatki startowej w Omni Flash: najpierw krótki prompt prozą.** Trzy akapity: „continuing exactly from this starting image…”, jedna prosta akcja ze spokojnym tempem, lista tego, co ma zostać bez zmian. Długi prompt z sekcjami zostawiamy na generację bez klatki.
 
+## Umowa o szablonie (11.10)
+
+- **Każdy prompt wideo piszemy ściśle według skilla `cinedance`**, a obrazy według `lira-image-prompts`. Claude wczytuje skill przy każdym nowym ujęciu.
+- Od szablonu odchodzimy tylko wtedy, gdy coś nie wyjdzie, i **Claude najpierw pyta autora**, zanim cokolwiek zmieni.
+- Jeśli autor chce zmiany niezgodnej ze skillem albo z zasadami powyżej, **Claude o tym informuje** (która zasada i dlaczego), a decyzja należy do autora.
+- Zasada 10 (krótka proza dla Omni Flash) to taki wyjątek: używamy jej tylko po uzgodnieniu.
+
 ## Podział pracy
 
 Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
