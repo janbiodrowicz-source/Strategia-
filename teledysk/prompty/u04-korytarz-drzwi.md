@@ -307,6 +307,11 @@ The man keeps pushing the already open door with his left hand. The door swings 
 Keep his face, hairstyle and outfit consistent with the reference. The woman stays in the left foreground, seen from behind, for the whole clip. Only these two people in the shot. Keep the key in the lock, the cardboard box on the floor by his feet, the green-and-cream walls and the window exactly as they appear in the starting image. Quiet stairwell sound, the creak of the door, no music, no speech.
 ```
 
+**Wyniki „najlepsze” (11.10, dwa klipy autora, 8 s, 1280×720):**
+- **Klip A (z pudłami w środku):** ✅ drzwi otwierają się w 1–2 s. Tomek zostaje w progu z dłonią na pasku gitary, odwraca głowę, potem tułów, i lekko się uśmiecha (0:05–0:08). Pudło na korytarzu stoi cały czas, Ania jest stała, kamera prawie nieruchoma. ❌ W mieszkaniu stoją dodatkowe pudła (0:02–0:08). Nie pasują do historii, bo pudło przy stopie ma być całym dobytkiem Tomka. Drzwi otwierają się na korytarz, a nie do środka (wygląda naturalnie, można zostawić). Brak ciepłego światła z mieszkania. **Faworyt do u04 po usunięciu pudeł w środku.**
+- **Klip B:** ✅ drzwi się otwierają, gra jest bardzo naturalna (przytrzymuje drzwi dłonią), a w 0:07–0:08 ma szczery uśmiech do Ani. ❌ Od 0:03 odwraca się całym ciałem i idzie w stronę Ani, czyli od drzwi. To kłóci się z u05 (wnosi pudło do środka). Gubi też dłoń na pasku. Zapas albo alternatywa („wraca po nią”).
+- Usuwanie pudeł w klipie A: najpierw „Edytuj” we Flow z promptem o pustym przedpokoju. Naklejka w ffmpeg jest trudna, bo Tomek częściowo je zasłania, a wnętrze widać dopiero po otwarciu drzwi.
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
