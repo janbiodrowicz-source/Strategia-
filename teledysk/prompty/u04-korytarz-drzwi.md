@@ -312,6 +312,8 @@ Keep his face, hairstyle and outfit consistent with the reference. The woman sta
 - **Klip B:** ✅ drzwi się otwierają, gra jest bardzo naturalna (przytrzymuje drzwi dłonią), a w 0:07–0:08 ma szczery uśmiech do Ani. ❌ Od 0:03 odwraca się całym ciałem i idzie w stronę Ani, czyli od drzwi. To kłóci się z u05 (wnosi pudło do środka). Gubi też dłoń na pasku. Zapas albo alternatywa („wraca po nią”).
 - Usuwanie pudeł w klipie A: najpierw „Edytuj” we Flow z promptem o pustym przedpokoju. Naklejka w ffmpeg jest trudna, bo Tomek częściowo je zasłania, a wnętrze widać dopiero po otwarciu drzwi.
 
+**Usunięcie pudeł z klipu A (11.10, Claude, bez AI do obrazów):** ✅ Czyste tło przedpokoju zbudowane ręcznie z klatki 4,0 s (`referencje/u04-klipA-tlo-bez-pudel.png`): drzwi przedłużone poziomo, ościeżnica pionowo, listwa i podłoga dorysowane. Łatka nakładana na każdą klatkę z kompensacją dryfu kamery (phase correlation, do 8 px). Tomek chroniony maską z segmentacji osoby (MediaPipe selfie_multiclass), bo jego dłoń i spodnie mają kolor kartonu. Skrzydło drzwi chronione warunkiem „ciemniejsze od tła”. Wynik u autora: `u04_klipA_bez_pudel.mp4` (8 s, oryginalny dźwięk). Technika do powtórzenia przy statycznej kamerze.
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
