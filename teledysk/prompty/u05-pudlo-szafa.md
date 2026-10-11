@@ -498,3 +498,14 @@ Footsteps on old parquet, the soft thud of the box on the sofa, the click and cr
 POSITIVE CONSTRAINTS
 Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. @TOMEK opens both wardrobe doors. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
+
+**Wynik v8 (11.10):** ❌ szafa otwiera się sama, a Tomek tylko rozchyla ubrania.
+
+## ✅ DECYZJA (11.10): ujęcie 5 = najlepszy klip z v3
+Autor zostaje przy najlepszym klipie z v3 (szafa z męskimi ubraniami). Gra, pokój i tempo są tam najlepsze. Przy szerokim kadrze 84° i krótkim pokazaniu szafy męskie ubrania mało rzucają się w oczy.
+
+**Lekcje z u05:**
+- Słowo „tripod” w sekcji CAMERA = statyw w kadrze. Piszemy „static camera, fixed frame… the camera itself is never visible”.
+- Animacja drzwi (u04, u05) to słaby punkt Omni Flash. Model rysuje szafę po swojemu (dwudrzwiową) i otwiera ją po swojemu. Tekstem tego nie wygramy. Drzwi trzeba ustawić na klatce startowej albo obejść akcję.
+- Pozy opisujemy funkcją, nie kształtem: „both arms spread” dało Tomka z rozłożonymi rękami w powietrzu.
+- Bez referencji pokoju model robi „łysy” pokój. Pomogło wypisanie mebli ściana po ścianie.
