@@ -20,6 +20,7 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 7. **Najpierw assety:** postacie, lokacje i rekwizyty zablokowane przed pierwszym ujęciem.
 8. **Obiektyw w stopniach, osobny dla każdego ujęcia.** Teleobiektyw (18°) najlepiej działa na zbliżeniach twarzy. W szerszym planie model ma tendencję do zwykłego kadru.
 9. **Każde ujęcie = cały prompt + lista referencji.** Do każdego ujęcia podajemy prompt w całości (do skopiowania) i listę zdjęć referencyjnych: tag, plik i co jest w nim kluczowe. Do tego ustawienia generatora.
+10. **Animacja od klatki startowej w Omni Flash: najpierw krótki prompt prozą.** Trzy akapity: „continuing exactly from this starting image…”, jedna prosta akcja ze spokojnym tempem, lista tego, co ma zostać bez zmian. Długi prompt z sekcjami zostawiamy na generację bez klatki.
 
 ## Podział pracy
 

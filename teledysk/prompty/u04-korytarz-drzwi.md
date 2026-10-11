@@ -262,6 +262,18 @@ POSITIVE CONSTRAINTS
 Exactly two people in frame. The door stays one single wooden door of the same shape, size and color; only its opening angle changes. The key stays in the lock. The box stays on the floor. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
 
+**Wynik v10 wideo (11.10):** ❌ „znów coś nie tak” (w 0:03 Tomek już wchodzi w drzwi).
+**Lekcja z innego projektu autora:** w Omni 1.1 Flash od klatki startowej zadziałał **krótki prompt prozą** (3 akapity: „continuing exactly from this starting image”, jedna prosta akcja, co ma zostać bez zmian). Nasze długie prompty w stylu cinedance (sekcje, timing co 2 s) mogą Flasha przeciążać. Przy animacji od klatki startowej próbujemy najpierw wersji krótkiej.
+**v11 (krótki prompt), klatka startowa = `u04-start-v10.jpg`, referencja = twarz Tomka:**
+
+```text
+Photorealistic cinematic video clip, continuing exactly from this starting image — same framing, lighting, stairwell. Single continuous take, no cuts, static camera.
+
+The man presses the door handle down with his left hand and pushes the door open. The door swings slowly inward, into the apartment, and warm daylight from inside falls on him. He stays standing on the threshold, then turns his head over his left shoulder toward the woman and smiles softly with closed lips. Calm, everyday pacing — not rushed.
+
+Keep his face, hairstyle and outfit consistent with the reference. The woman stays in the left foreground, seen from behind, for the whole clip. Only these two people in the shot. Keep the door, the key in the lock, the cardboard box on the floor, the green-and-cream walls and the window exactly as they appear in the starting image. Quiet stairwell sound, the creak of the door, no music, no speech.
+```
+
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
 **Technika:** jedno ujęcie, 47°, przez ramię Ani. Tomek otwiera kluczem drzwi kawalerki i z uśmiechem odwraca się do Ani. Bez dialogu.
