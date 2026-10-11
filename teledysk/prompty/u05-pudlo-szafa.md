@@ -116,3 +116,8 @@ Footsteps on old parquet, the soft thud of the box on the sofa, the click and cr
 POSITIVE CONSTRAINTS
 Exactly two people in the room. One single box, plain brown with blank sides. The guitar case stays on his back, strap on his right shoulder only. The TV screen stays dark. Natural skin texture, real fine film grain, stable picture, no flickering.
 ```
+
+**Wyniki v2 (11.10):** „wychodzi nieźle”. Pokój umeblowany, gag z szafą działa. Błędy pojawiają się tylko w części klipów: Tomek przechodzi przez stolik, a otwierając jedne drzwi szafy, otwiera „cudem” także drugie. Skoro błędy są losowe, a nie we wszystkich klipach, to według lekcji z „Hell Grind” (seria x4) jest to pech losowania, a nie wina promptu: losujemy dalej i wybieramy najlepszy klip.
+**Gdyby błąd powtarzał się w każdej serii, poprawiamy jedną linijkę naraz:**
+1. Szafa: w LOCATION MAP „a white two-door wardrobe with two vertical black bar handles” → „a narrow white single-door wardrobe with one vertical black bar handle” (tak jak na `kawalerka.jpg`). Nie ma drugich drzwi, więc nie ma cudu.
+2. Stolik: dopisz do PHYSICS „The coffee table is solid: @TOMEK walks around it along the bookshelf side; his legs never pass through it.”
