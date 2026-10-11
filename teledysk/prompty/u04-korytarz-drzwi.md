@@ -414,7 +414,7 @@ Exactly two people in frame. The door stays one single wooden door of the same s
 ## ✅ DECYZJA (11.10): ujęcie 4 = klip B
 Autor kończy walkę z promptami. Do montażu idzie **klip B** (plik u autora: `446292864_1791729881951863.mp4`, 8 s). Sprawdzone: w drzwiach jest jeden klucz (od strony klatki), jedno pudło na korytarzu, a w mieszkaniu nie ma pudeł. Tomek otwiera drzwi, przytrzymuje je, odwraca się całym ciałem i robi krok w stronę Ani. Kończy z uśmiechem przy progu, obok pudła.
 **Ciągłość z u05:** u05 musi zaczynać się od Tomka stojącego przodem do Ani przy progu, obok pudła, który schyla się po pudło i wnosi je do środka.
-Do zrobienia: przycięcie do 7,5 s pod takt (0:22,5–0:30), uśmiech zostaje na końcu.
+Decyzja autora: **klipu nie przycinamy** (zostaje 8 s).
 
 **Ustawienia:** Film · 16:9 · 720p · x1 · 8 s · Omni 1.1 Flash. W montażu tniemy do 7,5 s.
 **Referencje:** `@TOMEK` = `referencje/tomek.png`, `@ANIA` = `referencje/ania.png`.
