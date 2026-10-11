@@ -16,7 +16,7 @@ Ostatnia aktualizacja: 10.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Cała praca jest na gałęzi **`ccr-a8de49cd-ag2gzs`** (na `main` jej nie ma!).
-- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady 1–9 i podział pracy), `postacie.md`, `lokacje.md`, `scenariusz-zostan-tu.md` (z tekstem piosenki i czasami), ten plik.
+- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady 1–9 i podział pracy), `postacie.md`, `lokacje.md`, `scenariusz-zostan-tu.md` (z tekstem piosenki i czasami), `lekcje-hell-grind.md` (lekcje twórców „Hell Grind”), ten plik.
 - Autor generuje we **Flow**: obrazy w Nano Banana Pro, wideo w Omni 1.1 Flash (8 s pod ujęcia 7,5 s). Claude pisze prompty, wycina klatki z wideo (ffmpeg), ocenia wyniki i przycina klipy do taktu.
 - Gotowe przycięte klipy (u01, u02) są u autora. Wideo nie trzymamy w repo.
 - Lekcje: bohaterowie nie mówią; gdy model uparcie zmienia obiekt (okno, drzwi, klamka), poprawiamy klatkę startową w NBP zamiast walczyć tekstem; przy każdym ujęciu: cały prompt + referencje + ustawienia.
