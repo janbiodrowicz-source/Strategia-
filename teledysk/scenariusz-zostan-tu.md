@@ -63,12 +63,14 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 9 | 1:00–1:03,75 | ✅ **u09-12-wspollokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
-| 10 | 1:03,75–1:07,5 | ✅ **u09-12-wspollokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
-| 11 | 1:07,5–1:11,25 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem | 18°, makro-portret |
-| 12 | **1:11,25–1:15** | ✅ **u09-12-wspollokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
+| 9 | 1:00–1:03,5 | ✅ **u09-12-wspollokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
+| 10 | 1:03,5–1:06,5 | ✅ **u09-12-wspollokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
+| 11 | 1:06,5–1:11,5 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem (generujemy 6 s, bierzemy 5 s) | 18°, makro-portret |
+| 12 | **1:11,5–1:15** | ✅ **u09-12-wspollokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
 
 ---
+
+**Oś 1:00–1:15 (decyzja 12.10):** klip u09-12 v3 ma 10 s (maks. Flow), a trzy sloty po 3,75 s to 11,25 s. Klip rozcinamy w twardych cięciach na trzy kawałki (ok. 3,5 / 3 / 3,5 s), a brakujące 1,25 s bierze wstawka u11 (5 s). Granice 1:00 i 1:15 (drop) się nie ruszają, „o o o o” w 1:08–1:10 wypada na lizaniu, a zamarcie Tomka trafia w zanik basu.
 
 ## AKT 2: Przeprowadzka (DROP 1:15–2:15)
 
