@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<style>
+  *{fill:#fff;stroke:#000;stroke-width:7;stroke-linejoin:round;stroke-linecap:round}
+  .l{fill:none} .t{stroke-width:5} .k{fill:#000;stroke:none}
+</style>
+<rect x="-10" y="-10" width="1020" height="1020" style="stroke:none"/>
+<!-- słońce -->
+<circle cx="840" cy="150" r="70"/>
+<path class="l" d="M840 50 v-25 M840 250 v25 M740 150 h-25 M940 150 h25 M769 79 l-18 -18 M911 221 l18 18 M911 79 l18 -18 M769 221 l-18 18"/>
+<!-- chmurki -->
+<path d="M420 180 a40 40 0 0 1 70 -30 a50 50 0 0 1 90 10 a35 35 0 0 1 20 60 h-170 a32 32 0 0 1 -10 -40 Z"/>
+<path d="M600 300 a28 28 0 0 1 50 -20 a35 35 0 0 1 62 8 a25 25 0 0 1 12 42 h-118 a22 22 0 0 1 -6 -30 Z"/>
+<!-- pagórki -->
+<path d="M-10 560 Q200 470 420 540 Q650 450 1010 540 V1010 H-10 Z"/>
+<path class="l t" d="M-10 640 Q300 580 560 620"/>
+<!-- drzewo -->
+<path d="M150 640 L160 420 L210 420 L222 640 Q186 655 150 640 Z"/>
+<path class="l t" d="M185 470 v40 M196 560 v30"/>
+<path d="M90 420 a70 70 0 0 1 20 -120 a80 80 0 0 1 120 -60 a75 75 0 0 1 100 90 a60 60 0 0 1 -20 100 a70 70 0 0 1 -110 20 a60 60 0 0 1 -110 -30 Z"/>
+<circle class="t" cx="150" cy="340" r="14"/>
+<circle class="t" cx="260" cy="300" r="14"/>
+<circle class="t" cx="290" cy="400" r="14"/>
+<circle class="t" cx="200" cy="410" r="14"/>
+<!-- kocyk w kratkę -->
+<path d="M90 800 L910 800 L990 980 L10 980 Z"/>
+<path class="l t" d="M90 860 H937 M60 920 H963 M227 800 L190 980 M363 800 L370 980 M500 800 L500 980 M637 800 L630 980 M773 800 L810 980"/>
+<!-- miś: ciało -->
+<ellipse cx="500" cy="680" rx="195" ry="190"/>
+<!-- nóżki -->
+<ellipse cx="380" cy="850" rx="90" ry="62"/>
+<ellipse cx="380" cy="850" rx="45" ry="32"/>
+<circle cx="330" cy="822" r="11"/><circle cx="352" cy="800" r="11"/><circle cx="380" cy="794" r="11"/>
+<ellipse cx="620" cy="850" rx="90" ry="62"/>
+<ellipse cx="620" cy="850" rx="45" ry="32"/>
+<circle cx="670" cy="822" r="11"/><circle cx="648" cy="800" r="11"/><circle cx="620" cy="794" r="11"/>
+<!-- garnek z miodem -->
+<path d="M410 660 Q400 600 440 590 L560 590 Q600 600 590 660 Q600 780 500 790 Q400 780 410 660 Z"/>
+<rect x="420" y="570" width="160" height="30" rx="12"/>
+<path d="M430 600 Q440 640 460 625 Q470 660 490 630 Q505 670 520 628 Q540 650 545 625 Q565 645 572 600 Z"/>
+<path d="M440 700 Q500 680 560 700 Q560 740 500 745 Q440 740 440 700 Z"/>
+<path class="t" d="M500 698 c-16 -14 -26 0 -20 10 c6 10 20 16 20 16 c0 0 14 -6 20 -16 c6 -10 -4 -24 -20 -10 Z"/>
+<!-- łapki trzymające garnek -->
+<ellipse cx="398" cy="680" rx="42" ry="58" transform="rotate(-20 398 680)"/>
+<ellipse cx="602" cy="680" rx="42" ry="58" transform="rotate(20 602 680)"/>
+<!-- uszy -->
+<circle cx="385" cy="310" r="55"/><circle cx="385" cy="310" r="28"/>
+<circle cx="615" cy="310" r="55"/><circle cx="615" cy="310" r="28"/>
+<!-- głowa -->
+<ellipse cx="500" cy="420" rx="155" ry="135"/>
+<ellipse cx="500" cy="475" rx="72" ry="55"/>
+<path d="M475 450 q25 -14 50 0 q-4 22 -25 26 q-21 -4 -25 -26 Z"/>
+<path class="l t" d="M500 476 v14 q-14 16 -30 4 M500 490 q14 16 30 4"/>
+<circle class="k" cx="440" cy="400" r="15"/><circle cx="445" cy="394" r="4" style="stroke:none"/>
+<circle class="k" cx="560" cy="400" r="15"/><circle cx="565" cy="394" r="4" style="stroke:none"/>
+<ellipse class="t" cx="405" cy="455" rx="24" ry="15"/>
+<ellipse class="t" cx="595" cy="455" rx="24" ry="15"/>
+<!-- pszczółki -->
+<g>
+<ellipse cx="760" cy="440" rx="38" ry="28"/>
+<path class="l t" d="M752 414 v52 M772 416 v48"/>
+<ellipse class="t" cx="745" cy="405" rx="18" ry="24" transform="rotate(-25 745 405)"/>
+<ellipse class="t" cx="772" cy="405" rx="18" ry="24" transform="rotate(25 772 405)"/>
+<circle class="k" cx="785" cy="436" r="5"/>
+<path class="l t" d="M722 440 l-14 0" />
+<path class="l t" d="M700 470 q-30 20 -60 0" style="stroke-dasharray:10 14"/>
+</g>
+<g>
+<ellipse cx="860" cy="560" rx="32" ry="24"/>
+<path class="l t" d="M853 538 v44 M870 540 v40"/>
+<ellipse class="t" cx="848" cy="530" rx="15" ry="20" transform="rotate(-25 848 530)"/>
+<ellipse class="t" cx="872" cy="530" rx="15" ry="20" transform="rotate(25 872 530)"/>
+<circle class="k" cx="882" cy="556" r="4"/>
+</g>
+<!-- kwiatki -->
+<g class="t">
+<circle cx="80" cy="720" r="16"/><circle cx="80" cy="696" r="14"/><circle cx="104" cy="720" r="14"/><circle cx="80" cy="744" r="14"/><circle cx="56" cy="720" r="14"/><circle cx="80" cy="720" r="10"/>
+<circle cx="920" cy="700" r="16"/><circle cx="920" cy="676" r="14"/><circle cx="944" cy="700" r="14"/><circle cx="920" cy="724" r="14"/><circle cx="896" cy="700" r="14"/><circle cx="920" cy="700" r="10"/>
+</g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<style>
+  *{fill:#fff;stroke:#000;stroke-width:7;stroke-linejoin:round;stroke-linecap:round}
+  .l{fill:none} .t{stroke-width:5} .k{fill:#000;stroke:none}
+</style>
+<rect x="-10" y="-10" width="1020" height="1020" style="stroke:none"/>
+<!-- podłoga -->
+<path class="l" d="M0 720 H1000"/>
+<path class="l t" d="M0 800 L80 720 M0 920 L200 720 M140 1000 L320 720 M860 1000 L680 720 M1000 920 L800 720 M1000 800 L920 720"/>
+<!-- okno -->
+<rect x="90" y="90" width="320" height="300" rx="24"/>
+<rect x="115" y="115" width="270" height="250" rx="12"/>
+<path class="l" d="M250 115 V365 M115 240 H385"/>
+<path d="M175 150 a50 50 0 1 0 50 70 a38 38 0 1 1 -50 -70 Z"/>
+<path class="t" d="M320 150 l8 18 l20 2 l-15 13 l5 20 l-18 -10 l-18 10 l5 -20 l-15 -13 l20 -2 Z"/>
+<path class="t" d="M310 290 l6 13 l14 2 l-10 9 l3 14 l-13 -7 l-13 7 l3 -14 l-10 -9 l14 -2 Z"/>
+<path class="t" d="M170 285 l5 11 l12 1 l-9 8 l3 12 l-11 -6 l-11 6 l3 -12 l-9 -8 l12 -1 Z"/>
+<!-- parapet -->
+<rect x="70" y="390" width="360" height="30" rx="10"/>
+<!-- doniczka z kwiatkiem -->
+<path d="M330 330 q-30 -60 0 -110 q30 50 0 110 Z"/>
+<path d="M330 330 q-60 -20 -70 -70 q55 10 70 70 Z"/>
+<path d="M300 390 L360 390 L352 340 L308 340 Z"/>
+<rect x="296" y="326" width="68" height="18" rx="6"/>
+<!-- obrazek z serduszkiem -->
+<path class="l t" d="M690 90 L620 150 M690 90 L760 150"/>
+<rect x="600" y="150" width="180" height="150" rx="14"/>
+<rect x="620" y="170" width="140" height="110" rx="8"/>
+<path d="M690 260 C640 225 640 185 668 185 C682 185 690 197 690 205 C690 197 698 185 712 185 C740 185 740 225 690 260 Z"/>
+<!-- dywanik -->
+<ellipse cx="500" cy="870" rx="440" ry="95"/>
+<ellipse cx="500" cy="870" rx="370" ry="68"/>
+<path class="l t" d="M60 870 h-25 M940 870 h25 M85 920 l-20 12 M915 920 l20 12 M85 820 l-20 -12 M915 820 l20 -12"/>
+<!-- poduszka w koszyku -->
+<path d="M240 640 Q250 560 340 555 Q500 530 660 555 Q750 560 760 640 Z"/>
+<!-- ogonek -->
+<path d="M650 600 C760 600 810 560 795 515 C786 492 758 498 762 520 C768 550 730 570 640 560 Z"/>
+<!-- kotek: ciało -->
+<path d="M300 620 C290 520 420 470 540 480 C680 490 730 560 715 625 Z"/>
+<!-- paski na grzbiecie -->
+<path class="l t" d="M520 485 q10 25 0 50 M580 490 q15 25 5 50 M640 505 q15 22 8 45"/>
+<!-- koszyk -->
+<path d="M225 650 L775 650 L720 860 Q500 900 280 860 Z"/>
+<path class="l t" d="M290 660 L320 868 M360 660 L375 878 M430 660 L437 884 M500 660 L500 886 M570 660 L563 884 M640 660 L625 878 M710 660 L680 868"/>
+<path class="l t" d="M250 730 Q500 760 752 730 M268 800 Q500 830 735 800"/>
+<path d="M195 625 Q500 670 805 625 Q825 645 805 668 Q500 710 195 668 Q175 645 195 625 Z"/>
+<!-- łapki na brzegu -->
+<path d="M430 640 q-5 -35 30 -38 q35 3 30 38 q-30 12 -60 0 Z"/>
+<path class="l t" d="M450 640 v-12 M470 640 v-12"/>
+<path d="M500 645 q-5 -35 30 -38 q35 3 30 38 q-30 12 -60 0 Z"/>
+<path class="l t" d="M520 645 v-12 M540 645 v-12"/>
+<!-- główka -->
+<path d="M270 470 L262 375 L330 425 Z"/>
+<path class="t" d="M280 450 L276 400 L312 428 Z"/>
+<path d="M430 425 L490 375 L486 470 Z"/>
+<path class="t" d="M446 428 L480 402 L476 450 Z"/>
+<ellipse cx="378" cy="530" rx="125" ry="105"/>
+<!-- zamknięte oczka -->
+<path class="l" d="M318 520 q22 20 44 0 M398 520 q22 20 44 0"/>
+<path class="l t" d="M318 520 l-10 -6 M442 520 l10 -6"/>
+<!-- policzki -->
+<ellipse class="t" cx="305" cy="565" rx="22" ry="14"/>
+<ellipse class="t" cx="455" cy="565" rx="22" ry="14"/>
+<path d="M368 550 h22 l-11 13 Z"/>
+<path class="l t" d="M379 563 v8 q-10 12 -22 4 M379 571 q10 12 22 4"/>
+<path class="l t" d="M290 545 l-55 -10 M290 560 l-55 8 M468 545 l55 -10 M468 560 l55 8"/>
+<!-- kłębek włóczki -->
+<path class="l" d="M720 860 C760 900 800 880 820 860"/>
+<circle cx="860" cy="820" r="72"/>
+<path class="l t" d="M800 780 Q860 800 900 760 M792 820 Q860 850 925 780 M800 860 Q870 880 932 820 M830 752 Q820 820 850 890"/>
+<path class="l t" d="M870 748 L930 690 M890 755 L955 705"/>
+<circle cx="932" cy="688" r="9"/>
+<circle cx="957" cy="703" r="9"/>
+</svg>

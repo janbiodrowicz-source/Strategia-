@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<style>
+  *{fill:#fff;stroke:#000;stroke-width:7;stroke-linejoin:round;stroke-linecap:round}
+  .l{fill:none} .t{stroke-width:5} .k{fill:#000;stroke:none}
+</style>
+<rect x="-10" y="-10" width="1020" height="1020" style="stroke:none"/>
+<!-- chmurki -->
+<path d="M650 170 a40 40 0 0 1 70 -30 a50 50 0 0 1 90 10 a35 35 0 0 1 20 60 h-170 a32 32 0 0 1 -10 -40 Z"/>
+<path d="M60 130 a28 28 0 0 1 50 -20 a35 35 0 0 1 62 8 a25 25 0 0 1 12 42 h-118 a22 22 0 0 1 -6 -30 Z"/>
+<!-- płotek -->
+<rect x="-10" y="520" width="1020" height="34" rx="6"/>
+<rect x="-10" y="620" width="1020" height="34" rx="6"/>
+<path d="M10 720 V480 L45 440 L80 480 V720 Z"/>
+<path d="M130 720 V480 L165 440 L200 480 V720 Z"/>
+<path d="M250 720 V480 L285 440 L320 480 V720 Z"/>
+<path d="M370 720 V480 L405 440 L440 480 V720 Z"/>
+<path d="M490 720 V480 L525 440 L560 480 V720 Z"/>
+<path d="M610 720 V480 L645 440 L680 480 V720 Z"/>
+<path d="M730 720 V480 L765 440 L800 480 V720 Z"/>
+<path d="M850 720 V480 L885 440 L920 480 V720 Z"/>
+<path d="M970 720 V480 L1005 440 L1040 480 V720 Z"/>
+<!-- ziemia -->
+<path d="M-10 700 Q500 670 1010 700 V1010 H-10 Z"/>
+<path class="l t" d="M560 900 q30 -12 60 0 M660 950 q25 -10 50 0 M250 960 q30 -12 60 0"/>
+<!-- grządka z marchewkami -->
+<path d="M720 760 Q850 700 990 760 Q990 800 850 805 Q720 800 720 760 Z"/>
+<path class="t" d="M780 735 q-30 -60 -10 -100 q25 40 10 100 Z"/>
+<path class="t" d="M780 735 q30 -55 60 -70 q-5 50 -60 70 Z"/>
+<path d="M752 748 a30 22 0 0 1 56 -4 Z"/>
+<path class="t" d="M880 720 q-30 -60 -10 -100 q25 40 10 100 Z"/>
+<path class="t" d="M880 720 q30 -55 60 -70 q-5 50 -60 70 Z"/>
+<path class="t" d="M880 720 q-40 -40 -80 -40 q20 45 80 40 Z"/>
+<path d="M852 733 a30 22 0 0 1 56 -4 Z"/>
+<path class="t" d="M955 745 q-25 -50 -8 -85 q22 35 8 85 Z"/>
+<path d="M932 756 a26 20 0 0 1 48 -4 Z"/>
+<!-- kropelki wody -->
+<path class="t" d="M830 650 q-14 22 0 28 q14 -6 0 -28 Z"/>
+<path class="t" d="M860 600 q-14 22 0 28 q14 -6 0 -28 Z"/>
+<path class="t" d="M815 590 q-14 22 0 28 q14 -6 0 -28 Z"/>
+<path class="t" d="M895 650 q-14 22 0 28 q14 -6 0 -28 Z"/>
+<!-- konewka -->
+<path d="M672 690 L795 590 L808 606 L676 730 Z"/>
+<ellipse cx="808" cy="596" rx="16" ry="32" transform="rotate(40 808 596)"/>
+<path d="M565 640 Q615 545 665 640 L648 640 Q615 575 582 640 Z"/>
+<path d="M540 640 L690 640 L678 820 Q615 835 552 820 Z"/>
+<ellipse cx="615" cy="640" rx="75" ry="16"/>
+<path class="l t" d="M548 700 Q615 715 684 700"/>
+<circle class="t" cx="615" cy="765" r="22"/>
+<!-- króliczek: uszy -->
+<path d="M335 400 C290 300 300 170 345 160 C390 160 395 300 380 395 Z"/>
+<path class="t" d="M345 380 C320 300 320 200 345 195 C368 200 372 300 365 378 Z"/>
+<path d="M430 395 C430 300 455 175 500 185 C540 200 505 320 470 405 Z"/>
+<path class="t" d="M445 385 C448 300 465 215 492 220 C515 230 490 320 462 390 Z"/>
+<!-- ciało -->
+<ellipse cx="400" cy="740" rx="140" ry="150"/>
+<ellipse cx="400" cy="770" rx="80" ry="95"/>
+<ellipse cx="320" cy="890" rx="70" ry="34"/>
+<ellipse cx="480" cy="890" rx="70" ry="34"/>
+<path class="l t" d="M275 885 v-12 M300 880 v-14 M525 885 v-12 M500 880 v-14"/>
+<!-- łapki -->
+<ellipse cx="300" cy="720" rx="34" ry="50" transform="rotate(20 300 720)"/>
+<ellipse cx="560" cy="680" rx="48" ry="30" transform="rotate(-15 560 680)"/>
+<!-- głowa -->
+<ellipse cx="410" cy="500" rx="130" ry="115"/>
+<circle class="k" cx="360" cy="490" r="15"/><circle cx="365" cy="484" r="4" style="stroke:none"/>
+<circle class="k" cx="460" cy="490" r="15"/><circle cx="465" cy="484" r="4" style="stroke:none"/>
+<ellipse class="t" cx="330" cy="545" rx="24" ry="15"/>
+<ellipse class="t" cx="490" cy="545" rx="24" ry="15"/>
+<path d="M398 530 h24 l-12 12 Z"/>
+<path class="l t" d="M410 542 v8 q-12 14 -26 4 M410 550 q12 14 26 4"/>
+<rect class="t" x="400" y="556" width="20" height="16" rx="3"/>
+<path class="l t" d="M410 556 v16"/>
+<!-- motylek -->
+<path d="M220 300 C170 230 120 260 150 310 C120 350 180 370 220 320 Z"/>
+<path d="M230 300 C280 230 330 260 300 310 C330 350 270 370 230 320 Z"/>
+<ellipse cx="225" cy="310" rx="10" ry="34"/>
+<path class="l t" d="M220 280 q-10 -25 -25 -30 M230 280 q10 -25 25 -30"/>
+<circle class="t" cx="160" cy="300" r="10"/><circle class="t" cx="290" cy="300" r="10"/>
+<!-- ślimaczek -->
+<path d="M70 920 Q60 870 100 860 L190 880 Q215 900 200 925 Z"/>
+<circle cx="150" cy="855" r="50"/>
+<path class="l t" d="M150 855 m0 -8 a8 8 0 1 1 -8 8 a18 18 0 0 1 18 -18 a28 28 0 0 1 28 28 a38 38 0 0 1 -38 38"/>
+<path class="l t" d="M85 865 l-15 -40 M95 862 l0 -42"/>
+<circle class="t" cx="70" cy="822" r="8"/><circle class="t" cx="95" cy="818" r="8"/>
+</svg>
