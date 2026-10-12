@@ -31,7 +31,9 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 
 ## Podział pracy
 
-Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
+Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu.
+
+**Przycinanie (umowa z 12.10):** autor wrzuca do wątku każdy gotowy klip, a Claude go przycina: ogląda klip klatka po klatce, wybiera najlepsze 7,5 s (albo 3,75 s), tak żeby kluczowy moment się zmieścił, usuwa dźwięk i odsyła plik z czasem na osi. Gotowe pliki trafiają do `teledysk/wyniki/` (poza gitem), a notatka z cięciem do pliku ujęcia w `prompty/`. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
 
 ## Zawartość
 

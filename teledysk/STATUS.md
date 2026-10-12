@@ -25,7 +25,7 @@ Ostatnia aktualizacja: 12.10.2026
 - Najnowsza praca jest na gałęzi **`ccr-63159242-oid2q7`** (zbudowana na `ccr-a8de49cd-ag2gzs`; na `main` jej nie ma!).
 - Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady 1–9 i podział pracy), `postacie.md`, `lokacje.md`, `scenariusz-zostan-tu.md` (z tekstem piosenki i czasami), `lekcje-hell-grind.md` (lekcje twórców „Hell Grind”), ten plik.
 - Autor generuje we **Flow**: obrazy w Nano Banana Pro, wideo w Omni 1.1 Flash (8 s pod ujęcia 7,5 s). Claude pisze prompty, wycina klatki z wideo (ffmpeg), ocenia wyniki i przycina klipy do taktu.
-- Gotowe przycięte klipy (u01, u02) są u autora. Wideo nie trzymamy w repo.
+- **Przycinanie robi Claude (umowa 12.10):** autor wrzuca każdy gotowy klip do wątku, Claude wybiera 7,5 s, usuwa dźwięk i odsyła plik (zob. README). Gotowe przycięte klipy (u01, u02, u03) są u autora. Wideo nie trzymamy w repo.
 - **Umowa z autorem:** prompty wideo ściśle według skilla `cinedance` (wczytać skill). Przed odejściem od szablonu pytamy, a o niezgodnościach z zasadami mówimy autorowi wprost (README, sekcja „Umowa o szablonie”).
 - Lekcje: bohaterowie nie mówią; gdy model uparcie zmienia obiekt (okno, drzwi, klamka), poprawiamy klatkę startową w NBP zamiast walczyć tekstem; przy każdym ujęciu: cały prompt + referencje + ustawienia.
 
