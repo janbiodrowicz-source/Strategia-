@@ -54,3 +54,30 @@ Voice @ANIA: "A 30-year-old woman, soft natural voice with a slight husk; speaks
 POSITIVE CONSTRAINTS
 Exactly two people in frame. Natural skin texture, real fine film grain, warm natural colors, stable picture, no flickering.
 ```
+
+## Klatka startowa w nowej kuchni (12.10)
+
+**Problem:** kuchnia w u06 (kolacja) wygląda inaczej niż w starym u03. Autor chce rano w tej samej kuchni co w kolacji, z Anią i Tomkiem jak w starym u03 (klucz, kubek, łyżeczka).
+**Ustawienia:** Flow · NBP · **16:9** · 2k · x4. Obraz 1 = klatka z kolacji u06 (kuchnia), obraz 2 = klatka ze starego u03 (pozy, kubek, klucz).
+
+```text
+Edit image 1: the same kitchen and the same couple at the same table, but on a quiet sunny morning instead of evening, with the table set as in image 2.
+
+CHANGE:
+- Time of day: soft morning daylight. Through the window, the pale ochre tenement facade across the courtyard in bright overcast-sun daylight, its windows dark. Warm sunlight falls through the window onto the tabletop and the sill. The pendant lamp above the table and the under-cabinet lights are switched off.
+- Table: the two pasta plates, the forks and the candle are cleared away; the light-oak tabletop is bare except for one white ceramic mug of steaming tea in front of the man and one single small brass key lying flat on the wood in the center of the table, between them.
+- The woman: both forearms resting on the table edge, the fingertips of her right hand touching the brass key, pushing it toward him; her face serious and nervous, eyes lowered to the key, lips closed.
+- The man: his right hand holds a teaspoon inside the mug, mid-stir; eyes lowered to the mug, calm morning face, lips closed.
+
+PRESERVE EXACTLY:
+- Both faces, hair, freckles, gold stud earring, stubble, and all clothing of image 1
+- Seating positions: woman screen-left in profile facing right, man screen-right facing left, the same distance between them
+- Camera position, height, lens and framing of image 1
+- The round light-oak table, the chairs, the window frame, the herbs in pots on the sill, the kitchen cabinets, tiles, kettle, cutting board and towel
+- Room layout, wall colors, colour grade, grain
+
+ONLY CHANGE: evening to morning, the table set for morning tea with the key, and the two poses from image 2. 100% identical otherwise.
+```
+
+**Na co patrzeć:** twarze z kolacji (nie ze starego u03), jeden klucz na środku stołu, jeden kubek, za oknem dzień bez girlandy, lampa zgaszona.
+**Plan B (jedna zmiana na przebieg):** najpierw tylko poranne światło i stół, a pozy w drugim przebiegu.
