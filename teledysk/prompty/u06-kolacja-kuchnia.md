@@ -108,4 +108,4 @@ Exactly two people in frame. Natural skin texture, real fine film grain, warm na
 ```
 
 ## ✅ DECYZJA (11.10): ujęcie 6 gotowe
-Autor uznał scenę za gotową (klip „Couple eating dinner in kitchen”). Jeśli w wybranym klipie dalej widać gitarę w tle, można ją usunąć przez „Edytuj” we Flow (polecenie w notatce v2).
+Autor uznał scenę za gotową (klip „Couple eating dinner in kitchen”). W wybranym klipie nie ma gitary w tle (potwierdzone przez autora).
