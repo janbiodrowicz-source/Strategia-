@@ -70,6 +70,8 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 ---
 
+**Kolejność w montażu (decyzja autora 12.10):** u09 → u10 → **u12** (Tomek się zgadza) → **u11** (piesek liże Anię, wzruszenie) → DROP. Na osi: u12 1:06,458–1:10,0, u11 1:10,0–1:15,0.
+
 **Oś 1:00–1:15 (decyzja 12.10):** klip u09-12 v3 ma 10 s (maks. Flow), a trzy sloty po 3,75 s to 11,25 s. Klip rozcinamy w twardych cięciach na trzy kawałki (ok. 3,5 / 3 / 3,5 s), a brakujące 1,25 s bierze wstawka u11 (5 s). Granice 1:00 i 1:15 (drop) się nie ruszają, „o o o o” w 1:08–1:10 wypada na lizaniu, a zamarcie Tomka trafia w zanik basu.
 
 ## AKT 2: Przeprowadzka (DROP 1:15–2:15)
