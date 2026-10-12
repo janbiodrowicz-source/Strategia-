@@ -54,3 +54,55 @@ ONLY CHANGE: add the two people on the chairs and the puppy between them. 100% i
 ```
 
 Zapisz jako `referencje/u14-start.jpg`.
+
+**Wynik B (12.10, x3):** wybrany wariant 3 (oboje patrzą w ekran, dom w pełni widoczny między nimi, piesek łapami na udzie Tomka). W wariancie 1 Tomek zasłania ekran. Wariant 2 ma ładne twarze, ale para już patrzy na siebie, czyli to stan końcowy, a nie startowy. Zapisz jako `referencje/u14-start.jpg`.
+
+## Krok C: wideo (Omni 1.1 Flash, od klatki startowej)
+
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u14-start.jpg`. `@TOMEK` = `tomek-sweter.jpg`, `@ANIA` = `ania-golf.jpg`, `@PIESEK` = `piesek.png`. Cięcie: 3,75 s, oś 1:18,75–1:22,5.
+
+```text
+SCENE CONTEXT
+Night in a small tenement studio, continuing directly from the starting image. A young couple sits side by side at a small round table, backs to the camera, looking at a photo of a white house on a laptop. They look at each other with the same unspoken thought, "let's buy it", and smile, while their puppy stretches up between them. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, fitted mustard ribbed turtleneck, dark jeans. Sits on the left chair. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, cream waffle-knit crew-neck sweater, charcoal chinos. Sits on the right chair. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. Stands on its hind legs between the chairs, front paws on @TOMEK's thigh. 100% matches the reference.
+
+LOCATION MAP
+Exactly the room from the starting image: a small round light-oak table in front of a tall window with sheer white linen curtains and dark night behind the glass. An open laptop in the center of the table, its screen facing the camera, showing a white house with a cedar-clad entrance and birch trees. The edge of a green velvet sofa on screen-left, an oak bookshelf with a record player and a monstera on screen-right.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @ANIA on the left chair and @TOMEK on the right chair, both with their backs to the camera, heads turned slightly toward the laptop. The laptop screen is fully visible in the gap between their shoulders. @PIESEK stands up between the two chairs, paws on @TOMEK's thigh.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective; the laptop screen, both heads and the puppy stay sharp.
+
+CAMERA
+Slow, smooth push-in at seated head height toward the gap between them, about 50 centimeters in 4 seconds, ending with the two heads, the laptop screen and the puppy larger in frame. One movement only. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:01.3: Both look at the house on the screen. @ANIA leans a little closer to the laptop; @TOMEK stays still, taking it in. @PIESEK wags its tail.
+0:01.3 to 0:02.3: Slowly, at the same moment, they turn their heads toward each other; both profiles become visible against the glowing screen, eyes meeting.
+0:02.3 to 0:03.5: A silent "let's buy it": @ANIA's eyebrows lift with a hopeful question, @TOMEK answers with a slow small nod, and both break into the same warm smile, lips closed. @PIESEK pushes its head up between their shoulders, tail wagging.
+0:03.5 to 0:04: They hold the smile, foreheads close, the house glowing on the screen between them.
+
+PERFORMANCE
+Two people who just found the same dream: the decision happens in the eyes, not in words. @TOMEK's nod is small and certain; @ANIA's smile grows from hope to joy. Lips stay closed; nobody speaks.
+
+PHYSICS
+The puppy's hind legs shift for balance on the parquet, front paws pressing into @TOMEK's chinos, fur moving with the wagging tail. Hair moves softly as they turn their heads. The chairs stay still.
+
+LIGHTING
+Night. Warm 2700K light from a ceiling lamp above and behind the camera, out of frame. The laptop screen adds a soft cool glow on their faces when they turn in profile. Dark night behind the curtains. No daylight.
+
+AUDIO
+Quiet room tone, a soft puppy whine, a short shared breath of a laugh. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people and one puppy. The house on the laptop screen stays the same image for the whole shot. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
+```
