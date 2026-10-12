@@ -163,3 +163,25 @@ ONLY CHANGE: the light, from morning sun to warm evening light from the ceiling 
 ```
 
 Zapisz jako `referencje/u13-start.jpg`.
+
+**Wynik 1c (12.10):** ❌ NBP obniżył lampę do kadru (duża świecąca kula, przez „at the top edge of the frame”), a na dywanie została ukośna plama w kształcie okna. Lekcja: nie opisujemy położenia lampy względem kadru, tylko „stays exactly where it is in image 1”. Światło z sufitu opisujemy kształtem (okrągła plama pod sufitem, ciemny pierwszy plan).
+
+## Krok 1c v2 (baza: wariant 2 poranny)
+
+```text
+Edit image 1: the same moment at night, lit only by the ceiling lamp.
+
+CHANGE (lighting only):
+- The ceiling pendant lamp stays exactly where it is in image 1, the same size, mostly above the top edge of the frame: only its lower rim is barely visible at the top center. It is switched on and is the only light source in the room.
+- Night outside. The window behind the camera gives no light at all: the bright diagonal sun patch on the rug and the floor is completely gone, no window-shaped light, no light beams, no hard-edged light shapes anywhere.
+- The ceiling light falls straight down from above: one soft round pool of warm 2700K tungsten light centered on the rug under the ceiling center, softly lighting the three figures from above, short soft shadows directly under them. The light fades smoothly toward the walls; the foreground floor near the camera, the corners and the upper walls are noticeably darker.
+- Warm amber tones on hair, the puppy's fur, the knit sweater, the velvet sofa and the parquet; cosy evening exposure, soft contrast.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing
+- Both people and the puppy: faces, expressions, poses, hands, clothing and the striped sock stretched between them
+- The whole room: the closed white double door, the guitar case beside the monstera, the TV, bookshelf and books, both framed prints, the floor lamp switched off, the green sofa with the mustard cushion and the small plant, the white wardrobe, the cornice, walls, parquet and jute rug
+- Grain
+
+ONLY CHANGE: the light, from morning sun to warm night light from the ceiling lamp above. 100% identical otherwise.
+```
