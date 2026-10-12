@@ -185,3 +185,57 @@ PRESERVE EXACTLY:
 
 ONLY CHANGE: the light, from morning sun to warm night light from the ceiling lamp above. 100% identical otherwise.
 ```
+
+**Wynik 1c v2 (12.10): ✅** lampa ledwo widoczna, okno nie świeci, ciepła plama światła na środku. Zapisz w 2k jako `referencje/u13-start.jpg`.
+
+## Krok 2: wideo (Omni 1.1 Flash, od klatki startowej)
+
+**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 4 s · x2 · klatka startowa = `referencje/u13-start.jpg`. Referencje: `@TOMEK` = `tomek-sweter.jpg`, `@ANIA` = `ania-golf.jpg`, `@PIESEK` = `piesek.png`.
+**Odstępstwo od scenariusza:** kamera na wysokości oczu (47°) zamiast nisko (84°), bo musi pasować do klatki startowej. Energię dropu daje szybki najazd.
+**Cięcie:** 3,75 s, na osi 1:15,0–1:18,75. Przewrót pieska musi się skończyć przed 3,75 s.
+
+```text
+SCENE CONTEXT
+Night in a small cosy tenement studio, continuing directly from the starting image. A young man kneeling on the rug plays tug-of-war with a puppy using a striped sock. He suddenly lets go, the puppy tumbles onto its back with the sock in its mouth, and his girlfriend bursts out laughing on the sofa. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, cream waffle-knit crew-neck sweater, charcoal chinos, brown suede sneakers. Kneels on the rug, both hands on one end of a grey-and-white striped sock. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, fitted mustard ribbed turtleneck, dark jeans. Sits on the green sofa. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. The other end of the striped sock clamped in its teeth. 100% matches the reference.
+
+LOCATION MAP
+Exactly the room from the starting image: closed white double door in the center of the far wall, black guitar case beside the monstera on the left, TV and bookshelf along the left wall, bottle-green velvet sofa with a mustard cushion along the right wall, white wardrobe in the right foreground, jute rug in the center.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK kneels on the left half of the rug facing screen-right. @PIESEK stands on the rug 1 meter in front of him facing screen-left, the sock stretched tight between them. @ANIA sits on the far half of the sofa, body turned toward them, eyes on the puppy.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot. Natural human-eye perspective, natural face and body proportions, the whole room readable.
+
+CAMERA
+Quick, smooth push-in at standing eye level from the starting position toward the rug, about 1 meter in 4 seconds, ending with all three figures larger in frame and @ANIA still visible on the sofa. One movement only. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:01.2: Tug-of-war. @PIESEK pulls backward with all four paws braced, shaking its head left and right, tail wagging. @TOMEK leans back and tugs in short teasing pulls, grinning.
+0:01.2 to 0:01.5: @TOMEK suddenly opens both hands and lets go of the sock.
+0:01.5 to 0:02.6: The released tension throws @PIESEK backward: it sits down hard, tips over and rolls onto its back on the rug, four paws in the air, the sock still in its mouth.
+0:02.6 to 0:04: @ANIA bursts out laughing, throws her head back, one hand to her chest. @TOMEK laughs with his hands still open in the air. @PIESEK wriggles on its back, sock in mouth, tail sweeping the rug.
+
+PERFORMANCE
+@TOMEK teases like a big kid, the let-go is a deliberate prank. @ANIA's laugh is sudden and real, shoulders shaking. Lips stay closed except for laughing; nobody speaks.
+
+PHYSICS
+The puppy is small, soft and heavy for its size: its paws slip slightly on the jute, its body has real weight when it tips over, fur and ears bounce on landing. The sock is soft knit fabric: it goes slack the moment it is released and flops over the puppy's chest.
+
+LIGHTING
+Night. The only light is the warm 2700K ceiling pendant above the center of the room, its lower rim barely visible at the top edge, exactly as in the starting image. Soft round pool of warm light on the rug and the figures, darker corners and foreground. No daylight, no light from the window, no sun patches.
+
+AUDIO
+A playful puppy growl during the tug, a soft thump on the rug, her bright laugh, his short laugh. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people and one puppy. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
+```
