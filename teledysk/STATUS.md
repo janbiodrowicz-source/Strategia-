@@ -1,12 +1,12 @@
 # Status prac: teledysk „Zostań tu”
 
-Ostatnia aktualizacja: 11.10.2026
+Ostatnia aktualizacja: 12.10.2026
 
 ## Zrobione ✅
 - Skille: `cinedance`, `lira-image-prompts`, `acting` (w `.claude/skills/`)
 - Utwór „Zostań tu” (Google), 3:02, około 128 BPM. Drop w 1:15, pauzy basu w 1:12 i 2:12
 - Scenariusz: 34 ujęcia, zob. `scenariusz-zostan-tu.md`
-- Gotowe ujęcia: 1 (u01-kamienica-swit), 2 (u02-ania-klucz-swit), 3 (u03-klucz-stol), 4 (u04-korytarz-drzwi, klip B, **nie przycinamy** (decyzja autora); u05 startuje już w pokoju: Tomek w progu białych drzwi z pudłem w rękach, a podniesienie pudła wypada w cięciu, decyzja 11.10), 5 (u05-pudlo-szafa, najlepszy klip z v3), 7 (u07-park), 9–12 (u09-12-wspollokator). Pliki w `prompty/`, nazwa = numer ujęcia.
+- Gotowe ujęcia: 1 (u01-kamienica-swit), 2 (u02-ania-klucz-swit), 3 (u03-klucz-stol), 4 (u04-korytarz-drzwi, klip B, **nie przycinamy** (decyzja autora); u05 startuje już w pokoju: Tomek w progu białych drzwi z pudłem w rękach, a podniesienie pudła wypada w cięciu, decyzja 11.10), 5 (u05-pudlo-szafa, najlepszy klip z v3), 6 (u06-kolacja-kuchnia), 7 (u07-park), 9–12 (u09-12-wspollokator). Pliki w `prompty/`, nazwa = numer ujęcia.
 - Referencje postaci: Ania, Tomek, @PIESEK (`postacie.md`)
 - Referencje lokacji: salon (antracytowe ramy), dom z zewnątrz, kawalerka z nową butelkowo-zieloną rozkładaną kanapą mid-century (`lokacje.md`; stara wersja: `kawalerka-wersalka.jpg`). Sposób, który zadziałał: najpierw rekwizyt w NBP, potem edycja z dwiema referencjami w 16:9.
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
@@ -31,4 +31,5 @@ Ostatnia aktualizacja: 11.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcie 5 ✅. Ujęcie 6: prompt v1 gotowy (`u06-kolacja-kuchnia.md`).
+- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcia 5 i 6 ✅. **Następne: ujęcie 8** (Ania mija słup z plakatem „ADOPCJE”, 29°, napis w kadrze od razu w prompcie), potem 11 (szczeniak liże Anię) i akt 2 od ujęcia 13.
+- **Montaż (12.10):** każde ujęcie tniemy do 7,5 s (4 takty przy 128 BPM). u04 zostaje 8 s (decyzja autora), więc u05 tniemy do **7,0 s**, żeby u06 zaczynało się dokładnie w 0:37,5. Claude może przyciąć klipy, jeśli autor je prześle.
