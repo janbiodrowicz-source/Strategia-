@@ -6,7 +6,7 @@ Ostatnia aktualizacja: 12.10.2026
 - Skille: `cinedance`, `lira-image-prompts`, `acting` (w `.claude/skills/`)
 - Utwór „Zostań tu” (Google), 3:02, około 128 BPM. Drop w 1:15, pauzy basu w 1:12 i 2:12
 - Scenariusz: 34 ujęcia, zob. `scenariusz-zostan-tu.md`
-- Gotowe ujęcia: 1 (u01-kamienica-swit), 2 (u02-ania-klucz-swit), 3 (u03-klucz-stol, v2 z 12.10: nowa kuchnia rano, bez kwestii, cięcie 0,5–8,0 s), 4 (u04-korytarz-drzwi, klip B, **nie przycinamy** (decyzja autora); u05 startuje już w pokoju: Tomek w progu białych drzwi z pudłem w rękach, a podniesienie pudła wypada w cięciu, decyzja 11.10), 5 (u05-pudlo-szafa, najlepszy klip z v3), 6 (u06-kolacja-kuchnia), 7 (u07-park, v5 z 12.10: nowe stroje, bez kwestii), 8 (u08-plakat-adopcje, 12.10, cięcie 0,5–8,0 s), 9–12 (u09-12-wspollokator). Pliki w `prompty/`, nazwa = numer ujęcia.
+- Gotowe ujęcia: 1 (u01-kamienica-swit), 2 (u02-ania-klucz-swit), 3 (u03-klucz-stol, v2 z 12.10: nowa kuchnia rano, bez kwestii, cięcie 0,5–8,0 s), 4 (u04-korytarz-drzwi, klip B, **nie przycinamy** (decyzja autora); u05 startuje już w pokoju: Tomek w progu białych drzwi z pudłem w rękach, a podniesienie pudła wypada w cięciu, decyzja 11.10), 5 (u05-pudlo-szafa, najlepszy klip z v3), 6 (u06-kolacja-kuchnia), 7 (u07-park, v5 z 12.10: nowe stroje, bez kwestii), 8 (u08-plakat-adopcje, v2 z 12.10: słup wjeżdża w kadr, cięcie 0,0–7,5 s), 9–12 (u09-12-wspollokator). Pliki w `prompty/`, nazwa = numer ujęcia.
 - Referencje postaci: Ania, Tomek, @PIESEK (`postacie.md`)
 - Referencje lokacji: salon (antracytowe ramy), dom z zewnątrz, kawalerka z nową butelkowo-zieloną rozkładaną kanapą mid-century (`lokacje.md`; stara wersja: `kawalerka-wersalka.jpg`). Sposób, który zadziałał: najpierw rekwizyt w NBP, potem edycja z dwiema referencjami w 16:9.
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
@@ -31,5 +31,5 @@ Ostatnia aktualizacja: 12.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcia 5 i 6 ✅. Ujęcie 7 ✅ (v5: bez kwestii, bez klucza, nowe stroje do parku, przycięte 0,5–8,0 s; zob. `prompty/u07-park.md`). Ujęcie 8 ✅ (plakat „ADOPCJE”, klatka z u07 jako `@PARK`, przycięte 0,5–8,0 s). **Następne: 11** (szczeniak liże Anię) i akt 2 od ujęcia 13.
+- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcia 5 i 6 ✅. Ujęcie 7 ✅ (v5: bez kwestii, bez klucza, nowe stroje do parku, przycięte 0,5–8,0 s; zob. `prompty/u07-park.md`). Ujęcie 8 ✅ (v2: plakat „ADOPCJE”, słup wjeżdża w kadr, przycięte 0,0–7,5 s). **Następne: 11** (szczeniak liże Anię) i akt 2 od ujęcia 13.
 - **Montaż (12.10):** każde ujęcie tniemy do 7,5 s (4 takty przy 128 BPM). u04 zostaje 8 s (decyzja autora), więc u05 tniemy do **7,0 s**, żeby u06 zaczynało się dokładnie w 0:37,5. Claude może przyciąć klipy, jeśli autor je prześle.

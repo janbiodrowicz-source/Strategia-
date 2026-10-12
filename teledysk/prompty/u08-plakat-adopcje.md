@@ -131,3 +131,11 @@ Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, f
 POSITIVE CONSTRAINTS
 Exactly two people in frame; the park path stays empty around them. No animals anywhere: the puppy exists only as a printed photo on the poster. The only lettering in frame is "ADOPCJE" on the light-blue poster. Hands stay laced the whole shot. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
 ```
+
+**Wynik v2 (12.10):** ✅ akceptujemy, zastępuje v1.
+- Słup wjeżdża z lewej krawędzi (ok. 1 s) i zostaje przy Ani, kamera cofa się płynnie razem z parą. Przeskoku nie ma.
+- Napis „ADOPCJE” poprawny, **tylko jeden** (w v1 były dwa), mniej bełkotu na słupie. Dłonie splecione cały czas, Tomek patrzy na liście.
+- Ania: patrzy na słup 3–5 s, dłoń przy ustach („sekret”) 6–8 s, jak w v1.
+- Uwaga: klatka z u07 była wpięta jako referencja, nie jako klatka startowa, więc pierwsza klatka nie jest identyczna. Kadr jest szerszy (cała postać zamiast od kolan), park i ułożenie te same. Na cięciu działa jak lekkie odjechanie kamery, a nie przeskok.
+
+**Cięcie v2:** 0,0–7,5 s (początek zostaje, decyzja autora), bez dźwięku. Plik: `u08_plakat_v2_7.5s.mp4` (v1 przemianowany na `u08_plakat_v1_7.5s.mp4`). Na osi: 0:52,5–1:00.
