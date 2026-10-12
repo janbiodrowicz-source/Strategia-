@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 12.10.2026 (wieczór)
 - Rekwizyt: biały bus z wysokim dachem, bez logo, przód i tył (`lokacje.md`, sekcja „Rekwizyty”)
 
 ## W toku ⏳
-- **Ujęcie 13 (przeciąganie skarpetki):** krok 1 = klatka startowa w NBP z klatki u05 (`referencje/u13-baza-u05.jpg`): Ania na kanapie, Tomek na dywanie ze szczeniakiem i skarpetką, drzwi zamknięte, futerał gitary w rogu za monsterą. Prompt w `prompty/u13-skarpetka.md`. Stroje podstawowe (`ania.png`, `tomek.png`). Klatka startowa ✅ (wieczór, lampa sufitowa, stroje: `ania-golf.jpg`, `tomek-sweter.jpg`). Teraz wideo (krok 2 w pliku ujęcia), potem cięcie do 3,75 s.
+- **Ujęcie 13 (przeciąganie skarpetki):** krok 1 = klatka startowa w NBP z klatki u05 (`referencje/u13-baza-u05.jpg`): Ania na kanapie, Tomek na dywanie ze szczeniakiem i skarpetką, drzwi zamknięte, futerał gitary w rogu za monsterą. Prompt w `prompty/u13-skarpetka.md`. Stroje podstawowe (`ania.png`, `tomek.png`). Klatka startowa ✅ (wieczór, lampa sufitowa, stroje: `ania-golf.jpg`, `tomek-sweter.jpg`). Wideo ✅ przycięte 0,25–4,0 s → `u13_skarpetka_3.75s.mp4`, oś 1:15,0–1:18,75. **Ujęcie 13 zamknięte.** Następne: ujęcie 14 (laptop, zdjęcie domu, pies między nimi).
 - Ujęcie 5 ✅ zamknięte (zob. `prompty/u05-pudlo-szafa.md`, lekcje na końcu). Referencja `tomek-gitara-pudlo.jpg` gotowa. Odczytanie: to ostatnie pudło Tomka, a jego ubrania już wiszą w szafie Ani. Widok kawalerki od okna niezrobiony (opcjonalny, przyda się w ujęciach 13, 14 i 17).
 - Inspiracje autora (4 zdjęcia małych mieszkań z internetu, 11.10): nowe bloki (PCV, niski sufit, panele), więc nie wgrywamy ich jako referencji do NBP, bo rozjechałyby kamienicę. Służą tylko za wzór kadru (zdjęcie z TV i turkusową kanapą = widok wzdłuż pokoju na okno, jak u nas).
 

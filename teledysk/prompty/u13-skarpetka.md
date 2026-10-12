@@ -239,3 +239,6 @@ A playful puppy growl during the tug, a soft thump on the rug, her bright laugh,
 POSITIVE CONSTRAINTS
 Exactly two people and one puppy. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
 ```
+
+**Wynik wideo (12.10, x1): ✅** akceptujemy. Przeciąganie 0–1,3 s, Tomek puszcza ok. 1,3 s, piesek przewraca się na plecy w 1,5–2,0 s i wierzga łapami ze skarpetką na pyszczku jak w czapce, Ania wybucha śmiechem od ok. 2,7 s (ręka na piersi, głowa w tył), Tomek śmieje się z rękami w górze. Najazd płynny, pokój i światło jak na klatce startowej, jeden piesek.
+**Cięcie:** klatki 6–95 = 0,25–4,0 s (90 klatek = 3,75 s), bez dźwięku. Plik: `u13_skarpetka_3.75s.mp4`. Na osi: 1:15,0–1:18,75. Z początku wypada 0,25 s, a na końcu zostaje najmocniejszy śmiech.
