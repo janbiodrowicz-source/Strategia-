@@ -217,3 +217,57 @@ Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, f
 POSITIVE CONSTRAINTS
 Exactly two people in frame; the park path stays empty around them. Both hands empty except for each other: nothing held in any hand. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
 ```
+
+## v5 (12.10): Tomek patrzy na Anię od pierwszej klatki
+
+**Problem v4:** Tomek patrzy przed siebie (w 0:00–0:03 tak było w prompcie, a potem model nie zdążył obrócić mu głowy). Tło nadal dość ostre (widać ławkę), czyli model znowu zrobił zwykły obiektyw zamiast 18°.
+**Zmiana (jedna: linia spojrzenia):** od pierwszej klatki głowa Tomka obrócona o 45° do Ani, oczy na jej twarzy przez całe ujęcie, osobna linijka „Gaze lines” w blokadzie przestrzennej (według `cinedance`: tułów i wzrok osobno).
+
+```text
+SCENE CONTEXT
+Golden hour in an autumn city park. A young couple walks side by side toward the camera along a gravel path. From the very first frame he walks with his head turned to her, watching her face with a quiet smile; she catches him staring, laughs and bumps him with her shoulder, and he takes her hand. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. Happy, light on her feet. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy trucker jacket with a dark brown corduroy collar, open over a cream chunky-knit sweater, charcoal-grey chinos, brown suede sneakers. Relaxed, playful. 100% matches the reference.
+
+LOCATION MAP
+A straight gravel path, 3 meters wide, runs directly toward the camera through a park. Old trees with orange and yellow leaves line both sides of the path. Fallen leaves cover the path edges. Low sun sits in the background, behind the couple, at the far end of the path. The camera stands at the near end of the path, on the path center line.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame already contains both characters mid-stride, 18 meters from the camera. No empty establishing frame.
+@ANIA walks on screen-left, @TOMEK walks on screen-right, their shoulders 30 centimeters apart. Both bodies face the camera as they walk toward it. @ANIA's arms swing loosely and empty with her steps. @TOMEK's hands are in his chino pockets.
+Gaze lines: @TOMEK's torso faces the camera, but his head is turned 45 degrees toward screen-left and his eyes stay locked on @ANIA's face for the whole shot; he never looks at the path or into the camera. @ANIA looks ahead and at the trees until 0:03, then turns her head to him.
+Both stay on the path center line for the whole shot and end 12 meters from the camera.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+18° diagonal field of view, classic telephoto lens character, camera 12 to 18 meters from the couple. Close framing achieved through lens reach, not physical proximity. Strong background compression: the trees and the sun are stacked flat right behind them. Razor focus on both faces only; the path, the trees and the leaves behind them are completely blurred into a soft warm golden color wash with large creamy bokeh discs from the sun through the leaves. Atmospheric haze hangs between camera and couple. No part of this shot becomes wide-angle or normal-lens coverage.
+
+CAMERA
+Static camera at chest height, fixed frame for the whole shot, no drift. The image is the camera's point of view; the camera itself is never visible. The couple walks into a medium-wide two-shot that tightens naturally as they approach, from full body to knees-up framing. @ANIA holds the left third, @TOMEK holds the right third. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:03: Both mid-stride toward camera in an easy shared rhythm. @ANIA looks around at the trees, chin up. @TOMEK walks with his hands in his pockets, head turned to her, eyes on her face, a quiet closed-lip half-smile.
+0:03 to 0:05: Still walking, @TOMEK keeps watching her. @ANIA feels it and turns her head to him, catching him staring; their eyes meet.
+0:05 to 0:07: @ANIA raises her eyebrows at him in mock suspicion, then, mid-step, she laughs and bumps her shoulder into his upper arm. @TOMEK sways half a step to the right and comes back.
+0:07 to 0:08: @TOMEK takes his right hand from his pocket and laces his fingers with her left hand. They keep walking hand in hand, steps falling into sync.
+
+PERFORMANCE
+@ANIA walks with a light bouncy "Sunday walk": short quick steps, chin up, a small private celebration she cannot hide. Her eyes keep moving: path, trees, him, quick and bright with lively catchlights. When she catches him staring she tries to look suspicious for half a second, but her mouth gives up first and the laugh breaks through.
+@TOMEK walks in a loose, unhurried "long-legged stroll": long easy strides, shoulders relaxed, hands deep in his pockets. He cannot stop looking at her and does not try to hide it; his eyes stay on her the whole time. After the shoulder bump he keeps smiling at her and takes her hand without looking down. Neither of them speaks; laughter and breath only, his lips stay closed.
+
+PHYSICS
+Real walking: heel contact, weight transfer, hip shift, toe push-off on loose gravel. Gravel shifts under every step. Fallen leaves scatter around their feet and drift down from the trees in the light wind. Hair and the loose knit of the cardigan move with each step and lag slightly behind the body.
+
+LIGHTING
+Contre-jour golden hour. The low sun stays behind the couple, in the background. The camera stays on the shadow side. Bright golden rim light outlines their hair, shoulders and arms; backlit hair glows warm. Faces sit in soft open shadow, gently lifted by warm bounce from the light gravel path so their expressions stay readable. The whole shot is exposed for the backlit glow. No frontal key, no flat front light.
+
+AUDIO
+Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, faint far-away city hum, @ANIA's short laugh. No voices, no music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame; the park path stays empty around them. Both hands empty except for each other: nothing held in any hand. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
+```
