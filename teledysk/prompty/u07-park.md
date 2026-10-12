@@ -271,3 +271,7 @@ Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, f
 POSITIVE CONSTRAINTS
 Exactly two people in frame; the park path stays empty around them. Both hands empty except for each other: nothing held in any hand. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
 ```
+
+**Wynik v5 (12.10):** ✅ akceptujemy. Tomek patrzy na Anię od ok. 3 s (nie od pierwszej klatki, ale wyraźnie), Ania przyłapuje go (3,5–5 s), szturchnięcie (5,5 s), splecione dłonie (7–8 s). Tło wreszcie miękkie (18° zadziałało). Bez słów.
+**Spójność twarzy (porównanie z portretami):** Tomek zgodny (włosy, zarost, nos, brwi). Ania w większości zgodna, ale włosy wyszły ciemniejsze, prawie bez karmelowych końcówek, a w 6,5–8 s twarz jest odrobinę węższa. Piegów nie widać, bo przy kontrze i tej odległości to normalne. W pełnym kadrze 720p różnice są niezauważalne.
+**Cięcie:** 0,5–8,0 s (7,5 s), bez dźwięku. Plik: `u07_park_7.5s.mp4`. Na osi: 0:45–0:52,5.
