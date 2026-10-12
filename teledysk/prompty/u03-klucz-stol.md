@@ -138,3 +138,6 @@ Exactly two people in frame. One single key, one single mug. Natural skin textur
 ```
 
 **Na co patrzeć:** usta zamknięte (to był problem starego u03), łyżeczka staje przed spojrzeniem, Tomek bierze klucz do ręki przed 7,5 s.
+
+**Wynik v2 (12.10):** ✅ gotowe. Ania przesuwa klucz (0–1,5 s), Tomek podnosi wzrok (4 s), uśmiech (5,5 s), kładzie dłoń na jej dłoni (6,5 s) i podnosi klucz w palcach (7,7–8 s). Usta: tylko uśmiech, bez mówienia. Kadr stabilny.
+**Cięcie:** 0,5–8,0 s (7,5 s), bez dźwięku, żeby zmieścić podniesienie klucza na końcu. Plik u autora: `u03_klucz_7.5s.mp4`. Na osi: 0:15–0:22,5.
