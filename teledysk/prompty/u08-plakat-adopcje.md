@@ -6,7 +6,7 @@
 **Geometria (dlaczego tak):** idą na kamerę, a plakat wisi po stronie słupa zwróconej do kamery. Ania widzi go z boku, kiedy go mija, a potem odwraca głowę przez lewe ramię i patrzy na niego wprost. Widz czyta napis przez całe ujęcie.
 
 **Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2. W montażu tniemy do 7,5 s.
-**Referencje (od 12.10, stroje do parku):** `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`. Opcjonalnie klatka z gotowego klipu u07 jako wzór światła i parku (tylko lokacja, nie klatka startowa).
+**Referencje (od 12.10, stroje do parku):** `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`, `@PARK` = klatka z gotowego klipu u07 (decyzja autora 12.10): wzór światła, drzew i alejki, **nie klatka startowa**. Park nie musi być identyczny, słup dokładamy promptem. Na klatce Tomek ma ręce w kieszeniach, dlatego prompt mówi wprost, że pozy bierzemy z promptu, a nie z `@PARK`.
 
 ```text
 SCENE CONTEXT
@@ -15,9 +15,10 @@ Golden hour at the edge of an autumn city park. A young couple walks hand in han
 ACTIVE REFERENCES
 @ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. Happy, light on her feet. 100% matches the reference.
 @TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy trucker jacket with a dark brown corduroy collar, open over a cream chunky-knit sweater, charcoal-grey chinos, brown suede sneakers. Relaxed, content. 100% matches the reference.
+@PARK: location and light reference only, not a starting frame. Take from it the golden-hour backlight, the hazy low sun at the far end of the path, the orange and yellow trees and the leaf-covered gravel path. Character poses, positions and hands come only from this prompt, never from @PARK.
 
 LOCATION MAP
-A straight gravel path, 3 meters wide, runs directly toward the camera near the park gate. Old trees with orange and yellow leaves line both sides; fallen leaves cover the path edges. At the left edge of the path, 7 meters from the camera, stands a classic round European advertising column: 1.2 meters wide, 3 meters tall, dark green painted metal with a small domed cap, its surface covered in pasted posters. Low sun sits in the background at the far end of the path, behind the couple. The camera stands on the path center line, close to the park gate.
+The park from @PARK: a straight gravel path, 3 meters wide, runs directly toward the camera near the park gate. Old trees with orange and yellow leaves line both sides; fallen leaves cover the path edges. At the left edge of the path, 7 meters from the camera, stands a classic round European advertising column: 1.2 meters wide, 3 meters tall, dark green painted metal with a small domed cap, its surface covered in pasted posters. Low sun sits in the background at the far end of the path, behind the couple. The camera stands on the path center line, close to the park gate.
 SIGNAGE: On the camera-facing side of the column, at eye level, one portrait poster about 60 centimeters tall, light-blue background, a large printed photo of a fluffy honey-gold puppy with a cream-white chest and floppy ears, and across the top the single word "ADOPCJE" in bold white sans-serif capital letters. This is the only lettering in the whole frame. All other posters on the column show only painted pictures and color blocks, no lettering.
 
 FIRST FRAME AND SPATIAL BLOCKING
