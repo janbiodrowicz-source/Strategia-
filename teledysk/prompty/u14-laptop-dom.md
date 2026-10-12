@@ -57,6 +57,26 @@ Zapisz jako `referencje/u14-start.jpg`.
 
 **Wynik B (12.10, x3):** wybrany wariant 3 (oboje patrzą w ekran, dom w pełni widoczny między nimi, piesek łapami na udzie Tomka). W wariancie 1 Tomek zasłania ekran. Wariant 2 ma ładne twarze, ale para już patrzy na siebie, czyli to stan końcowy, a nie startowy. Zapisz jako `referencje/u14-start.jpg`.
 
+## Krok B2: nasz dom na ekranie (NBP, edycja)
+
+Prośba autora: najpierw poprawiamy ekran. Flow · NBP · 16:9 · 2k · x3. 1 = `u14-start.jpg` (wariant 3), 2 = `dom.png`.
+
+```text
+Edit image 1: replace only the picture on the laptop screen with image 2.
+
+CHANGE:
+- The laptop screen shows image 2 as a full-screen photo, edge to edge inside the screen bezel: the white single-storey house with the dark graphite gable roof and slim chimney, the warm cedar-clad entrance with the anthracite door, the cedar-clad section with the wide window on the right, the pale-grey paved driveway, ornamental grasses and lavender, tall birch trees and a golden sunset sky. Same composition and colours as image 2, scaled down to fit the screen, sharp and bright.
+
+PRESERVE EXACTLY:
+- The laptop itself: its size, position, angle, bezel and keyboard
+- Both people: their backs, heads, hair, profiles, clothing and poses
+- The puppy standing between the chairs with its paws on the man's thigh
+- The table, both chairs, the curtains and the dark night window, the sofa edge, the bookshelf, the record player and the monstera
+- Camera, framing, the warm evening light, the soft screen glow, colour grade, contrast, grain
+
+ONLY CHANGE: the picture on the laptop screen. 100% identical otherwise.
+```
+
 ## Krok C: wideo (Omni 1.1 Flash, od klatki startowej)
 
 Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u14-start.jpg`. `@TOMEK` = `tomek-sweter.jpg`, `@ANIA` = `ania-golf.jpg`, `@PIESEK` = `piesek.png`. Cięcie: 3,75 s, oś 1:18,75–1:22,5.
@@ -71,7 +91,7 @@ ACTIVE REFERENCES
 @PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. Stands on its hind legs between the chairs, front paws on @TOMEK's thigh. 100% matches the reference.
 
 LOCATION MAP
-Exactly the room from the starting image: a small round light-oak table in front of a tall window with sheer white linen curtains and dark night behind the glass. An open laptop in the center of the table, its screen facing the camera, showing a white house with a cedar-clad entrance and birch trees. The edge of a green velvet sofa on screen-left, an oak bookshelf with a record player and a monstera on screen-right.
+Exactly the room from the starting image: a small round light-oak table in front of a tall window with sheer white linen curtains and dark night behind the glass. An open laptop in the center of the table, its screen facing the camera, showing a white single-storey house with a dark gable roof, a cedar-clad entrance and birch trees at golden sunset. The edge of a green velvet sofa on screen-left, an oak bookshelf with a record player and a monstera on screen-right.
 
 FIRST FRAME AND SPATIAL BLOCKING
 The first frame is exactly the starting image: same framing, same positions, same light. @ANIA on the left chair and @TOMEK on the right chair, both with their backs to the camera, heads turned slightly toward the laptop. The laptop screen is fully visible in the gap between their shoulders. @PIESEK stands up between the two chairs, paws on @TOMEK's thigh.
