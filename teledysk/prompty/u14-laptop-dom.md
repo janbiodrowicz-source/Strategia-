@@ -1,4 +1,4 @@
-# Ujęcie 14: Laptop i dom (1:18,75–1:22,5, „niech ten dom będzie nasz”)
+# Ujęcie 14: Laptop i dom (1:18,75–1:22,5; „niech ten dom będzie nasz” pada dopiero po tym ujęciu, na u15)
 
 **Pomysł (decyzja autora 12.10):** kadr z `kawalerka.jpg` (widok od drzwi) przycięty do okna i stolika. Dwa krzesła przed stolikiem, oparciami do kamery. Na stole laptop ze zdjęciem domu (`dom.png`). Ania i Tomek patrzą na dom z miną „kupmy go”, potem na siebie i się uśmiechają. Piesek wciska się między nich i kładzie przednie łapy na kolanach jednego z nich (Tomka). Na oknie firanki (wybór Claude: lniane firanki zamiast rolety dzień-noc). Wieczór, ciągłość z u13. Stroje: `ania-golf.jpg`, `tomek-sweter.jpg`.
 **Plan:** klatka startowa w NBP w dwóch krokach (A: pokój, B: ludzie i piesek), potem wideo 4 s → cięcie 3,75 s.
