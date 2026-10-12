@@ -73,8 +73,28 @@ Zapisz jako `referencje/u13-pokoj-pusty.jpg`. Krok 1b: dodajemy postacie (`ania.
 
 ## Krok 1b: para i piesek (NBP, edycja)
 
+**Zmiana autora (12.10):** Ania w domu bez kardiganu, tylko w musztardowym golfie (odcina się od zielonej kanapy). Najpierw planszka:
+
+**Planszka `ania-golf.jpg`:** Flow · NBP · 3:2 · 2k · x3, obraz 1 = `referencje/ania-park.jpg`.
+
+```text
+Edit image 1: the same woman in all three panels, without her cardigan.
+
+CHANGE (consistent in all three panels):
+- Remove the bottle-green cable-knit cardigan. She wears only the fitted mustard-yellow ribbed knit turtleneck with long sleeves, tucked into the jeans; the full turtleneck is visible: front, back and both sleeves to the wrists.
+
+PRESERVE EXACTLY:
+- Her face, freckles, brown eyes, wavy shoulder-length dark brown hair with caramel ends, the small gold stud earring, expression and smile in every panel
+- The dark indigo high-waisted jeans, the brown leather belt, the white canvas sneakers
+- Poses, body proportions and positions in all three panels: front full body on the left, back full body in the middle, close-up portrait on the right
+- The mid-grey studio backdrop, the white panel dividers, studio light, shadows, colour grade, grain
+- Camera framing of every panel
+
+ONLY CHANGE: the cardigan is removed, the turtleneck is fully visible. 100% identical otherwise.
+```
+
 **Decyzja autora (12.10):** stroje z parku/targu (wrócili z psem prosto z targu). Uwaga: w pokoju jest poranne słońce, a targ był wieczorem. Możemy to poprawić w wideo.
-**Ustawienia:** Flow · NBP · 16:9 · 2k · x3. Referencje: 1 = `u13-pokoj-pusty.jpg`, 2 = `ania-park.jpg`, 3 = `tomek-park.jpg`, 4 = `piesek.png`.
+**Ustawienia:** Flow · NBP · 16:9 · 2k · x3. Referencje: 1 = `u13-pokoj-pusty.jpg`, 2 = `ania-golf.jpg`, 3 = `tomek-park.jpg`, 4 = `piesek.png`.
 
 ```text
 Edit image 1: the same empty room and camera. Add three figures: the young woman from image 2 sitting on the green sofa, the young man from image 3 kneeling on the jute rug, and the puppy from image 4 playing tug-of-war with him using a striped sock.
@@ -82,7 +102,7 @@ Edit image 1: the same empty room and camera. Add three figures: the young woman
 CHANGE (add only these, nothing else moves):
 - The young man from image 3 kneels on the left half of the jute rug, in the sunlit patch, about 2 meters away from the sofa. His body is in profile facing screen-right, sitting back on his heels and leaning back. Both hands grip one end of a long grey-and-white striped knit sock and pull it toward his chest. Teasing grin, eyes on the puppy. Same navy jacket with brown corduroy collar, cream knit sweater, charcoal chinos and brown suede sneakers as in image 3.
 - The puppy from image 4 stands on the right half of the rug, 1 meter in front of him, facing him in profile toward screen-left. Front paws braced on the rug, rear raised, tail up. The other end of the striped sock is clamped in its teeth. The sock is stretched tight in one straight line between his hands and the puppy's mouth.
-- The young woman from image 2 sits on the far half of the bottle-green sofa, between the mustard cushion and the floor lamp, her body turned toward the rug. She leans forward with her elbows on her knees, laughing openly at the tug-of-war, eyes crinkled. Same bottle-green cable-knit cardigan, mustard turtleneck, dark jeans and white sneakers as in image 2.
+- The young woman from image 2 sits on the far half of the bottle-green sofa, between the mustard cushion and the floor lamp, her body turned toward the rug. She leans forward with her elbows on her knees, laughing openly at the tug-of-war, eyes crinkled. Same mustard ribbed turtleneck, dark jeans with the brown belt and white sneakers as in image 2, no cardigan.
 
 PRESERVE EXACTLY:
 - Everything in image 1: camera position, height, lens and framing; the closed white double door; the black guitar case beside the monstera; the TV, bookshelf and books; both framed prints; the floor lamp; the sofa with the mustard cushion and the small plant; the white wardrobe in the right foreground; the plaster cornice, walls, parquet and jute rug
