@@ -51,7 +51,7 @@ Voice @TOMEK: "A 30-year-old Polish man, warm low baritone with a slight rasp; r
 
 Cała sylwetka Tomka: `referencje/tomek-cala-postac.png` (zrzut 523×1024, oryginał u autora). Edycja w NBP (Flow): gitara w miękkim pokrowcu na plecach, pasek tylko na prawym ramieniu, pudło w obu rękach. Jak na końcu klipu B z u04. **Wynik (11.10):** ✅ `referencje/tomek-gitara-pudlo.jpg`.
 
-## @TOMEK: strój na spacer (ujęcia 7–8, park) ⏳
+## @TOMEK: strój na spacer (ujęcia 7–8, park) ✅
 
 **Po co:** bohaterowie nie chodzą codziennie w tym samym. Park to inny dzień niż przeprowadzka i kolacja, więc Tomek dostaje drugi zestaw.
 **Wybór:** granatowa bawełniana kurtka robocza (chore jacket), rozpięta, na kremowym swetrze z grubego splotu, ciemnografitowe chinosy i **te same brązowe zamszowe trampki** (kotwica postaci). Granat odcina się od złotego tła pod słońce (kolor dopełniający do pomarańczowych liści) i nie zlewa się z liśćmi, jak zrobiłby to rdzawy lub musztardowy. Styl ten sam: luźny, spokojny, bez logo.
@@ -77,3 +77,35 @@ ONLY CHANGE: the jacket, the top and the trousers. 100% identical otherwise.
 ```
 
 **Na co patrzeć:** ta sama twarz we wszystkich trzech panelach, sweter widoczny pod rozpiętą kurtką, tył kurtki bez nadruku, trampki bez zmian. Zapisz jako `referencje/tomek-park.png`.
+
+**v1 (12.10):** „chore jacket” wyszła jak długi fartuch. **v2:** edycja wyniku v1, zmiana tylko kurtki na krótką granatową kurtkę typu trucker do pasa, z brązowym sztruksowym kołnierzem i kieszeniami z klapkami. **Wynik: ✅** `referencje/tomek-park.jpg` (2752×1536).
+
+```text
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy cotton trucker jacket with a dark brown corduroy collar, worn open over a cream chunky-knit crew-neck sweater, charcoal-grey chinos, brown suede sneakers. 100% matches the reference.
+```
+
+## @ANIA: strój na spacer (ujęcia 7–8, park) ⏳
+
+**Wybór:** butelkowozielony kardigan z grubego splotu warkoczowego (do bioder, rozpięty), pod nim musztardowy golf w prążek (jej kolor, ale inna rzecz), ciemne jeansy z wysokim stanem i ten sam brązowy pasek, **te same białe trampki** i złoty kolczyk (kotwice postaci). Zieleń jest dopełniająca do pomarańczowych liści i nie zlewa się z kremowym swetrem ani z granatem Tomka. Do tego butelkowa zieleń to kolor ich kanapy.
+**Ustawienia:** Flow · NBP · **3:2** · 2k · x4. Obraz 1 = `referencje/ania.png`.
+
+```text
+Edit image 1: the same woman in all three panels, dressed in a new autumn outfit.
+
+CHANGE (clothing only, consistent in all three panels):
+- Instead of the cream linen overshirt: a deep bottle-green chunky cable-knit wool cardigan, hip-length, ending at the hip, worn open and unbuttoned, sleeves slightly pushed up to the forearms, wooden buttons.
+- Instead of the mustard t-shirt: a fitted mustard-yellow ribbed knit turtleneck, tucked into the jeans.
+- Instead of the light blue jeans: dark indigo high-waisted straight-leg jeans with the same brown leather belt.
+- Plain unbranded clothing, no logos or lettering.
+
+PRESERVE EXACTLY:
+- Her face, freckles, brown eyes, wavy shoulder-length dark brown hair with caramel ends, the small gold stud earring, expression and smile in every panel
+- The white canvas sneakers
+- Poses, body proportions and positions in all three panels: front full body on the left, back full body in the middle, close-up portrait on the right
+- The mid-grey studio backdrop, the white panel dividers, studio light, shadows, colour grade, grain
+- Camera framing of every panel
+
+ONLY CHANGE: the cardigan, the top and the jeans. 100% identical otherwise.
+```
+
+**Na co patrzeć:** kardigan do bioder (nie płaszcz), golf widoczny pod spodem, ta sama twarz. Zapisz jako `referencje/ania-park.jpg`.
