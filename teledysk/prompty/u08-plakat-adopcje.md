@@ -6,15 +6,15 @@
 **Geometria (dlaczego tak):** idą na kamerę, a plakat wisi po stronie słupa zwróconej do kamery. Ania widzi go z boku, kiedy go mija, a potem odwraca głowę przez lewe ramię i patrzy na niego wprost. Widz czyta napis przez całe ujęcie.
 
 **Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2. W montażu tniemy do 7,5 s.
-**Referencje:** `@ANIA` = `referencje/ania.png`, `@TOMEK` = `referencje/tomek.png`. Opcjonalnie klatka z gotowego klipu u07 jako wzór światła i parku (tylko lokacja, nie klatka startowa).
+**Referencje (od 12.10, stroje do parku):** `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`. Opcjonalnie klatka z gotowego klipu u07 jako wzór światła i parku (tylko lokacja, nie klatka startowa).
 
 ```text
 SCENE CONTEXT
 Golden hour at the edge of an autumn city park. A young couple walks hand in hand toward the camera past a round advertising column. She notices a puppy adoption poster on the column and her eyes light up; he looks the other way and never sees it.
 
 ACTIVE REFERENCES
-@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, cream linen overshirt with rolled sleeves over a mustard t-shirt, light blue jeans, white sneakers. Happy, light on her feet. 100% matches the reference.
-@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt open over a white t-shirt, khaki chinos, brown suede sneakers. Relaxed, content. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. Happy, light on her feet. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy trucker jacket with a dark brown corduroy collar, open over a cream chunky-knit sweater, charcoal-grey chinos, brown suede sneakers. Relaxed, content. 100% matches the reference.
 
 LOCATION MAP
 A straight gravel path, 3 meters wide, runs directly toward the camera near the park gate. Old trees with orange and yellow leaves line both sides; fallen leaves cover the path edges. At the left edge of the path, 7 meters from the camera, stands a classic round European advertising column: 1.2 meters wide, 3 meters tall, dark green painted metal with a small domed cap, its surface covered in pasted posters. Low sun sits in the background at the far end of the path, behind the couple. The camera stands on the path center line, close to the park gate.

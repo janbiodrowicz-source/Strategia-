@@ -31,5 +31,5 @@ Ostatnia aktualizacja: 12.10.2026
 
 ## Następne kroki ▶️
 - Pomysł: zielona kanapa jako jedyny mebel, który przetrwał przeprowadzkę. Stoi potem w salonie nowego domu (outro: śpią na niej z psem zamiast na materacu). Do decyzji.
-- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcia 5 i 6 ✅. **Ujęcie 8: prompt gotowy, czeka na generację** (`prompty/u08-plakat-adopcje.md`: słup ogłoszeniowy przy wyjściu z parku, plakat jasnoniebieski jak baner na targu, 29°). Potem 11 (szczeniak liże Anię) i akt 2 od ujęcia 13.
+- Prompty wideo do 29 nowych ujęć. Ujęcia 1–3 ✅. Ujęcie 4 ✅ (klip B). Ujęcia 5 i 6 ✅. Ujęcie 7: v2 bez kwestii w nowych strojach (prompt gotowy). **Ujęcie 8: prompt gotowy, czeka na generację** (`prompty/u08-plakat-adopcje.md`: słup ogłoszeniowy przy wyjściu z parku, plakat jasnoniebieski jak baner na targu, 29°). Potem 11 (szczeniak liże Anię) i akt 2 od ujęcia 13.
 - **Montaż (12.10):** każde ujęcie tniemy do 7,5 s (4 takty przy 128 BPM). u04 zostaje 8 s (decyzja autora), więc u05 tniemy do **7,0 s**, żeby u06 zaczynało się dokładnie w 0:37,5. Claude może przyciąć klipy, jeśli autor je prześle.

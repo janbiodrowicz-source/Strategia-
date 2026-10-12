@@ -53,3 +53,60 @@ Voice @TOMEK: "A 30-year-old man, warm low baritone with a slight morning rasp; 
 POSITIVE CONSTRAINTS
 Exactly two people in frame; the park path stays empty around them. The key stays one small brass key on a ring. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
 ```
+
+## v2 (12.10): bez kwestii, nowe stroje
+
+**Dlaczego:** w v1 Tomek mówi kwestię (zasada 2: bohaterowie nie mówią) i oboje są w strojach z przeprowadzki. Nowe stroje: `postacie.md`, sekcje „strój na spacer”.
+**Zamiast pytania:** zabawa bez słów. Tomek łapie wzrokiem kręcący się klucz i unosi brwi („popisujesz się”), Ania śmieje się bez słów i szturcha go ramieniem, Tomek bierze ją za rękę. Na końcu splecione dłonie (prawa Tomka w lewej Ani), jak na początku u08.
+**Poprawka z v1:** tło było za ostre jak na 18°, więc kamera stoi dalej (12–18 m), a rozmycie jest mocniej opisane.
+**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2. Referencje w tej kolejności: `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`. Na osi: 0:45–0:52,5 (pod „o o o o” w 0:45–0:49).
+
+```text
+SCENE CONTEXT
+Golden hour in an autumn city park. A young couple walks side by side toward the camera along a gravel path; she spins her apartment key on one finger. He notices it and raises his eyebrows at her, she laughs and bumps him with her shoulder, and he takes her hand. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. A single small brass key on a small metal ring hooked on her right index finger. Happy, light on her feet. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy trucker jacket with a dark brown corduroy collar, open over a cream chunky-knit sweater, charcoal-grey chinos, brown suede sneakers. Relaxed, playful. 100% matches the reference.
+
+LOCATION MAP
+A straight gravel path, 3 meters wide, runs directly toward the camera through a park. Old trees with orange and yellow leaves line both sides of the path. Fallen leaves cover the path edges. Low sun sits in the background, behind the couple, at the far end of the path. The camera stands at the near end of the path, on the path center line.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame already contains both characters mid-stride, 18 meters from the camera. No empty establishing frame.
+@ANIA walks on screen-left, @TOMEK walks on screen-right, their shoulders 30 centimeters apart. Both bodies face the camera as they walk toward it. @ANIA's right hand spins the key ring around her index finger at hip height. @TOMEK's hands are in his chino pockets.
+Both stay on the path center line for the whole shot and end 12 meters from the camera.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+18° diagonal field of view, classic telephoto lens character, camera 12 to 18 meters from the couple. Close framing achieved through lens reach, not physical proximity. Strong background compression: the trees and the sun are stacked flat right behind them. Razor focus on both faces only; the path, the trees and the leaves behind them are completely blurred into a soft warm golden color wash with large creamy bokeh discs from the sun through the leaves. Atmospheric haze hangs between camera and couple. No part of this shot becomes wide-angle or normal-lens coverage.
+
+CAMERA
+Static camera at chest height, fixed frame for the whole shot, no drift. The image is the camera's point of view; the camera itself is never visible. The couple walks into a medium-wide two-shot that tightens naturally as they approach, from full body to knees-up framing. @ANIA holds the left third, @TOMEK holds the right third. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:03: Both mid-stride toward camera in an easy shared rhythm. @ANIA spins the key on her finger. @TOMEK walks with his hands in his pockets, eyes on the path ahead.
+0:03 to 0:05: Still walking, @TOMEK's eyes slide to the spinning key, then to her face; he raises his eyebrows with a crooked closed-lip half-smile.
+0:05 to 0:07: The key stops spinning; @ANIA closes her fist around it. Mid-step, she laughs and bumps her shoulder into his upper arm. @TOMEK sways half a step to the right and comes back.
+0:07 to 0:08: @TOMEK takes his right hand from his pocket and laces his fingers with her left hand. They keep walking hand in hand, steps falling into sync.
+
+PERFORMANCE
+@ANIA walks with a light bouncy "Sunday walk": short quick steps, chin up, the key spinning as a small private celebration she cannot stop. Her eyes keep moving: path, trees, him, quick and bright with lively catchlights. When he raises his eyebrows she tries to look offended for half a second, but her mouth gives up first and the laugh breaks through.
+@TOMEK walks in a loose, unhurried "long-legged stroll": long easy strides, shoulders relaxed, hands deep in his pockets. His raised eyebrows are the whole joke; his eyes reach her a beat before his head turns. After the shoulder bump he looks back at the path, smiling, and takes her hand without looking. Neither of them speaks; laughter and breath only, his lips stay closed.
+
+PHYSICS
+Real walking: heel contact, weight transfer, hip shift, toe push-off on loose gravel. Gravel shifts under every step. Fallen leaves scatter around their feet and drift down from the trees in the light wind. Hair and the loose knit of the cardigan move with each step and lag slightly behind the body. The key ring has weight and swings on her finger in a real arc.
+
+LIGHTING
+Contre-jour golden hour. The low sun stays behind the couple, in the background. The camera stays on the shadow side. Bright golden rim light outlines their hair, shoulders and arms; backlit hair glows warm. Faces sit in soft open shadow, gently lifted by warm bounce from the light gravel path so their expressions stay readable. The whole shot is exposed for the backlit glow. No frontal key, no flat front light.
+
+AUDIO
+Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, faint far-away city hum, @ANIA's short laugh. No voices, no music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame; the park path stays empty around them. The key stays one small brass key on a ring. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
+```
+
+**Na co patrzeć:** Tomek nic nie mówi (tylko uniesione brwi), stroje zgodne z referencjami (zielony kardigan, granatowa kurtka), tło miękkie, na końcu splecione dłonie.
