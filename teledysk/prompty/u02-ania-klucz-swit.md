@@ -59,3 +59,33 @@ Exactly one person in frame. The key stays one small brass key on a ring, the sa
 - Klucz ma być jeden, mały i mosiężny, i nie może zmieniać rozmiaru.
 - Spojrzenie w lewo w 0:02 to Tomek, który jeszcze śpi. Jeśli model obróci całą głowę, dopisz „eyes move, head stays still”.
 - Tło ma być rozmyte (18°). Jeśli wyjdzie ostre jak w klipie 02, wzmacniamy rozmycie.
+
+## v2 (12.10): ta sama Ania, nowa kuchnia (ciągłość z u03 i u06)
+
+**Problem:** w u03 (nowa wersja) i u06 kuchnia wygląda inaczej: nowoczesne białe okno bez firanek, ochrowa kamienica z balkonem, zioła w terakotowych doniczkach, jasne drewniane szafki. W u02 jest stare okno ze szprosami, długie firanki i szara ściana za oknem.
+**Uwaga do starego klipu:** w 5,5–6,0 s Ania rusza ustami, jakby coś mówiła.
+
+### Krok 1: klatka startowa (NBP, edycja tła)
+**Ustawienia:** Flow · NBP · **16:9** · 2k · x4. Obraz 1 = `referencje/u02-klatka-stara-kuchnia.png` (klatka 0,5 s ze starego u02, 1920×1080), obraz 2 = `referencje/u03-start-rano.jpg` (wzór kuchni).
+
+```text
+Edit image 1: keep the woman exactly as she is and change only the kitchen behind her so it becomes the kitchen from image 2, at blue dawn.
+
+CHANGE (background only):
+- The window behind her on the left becomes the window from image 2: a modern white window frame with a single plain white sash, no curtains at all. Through it, the pale ochre tenement facade across the courtyard from image 2, with its small balcony, in cool blue pre-dawn light, the sky still dim.
+- On the windowsill: the green herbs in terracotta pots from image 2, and the same small table lamp with a white fabric shade, switched on, glowing warm.
+- The long cream curtains are removed; continuous warm-white wall and window frame in their place.
+- On the right behind her: the light honey-wood kitchen cabinets and the pale cream wall tiles from image 2.
+
+PRESERVE EXACTLY:
+- The woman: face, freckles, gold stud earring, hair, expression, eyes lowered, lips closed
+- Her cream linen overshirt and mustard t-shirt, every fold
+- Both hands and the small brass key between her fingers, exact position
+- Her position, size and profile in frame, camera position, lens and framing of image 1
+- The warm lamp glow on her face, the soft depth of field, colour grade, grain
+
+ONLY CHANGE: the kitchen background to the one from image 2. 100% identical otherwise.
+```
+
+**Na co patrzeć:** okno bez firanek, ochrowa kamienica za oknem, lampka zapalona, Ania i klucz bez zmian. Zapisz jako `referencje/u02-start-nowa-kuchnia.jpg`.
+**Krok 2:** animacja od tej klatki (prompt po akceptacji klatki).
