@@ -509,3 +509,5 @@ Autor zostaje przy najlepszym klipie z v3 (szafa z męskimi ubraniami). Gra, pok
 - Animacja drzwi (u04, u05) to słaby punkt Omni Flash. Model rysuje szafę po swojemu (dwudrzwiową) i otwiera ją po swojemu. Tekstem tego nie wygramy. Drzwi trzeba ustawić na klatce startowej albo obejść akcję.
 - Pozy opisujemy funkcją, nie kształtem: „both arms spread” dało Tomka z rozłożonymi rękami w powietrzu.
 - Bez referencji pokoju model robi „łysy” pokój. Pomogło wypisanie mebli ściana po ścianie.
+
+**Cięcie do montażu (12.10):** 0,5–7,5 s (7,0 s), **z dźwiękiem** (prośba autora). Plik: `u05_pudlo_7.0s.mp4`. Na osi: 0:30,5–0:37,5 (u04 ma 8 s). Z początku wypada pół kroku w progu, z końca nieruchomy uśmiech.

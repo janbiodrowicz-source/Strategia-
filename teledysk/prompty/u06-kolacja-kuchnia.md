@@ -109,3 +109,5 @@ Exactly two people in frame. Natural skin texture, real fine film grain, warm na
 
 ## ✅ DECYZJA (11.10): ujęcie 6 gotowe
 Autor uznał scenę za gotową (klip „Couple eating dinner in kitchen”). W wybranym klipie nie ma gitary w tle (potwierdzone przez autora).
+
+**Cięcie do montażu (12.10):** 0,5–8,0 s (7,5 s), **z dźwiękiem** (prośba autora). Plik: `u06_kolacja_7.5s.mp4`. Na osi: 0:37,5–0:45. Koniec (splecione dłonie, spojrzenie) zostaje.
