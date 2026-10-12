@@ -137,3 +137,29 @@ PRESERVE EXACTLY:
 
 ONLY CHANGE: add the kneeling man, the puppy, the striped sock between them and the woman on the sofa. 100% identical otherwise. Exactly two people and one puppy. Rule of thirds.
 ```
+
+**Wynik 1b v2 (12.10, x3):** wariant 2 najlepszy (skarpetka napięta, piesek się zapiera, Ania się śmieje). W wariancie 1 skarpetka krótka, w wariancie 3 Tomek klęczy jak przy oświadczynach 💍. Zrzut ekranu: `referencje/u13-start-v2-rano-zrzut.jpg`.
+**Zmiana autora:** światło wieczorne, sztuczne, z lampy sufitowej. Nie generujemy od nowa, tylko zmieniamy światło w wariancie 2 (jedna zmiana).
+
+## Krok 1c: wieczorne światło (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. Obraz 1 = wariant 2 w 2k.
+
+```text
+Edit image 1: the same moment, relit as a late evening scene with artificial light only.
+
+CHANGE (lighting only):
+- It is dark night outside. The morning sunlight is gone: no sun patch on the rug, no sunbeams, no daylight from the window behind the camera.
+- The single main light source is the white glass globe pendant lamp hanging from the center of the ceiling, at the top edge of the frame, switched on. It casts warm 2700K tungsten light straight down: a soft warm pool of light on the jute rug and the three figures, gentle shadows directly under them, the light falling off toward the walls and corners, the far corners and the top of the walls slightly darker.
+- Warm amber highlights on hair, the puppy's fur, the knit sweater, the velvet sofa and the parquet; cosy, slightly darker overall exposure with soft contrast.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing
+- Both people and the puppy: faces, expressions, poses, hands, clothing and the striped sock stretched between them
+- The whole room: the closed white double door, the guitar case beside the monstera, the TV, bookshelf and books, both framed prints, the floor lamp (switched off), the green sofa with the mustard cushion and the small plant, the white wardrobe, the cornice, walls, parquet and jute rug
+- Grain
+
+ONLY CHANGE: the light, from morning sun to warm evening light from the ceiling lamp. 100% identical otherwise.
+```
+
+Zapisz jako `referencje/u13-start.jpg`.
