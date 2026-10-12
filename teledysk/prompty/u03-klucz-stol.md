@@ -81,3 +81,60 @@ ONLY CHANGE: evening to morning, the table set for morning tea with the key, and
 
 **Na co patrzeć:** twarze z kolacji (nie ze starego u03), jeden klucz na środku stołu, jeden kubek, za oknem dzień bez girlandy, lampa zgaszona.
 **Plan B (jedna zmiana na przebieg):** najpierw tylko poranne światło i stół, a pozy w drugim przebiegu.
+
+**Wynik (12.10, NBP):** ✅ klatka zaakceptowana: `referencje/u03-start-rano.jpg`. Klucz wyszedł inny (dłuższy, staroświecki), ale autor go akceptuje.
+
+### Wideo v2 (12.10): animacja od klatki, ściśle według `cinedance`, bez kwestii
+
+**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2, klatka startowa = `u03-start-rano.jpg`. Referencje: `@ANIA` = `ania.png`, `@TOMEK` = `tomek.png`. W montażu 7,5 s (0:15–0:22,5, pod „klucz w mojej dłoni, drżą mi ręce”).
+
+```text
+SCENE CONTEXT
+A quiet sunny morning in a small tenement kitchen. A young woman pushes a single key across the table to the man sitting opposite her, asking him to move in without a word. He stops stirring his tea, understands, and takes the key with a slow smile.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, cream linen overshirt with rolled sleeves over a mustard t-shirt. Nervous but hiding it. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, dark teal overshirt open over a white t-shirt. Calm, sleepy morning state. 100% matches the reference.
+
+LOCATION MAP
+A small narrow tenement kitchen. A round light-oak table, 80 centimeters across, in the foreground and midground. Behind it, a tall window with white frames looking at a sunlit pale ochre tenement facade across the courtyard, green herbs in pots on the sill, a white radiator under it. Light wooden kitchen cabinets, a kettle and a cutting board on the right. The camera stands at the side of the table, perpendicular to the line between the two characters.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The video starts exactly from the provided start frame: same camera, same framing, same positions. The first visible frame already contains both characters seated at the table. No empty establishing frame.
+@ANIA sits screen-left, torso facing screen-right toward @TOMEK, her right index finger resting on the key that lies flat on the tabletop.
+@TOMEK sits screen-right, torso facing screen-left toward @ANIA, 1 meter across the table, his right hand holding a teaspoon inside a white mug of steaming tea, his left hand around the mug.
+The key lies on the table between them; the mug stands in front of @TOMEK.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, camera 2.5 to 3 meters from the table, natural human-eye perspective. Natural face proportions, both faces sharp, the window softly out of focus. No extreme wide distortion, no telephoto compression.
+
+CAMERA
+Static camera at seated eye level, fixed frame for the whole shot, no drift, no push-in. The image is the camera's point of view; the camera itself is never visible. Medium two-shot: @ANIA holds the left third, @TOMEK holds the right third, the key and the mug readable between them. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:02: @ANIA slides the key 15 centimeters across the wood toward @TOMEK with one fingertip, then lifts her finger and pulls her hand back to the table edge, fingers slightly trembling. @TOMEK stirs his tea slowly, eyes on the mug.
+0:02 to 0:04: The teaspoon stops mid-stir. @TOMEK's eyes move to the key first, then his head follows. He holds still.
+0:04 to 0:06: @TOMEK raises his eyes to @ANIA. She lifts her eyes to meet his, blinking quickly, lips pressed together.
+0:06 to 0:08: A slow smile spreads across @TOMEK's face. He lets go of the teaspoon, reaches out and closes his right hand around the key. @ANIA exhales and a relieved smile breaks through.
+
+PERFORMANCE
+@ANIA wants a yes and is afraid to ask: she gives the key and immediately retreats, her hand back at the table edge, eyes jumping between the key and his face, quick nervous blinks.
+@TOMEK reacts with stillness: the interrupted stir is the whole reaction, his eyes move before his head. The smile arrives slowly, two truths at once, surprise and "of course". Neither of them speaks; breath only, lips closed.
+
+PHYSICS
+The key slides with real friction on the oak and stops. The spoon clinks once against the mug and comes to rest. Steam rises from the tea and drifts in the window light. His fingers close fully around the key and lift it off the table.
+
+LIGHTING
+Soft warm morning sunlight from the window behind and between them, warm rim light on their hair and shoulders, faces lit gently by sunlight bouncing off the tabletop and the pale walls. Natural contrast, soft shadows. No flat front light.
+
+AUDIO
+Quiet kitchen room tone, the faint scrape of the key on wood, one clink of the spoon, distant birds and a far-away tram outside. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame. One single key, one single mug. Natural skin texture, real fine film grain, warm natural colors, stable picture, no flickering.
+```
+
+**Na co patrzeć:** usta zamknięte (to był problem starego u03), łyżeczka staje przed spojrzeniem, Tomek bierze klucz do ręki przed 7,5 s.
