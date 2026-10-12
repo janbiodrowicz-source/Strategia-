@@ -41,3 +41,30 @@ ONLY CHANGE: the closed door, the guitar case in the corner, the three figures a
 **Na co patrzeć:** drzwi zamknięte (bez ciemnego przedpokoju), futerał w lewym rogu za monsterą, jeden piesek z drugim końcem skarpetki w pyszczku, skarpetka napięta w linii prostej, Ania na kanapie twarzą do środka pokoju, Tomek bez pudła i gitary. Zapisz jako `referencje/u13-start.jpg`.
 
 **Jeśli NBP pomiesza:** jedna zmiana na iterację. Najpierw tylko drzwi + futerał + usunięcie pudła i Tomka/Ani z kadru (pusty pokój), potem w drugim przejściu dodajemy trzy postacie.
+
+**Wynik v1 (12.10, x3):** drzwi zamknięte ✅, futerał w rogu ✅, pokój zachowany ✅. Ale autor wgrał planszki w strojach z parku (`ania-park`, `tomek-park`), więc stroje się pomieszały. Skarpetka ledwo widoczna, a Tomek za blisko kanapy. Decyzja autora: rozbijamy na etapy.
+
+## Krok 1a: pusty pokój (NBP, edycja)
+
+**Ustawienia:** Flow · NBP · 16:9 · 2k · x3. Jedna referencja: obraz 1 = `referencje/u13-baza-u05.jpg` (bez planszek postaci).
+
+```text
+Edit image 1: the same room and camera, now empty of people, with the entrance door closed and a guitar case in the corner.
+
+CHANGE:
+- Remove the young man with the cardboard box and the guitar on his back: the jute rug, the sunlit patch and the herringbone parquet continue where he stood.
+- Remove the young woman in the doorway.
+- The white double door on the far wall: both leaves fully closed, white raised panels, brass lever handles; a continuous white door surface where the dark entrance hall was.
+- A black soft guitar case stands upright on its end in the far left corner, behind the monstera, leaning against the wall, partly covered by the monstera leaves.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- Plaster cornice, warm-white walls, herringbone parquet, the jute rug and its position
+- Left wall: the TV on the oak-and-black bookshelf with all books, the monstera in its pot by the door
+- Right wall: both framed black-and-white prints, the black floor lamp, the bottle-green sofa with the mustard cushion and the small plant, the white wardrobe in the right foreground with its black handles
+- Morning sunlight from the window behind the camera, the bright sun patch on the rug, shadows, colour grade, contrast, grain
+
+ONLY CHANGE: no people, the closed door, the guitar case in the corner. 100% identical otherwise. Empty quiet room, still air.
+```
+
+Zapisz jako `referencje/u13-pokoj-pusty.jpg`. Krok 1b: dodajemy postacie (`ania.png`, `tomek.png`, `piesek.png`).
