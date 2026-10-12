@@ -77,6 +77,8 @@ PRESERVE EXACTLY:
 ONLY CHANGE: the picture on the laptop screen. 100% identical otherwise.
 ```
 
+**Wynik B2 (12.10): ✅** x3, wszystkie prawie identyczne, na ekranie nasz dom (`dom.png`). Drobiazg: telewizor na regale zmienił kolor, ale autor akceptuje („ujdzie w tłumie”). Zapisany jako `referencje/u14-start.jpg`.
+
 ## Krok C: wideo (Omni 1.1 Flash, od klatki startowej)
 
 Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u14-start.jpg`. `@TOMEK` = `tomek-sweter.jpg`, `@ANIA` = `ania-golf.jpg`, `@PIESEK` = `piesek.png`. Cięcie: 3,75 s, oś 1:18,75–1:22,5.
