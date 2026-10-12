@@ -139,3 +139,15 @@ Crowd murmur, sizzling grills, footsteps on cobblestones, one small puppy yip in
 POSITIVE CONSTRAINTS
 @TOMEK and @ANIA appear only once each. Exactly one puppy. Two cups in @TOMEK's hands in every shot. Only the three specified signs carry lettering. Natural skin texture, fine film grain, warm evening colors, stable picture.
 ```
+
+**Wynik v3 (12.10):** ✅ akceptujemy. Bez słów, stroje z parku, niebieska godzina, napisy „PIEROGI”, „GRILL”, „ADOPCJE” poprawne, kubki w każdym ujęciu. Tomek w C: zamarcie, wzrok na psa i na Anię, bezradny uśmiech i śmiech ze spuszczoną głową. W C Ania z pieskiem jest miękko w prawym pierwszym planie (dobre połączenie z B).
+- Twarze (porównanie z `tomek.png` i `ania.png`): Tomek w C bardzo zgodny (brwi, oczy, zarost, włosy), w A z daleka twarz trochę węższa, ale do przyjęcia. **Ania w B najsłabsza:** włosy prostsze i jednolicie brązowe (w referencji falowane z karmelowymi końcówkami), twarz nieco dłuższa, piegi ledwo widać. Przy 3 s i grymasie „winnej” w ruchu ujdzie.
+- Drugi szczeniak siedzi przy stoisku w tle B (łamie „exactly one puppy”, ale na stoisku adopcyjnym jest logiczny).
+
+**Cięcie v3 (twarde cięcia w klatkach 84 i 155, 24 kl./s):**
+| Plik | Klatki | Długość | Na osi |
+|---|---|---|---|
+| `u09_tlum_3.5s.mp4` | 0–83 | 3,500 s | 1:00–1:03,5 |
+| `u10_ania_piesek_2.958s.mp4` | 84–154 | 2,958 s | 1:03,5–1:06,458 |
+| u11 (osobny klip) | | **5,000 s (120 klatek)** | 1:06,458–1:11,458 |
+| `u12_reakcja_3.542s.mp4` | 155–239 | 3,542 s | 1:11,458–1:15 |

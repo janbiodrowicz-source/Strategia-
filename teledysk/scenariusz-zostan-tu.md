@@ -65,7 +65,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 |---|---|---|---|---|
 | 9 | 1:00–1:03,5 | ✅ **u09-12-wspollokator** ujęcie A | Tomek przeciska się przez tłum z kubkami | 47° steadicam |
 | 10 | 1:03,5–1:06,5 | ✅ **u09-12-wspollokator** ujęcie B | Ania ze szczeniakiem przy „ADOPCJE” | 29° |
-| 11 | 1:06,5–1:11,5 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem (generujemy 6 s, bierzemy 5 s) | 18°, makro-portret |
+| 11 | 1:06,5–1:11,5 | 🆕 | Wstawka: szczeniak liże Anię po brodzie i macha ogonem (generujemy 6 s, bierzemy dokładnie 5,0 s = 120 klatek) | 18°, makro-portret |
 | 12 | **1:11,5–1:15** | ✅ **u09-12-wspollokator** ujęcie C | **PAUZA BASU.** Tomek zamarł, kubki w powietrzu, oczy przeskakują z psa na Anię. Cała myśl „mamy trzydzieści metrów” jest na twarzy, bez słów (w klipie 03 jest kwestia: wyciszamy ją albo tniemy przed nią) | 18° |
 
 ---
