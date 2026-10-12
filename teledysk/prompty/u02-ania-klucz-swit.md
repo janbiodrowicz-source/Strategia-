@@ -140,3 +140,6 @@ Quiet kitchen room tone, a faint distant tram outside, the tiny metallic click o
 POSITIVE CONSTRAINTS
 Exactly one person in frame. The key stays one small brass key, the same size in every frame. Natural skin texture with freckles, real fine film grain, stable picture, no flickering.
 ```
+
+**Wynik v2 (12.10):** ✅ nowa kuchnia trzyma się przez cały klip (okno bez firanek, ochrowa kamienica, lampka, szafki). Akcja według promptu: klucz w palcach (0–2 s), spojrzenie w lewo (2–3,5 s), pięść przy brodzie (4,5–5,5 s), uśmiech (6,5–8 s). Minus: w 5,4–6,0 s usta lekko rozchylone przy wydechu (westchnienie, ok. 0,6 s). Pod muzyką czyta się jak oddech, nie jak mowa, więc akceptujemy.
+**Cięcie:** 0,5–8,0 s (7,5 s), bez dźwięku. Plik u autora: `u02_klucz_swit_7.5s.mp4`. Na osi: 0:07,5–0:15.
