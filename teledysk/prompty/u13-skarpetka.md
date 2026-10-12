@@ -93,6 +93,8 @@ PRESERVE EXACTLY:
 ONLY CHANGE: the cardigan is removed, the turtleneck is fully visible. 100% identical otherwise.
 ```
 
+**Wynik (12.10): ✅** x3, wszystkie trzy prawie identyczne: golf z długimi rękawami, pasek, twarz i kolczyk zachowane. Pobrać w 2k (Flow pokazuje 768p) i zapisać jako `referencje/ania-golf.jpg`.
+
 **Decyzja autora (12.10):** stroje z parku/targu (wrócili z psem prosto z targu). Uwaga: w pokoju jest poranne słońce, a targ był wieczorem. Możemy to poprawić w wideo.
 **Ustawienia:** Flow · NBP · 16:9 · 2k · x3. Referencje: 1 = `u13-pokoj-pusty.jpg`, 2 = `ania-golf.jpg`, 3 = `tomek-park.jpg`, 4 = `piesek.png`.
 
