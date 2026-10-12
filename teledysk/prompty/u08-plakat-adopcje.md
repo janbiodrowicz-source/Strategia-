@@ -74,3 +74,60 @@ Exactly two people in frame; the park path stays empty around them. No animals a
 - Lekcja: „only lettering in frame” nie wystarcza, gdy słup jest pełen plakatów. Przy podobnych ujęciach lepiej mniej plakatów albo słup z jednym plakatem.
 
 **Cięcie:** 0,5–8,0 s (7,5 s), bez dźwięku. Plik: `u08_plakat_7.5s.mp4`. Na osi: 0:52,5–1:00. Zachwyt Ani wypada ok. 1,5 s ujęcia, czyli na „o o o o”.
+
+## v2 (12.10): start z ostatniej klatki u07, słup wjeżdża w kadr
+
+**Problem v1 (zauważony w montażu):** model wziął klatkę `@PARK` za wzór kadru, więc na cięciu u07 → u08 para stoi w tym samym miejscu, a słup nagle się pojawia. Wygląda to jak przeskok.
+**Zmiana (decyzja autora):** klatka startowa = ostatnia klatka u07 (koniec przyciętego klipu, 8,0 s). Kamera cofa się przed parą w tempie marszu (jak w v1, gdzie wyszło to dobrze), a słup wjeżdża w kadr z lewej krawędzi i para go mija. `@PARK` usunięty, bo lokację niesie klatka startowa. Plakat i reszta bez zmian (zasada 6).
+**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2 · klatka startowa = ostatnia klatka u07. Referencje: `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`.
+**Cięcie:** od 0,0 s (pierwsza klatka = koniec u07, ewentualnie pomijamy jedną zdublowaną klatkę), czyli 0,0–7,5 s.
+
+```text
+SCENE CONTEXT
+Golden hour in an autumn city park, continuing directly from the previous shot. A young couple walks hand in hand toward the camera along a gravel path; a round advertising column slides into view at the path edge. She notices a puppy adoption poster on it and her eyes light up; he looks the other way and never sees it.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. Happy, light on her feet. 100% matches the reference.
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, short waist-length dark navy trucker jacket with a dark brown corduroy collar, open over a cream chunky-knit sweater, charcoal-grey chinos, brown suede sneakers. Relaxed, content. 100% matches the reference.
+
+LOCATION MAP
+The park exactly as in the starting image: a straight gravel path, 3 meters wide, runs directly toward the camera between old trees with orange and yellow leaves; fallen leaves cover the path edges; the low sun glows at the far end of the path, behind the couple. Just behind the camera, at the left edge of the path, stands a classic round European advertising column: 1.2 meters wide, 3 meters tall, dark green painted metal with a small domed cap, its surface covered in pasted posters. It is outside the frame at the start and enters as the camera moves back past it.
+SIGNAGE: On the camera-facing side of the column, at eye level, one portrait poster about 60 centimeters tall, light-blue background, a large printed photo of a fluffy honey-gold puppy with a cream-white chest and floppy ears, and across the top the single word "ADOPCJE" in bold white sans-serif capital letters. This is the only lettering in the whole frame. All other posters on the column show only painted pictures and color blocks, no lettering.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. The column is not visible in the first frame.
+@ANIA walks on screen-left, on the column side; her path passes within 1 meter of the column. @TOMEK walks on screen-right, 30 centimeters from her shoulder.
+Their hands are laced between them: @TOMEK's right hand holds @ANIA's left hand.
+Both bodies face the camera as they walk toward it and keep the same distance from the camera for the whole shot.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+Same lens as the starting image: 18° diagonal field of view, telephoto portrait lens character. Close framing achieved through lens reach, not physical proximity. Razor focus on both faces and on the poster as they pass it; the trees and the sun behind them are compressed flat and dissolve into a soft warm golden color wash with creamy bokeh from the sun through the leaves. Atmospheric haze hangs between camera and couple. No part of this shot becomes wide-angle or normal-lens coverage.
+
+CAMERA
+Smooth backward tracking shot on a dolly at chest height, moving back along the path center line at exactly the couple's walking pace, so their size in frame never changes. No pan, no tilt, no zoom. The image is the camera's point of view; the camera itself is never visible. The column enters the frame from the left edge in the first second, slides toward the left third as the camera moves past it, and stays beside @ANIA as they walk past it.
+
+ACTION TIMING
+0:00 to 0:01: Both mid-stride toward camera in an easy shared rhythm, hands laced, exactly as in the starting image. The edge of the dark green column slides into frame from screen-left. @TOMEK's eyes drift up to the falling leaves on screen-right.
+0:01 to 0:04: As @ANIA comes level with the column, her eyes catch the poster. She slows by half a step; her eyebrows lift, her eyes widen and brighten, her lips part into a small breathless smile. Her head turns left to keep the poster in view as she passes it.
+0:04 to 0:06: @TOMEK keeps his pace, still looking up at the leaves on screen-right, unaware. Their laced hands stretch between them and gently tow her forward. @ANIA keeps looking back over her left shoulder at the poster.
+0:06 to 0:08: @ANIA turns forward, catches up with one quick step and squeezes his hand. She presses her lips together to hide a secret smile, eyes bright, and flicks one last glance back at the column. @TOMEK smiles at the trees, never looking at the poster.
+
+PERFORMANCE
+@ANIA falls in love at first sight: the poster stops her breath for a beat. Her eyes do the work, first a double take, then a soft melting look, then the spark of a plan. When she faces forward she hides it like a secret she will tell him later, mouth closed, the smile winning at the corners.
+@TOMEK is completely happy and completely elsewhere: loose shoulders, slow steps, eyes on the leaves, a calm private smile. He feels the tug on his hand and simply keeps walking. Neither of them speaks; breath only, lips closed.
+
+PHYSICS
+Real walking: heel contact, weight transfer, hip shift, toe push-off on loose gravel. Gravel shifts under every step. @ANIA's slowdown is visible in her weight: her steps shorten, her arm extends behind her as their hands stay laced, then one quick step brings her back. Fallen leaves drift down in a light wind and scatter around their feet. Hair and loose fabric lag slightly behind each movement. The column is solid and fixed to the ground; it moves in frame only because the camera moves. The paper posters are flat and pasted firmly to the column.
+
+LIGHTING
+Contre-jour golden hour, exactly as in the starting image. The low sun stays behind the couple, in the background. The camera stays on the shadow side. Bright golden rim light outlines their hair, shoulders and arms; backlit hair glows warm. Faces and the poster sit in soft open shadow, gently lifted by warm bounce from the light gravel path so expressions and the poster stay readable. No frontal key, no flat front light.
+
+AUDIO
+Footsteps crunching on gravel, leaves rustling in a light wind, distant birds, faint far-away city hum. No voices, no music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people in frame; the park path stays empty around them. No animals anywhere: the puppy exists only as a printed photo on the poster. The only lettering in frame is "ADOPCJE" on the light-blue poster. Hands stay laced the whole shot. Natural skin texture, real fine film grain, warm golden colors, stable picture, no flickering.
+```
