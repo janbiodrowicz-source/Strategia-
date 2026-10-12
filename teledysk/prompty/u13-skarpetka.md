@@ -115,3 +115,25 @@ ONLY CHANGE: add the woman on the sofa, the kneeling man, the puppy and the stri
 ```
 
 Zapisz jako `referencje/u13-start.jpg`.
+
+**Planszka `tomek-sweter.jpg` (12.10): ✅** edycja `tomek-park.jpg`: bez kurtki, tylko kremowy sweter w wafelkowy splot. Z x3 wybrany wariant 2, bo zachował uśmiech z zamkniętymi ustami (1 i 3 dodały zęby).
+
+## Krok 1b v2: kolejność autora (pokój, Tomek, piesek, Ania)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `u13-pokoj-pusty.jpg`, 2 = `tomek-sweter.jpg`, 3 = `piesek.png`, 4 = `ania-golf.jpg`.
+
+```text
+Edit image 1: the same empty room and camera. Add three figures: the young man from image 2 kneeling on the jute rug, the puppy from image 3 playing tug-of-war with him using a striped sock, and the young woman from image 4 sitting on the green sofa.
+
+CHANGE (add only these, nothing else moves):
+- The young man from image 2 kneels on the left half of the jute rug, in the sunlit patch, about 2 meters away from the sofa. His body is in profile facing screen-right, sitting back on his heels and leaning back. Both hands grip one end of a long grey-and-white striped knit sock and pull it toward his chest. Teasing grin, eyes on the puppy. Same cream waffle-knit crew-neck sweater, charcoal chinos and brown suede sneakers as in image 2.
+- The puppy from image 3 stands on the right half of the rug, 1 meter in front of him, facing him in profile toward screen-left. Front paws braced on the rug, rear raised, tail up. The other end of the striped sock is clamped in its teeth. The sock is stretched tight in one straight line between his hands and the puppy's mouth.
+- The young woman from image 4 sits on the far half of the bottle-green sofa, between the mustard cushion and the floor lamp, her body turned toward the rug. She leans forward with her elbows on her knees, laughing openly at the tug-of-war, eyes crinkled. Same mustard ribbed turtleneck, dark jeans with the brown belt and white sneakers as in image 4.
+
+PRESERVE EXACTLY:
+- Everything in image 1: camera position, height, lens and framing; the closed white double door; the black guitar case beside the monstera; the TV, bookshelf and books; both framed prints; the floor lamp; the sofa with the mustard cushion and the small plant; the white wardrobe in the right foreground; the plaster cornice, walls, parquet and jute rug
+- Morning sunlight from the window behind the camera, the bright sun patch on the rug, shadows, colour grade, contrast, grain
+- Faces and hair: the man 100% matches image 2, the puppy 100% matches image 3, the woman 100% matches image 4
+
+ONLY CHANGE: add the kneeling man, the puppy, the striped sock between them and the woman on the sofa. 100% identical otherwise. Exactly two people and one puppy. Rule of thirds.
+```
