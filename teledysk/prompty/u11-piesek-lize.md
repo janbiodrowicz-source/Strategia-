@@ -54,3 +54,9 @@ Exactly one puppy in her arms. @ANIA's face, hair and freckles match the referen
 ```
 
 **Na co patrzeć:** pierwsza klatka = koniec u10 (bez przeskoku), lizanie w 1–3 s, „proszę” przed 5 s, twarz Ani bliżej referencji niż w B, jeden piesek.
+
+**Wynik (12.10):** ✅ akceptujemy. Najazd płynny, lizanie 1,4–2,8 s (na „o o o o”), prawdziwy śmiech z zamkniętymi oczami, potem policzek przy piesku i mina „proszę” od ok. 4,2 s. Jeden piesek w ramionach, ten sam co w B.
+- Pierwsza klatka nie jest identyczna z klatką startową (ramię Tomka węższe, znika kubek i drugi piesek w tle), ale Ania ma tę samą pozę i minę, więc na cięciu B → u11 przeskok jest mały.
+- Twarz Ani: kolczyk i piegi są, ale włosy dalej prostsze, a twarz dłuższa niż w `ania.png`. Spójna z ujęciem B (ta sama „wersja” Ani na całym targu), mniej z referencją.
+
+**Cięcie:** klatki 0–119 = 0,0–5,0 s, bez dźwięku. Plik: `u11_piesek_lize_5.0s.mp4`. Na osi: 1:06,458–1:11,458.
