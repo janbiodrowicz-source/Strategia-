@@ -118,7 +118,7 @@ Exactly two people in frame; the park path stays empty around them. The key stay
 
 ```text
 SCENE CONTEXT
-Golden hour in an autumn city park. A young couple walks side by side toward the camera along a gravel path; she spins her apartment key on one finger. She keeps it in her right hand the whole time. He notices it and raises his eyebrows at her, she laughs and bumps him with her shoulder, and he takes her hand. Nobody speaks.
+Golden hour in an autumn city park. A young couple walks side by side toward the camera along a gravel path; her apartment key hangs on a ring from her right index finger and swings with her steps. He notices it and raises his eyebrows at her, she laughs and bumps him with her shoulder, and he takes her hand. Nobody speaks.
 
 ACTIVE REFERENCES
 @ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, deep bottle-green chunky cable-knit cardigan over a mustard ribbed turtleneck, dark indigo high-waisted jeans with a brown belt, white canvas sneakers. A single brass key on a small metal ring hangs from her right index finger for the whole shot. The key never changes hands and never leaves her right hand. Happy, light on her feet. 100% matches the reference.
