@@ -79,7 +79,7 @@ Exactly two people in frame; the park path stays empty around them. No animals a
 
 **Problem v1 (zauważony w montażu):** model wziął klatkę `@PARK` za wzór kadru, więc na cięciu u07 → u08 para stoi w tym samym miejscu, a słup nagle się pojawia. Wygląda to jak przeskok.
 **Zmiana (decyzja autora):** klatka startowa = ostatnia klatka u07 (koniec przyciętego klipu, 8,0 s). Kamera cofa się przed parą w tempie marszu (jak w v1, gdzie wyszło to dobrze), a słup wjeżdża w kadr z lewej krawędzi i para go mija. `@PARK` usunięty, bo lokację niesie klatka startowa. Plakat i reszta bez zmian (zasada 6).
-**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2 · klatka startowa = ostatnia klatka u07. Referencje: `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`.
+**Ustawienia:** Flow · Omni 1.1 Flash · 16:9 · 8 s · x2 · klatka startowa = `referencje/u08-start-u07-ostatnia.png` (klatka 180/180 z `u07_park_7.5s.mp4`). Referencje: `@ANIA` = `referencje/ania-park.jpg`, `@TOMEK` = `referencje/tomek-park-cala.jpg`.
 **Cięcie:** od 0,0 s (pierwsza klatka = koniec u07, ewentualnie pomijamy jedną zdublowaną klatkę), czyli 0,0–7,5 s.
 
 ```text
