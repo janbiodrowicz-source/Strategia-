@@ -19,6 +19,13 @@
 
 **Zasada:** cięcie na słowo kluczowe, a nie tylko na beat. Gdy słowo pada w środku ujęcia, akcja w prompcie ma trafić na tę sekundę.
 
+## Analiza pliku „Zostań tu.mp3” (12.10, pomiar)
+
+- **Tempo: dokładnie 128,0 BPM**, stałe od początku do końca (autokorelacja: 8 taktów = 15,000 s). 4 takty = 7,5 s, więc cięcia co 7,5 s są poprawne.
+- **Siatka jest przesunięta o 0,29 s:** pierwszy dźwięk w 0,27 s, stopa w dropie w 75,29 s (nie w 75,00). **W CapCut utnij pierwsze 0,29 s audio** (albo przesuń ścieżkę muzyki o 0,29 s w lewo). Wtedy każde cięcie co 7,5 s wypada równo na „raz” taktu.
+- **Struktura (energia i bas):** intro 0:00–0:15 bez basu, zwrotka 0:15–0:45 z lżejszym, nieregularnym bitem, 0:45–1:00 ciepły fragment z basem i bez hi-hatów, 1:10–1:15 i 2:10–2:15 przejścia (bas znika, rośnie góra), **drop 1:15** (+7 dB, bas z 14% do 55% energii), drugi refren 2:15–2:45, wyciszenie 2:45–3:00.
+- **Gatunek:** w refrenach klasyczny wzór house: stopa na każdą ćwierćnutę (four-on-the-floor), hi-hat między stopami (offbeat) i „pompowanie” synthów pod stopę (sidechain). Ale brzmienie jest umiarkowanie jasne (centroid ok. 3 kHz), a zwrotki są popowe. Wniosek: **dance-pop / melodic house**, nie electro house (ten jest ostrzejszy, z przesterowanymi, „brzęczącymi” leadami).
+
 ## Historia w jednym zdaniu
 
 Ania i Tomek mieszkają w ciasnej kawalerce w kamienicy (30 m²). Gdy Ania przynosi do domu psa, 30 m² przestaje wystarczać i para przeprowadza się do domu z ogrodem na przedmieściach. Zawiasem całej historii jest reakcja Tomka na psa: zamarł z kubkami w powietrzu, a w oczach ma „mamy trzydzieści metrów”. W dropie zaczyna się przeprowadzka.
