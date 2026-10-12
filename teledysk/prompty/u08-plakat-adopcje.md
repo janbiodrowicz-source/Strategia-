@@ -66,3 +66,11 @@ Exactly two people in frame; the park path stays empty around them. No animals a
 - tło miękkie (w u07 przy 18° było za ostre, tu wzmocnione rozmycie).
 
 **Jeśli napis wyjdzie bełkotem:** zamiast walczyć tekstem robimy klatkę startową w NBP (słup z plakatem i para 10 m od kamery) i animujemy od niej (zasada 10, po uzgodnieniu).
+
+**Wynik (12.10, klip z `@PARK` = klatka z u07):** ✅ akceptujemy.
+- Napis „ADOPCJE” poprawny i czytelny przez cały klip, plakat jasnoniebieski, szczeniak miodowy. Splecione dłonie przez całe ujęcie, stroje zgodne. Tomek patrzy w górę na liście i ani razu nie patrzy na słup.
+- Ania: zachwyt z otwartymi ustami ok. 2 s, głowa w stronę słupa 3–4,5 s, dłoń przy ustach („ukrywa sekret”) ok. 5 s, ostatnie zerknięcie na końcu. Patrzy w stronę słupa, a nie wprost na plakat, ale w montażu czyta się to jednoznacznie (decyzja autora: jest okej).
+- Odstępstwa: kamera nie stoi, tylko cofa się razem z parą (płynnie, wyszło na plus, bo plakat jest w kadrze cały czas). Na słupie są dwa „ADOPCJE” (nagłówek + plakat), drugi plakat ze szczeniakiem oraz drobny bełkot i kody QR na innych plakatach. Z odległości jest rozmyty i nie przeszkadza.
+- Lekcja: „only lettering in frame” nie wystarcza, gdy słup jest pełen plakatów. Przy podobnych ujęciach lepiej mniej plakatów albo słup z jednym plakatem.
+
+**Cięcie:** 0,5–8,0 s (7,5 s), bez dźwięku. Plik: `u08_plakat_7.5s.mp4`. Na osi: 0:52,5–1:00. Zachwyt Ani wypada ok. 1,5 s ujęcia, czyli na „o o o o”.
