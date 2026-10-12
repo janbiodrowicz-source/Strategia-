@@ -128,3 +128,6 @@ Quiet room tone, a soft puppy whine, a short shared breath of a laugh. Nobody sp
 POSITIVE CONSTRAINTS
 Exactly two people and one puppy. The house on the laptop screen stays the same image for the whole shot. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
 ```
+
+**Wynik wideo (12.10): ✅** akceptujemy. 0–1,5 s oboje patrzą w ekran, ok. 1,7–2,3 s odwracają głowy do siebie (profile), od ok. 2,5 s ciepły uśmiech, który rośnie do końca (Tomek najszerzej). Piesek cały czas stoi łapami między nimi i rusza łbem. Dom na ekranie stabilny przez całe ujęcie, najazd płynny, nikt nie mówi. Ania uśmiecha się nieco słabiej niż Tomek, ale jest ciepło.
+**Cięcie:** klatki 6–95 = 0,25–4,0 s (90 klatek = 3,75 s), bez dźwięku. Plik: `u14_laptop_dom_3.75s.mp4`. Na osi: 1:18,75–1:22,5.
