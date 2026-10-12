@@ -89,3 +89,54 @@ ONLY CHANGE: the kitchen background to the one from image 2. 100% identical othe
 
 **Na co patrzeć:** okno bez firanek, ochrowa kamienica za oknem, lampka zapalona, Ania i klucz bez zmian. Zapisz jako `referencje/u02-start-nowa-kuchnia.jpg`.
 **Krok 2:** animacja od tej klatki (prompt po akceptacji klatki).
+
+**Wynik kroku 1 (12.10, NBP):** 3 warianty, wszystkie 768p. Nowa kuchnia ✅ (okno bez firanek, ochrowa kamienica z balkonami, zioła, zapalona lampka, miodowe szafki). Minusy: NBP lekko oddalił kadr (Ania mniejsza niż w oryginale), tło ostrzejsze niż przy 18°. Wybór: **wariant 1** (Ania najbliżej oryginalnego kadru), wariant 3 odpada (Ania za mała). Zapis jako `referencje/u02-start-nowa-kuchnia.jpg`.
+
+### Krok 2: wideo (Omni 1.1 Flash · 16:9 · 8 s · x2), klatka startowa = wariant 1, `@ANIA` = `ania.png`
+Zmiany względem v1: kuchnia z klatki startowej, 29° zamiast 18° (klatka jest szersza, nie walczymy z nią), wydech **nosem, usta zamknięte** (w v1 rozchylone usta wyglądały jak mówienie).
+
+```text
+SCENE CONTEXT
+Dawn in a small tenement kitchen. A young woman stands alone at the window, awake before everyone else, turning a single brass key in her fingers. She is about to give it to the man she loves and is nervous about it.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, cream linen overshirt with rolled sleeves over a mustard t-shirt. Nervous and hopeful. 100% matches the reference.
+
+LOCATION MAP
+A small narrow tenement kitchen. Behind her on screen-left, a modern white window with no curtains; outside, the pale ochre tenement facade with small balconies across the courtyard in cool blue dawn light. On the windowsill, green herbs in terracotta pots and a small lamp with a white fabric shade, switched on, glowing warm. On screen-right behind her, light honey-wood kitchen cabinets and pale cream wall tiles. The camera stands on the opposite side of the kitchen, 4 meters from the window.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The video starts exactly from the provided start frame: same camera, same framing, same positions. The first visible frame already contains @ANIA at the window with the key in her hands. No empty establishing frame.
+@ANIA stands screen-right of the window, her body in three-quarter profile facing screen-left, her face turned down toward her hands.
+Both hands are raised in front of her chest. A single small brass key lies between her thumb and fingers.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+29° diagonal field of view, short telephoto portrait lens character, camera 4 meters from @ANIA. Close framing achieved through lens reach, not physical proximity. Razor focus on her face, her fingers and the key; the window, the facade and the lamp behind her stay softly out of focus, the lamp glowing as a warm bokeh shape. No part of this shot becomes wide-angle coverage.
+
+CAMERA
+Static camera at her eye level, fixed frame for the whole shot, no drift, no push-in. The image is the camera's point of view; the camera itself is never visible. Her face holds the right third of the frame, the window and the lamp the left third. Rule of thirds.
+
+ACTION TIMING
+0:00 to 0:02: @ANIA turns the key slowly between her thumb and fingers, eyes fixed on it.
+0:02 to 0:04: Her eyes flick up toward screen-left, toward the room where he sleeps, a quick blink burst, then back down to the key. Her head stays still; only the eyes move.
+0:04 to 0:05.5: She closes her fingers around the key and presses her closed fist lightly against her chin.
+0:05.5 to 0:08: She takes one long slow breath out through her nose, lips closed; her shoulders drop; a small closed-lip hopeful half-smile appears and stays.
+
+PERFORMANCE
+@ANIA acts first and worries later, and now the worrying has caught up with her. Her posture is a little too still. The key is her fidget: thumb rubbing its teeth, turning it over and back. Her eyes are alive, catchlights from the window, quick blink bursts each time the thought of him arrives. The exhale is the decision: tension leaves her shoulders first, then the half-smile comes, nervous and certain at the same time. She does not speak; her lips stay closed for the whole shot.
+
+PHYSICS
+The key is small, light and metal: it catches a warm glint from the lamp as it turns, and her fingertips press slightly into it. Loose strands of her hair move with the breath. The linen overshirt shifts softly as her shoulders drop. The window, the plants and the lamp stay completely still.
+
+LIGHTING
+Two sources only. Cool soft blue dawn light from the window behind her on screen-left draws a thin cold rim along her hair and cheek. The small lamp on the sill adds a warm amber glow on the side of her face and on the key. The face is low-key and soft, the shadow side readable. No flat front light, no studio key.
+
+AUDIO
+Quiet kitchen room tone, a faint distant tram outside, the tiny metallic click of the key, her slow breath. No music, no voices, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one person in frame. The key stays one small brass key, the same size in every frame. Natural skin texture with freckles, real fine film grain, stable picture, no flickering.
+```
