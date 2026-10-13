@@ -61,6 +61,48 @@ ONLY CHANGE: the tenants' belongings are gone: empty shelves, no TV, no monstera
 **Na co patrzeć:** regał pusty, ale na miejscu (NBP lubi go usunąć razem z książkami), kanapa bez poduszki, róg przy drzwiach pusty, prostokąty na ścianie delikatne (nie ramki), kamera i słońce bez zmian. Zapisz jako `referencje/u16-pokoj-pusty.jpg`.
 **Jeśli NBP pomiesza:** jedna zmiana na przejście: najpierw lewa strona (TV, książki, monstera, futerał), potem prawa (poduszka, kwiatek, obrazki).
 
-## Krok C: Ania i piesek w drzwiach (klatka startowa)
+**Wynik B (13.10): ✅** regał pusty i na miejscu, monstera, futerał, poduszka, kwiatek i TV zniknęły, kamera i plama słońca bez zmian. Drobiazgi: przy lewej krawędzi zostały liście, a prostokąty po obrazkach są za jasne i ostre (wyglądają jak przypięte białe kartki). Poprawka opcjonalna (B2). Pobrać w 2k, zapisać jako `referencje/u16-pokoj-pusty.jpg`.
 
-Do napisania po wynikach A i B. Założenie ze STATUS: jedno skrzydło już zamknięte, Ania trzyma klamkę drugiego, uchylonego (animacja drzwi to słaby punkt modelu).
+### Krok B2 (opcjonalnie): liście i prostokąty
+
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik B.
+
+```text
+Edit image 1: two small fixes, nothing else.
+
+CHANGE:
+- Remove the green plant leaves at the left edge of the frame next to the bookshelf: continuous warm-white wall.
+- The two pale rectangles on the right wall become much subtler: only a faint, soft-edged patch of slightly cleaner, a touch lighter plaster where picture frames once hung, the same warm-white tone as the wall, barely noticeable, a tiny nail hole at the top of each. No paper, no white sheets, no frames.
+
+PRESERVE EXACTLY:
+- Everything else in image 1: camera, framing, the empty bookshelf, the closed white double door, the floor lamp, the green sofa, the white wardrobe, the jute rug, the cornice, walls and parquet
+- The morning sunlight, the sun patch on the rug, shadows, colour grade, contrast, grain
+
+ONLY CHANGE: no leaves at the left edge, faint ghost marks instead of bright rectangles. 100% identical otherwise.
+```
+
+## Krok C: Ania i piesek w drzwiach (klatka startowa, NBP)
+
+Geometria drzwi jak w u05 (`u13-baza-u05.jpg`): lewe skrzydło jest na zawiasach po lewej i otwiera się do pokoju, prawe zostaje zamknięte, za nimi ciemny przedpokój z lampą i brązowymi drzwiami wejściowymi. Ania stoi już w przedpokoju na progu i trzyma klamkę lewego skrzydła, uchylonego mniej więcej do połowy. W wideo przyciąga je do siebie i domyka (krótki ruch, bo animacja drzwi to słaby punkt modelu). Piesek siedzi przy jej nogach jeszcze w pokoju i w wideo wybiega obok niej do przedpokoju.
+Klatka startowa = stan **przed** akcją: Ania odwraca się i patrzy ostatni raz na pokój.
+Flow · NBP · 16:9 · 2k · x3. 1 = `u16-pokoj-pusty.jpg` (wynik B lub B2), 2 = `ania-paski.jpg`, 3 = `piesek.png`.
+
+```text
+Edit image 1: the same room and camera. The left leaf of the white double door is half open, and the young woman from image 2 stands in the doorway with the puppy from image 3 at her feet, taking a last look at the room before she leaves.
+
+CHANGE (add only these, nothing else moves):
+- The left leaf of the white double door, hinged on its left side, is swung open into the room at about 45 degrees, its brass handle facing the doorway; the right leaf stays closed. Through the opening, the dim narrow entrance hall: a small pendant lamp hanging from its ceiling and a dark brown entrance door at the far end.
+- The young woman from image 2 stands on the threshold, just on the hall side of the doorway, her body turned toward the hall but her head and shoulders turned back toward the room. Her right hand rests on the room-side brass handle of the open leaf, ready to pull it shut. She looks across the empty room toward the window behind the camera with a soft, moved smile, lips closed, eyes glistening. Same navy-and-white striped Breton top with three-quarter sleeves, light blue jeans, brown belt and white sneakers as in image 2.
+- The puppy from image 3 sits on the parquet just inside the doorway, beside her feet, facing the hall, head turned up toward her, tail on the floor.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The empty bookshelf, the floor lamp, the green sofa, the white wardrobe, the jute rug, the cornice, walls, parquet and the faint marks where the pictures hung
+- The morning sunlight from the window behind the camera, the sun patch on the rug, shadows, colour grade, contrast, grain
+- The woman 100% matches image 2, the puppy 100% matches image 3
+
+ONLY CHANGE: the half-open left door leaf with the hall behind it, the woman in the doorway and the puppy at her feet. 100% identical otherwise. Exactly one person and one puppy. Rule of thirds.
+```
+
+**Na co patrzeć:** otwarte lewe skrzydło (do pokoju), prawe zamknięte, Ania w przejściu z ręką na klamce i głową odwróconą do pokoju, jeden piesek, w przedpokoju nikogo. Zapisz jako `referencje/u16-start.jpg`.
+**Jeśli NBP pomiesza:** rozbijamy na dwa przejścia: najpierw same uchylone drzwi z przedpokojem (ewentualnie z `u13-baza-u05.jpg` jako referencją drzwi), potem Ania i piesek.
