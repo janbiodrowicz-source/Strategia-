@@ -133,3 +133,7 @@ The loud screech of packing tape unrolling, a soft rip, two dull pats on cardboa
 POSITIVE CONSTRAINTS
 Exactly one person and one box. The word on the box stays exactly "KUCHNIA" for the whole shot. Face matches the reference. Natural skin texture, fine film grain, warm daylight colors, stable picture, no flickering.
 ```
+
+**Wynik wideo (13.10): ✅** (wybór autora z serii). Tomek przeciąga taśmę po górnym szwie od prawej do lewej (ok. 1,0–2,0 s), wygładza ją dłonią, prostuje się i uśmiecha. Napis „KUCHNIA” czytelny przez całe ujęcie. Taśma nie schodzi w dół przez napis (model pominął ten fragment). Najazd mocny: na końcu napis częściowo wychodzi dołem z kadru. Na początku (0–0,75 s) Tomek cofa rękę z podajnikiem, więc autor chce to wyciąć.
+**Cięcie:** od klatki 19 (0,79 s) do końca = 3,2 s, zwolnione do 83% (setpts 1,2) z interpolacją ruchu (minterpolate mci), żeby wyszło dokładnie 3,75 s (90 klatek). Bez dźwięku. Plik: `u15_karton_3.75s.mp4`. Na osi: 1:22,5–1:26,25. Przeciąganie taśmy wypada ok. 0,2–1,4 s ujęcia, czyli w okolicy słowa „dom” (ok. 1:23,7).
+**Lekcja:** przy 4 s nie ma zapasu na wycięcie początku, a 20% zwolnienia z interpolacją wygląda naturalnie.
