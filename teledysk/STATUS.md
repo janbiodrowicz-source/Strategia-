@@ -41,7 +41,7 @@ Ostatnia aktualizacja: 13.10.2026
 **Krok A ✅ `ania-paski.jpg`, krok B ✅ `u16-pokoj-pusty.jpg` (opcjonalna poprawka B2: liście, prostokąty). Krok C ✅ `u16-start.jpg`, wideo ✅ `u16_pozegnanie_3.75s.mp4` (1:26,25–1:30). u16 GOTOWE.**
 
 ## W toku ▶️ u18 (bus pod kamienicą)
-Prompt kroku A (ulica z busem, NBP) w `prompty/u18-bus-kamienica.md`. Do decyzji autora: czy w tle z bramy wychodzą Ania z pieskiem. Krok B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
+Krok A: wariant 2 (lewe skrzydło otwarte), poprawka A2: zamknięte prawe skrzydło i mniej kartonów. Do decyzji autora: czy w tle z bramy wychodzą Ania z pieskiem. Krok B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
 Propozycja zaakceptowana co do idei, szczegóły do potwierdzenia przez autora:
 1. **Planszka Ani na dzień przeprowadzki:** propozycja Claude, czyli bluzka w biało-granatowe paski (bretońska), jasne jeansy, białe trampki, złoty kolczyk (edycja `ania.png` w NBP 3:2). Do potwierdzenia.
 2. **Pokój po spakowaniu (decyzja 13.10):** kawalerka wynajmowana z meblami. Zostają kanapa, pusty regał, szafa, lampa i dywan. Znikają TV, książki, monstera, futerał, poduszka, kwiatek i obrazki (zostają po nich jaśniejsze prostokąty).
