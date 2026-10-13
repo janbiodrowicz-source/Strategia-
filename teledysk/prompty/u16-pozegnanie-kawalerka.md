@@ -106,3 +106,59 @@ ONLY CHANGE: the half-open left door leaf with the hall behind it, the woman in 
 
 **Na co patrzeć:** otwarte lewe skrzydło (do pokoju), prawe zamknięte, Ania w przejściu z ręką na klamce i głową odwróconą do pokoju, jeden piesek, w przedpokoju nikogo. Zapisz jako `referencje/u16-start.jpg`.
 **Jeśli NBP pomiesza:** rozbijamy na dwa przejścia: najpierw same uchylone drzwi z przedpokojem (ewentualnie z `u13-baza-u05.jpg` jako referencją drzwi), potem Ania i piesek.
+
+**Wynik C (13.10): ✅** autor wybrał dwa najlepsze warianty. Oba mają lewe skrzydło otwarte do pokoju, przedpokój z lampą i brązowymi drzwiami, Anię w przejściu z ręką na klamce i pieska po jej prawej. Ania stoi przodem do pokoju (a nie bokiem do przedpokoju), co do rozglądania się pasuje nawet lepiej. B2 nie robiony (prostokąty dalej jasne, autor akceptuje). Rekomendacja Claude: wariant 1, bo między Anią a zamkniętym prawym skrzydłem jest więcej miejsca, żeby piesek wybiegł obok niej. Zapisz jako `referencje/u16-start.jpg`.
+
+## Krok D: wideo (Omni 1.1 Flash, od klatki startowej)
+
+**Życzenie autora:** Ania rozgląda się, jakby widziała pokój ostatni raz, woła pieska, on wychodzi, ona zamyka drzwi.
+**Niezgodność z zasadą 2 (bohaterowie nie mówią):** wołanie to mówienie, więc Ania przywołuje pieska gestem: dwa klepnięcia w udo i ruch głową w stronę przedpokoju, usta zamknięte. Jeśli autor woli, żeby było widać ciche „chodź”, to świadome odstępstwo od zasady.
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u16-start.jpg`. `@ANIA` = `ania-paski.jpg`, `@PIESEK` = `piesek.png`. Cięcie 3,75 s, oś 1:26,25–1:30. Drzwi muszą być domknięte przed 3,75 s.
+
+```text
+SCENE CONTEXT
+Morning of moving day in a small emptied tenement studio, continuing directly from the starting image. A young woman standing in the half-open doorway takes one last look around the room, beckons her puppy, the puppy trots out past her into the hall, and she pulls the door shut. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, navy-and-white striped Breton top with three-quarter sleeves, light blue jeans, brown belt, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. 100% matches the reference.
+
+LOCATION MAP
+Exactly the room from the starting image: a white double door in the center of the far wall, its left leaf hinged on the left and swung open into the room at about 45 degrees, its right leaf closed; behind the opening a dim narrow entrance hall with a small pendant lamp and a dark brown entrance door. An empty oak-and-black bookshelf along the left wall, a black floor lamp and a bottle-green velvet sofa along the right wall, a white wardrobe in the right foreground, a jute rug in the center with a patch of morning sun.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @ANIA stands in the doorway opening, her feet on the threshold, body facing the room, her right hand on the brass handle of the open left leaf. @PIESEK sits on the parquet within 1 meter screen-right of her feet, inside the room, head turned up toward her.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural human-eye perspective, the whole room readable.
+
+CAMERA
+Very slow, smooth push-in at standing eye level from the window toward the door, about 30 centimeters in 4 seconds, ending with the doorway slightly larger in frame. One movement only. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:01.4: @ANIA slowly looks around the empty room: her eyes and head move from the bare bookshelf on screen-left, across the sunlit rug, to the green sofa on screen-right. A soft, moved smile, lips closed, one slow breath.
+0:01.4 to 0:02.0: She looks down at @PIESEK, pats her thigh twice with her left hand and tilts her head toward the hall.
+0:02.0 to 0:02.8: @PIESEK springs up and trots past her right side through the doorway into the hall, tail wagging, and disappears from view behind the closed right leaf.
+0:02.8 to 0:03.6: @ANIA takes one step back into the hall and pulls the left leaf toward herself by the handle. The leaf swings shut in one smooth arc and closes flush against the right leaf with a soft click; her last glance at the room is visible through the narrowing gap.
+0:03.6 to 0:04.0: Both door leaves closed, the empty room still, dust specks drifting in the sunbeam.
+
+PERFORMANCE
+Bittersweet goodbye: gratitude for the small first home, excitement for the new one. Her eyes linger, the smile is gentle and a little wistful. Lips stay closed; she never speaks.
+
+PHYSICS
+The door leaf has real weight and swings on its hinges in one controlled arc, it does not bounce or reopen; the brass handle stays on the leaf. The puppy's paws patter on the parquet, its ears and fur bounce as it trots. The room and all furniture stay exactly in place.
+
+LIGHTING
+Warm morning sunlight from the window behind the camera: a bright patch on the rug, soft light on the walls, the hall behind the door dimmer. No flat front light.
+
+AUDIO
+Quiet room tone, the puppy's paws on the parquet, the soft creak of the door and the click of the latch. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one person and one puppy. Faces match the references. The room stays empty of other belongings. Natural skin texture, fine film grain, warm morning colors, stable picture, no flickering.
+```
+
+**Na co patrzeć:** jeden piesek, który naprawdę znika w przedpokoju, drzwi zamykają się jednym łukiem (bez odbicia i bez znikającej klamki), Ania nie rusza ustami.
