@@ -80,3 +80,56 @@ PRESERVE EXACTLY:
 
 ONLY CHANGE: add the box with "KUCHNIA" on the table and the man with the tape dispenser behind it. 100% identical otherwise. Exactly one person. Rule of thirds.
 ```
+
+**Wynik C (13.10):** x3. Wybrany wariant 2 (Tomek za kartonem, podajnik w ręce, taśma przyklejona w prawym górnym rogu, napis „KUCHNIA” na lewej połowie). Wariant 1: Tomek obok kartonu, wariant 3: podajnik leży na kartonie. Zapisz jako `referencje/u15-start.jpg`.
+**Decyzja autora:** animujemy kadr bez przycinania (plan średni, ok. 47°, zamiast wstawki 18° ze scenariusza). Powolny najazd na karton.
+
+## Krok D: wideo (Omni 1.1 Flash, od klatki startowej)
+
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u15-start.jpg`. `@TOMEK` = `tomek-koszulka.jpg`. Taśma przez napis ok. 1,5–2,0 s klipu, a przy cięciu ten moment ma wypaść na „dom” (ok. 1:23,7).
+
+```text
+SCENE CONTEXT
+Daytime in a small, emptied tenement kitchen, continuing directly from the starting image. A young man tapes shut a moving box labelled "KUCHNIA" on the small round table: one long pull of packing tape over the top and down the front, right across the handwritten word. He tears the tape, pats the box and smiles. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, plain white short-sleeve t-shirt, blue jeans. Holds a handheld tape dispenser gun with a roll of clear brown packing tape in his right hand. 100% matches the reference.
+
+LOCATION MAP
+Exactly the kitchen from the starting image: a round light-oak table in the foreground center, a window with the ochre tenement facade behind it, a white fridge and boiler on the left, light-wood cabinets, a cooker hood and a stove on the right.
+SIGNAGE: The front side of the box reads exactly "KUCHNIA" in large black hand-written marker capitals. The word stays sharp and readable for the whole shot; the clear brown tape lies over it like glass, the letters visible through it.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands directly behind the table, leaning over the closed box, the tape dispenser in his right hand at the top right corner of the box, the tape end already stuck there, his left hand flat on the flaps. The "KUCHNIA" side faces the camera.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective; the box, the word "KUCHNIA", his hands and face stay sharp.
+
+CAMERA
+Slow, smooth push-in at table height toward the box, about 50 centimeters in 4 seconds, ending with the box and the word "KUCHNIA" larger in frame and @TOMEK's face still visible above it. One movement only. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.4: @TOMEK braces, left hand pressing the flaps down.
+0:00.4 to 0:01.4: In one firm, fast pull he runs the dispenser along the top centre seam from the right edge to the left edge of the box, the tape unrolling flat behind it.
+0:01.4 to 0:02.2: Without stopping, he rolls the dispenser over the front edge and pulls it straight down the front side, the tape crossing right over the middle of the word "KUCHNIA".
+0:02.2 to 0:03.0: A quick twist of the wrist: the dispenser's teeth tear the tape. He smooths the tape flat with his left palm and pats the box twice.
+0:03.0 to 0:04.0: He straightens up, looks just past the camera with a satisfied, warm smile, lips closed.
+
+PERFORMANCE
+Quiet joy in a simple job: he tapes the box like it is the first brick of the new home. Focused, then pleased with himself. Lips closed; he never speaks.
+
+PHYSICS
+The tape unrolls under real tension, sticks flat and wrinkles slightly at the edge. The cardboard flexes a little under his palm. The box stays on the table and does not move or change shape. The dispenser has real weight in his hand.
+
+LIGHTING
+Warm daylight from the window behind him: soft rim light on his hair and shoulders, the room gently lit, the box front in soft even light so the word reads clearly. No flat front light.
+
+AUDIO
+The loud screech of packing tape unrolling, a soft rip, two dull pats on cardboard, quiet room tone. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one person and one box. The word on the box stays exactly "KUCHNIA" for the whole shot. Face matches the reference. Natural skin texture, fine film grain, warm daylight colors, stable picture, no flickering.
+```
