@@ -83,10 +83,9 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 13 | **1:15–1:18,75** | 🆕 | **DROP, SMASH CUT.** Kawalerka, przeciąganie skarpetki: Tomek klęczy na podłodze i przeciąga się ze szczeniakiem skarpetką, piesek zapiera się łapkami i warczy na niby, Tomek nagle puszcza, piesek przewraca się na plecy, Ania śmieje się z zielonej kanapy (decyzja 12.10, zamiast doniczki). Generujemy 4 s | 84°, nisko, na wysokości psa |
 | 14 | 1:18,75–1:22,5 | 🆕 | Ania i Tomek na podłodze nad laptopem, na ekranie samo zdjęcie białego domu z ogrodem, a pies wciska się między nich | 47° |
 | 15 | 1:22,5–1:26,25 | 🆕 | Taśma przeciąga się przez karton z napisem markerem „KUCHNIA” | 18°, wstawka |
-| 16 | 1:26,25–1:30 | 🆕 | „Pudła w korytarzu”: znoszą kanapę kręconymi schodami kamienicy, pies zbiega przodem | 107°, z dołu klatki |
-| 17 | 1:30–1:33,75 | 🆕 | Kuchnia wśród kartonów: jedzą przy stoliku, a pies pod ich nogami je ze swojej miski (zmiana 11.10, zastępuje wstawkę z kubkami) | 47° |
-| 18 | 1:33,75–1:37,5 | 🆕 | Pod kamienicą Tomek zatrzaskuje drzwi wynajętego busa | 47° |
-| 19 | 1:37,5–1:41,25 | 🆕 | Bus wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
+| 16 | 1:26,25–1:30 | 🆕 | **ZMIANA 13.10:** pożegnanie z kawalerką. Pusty pokój w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi. (Dawne „kanapa na schodach” usunięte: za trudne technicznie) | 47° |
+| 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: w busie kartony i zielona kanapa (jedzie z nimi), Tomek zatrzaskuje drzwi busa na beat | 47° |
+| 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Bus wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
 | 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Bus skręca na podjazd | 84° |
 
 ### Refren 2 (1:45–2:07,5)
@@ -101,7 +100,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 24 | 2:07,5–2:15 | 🆕 | Zachód słońca. Siedzą na kartonach w pustym salonie, pies podchodzi na środek i kładzie się między nimi. Patrzą na siebie i biorą oddech | 18°, statyczna, cisza |
+| 24 | 2:07,5–2:15 | 🆕 | Zachód słońca. **Pierwszy posiłek w nowym domu (zmiana 13.10):** jedzą pizzę z pudełka, siedząc na kartonach w pustym salonie, pies je obok ze swojej miski (dawne u17). Patrzą na siebie i biorą oddech | 18°, statyczna, cisza |
 
 ---
 
