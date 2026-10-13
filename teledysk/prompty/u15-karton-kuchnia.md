@@ -28,3 +28,30 @@ ONLY CHANGE: no people, no chairs, an empty table, bare countertop, no towels, n
 ```
 
 Zapisz jako `referencje/u15-kuchnia-pusta.jpg`.
+
+**Wynik A (13.10): ✅** pusta kuchnia, bez krzeseł, kamera nieco bliżej (lodówka z lewej była już na oryginale, tylko słabo widoczna). Zapisana jako `referencje/u15-kuchnia-pusta.jpg`.
+
+## Krok B: nowy strój Tomka (nowy dzień), planszka NBP
+
+Decyzja autora: biała koszulka z krótkim rękawem i jeansy. Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/tomek.png`.
+
+```text
+Edit image 1: the same man in all three panels, dressed in a new simple outfit.
+
+CHANGE (clothing only, consistent in all three panels):
+- Remove the dark teal overshirt completely.
+- He wears a plain white cotton crew-neck t-shirt with short sleeves, relaxed fit, untucked; his bare forearms and upper arms below the sleeves are visible.
+- Instead of the khaki chinos: classic mid-blue straight-leg denim jeans, slightly faded, five pockets.
+- Plain unbranded clothing, no logos or lettering.
+
+PRESERVE EXACTLY:
+- His face, tousled dark brown hair, short stubble, brown eyes, expression and closed-mouth smile in every panel
+- The brown suede sneakers with white soles
+- Poses, body proportions and positions in all three panels: front full body on the left, back full body in the middle, close-up portrait on the right
+- The flat mid-grey studio backdrop, the white panel dividers, soft studio light, shadows, colour grade, grain
+- Camera framing of every panel
+
+ONLY CHANGE: no overshirt, a white short-sleeve t-shirt, blue jeans. 100% identical otherwise.
+```
+
+Zapisz jako `referencje/tomek-koszulka.jpg`. Potem krok C: Tomek z kartonem „KUCHNIA” na stoliku (klatka startowa).
