@@ -133,7 +133,17 @@ LIGHT: soft overcast daylight from the window behind the camera falls down the r
 
 ## Rekwizyty
 
-### BUS
+### AUTO (od 13.10, zamiast busa) ✅
+
+![Auto](referencje/auto.png)
+
+```text
+CAR: a boxy 1980s five-door hatchback in bright sunflower yellow, a long sloping rear hatch with a large rear window, black louvred panels behind the rear side windows, a thin black side rub strip, black bumpers, a black front grille with four round headlights and two small yellow fog lights, five-spoke silver alloy wheels, a black steel roof rack with two crossbars. Polish license plates reading exactly "WA 12345".
+```
+
+Ujęcia: 18, 19, 20. Planszka z trzech stron (bok, przód 3/4, tył 3/4), światło studyjne. Tablice zawsze z dokładnym tekstem „WA 12345” (zasada 3).
+
+### BUS (odrzucony 13.10)
 
 ![Bus](referencje/bus.jpg)
 

@@ -31,17 +31,17 @@ Ostatnia aktualizacja: 13.10.2026
 | # | Oś | Ujęcie | Długość |
 |---|---|---|---|
 | 16 **nowe** | 1:26,25–1:30 | **Pożegnanie z kawalerką:** pusty pokój z u13 w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi | 3,75 s |
-| 18 | 1:30–1:33,75 | Pod kamienicą: w busie **same kartony** (kanapa zostaje w kawalerce, decyzja 13.10), Tomek zatrzaskuje drzwi busa na beat | 3,75 s |
+| 18 | 1:30–1:33,75 | Pod kamienicą: **żółty hatchback** (`auto.png`, zamiast busa), w bagażniku kilka kartonów, Tomek zatrzaskuje klapę na beat | 3,75 s |
 | 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem, uszy na wietrze, Ania się śmieje | **7,5 s** |
-| 20 | 1:41,25–1:45 | Przedmieścia, bus skręca na podjazd → „Hej!” | 3,75 s |
+| 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd → „Hej!” | 3,75 s |
 | 21–23 | 1:45–2:07,5 | bez zmian: klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | **Zachód: jedzą pizzę z pudełka, siedząc na kartonach w pustym salonie, piesek je obok ze swojej miski** (pierwszy posiłek w nowym domu; tu przeszła miska z dawnego u17) | 7,5 s |
 
 ## Następny krok ▶️ u16 (pożegnanie z kawalerką)
 **Krok A ✅ `ania-paski.jpg`, krok B ✅ `u16-pokoj-pusty.jpg` (opcjonalna poprawka B2: liście, prostokąty). Krok C ✅ `u16-start.jpg`, wideo ✅ `u16_pozegnanie_3.75s.mp4` (1:26,25–1:30). u16 GOTOWE.**
 
-## W toku ▶️ u18 (bus pod kamienicą)
-Krok A: wariant 2 (lewe skrzydło otwarte), poprawka A2: zamknięte prawe skrzydło i mniej kartonów. Do decyzji autora: czy w tle z bramy wychodzą Ania z pieskiem. Krok B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
+## W toku ▶️ u18 (auto pod kamienicą)
+Bus odrzucony (wariant 2 miał podwójne lewe skrzydło, a autor woli mniejsze auto). Nowy rekwizyt: żółty hatchback z bagażnikiem dachowym `referencje/auto.png`. Krok A3: podmiana busa na auto na ulicy z wariantu 1. Do decyzji autora: czy w tle z bramy wychodzą Ania z pieskiem. Krok B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
 Propozycja zaakceptowana co do idei, szczegóły do potwierdzenia przez autora:
 1. **Planszka Ani na dzień przeprowadzki:** propozycja Claude, czyli bluzka w biało-granatowe paski (bretońska), jasne jeansy, białe trampki, złoty kolczyk (edycja `ania.png` w NBP 3:2). Do potwierdzenia.
 2. **Pokój po spakowaniu (decyzja 13.10):** kawalerka wynajmowana z meblami. Zostają kanapa, pusty regał, szafa, lampa i dywan. Znikają TV, książki, monstera, futerał, poduszka, kwiatek i obrazki (zostają po nich jaśniejsze prostokąty).

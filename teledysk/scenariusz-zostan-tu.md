@@ -84,9 +84,9 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 14 | 1:18,75–1:22,5 | 🆕 | Ania i Tomek na podłodze nad laptopem, na ekranie samo zdjęcie białego domu z ogrodem, a pies wciska się między nich | 47° |
 | 15 | 1:22,5–1:26,25 | 🆕 | Taśma przeciąga się przez karton z napisem markerem „KUCHNIA” | 18°, wstawka |
 | 16 | 1:26,25–1:30 | 🆕 | **ZMIANA 13.10:** pożegnanie z kawalerką. Pusty pokój w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi. (Dawne „kanapa na schodach” usunięte: za trudne technicznie) | 47° |
-| 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: w busie same kartony (**zmiana 13.10:** kanapa zostaje w kawalerce, bo to mebel właściciela), Tomek zatrzaskuje drzwi busa na beat | 47° |
-| 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Bus wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
-| 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Bus skręca na podjazd | 84° |
+| 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: **żółty hatchback zamiast busa (zmiana 13.10)**, w bagażniku kilka kartonów (kanapa zostaje w kawalerce, bo to mebel właściciela), Tomek zatrzaskuje klapę bagażnika na beat | 47° |
+| 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Żółte auto wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
+| 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Żółte auto skręca na podjazd | 84° |
 
 ### Refren 2 (1:45–2:07,5)
 
@@ -133,5 +133,5 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
   1. **SZCZENIAK:** planszka referencyjna (przód, bok, zbliżenie). Bez niej pies zmieni rasę 29 razy 🐶
   2. **Kawalerka w kamienicy:** kuchnia (mamy z 01), pokój, korytarz, klatka schodowa.
   3. **Dom na przedmieściach:** front z gankiem, pusty salon z dużymi oknami, ogród.
-  4. **Rekwizyty:** mosiężny klucz do kawalerki, srebrny klucz do domu, dwa białe kubki, kartony („KUCHNIA”), girlanda żarówek, biały bus.
+  4. **Rekwizyty:** mosiężny klucz do kawalerki, srebrny klucz do domu, dwa białe kubki, kartony („KUCHNIA”), girlanda żarówek, żółty hatchback z bagażnikiem dachowym (`referencje/auto.png`, zamiast białego busa od 13.10).
 - **Napisy w kadrze** (zgodnie z zasadą, od razu w promptach): „ADOPCJE” (plakat, baner), „KUCHNIA” (karton). Ekran laptopa: tylko zdjęcie, bez tekstu.
