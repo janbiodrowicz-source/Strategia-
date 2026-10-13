@@ -31,21 +31,21 @@ Ostatnia aktualizacja: 13.10.2026
 | # | Oś | Ujęcie | Długość |
 |---|---|---|---|
 | 16 **nowe** | 1:26,25–1:30 | **Pożegnanie z kawalerką:** pusty pokój z u13 w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi | 3,75 s |
-| 18 | 1:30–1:33,75 | Pod kamienicą: w busie kartony i **zielona kanapa** (jedzie z nimi!), Tomek zatrzaskuje drzwi busa na beat | 3,75 s |
+| 18 | 1:30–1:33,75 | Pod kamienicą: w busie **same kartony** (kanapa zostaje w kawalerce, decyzja 13.10), Tomek zatrzaskuje drzwi busa na beat | 3,75 s |
 | 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem, uszy na wietrze, Ania się śmieje | **7,5 s** |
 | 20 | 1:41,25–1:45 | Przedmieścia, bus skręca na podjazd → „Hej!” | 3,75 s |
 | 21–23 | 1:45–2:07,5 | bez zmian: klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | **Zachód: jedzą pizzę z pudełka, siedząc na kartonach w pustym salonie, piesek je obok ze swojej miski** (pierwszy posiłek w nowym domu; tu przeszła miska z dawnego u17) | 7,5 s |
 
 ## Następny krok ▶️ u16 (pożegnanie z kawalerką)
-**Krok A ✅ planszka `ania-paski.jpg` (wariant 2). Prompt kroku B (pusty pokój `u16-pokoj-pusty.jpg`) gotowe w `prompty/u16-pozegnanie-kawalerka.md`**, czekają na potwierdzenie autora (strój, lista rzeczy do usunięcia, czy szafa zostaje).
+**Krok A ✅ planszka `ania-paski.jpg` (wariant 2). Prompt kroku B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
 Propozycja zaakceptowana co do idei, szczegóły do potwierdzenia przez autora:
 1. **Planszka Ani na dzień przeprowadzki:** propozycja Claude, czyli bluzka w biało-granatowe paski (bretońska), jasne jeansy, białe trampki, złoty kolczyk (edycja `ania.png` w NBP 3:2). Do potwierdzenia.
-2. **Pusty pokój:** edycja `referencje/u13-pokoj-pusty.jpg` (poranne słońce, drzwi zamknięte, futerał przy monsterze). Usunąć kanapę, regał z książkami i TV, dywan, obrazki, lampę stojącą, futerał gitary; zostają jaśniejsze prostokąty po obrazkach na ścianach i **monstera przy drzwiach**. Do potwierdzenia.
+2. **Pokój po spakowaniu (decyzja 13.10):** kawalerka wynajmowana z meblami. Zostają kanapa, pusty regał, szafa, lampa i dywan. Znikają TV, książki, monstera, futerał, poduszka, kwiatek i obrazki (zostają po nich jaśniejsze prostokąty).
 3. **Ania + piesek w drzwiach:** jedno skrzydło już zamknięte, Ania trzyma klamkę drugiego, uchylonego (zabezpieczenie: animacja drzwi to słaby punkt modelu).
 4. **Wideo 4 s:** rozgląda się, wzruszony uśmiech, piesek wybiega, Ania domyka skrzydło. Cięcie 3,75 s.
 
 ## Do decyzji 🧐
-- **Ujęcie 33:** kanapa jedzie z nimi (u18), więc logiczniej, żeby w outro spali na niej rozłożonej, a nie na materacu. Rozłożona kanapa = osobny rekwizyt.
+- ~~Ujęcie 33: rozłożona kanapa~~ rozstrzygnięte 13.10: kanapa zostaje w kawalerce, w u33 śpią na materacu.
 - Strój Ani na u18–u24 (ten sam dzień co u16) = ten z planszki do u16.
 - Telewizor na regale w u14 zmienił kolor (autor akceptuje).
