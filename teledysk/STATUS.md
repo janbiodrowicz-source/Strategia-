@@ -38,7 +38,7 @@ Ostatnia aktualizacja: 13.10.2026
 | 24 | 2:07,5–2:15 | **Zachód: jedzą pizzę z pudełka, siedząc na kartonach w pustym salonie, piesek je obok ze swojej miski** (pierwszy posiłek w nowym domu; tu przeszła miska z dawnego u17) | 7,5 s |
 
 ## Następny krok ▶️ u16 (pożegnanie z kawalerką)
-**Prompty kroków A (planszka `ania-paski.jpg`) i B (pusty pokój `u16-pokoj-pusty.jpg`) gotowe w `prompty/u16-pozegnanie-kawalerka.md`**, czekają na potwierdzenie autora (strój, lista rzeczy do usunięcia, czy szafa zostaje).
+**Krok A ✅ planszka `ania-paski.jpg` (wariant 2). Prompt kroku B (pusty pokój `u16-pokoj-pusty.jpg`) gotowe w `prompty/u16-pozegnanie-kawalerka.md`**, czekają na potwierdzenie autora (strój, lista rzeczy do usunięcia, czy szafa zostaje).
 Propozycja zaakceptowana co do idei, szczegóły do potwierdzenia przez autora:
 1. **Planszka Ani na dzień przeprowadzki:** propozycja Claude, czyli bluzka w biało-granatowe paski (bretońska), jasne jeansy, białe trampki, złoty kolczyk (edycja `ania.png` w NBP 3:2). Do potwierdzenia.
 2. **Pusty pokój:** edycja `referencje/u13-pokoj-pusty.jpg` (poranne słońce, drzwi zamknięte, futerał przy monsterze). Usunąć kanapę, regał z książkami i TV, dywan, obrazki, lampę stojącą, futerał gitary; zostają jaśniejsze prostokąty po obrazkach na ścianach i **monstera przy drzwiach**. Do potwierdzenia.

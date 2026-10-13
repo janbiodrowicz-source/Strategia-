@@ -29,6 +29,8 @@ ONLY CHANGE: no overshirt, a navy-and-white striped Breton top. 100% identical o
 
 **Na co patrzeć:** paski równe i poziome na przodzie, plecach i rękawach (bez falowania), ta sama twarz, usta zamknięte, kolczyk. Zapisz jako `referencje/ania-paski.jpg`.
 
+**Wynik A (13.10): ✅** x3. Wybrany wariant 2: układ planszki poprawny (przód, tył, portret), usta zamknięte, delikatny uśmiech jak na `ania.png`. Wariant 1 ma zły układ (dwa razy przód, tył, bez portretu), a wariant 3 uśmiecha się z zębami. Rękawy wyszły 3/4, bluzka luźno na jeansach (bez wpuszczenia), pasek widoczny. Pobrać w 2k i zapisać jako `referencje/ania-paski.jpg`.
+
 ## Krok B: pusty pokój w porannym słońcu (NBP, edycja)
 
 Baza ma już poranne słońce i zamknięte drzwi, więc zmieniamy tylko meble.
