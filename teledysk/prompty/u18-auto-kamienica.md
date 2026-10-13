@@ -70,6 +70,31 @@ ONLY CHANGE: the yellow hatchback with the open boot, boxes and the mattress on 
 
 **Na co patrzeć:** jedno auto, jedna klapa (podniesiona, nie podwójna!), tablica „WA 12345”, napis „KUCHNIA”, materac przypięty na dachu, brama po lewej. Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
+**Wynik A3 (13.10): ✅** auto zostaje (decyzja autora). Ulica, brama, materac na dachu i podniesiona klapa wyszły dobrze. Problem: w bagażniku są cztery kartony w dwóch warstwach, więc klapa by się nie zamknęła. Dwa górne mają zniknąć, a na dwóch dolnych napisy: „KUCHNIA” i drugi (propozycja Claude: „KSIĄŻKI”, czyli książki z regału w u16).
+
+## Krok A4: dwa kartony w bagażniku (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik A3 (w 2k).
+
+```text
+Edit image 1: the same street, car and camera, only the boxes in the boot change.
+
+CHANGE:
+- Remove the two upper moving boxes from the open boot: only the two lower boxes stay, standing side by side on the boot floor, their tops below the rear window line, the empty boot space visible above them so the hatch could close.
+- The left box has "KUCHNIA" handwritten on its side facing the camera in large black marker capitals; the right box has "KSIĄŻKI" handwritten the same way. Both words sharp and clearly readable.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback: paint, black rub strips and bumpers, silver wheels, the lifted rear hatch, the license plate
+- The rolled white mattress on the roof rack with its orange straps
+- The tenement facade, the windows, the arched wooden gateway on the left, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: two boxes instead of four, labelled "KUCHNIA" and "KSIĄŻKI". 100% identical otherwise. Exactly one car, no people.
+```
+
+**Na co patrzeć:** dwa kartony poniżej linii szyby, oba napisy czytelne (z „Ą” i „Ż”), klapa i materac bez zmian. Zapisz jako `referencje/u18-ulica-auto.jpg`.
+
 ## Krok B: Tomek przy drzwiach busa (klatka startowa)
 
 Do napisania po wyniku A. Założenie: Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.

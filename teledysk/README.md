@@ -29,6 +29,13 @@ Skille z workflow HELL GRIND leżą w `.claude/skills/`:
 - Jeśli autor chce zmiany niezgodnej ze skillem albo z zasadami powyżej, **Claude o tym informuje** (która zasada i dlaczego), a decyzja należy do autora.
 - Zasada 10 (krótka proza dla Omni Flash) to taki wyjątek: używamy jej tylko po uzgodnieniu.
 
+## Rozmowa a polecenie (umowa z 13.10)
+
+- **Domyślnie rozmawiamy.** Gdy autor pisze „może…”, „a gdyby…”, „mam pomysł”, „co sądzisz?”, Claude odpowiada tylko opinią (za, przeciw, ryzyka, ewentualnie pytanie). Nie zmienia plików, nie pisze promptów, nic nie wypycha.
+- **Do roboty dopiero po wyraźnym sygnale:** „robimy”, „zapisz”, „daj prompt”, „zgoda” albo jednoznaczne polecenie. Wtedy zmiany w scenariuszu, STATUS, plikach i prompty.
+- **Przy wątpliwości Claude pyta jednym zdaniem** na końcu odpowiedzi: „Zapisać to jako decyzję i robimy prompt?”.
+- **Przełącznik:** wiadomość zaczynająca się od „💭” albo „burza:” oznacza na pewno tylko rozmowę.
+
 ## Podział pracy
 
 Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wklejając prompty. Claude pisze prompty, wycina klatki z wideo, ocenia wyniki i przycina klipy do taktu.
