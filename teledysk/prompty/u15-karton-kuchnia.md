@@ -55,3 +55,28 @@ ONLY CHANGE: no overshirt, a white short-sleeve t-shirt, blue jeans. 100% identi
 ```
 
 Zapisz jako `referencje/tomek-koszulka.jpg`. Potem krok C: Tomek z kartonem „KUCHNIA” na stoliku (klatka startowa).
+
+**Wynik B (13.10): ✅** x3, praktycznie identyczne. Wybrany wariant 1 (twarz najbliżej `tomek.png`, usta zamknięte). Zapisz jako `referencje/tomek-koszulka.jpg`.
+
+## Krok C: Tomek z kartonem „KUCHNIA” (NBP, edycja)
+
+Plan: pełny kadr kuchni, a potem przycinamy ciaśniej na karton, dłonie i napis (efekt wstawki, jak w u14). Napis jest na przednim boku kartonu, taśma idzie przez górny szew i w dół przez środek napisu.
+Flow · NBP · 16:9 · 2k · x3. 1 = `u15-kuchnia-pusta.jpg`, 2 = `tomek-koszulka.jpg`.
+
+```text
+Edit image 1: the same kitchen and camera. Add a closed cardboard moving box on the round table and the man from image 2 standing behind the table, about to tape the box shut.
+
+CHANGE (add only these, nothing else moves):
+- A medium plain brown corrugated cardboard moving box stands in the center of the round table, its top flaps folded shut, one long side facing the camera squarely.
+- On the side facing the camera, the word "KUCHNIA" is handwritten in large capital letters with a thick black permanent marker, slightly uneven hand lettering, filling about two thirds of the box width, sharp and clearly readable.
+- The man from image 2 stands directly behind the table, facing the camera, his body visible from the hips up above the box, leaning slightly forward over it. Same plain white short-sleeve t-shirt and blue jeans as in image 2.
+- In his right hand a handheld tape dispenser gun with a roll of clear brown packing tape; the free end of the tape is already stuck on the far edge of the box top, along the centre seam between the flaps. His left hand holds the flaps down flat. His eyes are on the box, a small focused smile, lips closed.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The round light-oak table, the window with the ochre tenement facade, the radiator, the boiler, the fridge on the left, the kitchen cabinets, the cooker hood, the stove and the wall tiles
+- The warm daylight from the window behind him, soft rim light on his hair and shoulders, shadows, colour grade, contrast, grain
+- The man 100% matches image 2
+
+ONLY CHANGE: add the box with "KUCHNIA" on the table and the man with the tape dispenser behind it. 100% identical otherwise. Exactly one person. Rule of thirds.
+```
