@@ -404,3 +404,60 @@ Exactly two people, one puppy and one car. Faces match the references. Stable pi
 ```
 
 **Na co patrzeć:** trzask szybki (nie powolne opuszczanie), Tomek skręca w lewo, na chodnik i za auto, a nie w prawo wzdłuż widocznego boku, tablica „WA 12345”.
+
+**Wynik D2 (14.10):** x?, najlepszy jeden. Tablica „WA 12345” ✅ (referencja `auto.png` zadziałała), klapa zamknięta ok. 1,3 s, piesek i Ania ruszają. Ale Tomek „kręci się jak bączek”: po zamknięciu klapy obraca się przodem do kamery, potem do Ani, a potem znowu tyłem, czyli prawie pełny obrót.
+**Poprawka (prośba autora):** Tomek odwraca się w swoje lewo, czyli plecami do kamery. Jeden ćwierćobrót w lewo: ciało kończy przodem do chodnika i kamienicy, a do Ani patrzy przez lewe ramię (sama głowa). Potem idzie prosto na chodnik i wzdłuż dalszego boku auta do drzwi kierowcy, bez kolejnego obrotu.
+
+## Krok D3: wideo, Tomek obraca się w lewo (Omni 1.1 Flash)
+
+Te same ustawienia i ta sama kolejność 5 zdjęć co w D2. Zmienione tylko dwa bloki ACTION TIMING (0:00.9–0:01.8 i 0:02.4–0:04.0).
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day, turns to his girlfriend and their puppy waiting in the tenement gateway and nods: time to go. They all start toward the car. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. He is the driver. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips and bumpers, silver five-spoke wheels, black roof rack; its rear license plate reads exactly "WA 12345", as in the right panel of the reference. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. @AUTO is parked along the kerb in the right half of the frame, rear toward the camera, front pointing screen-right, a rolled mattress in clear plastic strapped on its roof rack. The side of the car facing the camera is the passenger side; the driver's door is on the far side, facing the pavement and the tenement.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands at the rear left corner of the car, body turned toward the car, right hand on the lower edge of the lifted hatch. @ANIA stands in the gateway on the left, body facing screen-right toward the car, eyes on @TOMEK. @PIESEK sits on the threshold beside her feet, facing the car.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, all three figures and the car sharp.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK slams the hatch down in one fast, firm swing; it bangs shut at 0:00.9 and the car rocks on its springs. The boxes stay visible through the rear window.
+0:00.9 to 0:01.8: @TOMEK makes one quarter turn to his own left, his shoulders rotating away from the camera, so his body ends facing the pavement and the tenement, his left shoulder toward the gateway. His eyes go to @ANIA first, then he looks over his left shoulder at her, head turned, body still. He gives her one clear nod toward the car, eyebrows raised, a warm grin with lips closed: let's go. His body never turns to face the camera and never spins around.
+0:01.8 to 0:02.4: Half a beat later @ANIA answers: her smile widens and she nods once. @PIESEK springs to its feet, tail wagging.
+0:02.4 to 0:04.0: Everyone starts moving. @TOMEK, without turning back, steps forward onto the pavement and then walks along the far side of the car toward the driver's door, his back and right side to the camera, partly hidden by the car. @PIESEK trots out of the gateway toward the car. @ANIA takes her first step out of the gateway. The movement has just begun when the shot ends.
+
+PERFORMANCE
+A small, happy team moment: no words needed. @TOMEK is pleased the packing is done; the nod is an invitation. @ANIA reads him instantly and answers with the same quiet joy. Eyes stay alive, with natural blinks; reactions travel in a wave, never in sync. Lips stay closed; nobody speaks.
+
+PHYSICS
+The hatch has real weight: it swings down fast on its gas struts, bangs shut flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof. The puppy's paws patter on the stone, its ears and fur bounce.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, the gateway passage in soft shade. No flat front light.
+
+AUDIO
+The loud thunk of the hatch slamming, footsteps on stone, the puppy's paws, quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** Tomek ani razu nie staje przodem do kamery, obraca się raz, w lewo (plecami do nas), do Ani patrzy przez ramię, potem idzie za auto, tablica „WA 12345”.
