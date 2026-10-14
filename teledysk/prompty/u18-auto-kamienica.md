@@ -711,3 +711,30 @@ ONLY CHANGE: the man moved to the rear right corner, facing the woman, both hand
 ```
 
 **Na co patrzeć:** dokładnie jeden Tomek (nie dwóch!), stoi z prawej strony bagażnika, twarzą w lewo kadru, obie ręce na klapie, napisy widoczne, Ania i piesek bez zmian. Zapisz jako `referencje/u18-start-v2.jpg`. Potem prompt wideo D8: trzask, wzrok w górę nad klapą na Anię, kiwnięcie, Ania się uśmiecha, piesek wstaje. Nikt nie chodzi.
+
+**Wynik C2 (14.10): ❌** NBP nie przeniósł Tomka. Został przy lewym rogu, tylko obrócił go plecami do kamery, przodem do klapy (obie ręce na klapie). Do Ani dalej musiałby się obracać. Lekcja: NBP słabo przenosi postać w inne miejsce, dużo lepiej dodaje ją do pustego kadru.
+
+## Krok B2: Tomek przy prawym rogu, na pustej ulicy (NBP, edycja)
+
+Zamiast przenosić Tomka, dodajemy go od nowa do kadru bez ludzi (`u18-ulica-auto.jpg`). Potem Ania z psem dochodzą promptem z kroku C (bez zmian, tylko obraz 1 = wynik B2).
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/tomek-koszulka-kurtka.jpg`.
+
+```text
+Edit image 1: the same street, car and camera. Add the man from image 2 at the back of the car, on the right side of the open boot, facing left toward the gateway.
+
+CHANGE (add only this, nothing else moves):
+- The man from image 2 stands on the cobblestones to the right of the open boot in the frame, beside the right tail light, between the rear bumper and the rear wheel. His body is in profile facing screen-left, toward the open boot and, beyond it, the arched gateway; the camera sees the right side of his body and his face in profile. Both hands hold the lower edge of the lifted rear hatch above the boot, ready to pull it down. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same open dark navy trucker jacket with the brown corduroy collar over the plain white t-shirt, blue jeans and brown suede sneakers as in image 2.
+- Nobody stands on the left side of the boot; the pavement and the kerb on the left stay empty.
+- Both boxes labelled "KUCHNIA" and "KSIĄŻKI" stay fully visible and readable.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback with the lifted hatch, the rolled mattress on the roof with its straps, the boxes in the boot and on the rear seat
+- The tenement facade, the windows, the arched wooden gateway on the left with its open doors, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight from the left, long shadows, colour grade, contrast, grain
+- The man 100% matches image 2
+
+ONLY CHANGE: add the man on the right side of the open boot, facing left, hands on the hatch. 100% identical otherwise. Exactly one person, one car.
+```
+
+**Na co patrzeć:** Tomek z prawej strony bagażnika (przy prawej lampie), profil w lewo kadru, obie ręce na klapie, po lewej stronie bagażnika pusto, napisy widoczne. Zapisz jako `referencje/u18-tomek-v2.jpg`, potem krok C z obrazem 1 = `u18-tomek-v2.jpg`.
