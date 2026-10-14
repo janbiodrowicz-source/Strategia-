@@ -50,3 +50,31 @@ ONLY CHANGE: the puppy with its head out of the rear window and the woman in the
 ```
 
 **Na co patrzeć:** piesek w **tylnym** oknie (bliżej kamery), łeb i łapy na zewnątrz, uszy na wietrze, pyszczek w stronę jazdy. Ania w **przednim** oknie, odwrócona do pieska, twarz widoczna, uśmiech, włosy na wietrze. Za nią nikogo nie widać. Zapisz jako `referencje/u19-start.jpg`.
+
+**Wynik B (14.10): ✅ prawie.** Piesek w tylnym oknie: łeb i łapy na zewnątrz, język na wierzchu, patrzy w stronę kamery. Ania wychylona z przedniego okna, z włosami na wietrze. Autor zostawia pieska bez zmian. **Zmiana autora:** Ania ma siedzieć normalnie, w fotelu, a nie wychylać się z okna.
+
+## Krok C: Ania siedzi normalnie (NBP, edycja)
+
+Zmienia się tylko poza Ani, w tym samym oknie (NBP słabo przenosi postać, ale zmianę pozy w miejscu zwykle znosi).
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik B, 2 = `referencje/ania-paski-kardigan.jpg`.
+
+```text
+Edit image 1: the same moving car, puppy, avenue and camera. Change only the woman's pose: she sits normally in her seat instead of leaning out of the window.
+
+CHANGE (only the woman):
+- The woman sits back in the front passenger seat, fully inside the car, her back against the seat, a seatbelt across her chest. She faces forward in the direction of travel, her face in profile toward screen-right, looking at the road ahead with a relaxed happy smile, lips closed. Her left forearm rests lightly on the open window sill. The breeze through the open window lifts a few strands of her wavy shoulder-length hair. Same open bottle-green cable-knit cardigan over the navy-and-white striped Breton top as in image 2.
+- Her figure still fills the front window opening, so the driver's side behind her is hidden.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The puppy in the rear window: its head and front paws out of the window, open mouth, tongue, pose, size and fur
+- The yellow hatchback, its louvred panel, doors, mirror and wheels; the rolled mattress on the roof rack with its orange straps
+- The avenue of autumn trees, the road, the kerb with fallen leaves, the distant building, the motion blur on the road
+- The late-morning sunlight, dappled light, colour grade, contrast, grain
+- The woman 100% matches image 2
+
+ONLY CHANGE: the woman sits normally in her seat, facing forward. 100% identical otherwise. Exactly one person, one puppy, one car.
+```
+
+**Na co patrzeć:** Ania w środku auta (głowa nie wystaje za okno), profil w prawo kadru, uśmiech, łokieć na krawędzi okna. Piesek bez zmian. Zapisz jako `referencje/u19-start.jpg`.
+**Plan awaryjny:** gdyby NBP nie chciał zmienić pozy, usuwamy Anię z obrazu i dodajemy ją od nowa, już siedzącą (lekcja z u18).
