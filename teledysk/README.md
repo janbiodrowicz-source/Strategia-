@@ -42,6 +42,11 @@ Obrazy (Nano Banana Pro) i wideo (Omni 1.1 Flash) generuje autor we **Flow**, wk
 
 **Przycinanie (umowa z 12.10):** autor wrzuca do wątku każdy gotowy klip, a Claude go przycina: ogląda klip klatka po klatce, wybiera najlepsze 7,5 s (albo 3,75 s), tak żeby kluczowy moment się zmieścił, usuwa dźwięk i odsyła plik z czasem na osi. Gotowe pliki trafiają do `teledysk/wyniki/` (poza gitem), a notatka z cięciem do pliku ujęcia w `prompty/`. API Google świadomie nie podłączamy, żeby nie płacić drugi raz. „NBP” w notatkach i skillach = Nano Banana Pro.
 
+## Flow: jak działają referencje (od autora, 14.10)
+
+- **Omni 1.1 Flash: pierwsze wrzucone zdjęcie Flow traktuje jako klatkę startową.** Kolejność referencji w promptach wideo: najpierw klatka startowa, potem planszki postaci (`@TOMEK`, `@ANIA`, `@PIESEK`) i rekwizyty.
+- **Maksymalnie 10 zdjęć na jedno generowanie.** Przy podawaniu listy referencji pilnujemy limitu.
+
 ## Zawartość
 
 - [`postacie.md`](postacie.md): Ania i Tomek, opisy do promptów i głosy
