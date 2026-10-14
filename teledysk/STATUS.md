@@ -46,7 +46,12 @@ Ostatnia aktualizacja: 14.10.2026
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
-## W toku ▶️ u18 (auto pod kamienicą)
+## W toku ▶️ u19 (droga, piesek za oknem)
+Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
+- **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone.
+- Prompt A (auto na alei, bez ludzi) gotowy. Czekamy na wynik.
+
+## Zrobione ▶️ u18 (auto pod kamienicą)
 Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
 - Gotowe obrazy: `u18-ulica-auto.jpg` (ulica, auto z podniesioną klapą, kartony „KUCHNIA” i „KSIĄŻKI”, materac w rulonie, bez ludzi), `u18-start.jpg` (Tomek przy lewym rogu + Ania z psem w bramie).
 - Wideo D–D7: tablica wychodzi (z `auto.png`), ale Tomek przy obrocie do Ani kręci się jak bączek albo idzie od strony pasażera. Najlepszy kierunek marszu był w D2 i D5.
