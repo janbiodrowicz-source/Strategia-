@@ -789,3 +789,59 @@ ONLY CHANGE: add the man on the right side of the open boot, facing left toward 
 ```
 
 **Na co patrzeć:** dokładnie jeden Tomek, przy prawej lampie, profil w lewo kadru (widać prawy bok i twarz z profilu), obie ręce na dolnej krawędzi klapy, po lewej stronie bagażnika pusto, napisy i tablica czytelne, Ania i piesek bez zmian. Zapisz jako `referencje/u18-start-v2.jpg`. Potem prompt wideo D8 (trzask, wzrok znad klapy na Anię, kiwnięcie; nikt nie chodzi).
+
+## Krok D8: wideo bez obrotu i bez chodzenia (Omni 1.1 Flash)
+
+**Decyzja autora (14.10):** E2 znów postawił Tomka z lewej strony (NBP uparcie wstawia go tam, gdzie jest wolny chodnik). Bierzemy `u18-start.jpg` bez zmian, a w wideo Tomek tylko zatrzaskuje klapę. Na Anię nie patrzy, więc nie ma obrotu. Na huk reaguje Ania, a po niej piesek. Nikt nie chodzi.
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x3. 1 = `u18-start.jpg` (klatka startowa), 2 = `tomek-koszulka-kurtka.jpg` (@TOMEK), 3 = `ania-paski-kardigan.jpg` (@ANIA), 4 = `piesek.png` (@PIESEK), 5 = `auto.png` (@AUTO). Cięcie 3,75 s, oś 1:30–1:33,75, trzask ok. 0,9 s.
+Rękę na klapie opisujemy jako „the arm nearest the car”, bo Tomek stoi przodem do kamery (lustro lewo/prawo).
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day and pats it, pleased the packing is done. His girlfriend in the tenement gateway beams at the bang and their puppy jumps up. Everyone stays where they are. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips and bumpers, silver five-spoke wheels, black roof rack; its rear license plate reads exactly "WA 12345", as in the right panel of the reference. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. @AUTO is parked along the kerb in the right half of the frame, rear toward the camera, front pointing screen-right, a rolled mattress in clear plastic strapped on its roof rack.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate on the hatch reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands on the cobblestones at the rear left corner of the car, body turned three-quarters toward the camera, the arm nearest the car raised, his hand on the edge of the lifted hatch, smiling down at the boot. @ANIA stands in the gateway on the left, smiling, hands relaxed at her sides, eyes on @TOMEK. @PIESEK sits on the threshold beside her feet.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, all three figures and the car sharp, rule of thirds.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK pulls the hatch down in one fast, firm swing with the raised hand; it bangs shut at 0:00.9 and the car rocks on its springs. The plate "WA 12345" comes into view on the closed hatch.
+0:00.9 to 0:02.0: His hand stays on the closed hatch and gives it two light pats with a flat palm, a satisfied grin, lips closed, his eyes on the closed boot. His feet and body stay exactly where they are.
+0:01.2 to 0:02.4: At the bang @ANIA's smile widens into a happy grin, her shoulders lift with a short silent laugh. A moment later @PIESEK springs to its feet on the threshold, tail wagging.
+0:02.4 to 0:04.0: A happy pause, everyone in place: @TOMEK lets his hand drop from the hatch and brushes his palms together once, still smiling at the car. @ANIA stays in the gateway, smiling at him. @PIESEK wags its tail and bounces once on its front paws. Nobody walks.
+
+PERFORMANCE
+A small, happy moment: the boot is closed, the move is real. @TOMEK is proud of his packing, quietly pleased with himself. @ANIA watches him with fond amusement. Eyes stay alive, with natural blinks; reactions travel in a wave: the bang, then her grin, then the puppy. Lips stay closed; nobody speaks. Nobody looks into the camera.
+
+PHYSICS
+The hatch has real weight: it swings down fast on its gas struts, bangs shut flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof. The puppy's ears and fur bounce.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, the gateway passage in soft shade. No flat front light.
+
+AUDIO
+The loud thunk of the hatch slamming, two soft pats on metal, the puppy's paws on stone, quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Everyone stays in place for the whole shot. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** trzask ok. 0,9 s, klapa się nie odbija, Tomek nie obraca się i nie chodzi, reakcje idą falą (Ania, potem piesek), tablica „WA 12345” na zamkniętej klapie, napisy na kartonach.
