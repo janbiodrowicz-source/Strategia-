@@ -461,3 +461,60 @@ Exactly two people, one puppy and one car. Faces match the references. Stable pi
 ```
 
 **Na co patrzeć:** Tomek ani razu nie staje przodem do kamery, obraca się raz, w lewo (plecami do nas), do Ani patrzy przez ramię, potem idzie za auto, tablica „WA 12345”.
+
+**Wynik D3 (14.10):** tablica dobrze, ale Tomek znów obraca się przodem do kamery (w swoje prawo) i idzie w prawo wzdłuż widocznego boku auta, czyli od strony pasażera. Model nie rozumie „driver's door on the far side”.
+**Poprawka:** kierunki opisane w kategoriach kadru zamiast „strony kierowcy”: obrót plecami do kamery, wejście na chodnik „away from the camera”, potem marsz „screen-right along the pavement behind the car”, auto między nim a kamerą, widać tylko głowę i ramiona nad dachem.
+
+## Krok D4: wideo, kierunki w kategoriach kadru (Omni 1.1 Flash)
+
+Te same ustawienia i 5 zdjęć co w D2/D3. Zmienione tylko dwa zdania o Tomku w ACTION TIMING.
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day, turns to his girlfriend and their puppy waiting in the tenement gateway and nods: time to go. They all start toward the car. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. He is the driver. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips and bumpers, silver five-spoke wheels, black roof rack; its rear license plate reads exactly "WA 12345", as in the right panel of the reference. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. @AUTO is parked along the kerb in the right half of the frame, rear toward the camera, front pointing screen-right, a rolled mattress in clear plastic strapped on its roof rack. The side of the car facing the camera is the passenger side; the driver's door is on the far side, facing the pavement and the tenement.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands at the rear left corner of the car, body turned toward the car, right hand on the lower edge of the lifted hatch. @ANIA stands in the gateway on the left, body facing screen-right toward the car, eyes on @TOMEK. @PIESEK sits on the threshold beside her feet, facing the car.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, all three figures and the car sharp.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK slams the hatch down in one fast, firm swing; it bangs shut at 0:00.9 and the car rocks on its springs. The boxes stay visible through the rear window.
+0:00.9 to 0:01.8: @TOMEK turns toward @ANIA the short way, to his own left: his shoulders swing away from the camera, so for a moment the camera sees his back, and he ends facing the pavement and the tenement, @ANIA at his left. He looks at her over his left shoulder and gives her one clear nod toward the car, eyebrows raised, a warm grin with lips closed: let's go. He never turns his face or chest toward the camera.
+0:01.8 to 0:02.4: Half a beat later @ANIA answers: her smile widens and she nods once. @PIESEK springs to its feet, tail wagging.
+0:02.4 to 0:04.0: Everyone starts moving. @TOMEK steps away from the camera up onto the pavement, then walks screen-right along the pavement behind the car toward the driver's door; the car stays between him and the camera, only his head and shoulders visible above the roof. He never walks along the near side of the car facing the camera. @PIESEK trots out of the gateway toward the car. @ANIA takes her first step out of the gateway. The movement has just begun when the shot ends.
+
+PERFORMANCE
+A small, happy team moment: no words needed. @TOMEK is pleased the packing is done; the nod is an invitation. @ANIA reads him instantly and answers with the same quiet joy. Eyes stay alive, with natural blinks; reactions travel in a wave, never in sync. Lips stay closed; nobody speaks.
+
+PHYSICS
+The hatch has real weight: it swings down fast on its gas struts, bangs shut flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof. The puppy's paws patter on the stone, its ears and fur bounce.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, the gateway passage in soft shade. No flat front light.
+
+AUDIO
+The loud thunk of the hatch slamming, footsteps on stone, the puppy's paws, quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** w trakcie obrotu widać plecy Tomka (nie twarz), wchodzi na chodnik i idzie za autem, nad dachem widać tylko jego głowę i ramiona.
