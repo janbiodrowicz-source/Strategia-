@@ -50,7 +50,7 @@ Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
 - Gotowe obrazy: `u18-ulica-auto.jpg` (ulica, auto z podniesioną klapą, kartony „KUCHNIA” i „KSIĄŻKI”, materac w rulonie, bez ludzi), `u18-start.jpg` (Tomek przy lewym rogu + Ania z psem w bramie).
 - Wideo D–D7: tablica wychodzi (z `auto.png`), ale Tomek przy obrocie do Ani kręci się jak bączek albo idzie od strony pasażera. Najlepszy kierunek marszu był w D2 i D5.
 - E1 zadziałało, E2 ❌: NBP znów postawił Tomka z lewej strony bagażnika.
-- **Decyzja autora (14.10):** zostaje `u18-start.jpg`. Prompt **D8** jest gotowy: Tomek tylko zatrzaskuje klapę i ją klepie, Ania reaguje na huk, piesek wstaje, nikt się nie obraca ani nie chodzi. Czekamy na wynik.
+- **Decyzja autora (14.10):** zostaje `u18-start.jpg`. D8: Tomek klaskał, a piesek pobiegł do auta. **D9** (gotowy prompt): tylko trzask klapy, potem bezruch. Czekamy na wynik.
 - **Decyzja autora (14.10), następny krok:**
   1. Usunąć Tomka z `u18-start.jpg` (Ania i piesek zostają w bramie).
   2. Wkleić Tomka w nowej pozie: od razu twarzą do Ani (np. z prawej strony bagażnika, profil w lewo kadru, ręce na klapie), żeby w wideo nie musiał się obracać.

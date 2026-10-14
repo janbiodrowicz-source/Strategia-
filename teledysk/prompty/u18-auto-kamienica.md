@@ -845,3 +845,56 @@ Exactly two people, one puppy and one car. Everyone stays in place for the whole
 ```
 
 **Na co patrzeć:** trzask ok. 0,9 s, klapa się nie odbija, Tomek nie obraca się i nie chodzi, reakcje idą falą (Ania, potem piesek), tablica „WA 12345” na zamkniętej klapie, napisy na kartonach.
+
+**Wynik D8 (14.10):** Tomek zamyka klapę, ale potem klaszcze w dłonie, a piesek biegnie do auta. Za dużo akcji po trzasku.
+
+## Krok D9: tylko trzask klapy, reszta stoi (Omni 1.1 Flash)
+
+**Decyzja autora:** Tomek tylko zamyka klapę, nikt się nie rusza. Usunęliśmy klepanie i otrzepywanie dłoni, a piesek siedzi przez całe ujęcie. Po trzasku jest bezruch: oddech, mrugnięcia, uśmiech.
+Ustawienia i 5 zdjęć jak w D8 (x3).
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day, pleased the packing is done. His girlfriend in the tenement gateway smiles at the bang; their puppy sits beside her. The slam is the only action: everyone stays exactly where they are. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips and bumpers, silver five-spoke wheels, black roof rack; its rear license plate reads exactly "WA 12345", as in the right panel of the reference. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. @AUTO is parked along the kerb in the right half of the frame, rear toward the camera, front pointing screen-right, a rolled mattress in clear plastic strapped on its roof rack.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate on the hatch reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands on the cobblestones at the rear left corner of the car, body turned three-quarters toward the camera, the arm nearest the car raised, his hand on the edge of the lifted hatch, smiling down at the boot. @ANIA stands in the gateway on the left, smiling, hands relaxed at her sides, eyes on @TOMEK. @PIESEK sits on the threshold beside her feet.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, all three figures and the car sharp, rule of thirds.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK pulls the hatch down in one fast, firm swing with the raised hand; it bangs shut at 0:00.9 and the car rocks on its springs. The plate "WA 12345" comes into view on the closed hatch.
+0:00.9 to 0:04.0: Stillness. @TOMEK's hand rests flat on the closed hatch and stays there; his feet, body and hands stay still, a quiet satisfied smile, lips closed, eyes on the closed boot. @ANIA stays standing in the gateway, hands relaxed at her sides; only her smile grows a little warmer. @PIESEK stays sitting on the threshold beside her feet for the whole shot, only its ears twitch at the bang. Only breathing and natural blinks until the end.
+
+PERFORMANCE
+A small, quiet moment: the boot is closed, the move is real. @TOMEK is quietly proud of his packing. @ANIA watches him with fond amusement. Eyes stay alive, with natural blinks. Lips stay closed; nobody speaks. Nobody looks into the camera.
+
+PHYSICS
+The hatch has real weight: it swings down fast on its gas struts, bangs shut flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof. The puppy's ears twitch once.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, the gateway passage in soft shade. No flat front light.
+
+AUDIO
+The loud thunk of the hatch slamming, then quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Everyone stays in place for the whole shot; the only movement is the hatch closing. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
