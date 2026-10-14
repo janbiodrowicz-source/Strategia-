@@ -257,6 +257,30 @@ ONLY CHANGE: add the man at the open boot with his hand on the hatch. 100% ident
 
 **Na co patrzeć:** jedna osoba, ręka naprawdę na krawędzi klapy (nie w powietrzu), oba napisy widoczne, długi cień zgodny ze słońcem, brama pusta (na Anię z psem przyjdzie krok C). Zapisz jako `referencje/u18-tomek.jpg`.
 
-## Krok C: Ania z psem w bramie
+**Wynik B (14.10): ✅** x3, praktycznie identyczne. Tomek w kurtce przy lewym tylnym rogu, prawa ręka na krawędzi klapy, patrzy na kartony z uśmiechem, oba napisy widoczne, jedna osoba. Cień słabo widoczny, ale nie przeszkadza. Zapisz jako `referencje/u18-tomek.jpg`.
 
-Do napisania po wyniku B. Ania (`ania-paski.jpg`) i piesek (`piesek.png`) w otwartej bramie po lewej.
+## Krok C: Ania z psem w bramie (NBP, edycja)
+
+Ania stoi w otwartej bramie, tuż za progiem, i patrzy na Tomka przy aucie. Piesek siedzi przy jej nogach, bez smyczy (smycz w animacji łatwo się psuje: znika, rozdwaja się albo przenika przez ciało).
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-tomek.jpg`, 2 = `referencje/ania-paski-kardigan.jpg`, 3 = `referencje/piesek.png`.
+
+```text
+Edit image 1: the same street, car, man and camera. Add the woman from image 2 and the puppy from image 3 standing in the open arched gateway on the left.
+
+CHANGE (add only these, nothing else moves):
+- The woman from image 2 stands in the open arched wooden gateway of the tenement on the left, just inside the threshold, her whole figure visible against the shaded passage behind her, body facing screen-right toward the car. She watches the man at the boot with a warm smile, lips closed, her hands relaxed at her sides. Same open bottle-green cable-knit cardigan over the navy-and-white striped Breton top, light blue jeans, brown belt and white sneakers as in image 2.
+- The puppy from image 3 sits on the stone threshold right beside her feet, on her right side, facing screen-right toward the car, ears up, tail on the ground. No leash.
+- The low morning sun from the left lights the front of her figure softly; she casts a short shadow on the threshold.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The man at the boot: his pose, his hand on the lifted hatch, his face, the navy jacket, white t-shirt and jeans
+- The yellow hatchback with the lifted hatch, the rolled mattress on the roof, the boxes "KUCHNIA" and "KSIĄŻKI" in the boot and the box on the rear seat
+- The tenement facade, the windows, the arched gateway and its open wooden doors, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+- The woman 100% matches image 2, the puppy 100% matches image 3
+
+ONLY CHANGE: add the woman and the puppy in the gateway. 100% identical otherwise. Exactly two people and one puppy.
+```
+
+**Na co patrzeć:** dokładnie dwie osoby i jeden pies, Ania w bramie (nie na chodniku przy aucie), kardigan rozpięty na paski, piesek bez smyczy przy jej nogach, Tomek bez zmian. Zapisz jako `referencje/u18-start.jpg` (klatka startowa wideo).
