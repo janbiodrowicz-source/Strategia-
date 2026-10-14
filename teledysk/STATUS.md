@@ -48,7 +48,7 @@ Ostatnia aktualizacja: 14.10.2026
 
 ## W toku ▶️ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
-- **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone.
+- **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone. Tomek rozmyty za kierownicą, w głębi.
 - Prompt A (auto na alei, bez ludzi) gotowy. Czekamy na wynik.
 
 ## Zrobione ▶️ u18 (auto pod kamienicą)

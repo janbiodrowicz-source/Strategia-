@@ -5,6 +5,7 @@
 - Kadr z zewnątrz: kamera na prawym przednim błotniku patrzy do tyłu, wzdłuż boku auta. Ania na pierwszym planie, za nią piesek.
 - Aleja drzew, przed południem.
 - Wnętrze od przodu (z całą trójką) rozważone i odrzucone, bo piesek traciłby swój numer z uszami.
+- Tomek siedzi za kierownicą po drugiej stronie auta, widoczny przez wnętrze jako rozmyta postać (dodajemy go w kroku B razem z Anią).
 **Plan:** A = auto na alei (NBP, z `auto.png`), B = Ania w oknie pasażera, C = piesek w tylnym oknie, D = wideo 8 s → cięcie 7,5 s.
 **Akcja (lekcja z u18):** najwyżej dwie akcje po kolei. Piesek ma łeb za oknem już od pierwszej klatki (to stan, nie akcja), Ania odwraca się do niego i śmieje.
 **Geometria:** ruch prawostronny, więc kierowca (Tomek) siedzi po lewej, po drugiej stronie auta. Kamera patrzy do tyłu, więc bok auta widać w lewej połowie kadru, a w prawej aleję uciekającą za autem.
