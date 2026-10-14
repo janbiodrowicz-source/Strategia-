@@ -183,9 +183,31 @@ ONLY CHANGE: straight cylindrical mattress roll with flat spiral ends like in im
 
 **Na co patrzeć:** rulon równej grubości od końca do końca, płaski okrągły koniec ze spiralą od strony kamery, folia gładka, reszta kadru bez zmian. Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
-## Krok B: Tomek przy drzwiach busa (klatka startowa)
+**Wynik A7 (14.10): ✅** x3. Rulon równej grubości, płaski koniec ze spiralą, bez cukierka. Autor waha się między wariantem 1 a 3. Rekomendacja Claude: wariant 3 (spirala najwyraźniejsza, koniec czyta się jako materac). Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
-Do napisania po wyniku A5. Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.
+## Krok B: Tomek przy klapie (NBP, edycja)
+
+Tomek stoi przy lewym tylnym rogu auta, z lewej strony otworu bagażnika, żeby nie zasłaniał kartonów z napisami. Prawą ręką trzyma dolną krawędź podniesionej klapy. Klatka startowa = stan przed akcją: patrzy na kartony, za chwilę dociśnie klapę. Brama jest dalej po lewej, więc w wideo odwróci głowę w lewo, do Ani.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/tomek-koszulka.jpg`.
+
+```text
+Edit image 1: the same street, car and camera. Add the man from image 2 at the back of the car, about to close the boot.
+
+CHANGE (add only this, nothing else moves):
+- The man from image 2 stands on the cobblestones at the rear left corner of the yellow hatchback, just to the left of the open boot, his body in three-quarter view turned toward the car. His right arm is raised and his right hand grips the lower edge of the lifted rear hatch, ready to pull it down; his left hand rests on the roof edge of the car. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same plain white short-sleeve t-shirt, blue jeans and brown suede sneakers as in image 2.
+- He stands beside the boot opening, so both boxes labelled "KUCHNIA" and "KSIĄŻKI" stay fully visible and readable.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback with the lifted hatch, the rolled mattress on the roof with its straps, the boxes in the boot and on the rear seat
+- The tenement facade, the windows, the arched wooden gateway on the left with its open doors, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight from the left, long shadows (he casts a matching long shadow on the cobblestones), colour grade, contrast, grain
+- The man 100% matches image 2
+
+ONLY CHANGE: add the man at the open boot with his hand on the hatch. 100% identical otherwise. Exactly one person, one car.
+```
+
+**Na co patrzeć:** jedna osoba, ręka naprawdę na krawędzi klapy (nie w powietrzu), oba napisy widoczne, długi cień zgodny ze słońcem, brama pusta (na Anię z psem przyjdzie krok C). Zapisz jako `referencje/u18-tomek.jpg`.
 
 ## Krok C: Ania z psem w bramie
 
