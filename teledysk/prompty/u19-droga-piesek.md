@@ -78,3 +78,31 @@ ONLY CHANGE: the woman sits normally in her seat, facing forward. 100% identical
 
 **Na co patrzeć:** Ania w środku auta (głowa nie wystaje za okno), profil w prawo kadru, uśmiech, łokieć na krawędzi okna. Piesek bez zmian. Zapisz jako `referencje/u19-start.jpg`.
 **Plan awaryjny:** gdyby NBP nie chciał zmienić pozy, usuwamy Anię z obrazu i dodajemy ją od nowa, już siedzącą (lekcja z u18).
+
+**Wynik C (14.10): ❌** Ania dalej wychyla się z okna, zmieniła tylko kierunek patrzenia (teraz przed siebie). Model się uparł. **Decyzja autora:** zaczynamy od nowa od `u19-auto-aleja.jpg`, z referencjami Ani i pieska. Ania tylko siedzi i patrzy przed siebie.
+**Diagnoza:** w B napisaliśmy „forearm resting on the open window sill” i „fully rolled down”, a to zaprasza do wychylenia. Teraz przednia szyba jest opuszczona tylko do połowy (fizycznie nie da się przez nią wychylić), ręce Ania trzyma na kolanach, a głowa jest wyraźnie w środku auta.
+
+## Krok B2: Ania siedzi w środku, piesek w tylnym oknie (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u19-auto-aleja.jpg`, 2 = `referencje/ania-paski-kardigan.jpg`, 3 = `referencje/piesek.png`.
+
+```text
+Edit image 1: the same moving car, avenue and camera. Add the puppy from image 3 in the rear window and the woman from image 2 sitting inside the car in the front passenger seat.
+
+CHANGE (add only these, nothing else moves):
+- The rear door window, nearest the camera, is fully rolled down. The puppy from image 3 sits on the back seat with its head and both front paws out of the open rear window, its mouth open in a happy pant, tongue out, the wind blowing its floppy ears and honey-gold fur back. Black fabric collar, no leash.
+- The front passenger window glass is lowered only halfway; its upper edge runs across the window at the height of her shoulders.
+- The woman from image 2 sits upright inside the car in the front passenger seat, her back against the seat, a seatbelt across her chest, both hands resting in her lap. Her whole head and shoulders stay inside the car, framed by the window opening, well below the roof line; nothing of her sticks out of the window. She looks straight ahead through the windscreen at the road, her face in profile toward screen-right, a calm happy smile, lips closed. A light breeze lifts a few strands of her wavy shoulder-length hair. Same open bottle-green cable-knit cardigan over the navy-and-white striped Breton top as in image 2. Her figure fills the window opening, so the driver's side behind her is hidden.
+- Dappled late-morning sunlight through the leaves falls across the puppy's fur and the car.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback, its louvred panel, doors, mirror and wheels; the rolled mattress on the roof rack with its orange straps
+- The avenue of autumn trees, the road, the kerb with fallen leaves, the distant building, the motion blur on the road
+- The late-morning sunlight, colour grade, contrast, grain
+- The woman 100% matches image 2, the puppy 100% matches image 3
+
+ONLY CHANGE: the puppy with its head out of the rear window and the woman sitting quietly inside the car, looking ahead. 100% identical otherwise. Exactly one person, one puppy, one car.
+```
+
+**Na co patrzeć:** głowa Ani w środku auta, w ramce okna, przednia szyba do połowy, profil w prawo kadru, ręce na kolanach. Piesek w tylnym oknie jak w wyniku B. Zapisz jako `referencje/u19-start.jpg`.
