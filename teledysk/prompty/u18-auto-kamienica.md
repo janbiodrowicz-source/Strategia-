@@ -185,6 +185,29 @@ ONLY CHANGE: straight cylindrical mattress roll with flat spiral ends like in im
 
 **Wynik A7 (14.10): ✅** x3. Rulon równej grubości, płaski koniec ze spiralą, bez cukierka. Autor waha się między wariantem 1 a 3. Rekomendacja Claude: wariant 3 (spirala najwyraźniejsza, koniec czyta się jako materac). Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
+**Decyzja autora (14.10): stroje na zewnątrz (u18–u22).** Jest jesień, więc na ulicę nie wychodzą w samej koszulce. Ania narzuca butelkowozielony kardigan z parku, rozpięty na bluzkę w paski, jasne jeansy z u16 zostają. Tomek narzuca granatową kurtkę trucker z parku, rozpiętą na białą koszulkę z u15, bez swetra, jeansy zostają. W domu (u23–u24) mogą je zdjąć. Krok B (Tomek przy klapie) czeka na nowe planszki.
+
+## Planszka `ania-paski-kardigan.jpg` (NBP, edycja)
+
+Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/ania-paski.jpg`, 2 = `referencje/ania-park.jpg` (tylko kardigan).
+
+```text
+Edit image 1: the same woman in all three panels. Add only the cardigan from image 2, worn over her outfit; nothing else from image 2.
+
+CHANGE (consistent in all three panels):
+- She wears the deep bottle-green chunky cable-knit wool cardigan from image 2: hip-length, long sleeves, wooden buttons, worn open and unbuttoned over the navy-and-white striped Breton top. The stripes stay clearly visible down the front between the open cardigan edges, and the striped boat neckline shows at the neck in the portrait. In the back panel the cardigan covers her back down to the hip.
+
+PRESERVE EXACTLY:
+- The navy-and-white striped Breton top, the light blue jeans, the brown leather belt and the white canvas sneakers from image 1 (not the mustard turtleneck or the dark jeans from image 2)
+- Her face, freckles, brown eyes, wavy shoulder-length dark brown hair with caramel ends, the small gold stud earring, the closed-mouth smile in every panel, exactly as in image 1
+- Poses, body proportions and positions in all three panels: front full body on the left, back full body in the middle, close-up portrait on the right
+- The mid-grey studio backdrop, the white panel dividers, soft studio light, shadows, colour grade, grain, camera framing of every panel
+
+ONLY CHANGE: the open green cardigan over the striped top. 100% identical otherwise.
+```
+
+**Na co patrzeć:** kardigan rozpięty, paski widoczne z przodu i przy dekolcie, jasne jeansy (nie ciemne), brak musztardowego golfu, ta sama twarz z zamkniętymi ustami. Zapisz jako `referencje/ania-paski-kardigan.jpg`.
+
 ## Krok B: Tomek przy klapie (NBP, edycja)
 
 Tomek stoi przy lewym tylnym rogu auta, z lewej strony otworu bagażnika, żeby nie zasłaniał kartonów z napisami. Prawą ręką trzyma dolną krawędź podniesionej klapy. Klatka startowa = stan przed akcją: patrzy na kartony, za chwilę dociśnie klapę. Brama jest dalej po lewej, więc w wideo odwróci głowę w lewo, do Ani.
