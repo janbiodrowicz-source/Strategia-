@@ -208,6 +208,29 @@ ONLY CHANGE: the open green cardigan over the striped top. 100% identical otherw
 
 **Na co patrzeć:** kardigan rozpięty, paski widoczne z przodu i przy dekolcie, jasne jeansy (nie ciemne), brak musztardowego golfu, ta sama twarz z zamkniętymi ustami. Zapisz jako `referencje/ania-paski-kardigan.jpg`.
 
+**Wynik planszki Ani (14.10): ✅** x3, praktycznie identyczne: kardigan rozpięty, paski widoczne, jasne jeansy, bez golfu. Rekomendacja Claude: wariant 2 (w wariancie 3 paski wystają spod kardiganu na plecach, w 1 i 2 nie). Zapisz jako `referencje/ania-paski-kardigan.jpg`.
+
+## Planszka `tomek-koszulka-kurtka.jpg` (NBP, edycja)
+
+Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/tomek-koszulka.jpg`, 2 = `referencje/tomek-park.jpg` (tylko kurtka).
+
+```text
+Edit image 1: the same man in all three panels. Add only the jacket from image 2, worn over his outfit; nothing else from image 2.
+
+CHANGE (consistent in all three panels):
+- He wears the short waist-length dark navy cotton trucker jacket from image 2 with its dark brown corduroy collar, chest pockets with button flaps and metal buttons, worn open and unbuttoned over the plain white crew-neck t-shirt. The white t-shirt stays clearly visible down the front between the open jacket edges and at the neckline in the portrait; its hem shows slightly below the jacket hem. In the back panel the jacket covers his back down to the waist.
+
+PRESERVE EXACTLY:
+- The plain white t-shirt, the mid-blue straight-leg jeans and the brown suede sneakers from image 1 (not the cream knit sweater or the charcoal chinos from image 2)
+- His face, tousled dark brown hair, short stubble, brown eyes and the closed-mouth smile in every panel, exactly as in image 1
+- Poses, body proportions and positions in all three panels: front full body on the left, back full body in the middle, close-up portrait on the right
+- The mid-grey studio backdrop, the white panel dividers, soft studio light, shadows, colour grade, grain, camera framing of every panel
+
+ONLY CHANGE: the open navy jacket over the white t-shirt. 100% identical otherwise.
+```
+
+**Na co patrzeć:** kurtka rozpięta, biała koszulka widoczna (bez kremowego swetra), niebieskie jeansy (nie grafitowe chinosy), brązowy sztruksowy kołnierz, ta sama twarz z zamkniętymi ustami. Zapisz jako `referencje/tomek-koszulka-kurtka.jpg`.
+
 ## Krok B: Tomek przy klapie (NBP, edycja)
 
 Tomek stoi przy lewym tylnym rogu auta, z lewej strony otworu bagażnika, żeby nie zasłaniał kartonów z napisami. Prawą ręką trzyma dolną krawędź podniesionej klapy. Klatka startowa = stan przed akcją: patrzy na kartony, za chwilę dociśnie klapę. Brama jest dalej po lewej, więc w wideo odwróci głowę w lewo, do Ani.
