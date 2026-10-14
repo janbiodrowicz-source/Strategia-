@@ -97,3 +97,28 @@ ONLY CHANGE: the cedar fence with the closed pedestrian gate on the left and the
 ```
 
 **Na co patrzeć:** prześwit podjazdu całkiem pusty, brama po **prawej** stronie (za płotem, nie w poprzek podjazdu), furtka po lewej zamknięta, lampka na prawym słupku zgaszona, trójkąt za płotem z prawej (jeśli wyjdzie dziwnie albo w poprzek podjazdu, odpuszczamy go). Zapisz jako `referencje/u20-dom-plot.jpg`.
+
+**Wynik A3 (14.10): ✅ prawie.** Najlepszy z serii: furtka po lewej ze skrzynką, pusty wjazd, brama odsunięta w prawo, lampka na prawym słupku. Błąd: ukośna rama („trójkąt”) na prawym końcu stoi od strony ulicy, przed deskami, a powinna być od strony ogrodu, za płotem. Zapisz jako `referencje/u20-dom-plot-v2.jpg`.
+
+## Krok A4: trójkąt za płotem (NBP, edycja punktowa)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot-v2.jpg`.
+
+```text
+Edit image 1: the same house, fence, gates, garden, street and camera. Fix only the triangular steel tail frame at the right end of the fence: it belongs on the garden side, behind the fence.
+
+CHANGE (only this):
+- Remove the diagonal anthracite brace and its frame from the street side of the fence at the right end of the frame; the cedar slats and posts there are seen clean and continuous from the street, like the rest of the fence.
+- The bare anthracite tail frame of the open sliding gate, with its one diagonal brace forming a triangle, stands on the garden side, directly behind those slats, parallel to the fence. The slats run in front of it, so the diagonal brace is seen only dimly through the narrow gaps between the slats and just above the top rail.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The whole fence, its height, slats, posts and striped shadows; the closed pedestrian gate with the letterbox on the left; the clear driveway opening; the gate posts; the orange lamp on the right gate post; the open gate panel parked to the right
+- The house, the driveway, the front garden, the lawn, the trees, the neighbouring houses and their fences
+- The empty asphalt street and kerb
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the triangular tail frame moves behind the fence, to the garden side. 100% identical otherwise. No cars, no people.
+```
+
+**Na co patrzeć:** od strony ulicy na prawym końcu same deski, bez ukośnej ramy na wierzchu, a trójkąt tylko przebija się przez szpary. **Plan awaryjny:** jeśli NBP się uprze (pamiętamy, że nie lubi przesuwać rzeczy), usuwamy trójkąt całkiem, czyli zostaje sama pierwsza linijka CHANGE. Zapisz jako `referencje/u20-dom-plot.jpg`.
