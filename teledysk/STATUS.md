@@ -21,6 +21,7 @@ Ostatnia aktualizacja: 14.10.2026
    - przy wyborze wariantu sprawdzamy osobno każdy ruchomy element (drzwi, skrzydła, klapy),
    - **Omni źle znosi obroty postaci i chodzenie „do drzwi kierowcy”**: im więcej opisu obrotu, tym gorzej. Kierunki piszemy w kategoriach kadru (screen-left, away from the camera), a najlepiej ustawiamy postać na klatce startowej tak, żeby nie musiała się obracać,
    - postać zwrócona do kamery ma lewo i prawo jak w lustrze, więc „przez lewe ramię” myli model,
+   - **jadące auto: kierunek jazdy zawsze w kategoriach kadru** („away from the camera… the road streams toward the camera… never reverses”), inaczej auto jedzie do tyłu (u19),
    - **na 4 s jedna akcja.** Kilka akcji naraz (trzask + spojrzenie + kiwnięcie + marsz) model gubi albo dokłada swoje (u18, D2–D9),
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
@@ -41,7 +42,7 @@ Ostatnia aktualizacja: 14.10.2026
 |---|---|---|---|
 | 16 ✅ | 1:26,25–1:30 | Pożegnanie z kawalerką | 3,75 s |
 | 18 ✅ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, Ania z psem w bramie | 3,75 s |
-| 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
+| 19 ✅ | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
 | 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd | 3,75 s |
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
@@ -49,7 +50,7 @@ Ostatnia aktualizacja: 14.10.2026
 ## W toku ▶️ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
 - **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone. Kamera wyszła z tyłu, więc Tomka nie widać (zmiana autora).
-- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Klatka startowa `u19-start.jpg` ✅ (po B, C i B2: Ania uparcie przy oknie, autor akceptuje). Prompt wideo D gotowy (auto jedzie, ruch tylko w tle). Czekamy na wynik.
+- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Klatka startowa `u19-start.jpg` ✅ (po B, C i B2: Ania uparcie przy oknie, autor akceptuje). Wideo D ✅ (1 z kilku, w reszcie auto jechało do tyłu). Plik `u19_droga_7.5s.mp4` (cięcie od 0,5 s).
 
 ## Zrobione ▶️ u18 (auto pod kamienicą)
 Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.

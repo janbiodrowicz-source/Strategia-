@@ -161,3 +161,7 @@ Exactly one woman, one puppy and one yellow car in the foreground; background pe
 ```
 
 **Na co patrzeć:** kamera trzyma kadr, tło płynie, piesek nie wyskakuje, Ania się nie odwraca ani nie wychyla, auta i ludzie w tle są mali i daleko, pudeł nie widać (odbicia), materac na dachu.
+
+**Wynik D (14.10): ✅ 1 z kilku.** W kilku klipach auto jechało do tyłu, bo model nie wiedział, w którą stronę jest jazda. W dobrym klipie kamera „trzyma się” auta, aleja płynie, auto z naprzeciwka mija nas ok. 3–4 s po lewej stronie drogi, piesek łapie wiatr, Ania patrzy przed siebie.
+**Cięcie:** od 0,5 s do 8,0 s (7,5 s, bez dźwięku), plik `wyniki/u19_droga_7.5s.mp4`. Na osi 1:33,75–1:41,25.
+**Lekcja (kierunek jazdy):** przy ujęciach z jadącego auta zawsze piszemy kierunek w kategoriach kadru, np. „the car drives forward, away from the camera, toward the far end of the avenue; the road and the trees stream past toward the camera and out of frame behind it; the car never reverses”.
