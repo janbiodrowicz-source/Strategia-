@@ -159,6 +159,30 @@ ONLY CHANGE: the mattress wrapped like in image 2 and sized to the roof, two lab
 **Na co patrzeć:** płaskie końce rulonu ze spiralą (zero „cukierka”), rulon nie wystaje poza dach, w bagażniku tylko dwa kartony z napisami, jeden karton za lewą tylną szybą, żadnych ludzi ani niebieskiego auta z wzoru. Zapisz jako `referencje/u18-ulica-auto.jpg`.
 **Jeśli NBP pomiesza:** rozbijamy na dwa przejścia: najpierw materac, potem kartony.
 
+**Wynik A6 (14.10): ✅ prawie.** Najlepszy z serii: w bagażniku tylko „KUCHNIA” i „KSIĄŻKI”, rulon mieści się na dachu. Ale końce materaca nadal zwężają się jak cukierek. Referencja wzoru prawdopodobnie nie była dodana. Decyzja autora: zmieniamy już tylko materac, z wzorem jako referencją.
+
+## Krok A7: tylko końce materaca (NBP, edycja)
+
+Opisujemy koniec rulonu kształtem znanym modelowi (jak przekrój pnia albo zwiniętego dywanu), żeby nie skręcał folii.
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik A6 (w 2k), 2 = `referencje/materac-wzor.jpg`.
+
+```text
+Edit image 1: the same image, only the ends of the rolled mattress on the roof change. Use image 2 only as the reference for how the wrapped mattress looks, nothing else from it.
+
+CHANGE:
+- The rolled mattress on the roof keeps its exact size, length and position, but it is a straight, even cylinder from end to end, the same thickness all along, like a rolled carpet. It does not narrow toward the ends.
+- Both ends are flat circular faces cut straight across, like the end of a log, exactly as in image 2: the clear plastic film is wrapped flat over each end face and taped, and through it the spiral of the rolled white mattress layers is clearly visible on the end facing the camera.
+- No twisted, gathered or bunched plastic anywhere; the film lies tight and smooth around the roll with only soft creases.
+
+PRESERVE EXACTLY:
+- Everything else in image 1: camera, framing, the yellow hatchback, the lifted hatch, the boxes "KUCHNIA" and "KSIĄŻKI" in the boot, the box on the rear seat, the roof rack and the two straps, the street, the facade, the gateway, the cobblestones
+- The warm low morning sunlight, shadows, colour grade, contrast, grain
+
+ONLY CHANGE: straight cylindrical mattress roll with flat spiral ends like in image 2. 100% identical otherwise. Exactly one car, no people.
+```
+
+**Na co patrzeć:** rulon równej grubości od końca do końca, płaski okrągły koniec ze spiralą od strony kamery, folia gładka, reszta kadru bez zmian. Zapisz jako `referencje/u18-ulica-auto.jpg`.
+
 ## Krok B: Tomek przy drzwiach busa (klatka startowa)
 
 Do napisania po wyniku A5. Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.
