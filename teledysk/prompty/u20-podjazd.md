@@ -38,3 +38,31 @@ ONLY CHANGE: the frame is wider (16:9), with the neighbouring gardens and houses
 ```
 
 **Na co patrzeć:** dom i podjazd nietknięte i na środku, nic nie ucięte u góry ani na dole, po bokach sąsiednie domki i drzewa, ulica pusta. Zapisz jako `referencje/u20-dom-16x9.jpg`.
+
+**Wynik A (14.10): ✅** Kadr 16:9, dom w środku, po lewej sąsiedni dom z ciemnym płotem z poziomych desek, po prawej trawnik i domki w głębi, ulica pusta. Zapisz jako `referencje/u20-dom-16x9.jpg`.
+**Decyzja autora (14.10):** dokładamy niski drewniany płot od ulicy z bramą przesuwną, odsuniętą na stałe (brak ruchomych skrzydeł w animacji). Garażu nie ma, auto stanie na podjeździe. Płot zostaje we wszystkich ujęciach domu z zewnątrz (u20, u21, u22, u31, u34).
+
+## Krok A2: drewniany płot z otwartą bramą przesuwną (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-16x9.jpg`.
+
+```text
+Edit image 1: the same house, garden, street and camera. Add a low wooden fence along the street front of the property, with a sliding driveway gate standing fully open.
+
+CHANGE (add only this):
+- A low fence about 1.2 metres high runs along the front edge of the garden, just behind the pale kerb, from the left side of the plot to the right edge of the frame, on both sides of the driveway. Horizontal slats of warm cedar-toned wood with narrow gaps between them, matching the cedar cladding beside the front door, held by slim square anthracite posts. The grasses, lavender and boxwood show through the gaps and above the top rail.
+- At the driveway entrance, two anthracite gate posts stand on either side; the opening between them is completely clear, so the paved driveway runs uninterrupted from the street to the front door.
+- The sliding gate panel, the same horizontal cedar slats in a slim anthracite frame, is slid fully open and parked behind the fence section to the left of the driveway, parallel to it and overlapping it.
+- The low sun from behind the house on the right throws the long striped shadows of the slats toward the camera across the pavement and the street.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house: white plaster, graphite roof and chimney, cedar cladding, anthracite door with the frosted glass strip, windows, concrete steps, potted plant
+- The paved driveway, its shape and position, the front garden, the lawn, the young trees, the birch trees, the neighbouring houses and the neighbour's dark fence on the left
+- The empty asphalt street and kerb
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the low cedar fence along the street with the open sliding gate. 100% identical otherwise. No cars, no people.
+```
+
+**Na co patrzeć:** płot niski (nie zasłania okien ani drzwi), poziome deski w kolorze cedru, antracytowe słupki, prześwit na podjeździe całkiem pusty, brama odsunięta za płot po lewej, ulica pusta. Zapisz jako `referencje/u20-dom-plot.jpg`. To będzie nowa referencja domu z zewnątrz.
