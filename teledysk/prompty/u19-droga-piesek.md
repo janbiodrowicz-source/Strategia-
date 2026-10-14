@@ -106,3 +106,58 @@ ONLY CHANGE: the puppy with its head out of the rear window and the woman sittin
 ```
 
 **Na co patrzeć:** głowa Ani w środku auta, w ramce okna, przednia szyba do połowy, profil w prawo kadru, ręce na kolanach. Piesek w tylnym oknie jak w wyniku B. Zapisz jako `referencje/u19-start.jpg`.
+
+**Wynik B2 (14.10): ✅ (autor zostawia).** Ania dalej trochę przy oknie, ale bardziej w środku, patrzy przed siebie. Piesek świetny. Zapisz jako `referencje/u19-start.jpg`.
+
+## Krok D: wideo (Omni 1.1 Flash, od klatki startowej)
+
+**Decyzja autora (14.10):** auto po prostu jedzie, piesek z łbem za oknem, Ania tylko siedzi i patrzy przed siebie. Ruch tylko w tle i daleko: auto z naprzeciwka, rowerzysta, spacerowicze. Pudła w bagażniku maskujemy odbiciami drzew w szybie.
+Flow · Omni 1.1 Flash · 16:9 · 8 s · 720p · x3. 1 = `u19-start.jpg` (klatka startowa), 2 = `ania-paski-kardigan.jpg` (@ANIA), 3 = `piesek.png` (@PIESEK), 4 = `auto.png` (@AUTO). Cięcie 7,5 s, oś 1:33,75–1:41,25.
+
+```text
+SCENE CONTEXT
+A sunny autumn late morning on a tree-lined avenue, continuing directly from the starting image. The small yellow hatchback with a rolled mattress on its roof drives toward the new house. The puppy rides with its head out of the rear window, loving the wind; the young woman sits in the front passenger seat and quietly enjoys the ride. A calm, happy travelling moment. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips, black louvred panel behind the rear side window, silver five-spoke wheels, black roof rack. 100% matches the reference.
+
+LOCATION MAP
+Exactly the avenue from the starting image: old linden trees with yellow and amber autumn leaves on both sides, a grey asphalt road, a kerb and a strip of fallen leaves on the right, a pale building far away at the end of the avenue. @AUTO fills the left half of the frame, driving away from the camera toward the end of the avenue. A rolled mattress in clear plastic is strapped to the roof rack with two orange straps.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @PIESEK has its head and both front paws out of the open rear window, nearest the camera, mouth open, tongue out. @ANIA sits in the front passenger seat beyond it, her left forearm on the window sill, face in profile toward screen-right, looking ahead down the road with a calm smile.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. The car, the puppy and the woman stay sharp; the road and the roadside streak with motion blur.
+
+CAMERA
+Car-mounted camera rigged on the right rear corner of @AUTO, travelling with the car at a steady speed and holding the exact framing of the starting image for the whole shot. Only a light, natural road vibration. The camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:08.0: The car drives steadily down the avenue the whole time. Tree trunks and fallen leaves stream past on the right; dappled sunlight slides continuously across the yellow paint, the puppy and the woman. Leaves swirl up behind the car.
+@PIESEK: the wind blows its ears and fur back the whole time; it pants happily with its tongue out, squints into the wind and once lifts its nose higher into the breeze, around 0:03.5. Its paws stay on the window sill.
+@ANIA: she stays seated and keeps looking ahead down the road the whole time, a calm, content smile; a few strands of hair move in the breeze. Natural blinks. She does not turn and does not lean out.
+Background, small and far away, never close to the car: around 0:02.0 a small dark car approaches on the opposite side of the road in the far distance; a cyclist rides along the path on the right far ahead; two people stroll under the trees in the distance.
+
+PERFORMANCE
+@PIESEK is pure joy in the wind. @ANIA is quietly happy, a little dreamy, thinking of the new home ahead. Lips stay closed; nobody speaks. Nobody looks into the camera.
+
+PHYSICS
+Steady forward motion: the car body stays stable, the wheels turn, the mattress stays strapped on the roof and its plastic ripples slightly in the wind. The puppy's ears and fur flutter in the airflow. The rear quarter glass reflects the passing trees and sky, so the cargo behind the back seat reads only as soft reflections.
+
+LIGHTING
+Bright late-morning autumn sun from the front left, filtered through the trees: soft dappled light and shadow moving smoothly over the car and the passengers, warm golden leaves, clear blue sky between the crowns. No flat front light.
+
+AUDIO
+Engine hum, wind rushing past the open windows, tyres on asphalt, rustling leaves, the puppy's happy panting. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one woman, one puppy and one yellow car in the foreground; background people and vehicles stay small and distant. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** kamera trzyma kadr, tło płynie, piesek nie wyskakuje, Ania się nie odwraca ani nie wychyla, auta i ludzie w tle są mali i daleko, pudeł nie widać (odbicia), materac na dachu.

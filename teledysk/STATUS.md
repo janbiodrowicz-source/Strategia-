@@ -49,7 +49,7 @@ Ostatnia aktualizacja: 14.10.2026
 ## W toku ▶️ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
 - **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone. Kamera wyszła z tyłu, więc Tomka nie widać (zmiana autora).
-- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Prompt B (Ania + piesek) gotowy. Czekamy na wynik.
+- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Klatka startowa `u19-start.jpg` ✅ (po B, C i B2: Ania uparcie przy oknie, autor akceptuje). Prompt wideo D gotowy (auto jedzie, ruch tylko w tle). Czekamy na wynik.
 
 ## Zrobione ▶️ u18 (auto pod kamienicą)
 Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
