@@ -231,16 +231,18 @@ ONLY CHANGE: the open navy jacket over the white t-shirt. 100% identical otherwi
 
 **Na co patrzeć:** kurtka rozpięta, biała koszulka widoczna (bez kremowego swetra), niebieskie jeansy (nie grafitowe chinosy), brązowy sztruksowy kołnierz, ta sama twarz z zamkniętymi ustami. Zapisz jako `referencje/tomek-koszulka-kurtka.jpg`.
 
+**Wynik planszki Tomka (14.10): ✅** x3. Wybrany wariant 1: cienkie podziałki jak na `tomek-koszulka.jpg`, usta zamknięte. W wariantach 2 i 3 grube białe pasy między panelami, a w 3 uśmiech z zębami. Kurtka rozpięta, biała koszulka, niebieskie jeansy, sztruksowy kołnierz we wszystkich. Zapisz jako `referencje/tomek-koszulka-kurtka.jpg`.
+
 ## Krok B: Tomek przy klapie (NBP, edycja)
 
 Tomek stoi przy lewym tylnym rogu auta, z lewej strony otworu bagażnika, żeby nie zasłaniał kartonów z napisami. Prawą ręką trzyma dolną krawędź podniesionej klapy. Klatka startowa = stan przed akcją: patrzy na kartony, za chwilę dociśnie klapę. Brama jest dalej po lewej, więc w wideo odwróci głowę w lewo, do Ani.
-Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/tomek-koszulka.jpg`.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/tomek-koszulka-kurtka.jpg`.
 
 ```text
 Edit image 1: the same street, car and camera. Add the man from image 2 at the back of the car, about to close the boot.
 
 CHANGE (add only this, nothing else moves):
-- The man from image 2 stands on the cobblestones at the rear left corner of the yellow hatchback, just to the left of the open boot, his body in three-quarter view turned toward the car. His right arm is raised and his right hand grips the lower edge of the lifted rear hatch, ready to pull it down; his left hand rests on the roof edge of the car. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same plain white short-sleeve t-shirt, blue jeans and brown suede sneakers as in image 2.
+- The man from image 2 stands on the cobblestones at the rear left corner of the yellow hatchback, just to the left of the open boot, his body in three-quarter view turned toward the car. His right arm is raised and his right hand grips the lower edge of the lifted rear hatch, ready to pull it down; his left hand rests on the roof edge of the car. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same open dark navy trucker jacket with the brown corduroy collar over the plain white t-shirt, blue jeans and brown suede sneakers as in image 2.
 - He stands beside the boot opening, so both boxes labelled "KUCHNIA" and "KSIĄŻKI" stay fully visible and readable.
 
 PRESERVE EXACTLY:
