@@ -1,57 +1,58 @@
 # Status prac: teledysk „Zostań tu”
 
-Ostatnia aktualizacja: 13.10.2026
+Ostatnia aktualizacja: 14.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
-- Najnowsza praca jest na gałęzi **`ccr-baa341b7-hv20hr`** (kontynuacja `ccr-2f0602d0-vubnss`) (na `main` jej nie ma!).
-- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady i podział pracy), `postacie.md`, `lokacje.md`, `scenariusz-zostan-tu.md` (tekst piosenki, czasy, **nowy układ refrenu 1**), `lekcje-hell-grind.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u13-skarpetka.md`, `u14-laptop-dom.md`, `u15-karton-kuchnia.md` (sprawdzony sposób pracy krok po kroku).
-- Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
-- **Przycinanie robi Claude:** autor wrzuca klip, Claude wybiera fragment, usuwa dźwięk, zapisuje do `teledysk/wyniki/` (poza gitem) i wysyła plik. Gdy trzeba wyciąć początek, a brakuje długości: lekkie zwolnienie (ok. 80%) z `minterpolate` wygląda naturalnie (u15).
-- **Umowa z autorem:** prompty wideo ściśle według `cinedance`, obrazy według `lira-image-prompts`. Przed odejściem od szablonu/scenariusza pytamy, a o niezgodnościach mówimy wprost.
+- Najnowsza praca jest na gałęzi **`ccr-baa341b7-hv20hr`** (kontynuacja `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
+- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u15-karton-kuchnia.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`.
+- Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Pierwsze zdjęcie = klatka startowa, maks. 10 zdjęć. Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
+- **Przycinanie robi Claude:** wybór fragmentu, bez dźwięku, zapis do `teledysk/wyniki/` (poza gitem), wysyłka pliku. Gdy trzeba wyciąć początek, a brakuje długości: zwolnienie do ok. 80–85% z `minterpolate` wygląda naturalnie (u15, u16).
+- **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
-## Sprawdzony sposób na ujęcie (u13–u15) ✅
-1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (przycięta do 16:9).
-2. **NBP etapami, jedna zmiana na przejście:** najpierw pokój (usuń/dodaj obiekty, światło), potem postacie. Każde przejście x3, autor wybiera.
-3. **Nowe stroje = edycja planszki** (`tomek.png`, `ania-park.jpg` itd.) w NBP 3:2, potem planszka idzie jako referencja.
-4. **Wideo w Omni od klatki startowej**, pełny prompt `cinedance` (ACTION TIMING w sekundach, najazd kamery, „nobody speaks”).
-5. Lekcje: nie opisujemy lampy „at the top edge of the frame”, bo NBP ją wtedy wyciąga do kadru; klatka startowa = stan **przed** akcją (nie puenta); animacja drzwi to słaby punkt, więc drzwi ustawiamy na klatce startowej prawie w stanie końcowym.
+## Sprawdzony sposób na ujęcie ✅
+1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (16:9).
+2. **NBP etapami:** najpierw miejsce (usuń/dodaj obiekty, światło), potem postacie po kolei. Każde przejście x3, autor wybiera.
+3. **Nowe stroje = edycja planszki** w NBP 3:2 (druga planszka jako referencja ubrania, „nothing else from image 2”).
+4. **Wideo w Omni od klatki startowej**, pełny prompt `cinedance`.
+5. **Lekcje:**
+   - klatka startowa = stan **przed** akcją; drzwi/klapy ustawiamy blisko stanu końcowego,
+   - nie opisujemy lampy „at the top edge of the frame” (NBP wyciąga ją do kadru),
+   - **NBP nie przenosi postaci** w inne miejsce kadru; lepiej usunąć i dodać od nowa (u18),
+   - przy wyborze wariantu sprawdzamy osobno każdy ruchomy element (drzwi, skrzydła, klapy),
+   - **Omni źle znosi obroty postaci i chodzenie „do drzwi kierowcy”**: im więcej opisu obrotu, tym gorzej. Kierunki piszemy w kategoriach kadru (screen-left, away from the camera), a najlepiej ustawiamy postać na klatce startowej tak, żeby nie musiała się obracać,
+   - postać zwrócona do kamery ma lewo i prawo jak w lustrze, więc „przez lewe ramię” myli model,
+   - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
-- Akt 1 (u01–u12) kompletny i zmontowany w CapCucie (oś do 1:15,0).
-- **u13 skarpetka** ✅ 1:15,0–1:18,75 (wieczór, lampa sufitowa; Ania `ania-golf.jpg`, Tomek `tomek-sweter.jpg`). W CapCucie.
-- **u14 laptop i dom** ✅ 1:18,75–1:22,5 (noc, stolik przy oknie z firankami, na ekranie `dom.png`). W CapCucie.
-- **u15 karton „KUCHNIA”** ✅ 1:22,5–1:26,25 (poranek dnia przeprowadzki, kuchnia z u03 bez krzeseł; Tomek `tomek-koszulka.jpg`: biała koszulka + jeansy). Plik `u15_karton_3.75s.mp4` wysłany autorowi.
-- Nowe planszki: `ania-golf.jpg` (musztardowy golf), `tomek-sweter.jpg` (kremowy sweter), `tomek-koszulka.jpg` (biała koszulka, jeansy).
-- Wers „niech ten dom będzie nasz” zaczyna się ok. **1:23,7** (pomiar autora w CapCucie), czyli na u15.
+- Akt 1 (u01–u12) zmontowany w CapCucie (oś do 1:15,0).
+- **u13 skarpetka** ✅ 1:15,0–1:18,75. **u14 laptop i dom** ✅ 1:18,75–1:22,5. **u15 karton „KUCHNIA”** ✅ 1:22,5–1:26,25.
+- **u16 pożegnanie z kawalerką** ✅ 1:26,25–1:30. Plik `u16_pozegnanie_3.75s.mp4` (cięcie od 0,83 s, zwolnione do 3,75 s). Pokój po spakowaniu: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary zniknęły.
+- Nowe planszki: `ania-paski.jpg` (bluzka bretońska), `ania-paski-kardigan.jpg` (+ zielony kardigan), `tomek-koszulka-kurtka.jpg` (+ granatowa kurtka trucker), `auto.png` (żółty hatchback z lat 80., tablica „WA 12345”), `materac-wzor.jpg` i `materac-wzor-lustro.jpg`.
 
-## Nowy układ refrenu 1 i dalej (decyzje autora 13.10) 📋
-- **Usunięte:** u16 „kanapa na schodach” (za trudne technicznie) i u17 „jedzenie wśród kartonów w kawalerce”.
-- **Pora dnia:** u15 = **początek dnia przeprowadzki**, dalej dzień ciągniemy chronologicznie aż do zachodu (u24).
+## Decyzje autora (13–14.10) 📋
+- Usunięte: stare u16 „kanapa na schodach” i u17 „jedzenie wśród kartonów” (numeracji nie zmieniamy, na osi nie ma dziury).
+- Dzień przeprowadzki ciągnie się chronologicznie od u15 (poranek) do zachodu (u24).
+- **Żółte auto zamiast busa** (u18–u20). Pies jedzie z tyłu po prawej, Ania na fotelu pasażera (u19).
+- **Dom bez mebli, materac zostaje:** podwójny materac zwinięty w rulon w folii jedzie na dachu auta, śpią na nim w u33. Kanapa została w kawalerce.
+- **Stroje na zewnątrz (u18–u22):** Ania w zielonym kardiganie na paski, jasne jeansy; Tomek w granatowej kurtce na białą koszulkę. W domu (u23–u24) mogą je zdjąć.
 
 | # | Oś | Ujęcie | Długość |
 |---|---|---|---|
-| 16 **nowe** | 1:26,25–1:30 | **Pożegnanie z kawalerką:** pusty pokój z u13 w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi | 3,75 s |
-| 18 | 1:30–1:33,75 | Pod kamienicą: **żółty hatchback** (`auto.png`, zamiast busa), w bagażniku kilka kartonów, Tomek zatrzaskuje klapę na beat | 3,75 s |
-| 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem, uszy na wietrze, Ania się śmieje | **7,5 s** |
-| 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd → „Hej!” | 3,75 s |
-| 21–23 | 1:45–2:07,5 | bez zmian: klucz (złota godzina), ogród, salon w słońcu | |
-| 24 | 2:07,5–2:15 | **Zachód: jedzą pizzę z pudełka, siedząc na kartonach w pustym salonie, piesek je obok ze swojej miski** (pierwszy posiłek w nowym domu; tu przeszła miska z dawnego u17) | 7,5 s |
-
-## Następny krok ▶️ u16 (pożegnanie z kawalerką)
-**Krok A ✅ `ania-paski.jpg`, krok B ✅ `u16-pokoj-pusty.jpg` (opcjonalna poprawka B2: liście, prostokąty). Krok C ✅ `u16-start.jpg`, wideo ✅ `u16_pozegnanie_3.75s.mp4` (1:26,25–1:30). u16 GOTOWE.**
+| 16 ✅ | 1:26,25–1:30 | Pożegnanie z kawalerką | 3,75 s |
+| 18 ⏳ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, patrzy na Anię z psem w bramie | 3,75 s |
+| 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
+| 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd | 3,75 s |
+| 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
+| 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
 ## W toku ▶️ u18 (auto pod kamienicą)
-Bus odrzucony (wariant 2 miał podwójne lewe skrzydło, a autor woli mniejsze auto). Nowy rekwizyt: żółty hatchback z bagażnikiem dachowym `referencje/auto.png`. Krok A3 ✅ (auto na ulicy z wariantu 1, materac na dachu). Krok A4 ✅ (dwa kartony „KUCHNIA”, „KSIĄŻKI”, materac w folii). Krok A5: materac w rulonie, ale jak cukierek, a kartony wylądowały w bagażniku. Krok A6: materac jak na `materac-wzor.jpg` (podwójny, 140 cm), w bagażniku tylko „KUCHNIA” i „KSIĄŻKI”, jeden karton na tylnym siedzeniu po lewej. A6 ✅ poza końcami materaca (cukierek). A7 ✅ (wariant 3, `u18-ulica-auto.jpg`). Krok B ✅ `u18-tomek.jpg`. Krok C ✅ `u18-start.jpg`. Krok D: najlepszy klip ma Tomka po stronie pasażera i wolną klapę. D2: tablica OK, ale Tomek kręci się jak bączek. D3: znów strona pasażera. D4: znów pasażer. D5: dobra strona, ale patrzy w kamerę. D7: znowu bączek. C2 ❌ (NBP nie przeniósł Tomka). Krok B2: Tomek dodany od nowa przy prawym rogu na pustej ulicy, potem C (Ania z psem), potem D8 bez chodzenia.
-- **Stroje na zewnątrz (decyzja 14.10, u18–u22):** Ania: zielony kardigan z parku rozpięty na paski, jasne jeansy (`ania-paski-kardigan.jpg` ✅). Tomek: granatowa kurtka trucker rozpięta na białą koszulkę, bez swetra (`tomek-koszulka-kurtka.jpg` ✅).
-- **Nowy układ u18 (14.10):** Ania z psem w bramie, Tomek zatrzaskuje klapę (ok. 0,9 s), kiwa do nich głową, wszyscy robią pół kroku do auta. Pies jedzie z tyłu po prawej od u19.
-- **Decyzja autora (14.10): dom bez mebli, materac zostaje** (przyjeżdża na dachu auta, śpią na nim w u33). Do decyzji autora: czy w tle z bramy wychodzą Ania z pieskiem. Krok B (`u16-pokoj-pusty.jpg`) gotowy w `prompty/u16-pozegnanie-kawalerka.md`** według listy autora: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary znikają.
-Propozycja zaakceptowana co do idei, szczegóły do potwierdzenia przez autora:
-1. **Planszka Ani na dzień przeprowadzki:** propozycja Claude, czyli bluzka w biało-granatowe paski (bretońska), jasne jeansy, białe trampki, złoty kolczyk (edycja `ania.png` w NBP 3:2). Do potwierdzenia.
-2. **Pokój po spakowaniu (decyzja 13.10):** kawalerka wynajmowana z meblami. Zostają kanapa, pusty regał, szafa, lampa i dywan. Znikają TV, książki, monstera, futerał, poduszka, kwiatek i obrazki (zostają po nich jaśniejsze prostokąty).
-3. **Ania + piesek w drzwiach:** jedno skrzydło już zamknięte, Ania trzyma klamkę drugiego, uchylonego (zabezpieczenie: animacja drzwi to słaby punkt modelu).
-4. **Wideo 4 s:** rozgląda się, wzruszony uśmiech, piesek wybiega, Ania domyka skrzydło. Cięcie 3,75 s.
+Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
+- Gotowe obrazy: `u18-ulica-auto.jpg` (ulica, auto z podniesioną klapą, kartony „KUCHNIA” i „KSIĄŻKI”, materac w rulonie, bez ludzi), `u18-start.jpg` (Tomek przy lewym rogu + Ania z psem w bramie).
+- Wideo D–D7: tablica wychodzi (z `auto.png`), ale Tomek przy obrocie do Ani kręci się jak bączek albo idzie od strony pasażera. Najlepszy kierunek marszu był w D2 i D5.
+- **Decyzja autora (14.10), następny krok (w nowym wątku):**
+  1. Usunąć Tomka z `u18-start.jpg` (Ania i piesek zostają w bramie).
+  2. Wkleić Tomka w nowej pozie: od razu twarzą do Ani (np. z prawej strony bagażnika, profil w lewo kadru, ręce na klapie), żeby w wideo nie musiał się obracać.
+  3. Wideo D8 bez obrotów i bez chodzenia: trzask klapy na beat (ok. 0,9 s), Tomek podnosi wzrok znad klapy na Anię i kiwa głową, Ania się uśmiecha, piesek wstaje. Referencje: klatka startowa, `tomek-koszulka-kurtka.jpg`, `ania-paski-kardigan.jpg`, `piesek.png`, `auto.png`.
 
 ## Do decyzji 🧐
-- ~~Ujęcie 33: rozłożona kanapa~~ rozstrzygnięte 13.10: kanapa zostaje w kawalerce, w u33 śpią na materacu.
-- Strój Ani na u18–u24 (ten sam dzień co u16) = ten z planszki do u16.
 - Telewizor na regale w u14 zmienił kolor (autor akceptuje).

@@ -738,3 +738,5 @@ ONLY CHANGE: add the man on the right side of the open boot, facing left, hands 
 ```
 
 **Na co patrzeć:** Tomek z prawej strony bagażnika (przy prawej lampie), profil w lewo kadru, obie ręce na klapie, po lewej stronie bagażnika pusto, napisy widoczne. Zapisz jako `referencje/u18-tomek-v2.jpg`, potem krok C z obrazem 1 = `u18-tomek-v2.jpg`.
+
+**Decyzja autora (14.10):** idziemy na skróty. Z `u18-start.jpg` usuwamy Tomka (Ania i piesek zostają), a potem wklejamy go w nowej pozie, od razu twarzą do Ani. Robimy to w nowym wątku (plan w STATUS).
