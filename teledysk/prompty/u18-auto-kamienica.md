@@ -164,7 +164,7 @@ ONLY CHANGE: the mattress wrapped like in image 2 and sized to the roof, two lab
 ## Krok A7: tylko końce materaca (NBP, edycja)
 
 Opisujemy koniec rulonu kształtem znanym modelowi (jak przekrój pnia albo zwiniętego dywanu), żeby nie skręcał folii.
-Flow · NBP · 16:9 · 2k · x3. 1 = wynik A6 (w 2k), 2 = `referencje/materac-wzor.jpg`.
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik A6 (w 2k), 2 = `referencje/materac-wzor-lustro.jpg` (zbliżenie materaca ze wzoru, odbite lustrzanie, żeby koniec ze spiralą był po lewej, jak w naszym kadrze).
 
 ```text
 Edit image 1: the same image, only the ends of the rolled mattress on the roof change. Use image 2 only as the reference for how the wrapped mattress looks, nothing else from it.
