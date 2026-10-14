@@ -66,3 +66,34 @@ ONLY CHANGE: the low cedar fence along the street with the open sliding gate. 10
 ```
 
 **Na co patrzeć:** płot niski (nie zasłania okien ani drzwi), poziome deski w kolorze cedru, antracytowe słupki, prześwit na podjeździe całkiem pusty, brama odsunięta za płot po lewej, ulica pusta. Zapisz jako `referencje/u20-dom-plot.jpg`. To będzie nowa referencja domu z zewnątrz.
+
+**Wynik A2 (14.10):** płot wyszedł dobrze (deski cedrowe na antracytowych słupkach, prążkowane cienie na ulicy), ale brama jest odsunięta w lewo. Zapisz jako `referencje/u20-dom-plot-v1.jpg` (wzór stylu płotu).
+**Decyzja autora (14.10):** brama odsuwa się w prawo (jak na zdjęciach przykładowych), dochodzą: pomarańczowa lampka ostrzegawcza, ogon bramy samonośnej z „trójkątem” i furtka po lewej. Wszystko w stylu naszego płotu. Robimy od nowa na `u20-dom-16x9.jpg`, bo NBP nie przenosi obiektów (lekcja z u18).
+
+## Krok A3: płot, furtka, brama odsunięta w prawo (NBP, edycja od bazy bez płotu)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-16x9.jpg`, 2 = `referencje/u20-dom-plot-v1.jpg` (styl płotu), 3 = zdjęcie autora z ogonem bramy i trójkątem (opcjonalnie, tylko kształt ramy; poza repo).
+
+```text
+Edit image 1: the same house, garden, street and camera. Add a low front fence along the street with a small pedestrian gate on the left of the driveway and a sliding driveway gate standing fully open to the right. The fence, the pedestrian gate and the sliding gate all use exactly the style of the fence in image 2.
+
+CHANGE (add only this):
+- FENCE: about 1.2 metres high, along the front edge of the garden just behind the pale kerb, across the whole width of the plot. Horizontal warm cedar-toned slats with narrow gaps, slim square anthracite posts, exactly as in image 2. The grasses, lavender and boxwood show through the gaps and above the top rail.
+- PEDESTRIAN GATE, left of the driveway: a narrow closed gate about one metre wide between two anthracite posts, the same cedar slats in a slim anthracite frame, a small black handle. A small anthracite letterbox on its left post.
+- DRIVEWAY OPENING: two anthracite gate posts on either side of the driveway; the opening between them is completely clear, the paved driveway runs uninterrupted from the street to the front door.
+- On top of the right gate post, a small round orange warning lamp, switched off.
+- SLIDING GATE, open to the right: the gate panel, the same cedar slats in a slim anthracite frame, is slid fully open and parked on the garden side of the fence to the right of the driveway, parallel to the fence and overlapping it. Its bare anthracite steel tail frame with one diagonal brace, forming a triangle as in image 3, continues further right behind the fence, partly visible through the gaps between the slats.
+- The low sun from behind the house on the right throws the long striped shadows of the slats toward the camera across the pavement and the street.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house: white plaster, graphite roof and chimney, cedar cladding, anthracite door with the frosted glass strip, windows, concrete steps, potted plant
+- The paved driveway, its shape and position, the front garden, the lawn, the young trees, the birch trees, the neighbouring houses and the neighbour's dark fence on the left
+- The empty asphalt street and kerb
+- The warm low sunset light from the right, colour grade, contrast, grain
+- Nothing else from images 2 and 3: only the fence style from image 2 and the triangular tail frame from image 3
+
+ONLY CHANGE: the cedar fence with the closed pedestrian gate on the left and the open sliding gate parked to the right. 100% identical otherwise. No cars, no people.
+```
+
+**Na co patrzeć:** prześwit podjazdu całkiem pusty, brama po **prawej** stronie (za płotem, nie w poprzek podjazdu), furtka po lewej zamknięta, lampka na prawym słupku zgaszona, trójkąt za płotem z prawej (jeśli wyjdzie dziwnie albo w poprzek podjazdu, odpuszczamy go). Zapisz jako `referencje/u20-dom-plot.jpg`.
