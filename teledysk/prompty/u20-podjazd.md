@@ -122,3 +122,33 @@ ONLY CHANGE: the triangular tail frame moves behind the fence, to the garden sid
 ```
 
 **Na co patrzeć:** od strony ulicy na prawym końcu same deski, bez ukośnej ramy na wierzchu, a trójkąt tylko przebija się przez szpary. **Plan awaryjny:** jeśli NBP się uprze (pamiętamy, że nie lubi przesuwać rzeczy), usuwamy trójkąt całkiem, czyli zostaje sama pierwsza linijka CHANGE. Zapisz jako `referencje/u20-dom-plot.jpg`.
+
+**Wynik A4 (14.10): ✅** Trójkąt jest za płotem i prześwituje przez szpary. Furtka ze skrzynką, pusty wjazd, lampka na prawym słupku, prążkowane cienie na ulicy. Zapisany w repo jako `referencje/u20-dom-plot.jpg` (2752×1536, 16:9). To stała referencja domu z zewnątrz.
+
+## Krok B: żółte auto na początku podjazdu + piesek w oknie (NBP, edycja)
+
+Auto właśnie minęło bramę i stoi tyłem do kamery, na środku podjazdu, przodem prosto do drzwi. W wideo przejedzie kilka metrów do domu i stanie. Słońce zza domu, więc tył auta jest w ciepłym cieniu, z jasną obwódką na dachu i materacu.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/auto.png`, 3 = `referencje/piesek.png`.
+
+```text
+Edit image 1: the same house, fence, gates, garden, street and camera. Add the yellow hatchback from image 2 on the driveway, just inside the open gate, seen from behind, and the puppy from image 3 with its head out of its rear window.
+
+CHANGE (add only these):
+- The car from image 2 stands on the paved driveway just past the two gate posts, in the middle of the driveway, its rear toward the camera and its nose pointing straight at the front door. It is seen squarely from behind, slightly from above: the rear hatch with the large rear window, the black rear bumper, both red tail lights switched off, the rear license plate reading exactly "WA 12345" in black letters on a white plate.
+- On its black roof rack, a rolled double mattress wrapped in clear plastic, held by two orange straps.
+- Through the rear window, the tops of a few brown cardboard moving boxes in the boot, and beyond them two dark head silhouettes in the front seats.
+- The puppy from image 3 has its head and front paws out of the open rear window on the right side of the car, looking ahead toward the house, ears up, mouth open in a happy pant. Black fabric collar.
+- The low sun behind the house on the right puts the back of the car in soft warm shade, with a golden rim of light along the roof, the mattress and the puppy's fur; the car casts a long shadow toward the camera across the driveway.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house, its door, windows and steps; the whole fence with the pedestrian gate and letterbox, the gate posts, the orange lamp, the open sliding gate parked to the right with its tail behind the fence
+- The driveway, the front garden, the lawn, the trees, the neighbouring houses
+- The empty asphalt street, the kerb and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+- The car 100% matches image 2, the puppy 100% matches image 3
+
+ONLY CHANGE: the yellow hatchback on the driveway, seen from behind, with the puppy at the rear window. 100% identical otherwise. Exactly one car and one puppy; nobody outside the car.
+```
+
+**Na co patrzeć:** auto tyłem do kamery, prosto na osi podjazdu, za słupkami bramy (nie w bramie i nie na ulicy), tablica „WA 12345”, materac na dachu, piesek w prawym tylnym oknie, światła stopu zgaszone (zapalą się w wideo), dom i drzwi dalej widoczne nad dachem auta albo obok niego. Zapisz jako `referencje/u20-start.jpg`.
