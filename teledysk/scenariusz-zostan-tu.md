@@ -86,7 +86,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 16 | 1:26,25–1:30 | 🆕 | **ZMIANA 13.10:** pożegnanie z kawalerką. Pusty pokój w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi. (Dawne „kanapa na schodach” usunięte: za trudne technicznie) | 47° |
 | 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: **żółty hatchback zamiast busa (zmiana 13.10)**, w bagażniku kilka kartonów (kanapa zostaje w kawalerce, bo to mebel właściciela), Tomek zatrzaskuje klapę bagażnika na beat, kiwa głową do Ani z psem stojących w bramie i wszyscy robią pół kroku do auta (14.10) | 47° |
 | 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Żółte auto wyjeżdża z miasta. Pies (z tyłu po prawej) wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania (fotel pasażera, ta sama strona) śmieje się obok. **14.10:** aleja drzew, przed południem, kamera na prawym przednim błotniku patrzy do tyłu wzdłuż boku auta | 47°, kamera na samochodzie |
-| 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Żółte auto skręca na podjazd | 84° |
+| 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Żółte auto skręca na podjazd. **14.10:** bez skrętu w kadrze. Kamera na chodniku na wprost domu (jak `dom.png`), auto stoi już na początku podjazdu, jedzie prosto do domu i staje przed drzwiami na beat. Późne popołudnie, piesek w tylnym oknie | 84° → kadr z `dom.png` |
 
 ### Refren 2 (1:45–2:07,5)
 

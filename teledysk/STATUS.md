@@ -47,6 +47,9 @@ Ostatnia aktualizacja: 14.10.2026
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
+## W toku ▶️ u20 (podjazd)
+Plan i prompty: `prompty/u20-podjazd.md`. Decyzja autora (14.10): bez skrętu, auto wjeżdża prosto na podjazd i staje przed domem, kamera na wprost domu jak na `dom.png`, późne popołudnie. Kroki: A (dom 16:9), B (auto + piesek), C (wideo 4 s).
+
 ## Zrobione ✅ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
 - **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone. Kamera wyszła z tyłu, więc Tomka nie widać (zmiana autora).
