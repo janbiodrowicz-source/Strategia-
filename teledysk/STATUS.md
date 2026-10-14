@@ -48,7 +48,7 @@ Ostatnia aktualizacja: 14.10.2026
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
 ## W toku ▶️ u20 (podjazd)
-Plan i prompty: `prompty/u20-podjazd.md`. Decyzja autora (14.10): bez skrętu, auto wjeżdża prosto na podjazd i staje przed domem, kamera na wprost domu jak na `dom.png`, późne popołudnie. Kroki: A (dom 16:9), B (auto + piesek), C (wideo 4 s). A ✅. Decyzja autora: drewniany płot z bramą przesuwną, odsuniętą na stałe (zapisane w `lokacje.md`). A2: płot dobry, ale brama po lewej. Decyzja: brama w prawo, do tego furtka, lampka i trójkąt, wszystko w stylu płotu. A4 ✅, czyli dom z płotem gotowy: `referencje/u20-dom-plot.jpg` (stała referencja domu). B ❌, a autor rezygnuje z psa w oknie. Prompt B2 (samo auto) gotowy. Nowe referencje: `auto-materac.jpg`, `auto-tyl.png`.
+Plan i prompty: `prompty/u20-podjazd.md`. Decyzja autora (14.10): bez skrętu, auto wjeżdża prosto na podjazd i staje przed domem, kamera na wprost domu jak na `dom.png`, późne popołudnie. Kroki: A (dom 16:9), B (auto + piesek), C (wideo 4 s). A ✅. Decyzja autora: drewniany płot z bramą przesuwną, odsuniętą na stałe (zapisane w `lokacje.md`). A2: płot dobry, ale brama po lewej. Decyzja: brama w prawo, do tego furtka, lampka i trójkąt, wszystko w stylu płotu. A4 ✅, czyli dom z płotem gotowy: `referencje/u20-dom-plot.jpg` (stała referencja domu). B ❌, a autor rezygnuje z psa w oknie. B2 ✅ prawie (materac wygląda jak tarcza, nie widać Ani). Prompt B3 (poprawki punktowe) gotowy. Nowe referencje: `auto-materac.jpg`, `auto-tyl.png`.
 
 ## Zrobione ✅ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.

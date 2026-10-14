@@ -181,3 +181,33 @@ ONLY CHANGE: the yellow hatchback with the mattress, seen from behind on the dri
 ```
 
 **Na co patrzeć:** auto za słupkami bramy, prosto na osi podjazdu, tyłem do kamery, klapa zamknięta, tablica „WA 12345”, materac na dachu, w oknach nikogo, światła stopu zgaszone, dom i drzwi widoczne. Zapisz jako `referencje/u20-start.jpg`.
+
+**Wynik B2 (15.10): ✅ prawie.** Auto stoi dobrze: za słupkami, na osi podjazdu, klapa zamknięta, tablica „WA 12345”. Dwa błędy:
+1. Materac widziany od tyłu pokazuje spiralny koniec rulonu i wygląda jak tarcza strzelnicza 🎯.
+2. Nie widać sylwetki Ani, bo kartony zasłaniają przednie fotele.
+
+Zapisz jako `referencje/u20-start-v1.jpg`.
+**Rozwiązanie:** rulon zostaje wzdłuż auta (ciągłość z u18 i u19), ale jego koniec jest owinięty zgniecioną folią i zaklejony taśmą, więc spirali nie widać. Kartony są niższe od zagłówków, a Ania i Tomek mają czytelne sylwetki: ona ma charakterystyczne falowane włosy do ramion.
+
+## Krok B3: materac bez „tarczy” i sylwetka Ani (NBP, edycja punktowa)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-start-v1.jpg`, 2 = `referencje/ania-paski-kardigan.jpg`.
+
+```text
+Edit image 1: the same house, fence, car, driveway, street and camera. Fix only the end of the mattress roll and the people seen through the rear window.
+
+CHANGE (only these two things):
+- MATTRESS: the rolled mattress still lies lengthwise on the roof rack, but its end facing the camera is wrapped in clear plastic that is gathered, crumpled and taped shut, so it reads as a soft milky-white rounded bundle with creases and plastic highlights; no spiral and no rings are visible. It sits low on the rack, a little narrower than the roof, held by the two orange straps.
+- PEOPLE: through the rear window, the boxes in the boot sit low, below the headrests. Above them, two people in the front seats are clearly seen from behind as warm-backlit silhouettes: on the left, the driver, a man with short tousled dark hair; on the right, the passenger, the woman from image 2, recognisable by her wavy shoulder-length dark brown hair with caramel ends glowing in the sunlight.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The car: its position on the driveway, size, rear hatch, rear window shape, tail lights switched off, the rear license plate "WA 12345", the roof rack and the orange straps
+- The house, the door, the windows, the fence with the pedestrian gate and letterbox, the gate posts and the orange lamp, the open sliding gate
+- The driveway, the garden, the trees, the neighbouring houses, the empty street and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the mattress end is a crumpled plastic bundle, and both people show clearly through the rear window. 100% identical otherwise. No animals, nobody outside the car.
+```
+
+**Na co patrzeć:** koniec materaca to miękka, pomięta folia bez spirali; przez tylną szybę dwie głowy (z lewej Tomek, krótkie włosy; z prawej Ania, falowane włosy podświetlone słońcem); auto i tablica bez zmian. Zapisz jako `referencje/u20-start.jpg`.
