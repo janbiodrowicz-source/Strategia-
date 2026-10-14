@@ -165,3 +165,60 @@ Exactly one woman, one puppy and one yellow car in the foreground; background pe
 **Wynik D (14.10): ✅ 1 z kilku.** W kilku klipach auto jechało do tyłu, bo model nie wiedział, w którą stronę jest jazda. W dobrym klipie kamera „trzyma się” auta, aleja płynie, auto z naprzeciwka mija nas ok. 3–4 s po lewej stronie drogi, piesek łapie wiatr, Ania patrzy przed siebie.
 **Cięcie:** od 0,5 s do 8,0 s (7,5 s, bez dźwięku), plik `wyniki/u19_droga_7.5s.mp4`. Na osi 1:33,75–1:41,25.
 **Lekcja (kierunek jazdy):** przy ujęciach z jadącego auta zawsze piszemy kierunek w kategoriach kadru, np. „the car drives forward, away from the camera, toward the far end of the avenue; the road and the trees stream past toward the camera and out of frame behind it; the car never reverses”.
+
+**Analiza dobrego klipu (autor, 14.10):** auto z naprzeciwka nadjeżdża od 2 s, a ok. 4,0 s zamienia się w półprzezroczystą smugę przy oknie Ani i znika. Dalsze auta w głębi pojawiają się i znikają. Tego nie da się wyciąć, bo 7,5 s z 8 s zawsze obejmuje 4,0 s. W pozostałych klipach auto jedzie do tyłu.
+
+## Krok D2: zablokowany kierunek jazdy, pusty przeciwny pas (Omni 1.1 Flash)
+
+Zmiany względem D:
+1. Kierunek jazdy opisany w kategoriach kadru: dokąd jedzie auto, w którą stronę płyną drzewa, droga i liście, punkt zbiegu stoi w miejscu.
+2. Bez aut z naprzeciwka: przeciwny pas pusty. W tle zostaje rowerzysta jadący w tę samą stronę i dwoje spacerowiczów, widoczni przez całe ujęcie (nikt nie pojawia się ani nie znika).
+Ustawienia i 4 zdjęcia jak w D (8 s, x3).
+
+```text
+SCENE CONTEXT
+A sunny autumn late morning on a tree-lined avenue, continuing directly from the starting image. The small yellow hatchback with a rolled mattress on its roof drives toward the new house. The puppy rides with its head out of the rear window, loving the wind; the young woman sits in the front passenger seat and quietly enjoys the ride. A calm, happy travelling moment. Nobody speaks.
+
+ACTIVE REFERENCES
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips, black louvred panel behind the rear side window, silver five-spoke wheels, black roof rack. 100% matches the reference.
+
+LOCATION MAP
+Exactly the avenue from the starting image: old linden trees with yellow and amber autumn leaves on both sides, a grey asphalt road, a kerb and a strip of fallen leaves on the right, a pale building far away at the end of the avenue. @AUTO fills the left half of the frame. DIRECTION OF TRAVEL: the car drives forward, nose first, away from the camera, deeper into the avenue toward the pale building at its far end. The vanishing point stays fixed at the end of the avenue. A rolled mattress in clear plastic is strapped to the roof rack with two orange straps.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @PIESEK has its head and both front paws out of the open rear window, nearest the camera, mouth open, tongue out. @ANIA sits in the front passenger seat beyond it, her left forearm on the window sill, face in profile toward screen-right, looking ahead down the road with a calm smile.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. The car, the puppy and the woman stay sharp; the road and the roadside streak with motion blur.
+
+CAMERA
+Car-mounted camera rigged on the right rear corner of @AUTO, facing forward in the direction of travel, moving forward together with the car at a steady speed and holding the exact framing of the starting image for the whole shot. Only a light, natural road vibration. The camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:08.0: The car drives forward steadily down the avenue the whole time. Forward motion reads clearly: the tree trunks on the right come toward the camera, grow larger and slide out past the right edge of the frame; the road markings and fallen leaves stream toward the bottom of the frame; the building at the end of the avenue slowly grows a little larger. Dappled sunlight slides continuously across the yellow paint, the puppy and the woman. Leaves swirl up behind the car.
+@PIESEK: the wind blows its ears and fur back the whole time; it pants happily with its tongue out, squints into the wind and once lifts its nose higher into the breeze, around 0:03.5. Its paws stay on the window sill.
+@ANIA: she stays seated and keeps looking ahead down the road the whole time, a calm, content smile; a few strands of hair move in the breeze. Natural blinks. She does not turn and does not lean out.
+Background, small and far away: the road ahead is clear and the opposite lane stays empty for the whole shot. Far ahead, a cyclist rides along the path on the right in the same direction as the car, small and distant, visible the whole time. Two people stroll under the trees on the right in the distance, visible the whole time. Every background figure stays solid and continuous from the first frame to the last.
+
+PERFORMANCE
+@PIESEK is pure joy in the wind. @ANIA is quietly happy, a little dreamy, thinking of the new home ahead. Lips stay closed; nobody speaks. Nobody looks into the camera.
+
+PHYSICS
+Steady forward motion, nose first: the car body stays stable, the wheels turn, the mattress stays strapped on the roof and its plastic ripples slightly in the wind. The puppy's ears and fur flutter in the airflow. The rear quarter glass reflects the passing trees and sky, so the cargo behind the back seat reads only as soft reflections.
+
+LIGHTING
+Bright late-morning autumn sun from the front left, filtered through the trees: soft dappled light and shadow moving smoothly over the car and the passengers, warm golden leaves, clear blue sky between the crowns. No flat front light.
+
+AUDIO
+Engine hum, wind rushing past the open windows, tyres on asphalt, rustling leaves, the puppy's happy panting. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one woman, one puppy and one yellow car in the foreground; the only other road users are one distant cyclist and two distant pedestrians. The car keeps moving forward for the whole shot. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** drzewa po prawej rosną i wychodzą z kadru w prawo (= jazda do przodu), budynek w głębi powoli rośnie, przeciwny pas pusty, rowerzysta i spacerowicze nie znikają.
