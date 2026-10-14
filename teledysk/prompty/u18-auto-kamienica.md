@@ -682,3 +682,32 @@ The loud thunk of the hatch slamming, footsteps on stone, the puppy's paws, quie
 POSITIVE CONSTRAINTS
 Exactly two people, one puppy and one car. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
 ```
+
+**Wynik D7 (14.10):** znowu bączek. Wniosek: z tej pozy (Tomek twarzą lekko do kamery, Ania za jego plecami po drugiej stronie) model nie potrafi odwrócić go do Ani bez obrotu przez kamerę.
+**Decyzja autora (14.10):** przerabiamy klatkę startową. Tomek stoi od razu twarzą do Ani, zamyka klapę i tylko podnosi nad nią wzrok. Bez obrotu i bez chodzenia, więc problem strony kierowcy znika.
+
+## Krok C2: Tomek przy prawym tylnym rogu, twarzą do Ani (NBP, edycja)
+
+Tomek przechodzi na drugi róg auta (prawy tylny, od strony ulicy), staje twarzą w lewo kadru. Przed nim jest otwarty bagażnik, a dalej, na wprost, Ania w bramie. Kartony z napisami zostają widoczne.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-start.jpg`, 2 = `referencje/tomek-koszulka-kurtka.jpg`.
+
+```text
+Edit image 1: the same street, car, woman, puppy and camera. Move the man to the other rear corner of the car so that he faces the woman.
+
+CHANGE (only the man moves):
+- Remove the man from the rear left corner of the car: the pavement, the kerb and the cobblestones continue where he stood.
+- The man from image 2 now stands on the cobblestones at the rear right corner of the yellow hatchback, beside the right tail light, his body in profile facing screen-left toward the gateway and the woman. Both his hands hold the lower edge of the lifted rear hatch above the boot, ready to pull it down. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same open dark navy trucker jacket with the brown corduroy collar over the plain white t-shirt, blue jeans and brown suede sneakers as in image 2.
+- He stands beside the boot opening, so both boxes labelled "KUCHNIA" and "KSIĄŻKI" stay fully visible and readable.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The woman in the gateway and the puppy at her feet: their positions, poses, faces and clothes
+- The yellow hatchback with the lifted hatch, the rolled mattress on the roof with its straps, the boxes in the boot and on the rear seat
+- The tenement facade, the windows, the arched gateway, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight from the left, long shadows, colour grade, contrast, grain
+- The man 100% matches image 2
+
+ONLY CHANGE: the man moved to the rear right corner, facing the woman, both hands on the hatch. 100% identical otherwise. Exactly two people, one puppy, one car.
+```
+
+**Na co patrzeć:** dokładnie jeden Tomek (nie dwóch!), stoi z prawej strony bagażnika, twarzą w lewo kadru, obie ręce na klapie, napisy widoczne, Ania i piesek bez zmian. Zapisz jako `referencje/u18-start-v2.jpg`. Potem prompt wideo D8: trzask, wzrok w górę nad klapą na Anię, kiwnięcie, Ania się uśmiecha, piesek wstaje. Nikt nie chodzi.
