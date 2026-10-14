@@ -5,7 +5,7 @@
 - Bez skrętu w kadrze (obroty to słaby punkt Omni). Na klatce startowej auto stoi już na początku podjazdu, tyłem do kamery, a w wideo jedzie prosto w stronę domu i zatrzymuje się przed drzwiami, na beat, tuż przed refrenem.
 - Kamera na chodniku przy wjeździe, na wprost domu, czyli kadr jak na `dom.png`. Pierwszy raz widzimy z bliska dom ze zdjęcia w laptopie (u14).
 - Światło: późne popołudnie, ciepłe i niskie, jako pomost między u19 (przed południem) a u21 (złota godzina). `dom.png` już tak wygląda.
-- Piesek z łbem w tylnym oknie od pierwszej klatki (stan, bez akcji), tak jak w u19.
+- ~~Piesek z łbem w tylnym oknie~~ → zmiana autora (15.10): bez psa w oknie.
 
 **Plan:**
 - A = `dom.png` rozszerzony do 16:9 (oryginał ma 3:2, 1536×1024), z kawałkiem ulicy i sąsiednich domów po bokach (NBP).
@@ -152,3 +152,32 @@ ONLY CHANGE: the yellow hatchback on the driveway, seen from behind, with the pu
 ```
 
 **Na co patrzeć:** auto tyłem do kamery, prosto na osi podjazdu, za słupkami bramy (nie w bramie i nie na ulicy), tablica „WA 12345”, materac na dachu, piesek w prawym tylnym oknie, światła stopu zgaszone (zapalą się w wideo), dom i drzwi dalej widoczne nad dachem auta albo obok niego. Zapisz jako `referencje/u20-start.jpg`.
+
+**Wynik B (15.10): ❌** Autor rezygnuje z psa w oknie (wychodził dziwnie). Nowe referencje auta w repo: `referencje/auto-materac.jpg` (auto z materacem na dachu, klatka z u18) i `referencje/auto-tyl.png` (tył auta z zamkniętą klapą i tablicą „WA 12345”).
+
+## Krok B2: samo auto na podjeździe, bez psa (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/auto-materac.jpg`, 3 = `referencje/auto-tyl.png`.
+
+```text
+Edit image 1: the same house, fence, gates, garden, street and camera. Add the yellow hatchback on the driveway, just inside the open gate, seen squarely from behind.
+
+CHANGE (add only this):
+- The yellow 1980s hatchback stands on the paved driveway just past the two gate posts, in the middle of the driveway, its rear toward the camera and its nose pointing straight at the front door. It is seen from directly behind, slightly from above, at the right size for a small car a few metres beyond the gate: the house, the door and the steps stay visible above and beside it.
+- The rear of the car exactly as in image 3: the rear hatch closed, the large rear window, the black rear bumper, both red tail lights switched off, the rear license plate reading exactly "WA 12345" in black letters on a white plate.
+- On its black roof rack, the rolled double mattress in clear plastic with two orange straps, exactly as in image 2.
+- Through the rear window, the tops of a few brown cardboard moving boxes in the boot and two dark head silhouettes in the front seats. The side windows are closed; nothing sticks out of them.
+- The low sun behind the house on the right puts the back of the car in soft warm shade, with a golden rim of light along the roof and the mattress; the car casts a long shadow toward the camera across the driveway.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house, its door, windows and steps; the whole fence with the pedestrian gate and letterbox, the gate posts, the orange lamp, the open sliding gate parked to the right with its tail behind the fence
+- The driveway, the front garden, the lawn, the trees, the neighbouring houses
+- The empty asphalt street, the kerb and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+- Nothing else from images 2 and 3: from image 2 only the mattress on the roof, from image 3 only the closed rear of the car; no cobblestones, no tenement, no grey studio
+
+ONLY CHANGE: the yellow hatchback with the mattress, seen from behind on the driveway. 100% identical otherwise. Exactly one car; no animals, nobody outside the car.
+```
+
+**Na co patrzeć:** auto za słupkami bramy, prosto na osi podjazdu, tyłem do kamery, klapa zamknięta, tablica „WA 12345”, materac na dachu, w oknach nikogo, światła stopu zgaszone, dom i drzwi widoczne. Zapisz jako `referencje/u20-start.jpg`.
