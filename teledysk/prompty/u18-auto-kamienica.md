@@ -740,3 +740,52 @@ ONLY CHANGE: add the man on the right side of the open boot, facing left, hands 
 **Na co patrzeć:** Tomek z prawej strony bagażnika (przy prawej lampie), profil w lewo kadru, obie ręce na klapie, po lewej stronie bagażnika pusto, napisy widoczne. Zapisz jako `referencje/u18-tomek-v2.jpg`, potem krok C z obrazem 1 = `u18-tomek-v2.jpg`.
 
 **Decyzja autora (14.10):** idziemy na skróty. Z `u18-start.jpg` usuwamy Tomka (Ania i piesek zostają), a potem wklejamy go w nowej pozie, od razu twarzą do Ani. Robimy to w nowym wątku (plan w STATUS).
+
+## Krok E1: usunięcie Tomka z `u18-start.jpg` (NBP, edycja)
+
+Pierwszy krok planu z 14.10. Tylko usuwamy Tomka (razem z jego cieniem), Ania i piesek zostają w bramie bez zmian.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-start.jpg`.
+
+```text
+Edit image 1: remove the man standing at the rear left corner of the yellow hatchback.
+
+CHANGE (only this):
+- Remove the man in the dark navy jacket at the rear left corner of the car, together with his shadow. Where he stood, the stone pavement, the kerb, the grey cobblestones and the left side of the car with its rear bumper and tail light continue naturally, in the same low morning sunlight.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The woman in the arched gateway and the puppy at her feet: positions, poses, faces, expressions and clothes
+- The yellow hatchback with the lifted rear hatch, the rolled mattress on the roof rack with its straps, the boxes labelled "KUCHNIA" and "KSIĄŻKI" in the boot, the rear license plate "WA 12345"
+- The tenement facade, the windows, the open wooden gateway doors, the pavement, the kerb and the cobblestones
+- The warm low morning sunlight from the left, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the man is gone. 100% identical otherwise. Exactly one person, one puppy, one car.
+```
+
+**Na co patrzeć:** zero Tomka i zero jego cienia, lewy tylny róg auta i bruk dorysowane czysto, Ania i piesek nietknięci, napisy i tablica czytelne. Zapisz jako `referencje/u18-ania-bez-tomka.jpg`.
+
+## Krok E2: Tomek z prawej strony bagażnika, twarzą do Ani (NBP, edycja)
+
+Drugi krok: dodajemy Tomka do kadru bez niego (NBP lepiej dodaje, niż przenosi). Stoi przy prawej lampie, profilem w lewo kadru, obie ręce na klapie. W wideo zatrzaśnie klapę i tylko podniesie wzrok na Anię, bez obrotu.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ania-bez-tomka.jpg` (wynik E1), 2 = `referencje/tomek-koszulka-kurtka.jpg`.
+
+```text
+Edit image 1: the same street, car, woman, puppy and camera. Add the man from image 2 on the right side of the open boot, facing left toward the woman in the gateway.
+
+CHANGE (add only this, nothing else moves):
+- The man from image 2 stands on the cobblestones to the right of the open boot in the frame, beside the right tail light, between the rear bumper and the rear wheel. His body is in profile facing screen-left, toward the open boot and, beyond it, the woman in the arched gateway; the camera sees the right side of his body and his face in profile. Both hands hold the lower edge of the lifted rear hatch, ready to pull it down. He looks down into the boot at the boxes with a small satisfied smile, lips closed. Same open dark navy trucker jacket with the brown corduroy collar over the plain white t-shirt, blue jeans and brown suede sneakers as in image 2.
+- The low morning sun from the left lights his face and chest; he casts a long shadow to the right on the cobblestones.
+- Both boxes labelled "KUCHNIA" and "KSIĄŻKI" stay fully visible and readable.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The woman in the gateway and the puppy at her feet: positions, poses, faces, expressions and clothes
+- The yellow hatchback with the lifted hatch, the rolled mattress on the roof with its straps, the boxes in the boot and on the rear seat, the rear license plate "WA 12345"
+- The tenement facade, the windows, the open wooden gateway doors, the pavement, the kerb and the cobblestones; the left side of the boot stays empty
+- The warm low morning sunlight from the left, long shadows, colour grade, contrast, grain
+- The man 100% matches image 2
+
+ONLY CHANGE: add the man on the right side of the open boot, facing left toward the woman, both hands on the hatch. 100% identical otherwise. Exactly two people, one puppy, one car.
+```
+
+**Na co patrzeć:** dokładnie jeden Tomek, przy prawej lampie, profil w lewo kadru (widać prawy bok i twarz z profilu), obie ręce na dolnej krawędzi klapy, po lewej stronie bagażnika pusto, napisy i tablica czytelne, Ania i piesek bez zmian. Zapisz jako `referencje/u18-start-v2.jpg`. Potem prompt wideo D8 (trzask, wzrok znad klapy na Anię, kiwnięcie; nikt nie chodzi).

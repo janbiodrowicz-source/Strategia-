@@ -49,7 +49,8 @@ Ostatnia aktualizacja: 14.10.2026
 Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
 - Gotowe obrazy: `u18-ulica-auto.jpg` (ulica, auto z podniesioną klapą, kartony „KUCHNIA” i „KSIĄŻKI”, materac w rulonie, bez ludzi), `u18-start.jpg` (Tomek przy lewym rogu + Ania z psem w bramie).
 - Wideo D–D7: tablica wychodzi (z `auto.png`), ale Tomek przy obrocie do Ani kręci się jak bączek albo idzie od strony pasażera. Najlepszy kierunek marszu był w D2 i D5.
-- **Decyzja autora (14.10), następny krok (w nowym wątku):**
+- **Prompty E1 (usunięcie Tomka) i E2 (Tomek z prawej strony bagażnika) gotowe** w pliku ujęcia. Czekamy na wyniki.
+- **Decyzja autora (14.10), następny krok:**
   1. Usunąć Tomka z `u18-start.jpg` (Ania i piesek zostają w bramie).
   2. Wkleić Tomka w nowej pozie: od razu twarzą do Ani (np. z prawej strony bagażnika, profil w lewo kadru, ręce na klapie), żeby w wideo nie musiał się obracać.
   3. Wideo D8 bez obrotów i bez chodzenia: trzask klapy na beat (ok. 0,9 s), Tomek podnosi wzrok znad klapy na Anię i kiwa głową, Ania się uśmiecha, piesek wstaje. Referencje: klatka startowa, `tomek-koszulka-kurtka.jpg`, `ania-paski-kardigan.jpg`, `piesek.png`, `auto.png`.
