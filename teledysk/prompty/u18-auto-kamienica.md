@@ -284,3 +284,59 @@ ONLY CHANGE: add the woman and the puppy in the gateway. 100% identical otherwis
 ```
 
 **Na co patrzeć:** dokładnie dwie osoby i jeden pies, Ania w bramie (nie na chodniku przy aucie), kardigan rozpięty na paski, piesek bez smyczy przy jej nogach, Tomek bez zmian. Zapisz jako `referencje/u18-start.jpg` (klatka startowa wideo).
+
+**Wynik C (14.10): ✅** wariant 3: Tomek z ręką na klapie, Ania w bramie, piesek przy jej nogach, nasze żółte auto. Wariant 1: Tomek puścił klapę; wariant 2: NBP podmienił auto na współczesne. Kolory cieplejsze niż w B, ale spójne. Zapisz jako `referencje/u18-start.jpg`.
+
+## Krok D: wideo (Omni 1.1 Flash, od klatki startowej)
+
+Skille: `cinedance` (struktura), `acting` (oczy prowadzą głowę, reakcja falą, a nie synchronicznie: Tomek kiwa, Ania odpowiada pół beatu później, piesek zrywa się ostatni).
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x2 · klatka startowa = `u18-start.jpg`. `@TOMEK` = `tomek-koszulka-kurtka.jpg`, `@ANIA` = `ania-paski-kardigan.jpg`, `@PIESEK` = `piesek.png`. Cięcie 3,75 s, oś 1:30–1:33,75, trzask klapy ok. 0,9 s.
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day, turns to his girlfriend and their puppy waiting in the tenement gateway and nods: time to go. They all start toward the car. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. A boxy yellow 1980s hatchback parked along the kerb in the right half of the frame, rear toward the camera, a rolled mattress in clear plastic strapped on its roof rack.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate reads exactly "WA 12345".
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands at the rear left corner of the car, body turned toward the car, right hand on the lower edge of the lifted hatch. @ANIA stands in the gateway on the left, body facing screen-right toward the car, eyes on @TOMEK. @PIESEK sits on the threshold beside her feet, facing the car.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, all three figures and the car sharp.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK pulls the hatch down in one firm arc and slams it shut at 0:00.9; the car rocks slightly on its springs. The boxes stay visible through the rear window.
+0:00.9 to 0:01.8: His eyes go to the gateway first, then his head turns left toward @ANIA. He gives her one clear nod toward the car, eyebrows raised, a warm grin with lips closed: let's go.
+0:01.8 to 0:02.4: Half a beat later @ANIA answers: her smile widens and she nods once. @PIESEK springs to its feet, tail wagging.
+0:02.4 to 0:04.0: Everyone starts moving: @PIESEK trots out of the gateway across the pavement toward the car, @ANIA takes her first step out of the gateway after it, @TOMEK turns along the left side of the car toward the driver's door and takes one step. The movement has just begun when the shot ends.
+
+PERFORMANCE
+A small, happy team moment: no words needed. @TOMEK is pleased the packing is done; the nod is an invitation. @ANIA reads him instantly and answers with the same quiet joy. Eyes stay alive, with natural blinks; reactions travel in a wave, never in sync. Lips stay closed; nobody speaks.
+
+PHYSICS
+The hatch has real weight: it swings down on its gas struts, closes flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof. The puppy's paws patter on the stone, its ears and fur bounce.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, the gateway passage in soft shade. No flat front light.
+
+AUDIO
+The solid thunk of the hatch closing, footsteps on stone, the puppy's paws, quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** klapa zamyka się jednym łukiem i zostaje zamknięta, Tomek najpierw oczami, potem głową do bramy, wyraźne kiwnięcie, Ania odpowiada chwilę później, jeden piesek, auto się nie zmienia, nikt nie rusza ustami.
