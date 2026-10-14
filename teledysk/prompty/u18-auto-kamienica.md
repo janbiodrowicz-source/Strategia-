@@ -130,6 +130,35 @@ ONLY CHANGE: the mattress rolled into a cylinder in clear plastic, two boxes on 
 
 **Na co patrzeć:** materac jako jeden gruby rulon wzdłuż dachu (nie płaska paczka), dwa kartony za lewą tylną szybą, prawa strona kanapy pusta, napisy w bagażniku bez zmian, jedna klapa. Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
+**Wynik A5 (14.10):** x3. Materac jest w rulonie, ale wygląda jak cukierek (skręcone końce folii), w wariantach 2 i 3 jest za długi (wystaje przed i za dach), a w 2 także za gruby. Kartony „na tylne siedzenie” NBP wstawił do bagażnika, na górę kartonów z napisami, więc klapa by się nie zamknęła. Najlepsze proporcje: wariant 1 (15:25).
+**Decyzje autora (14.10):** materac jak na wzorze `referencje/materac-wzor.jpg` (ciasno owinięty folią, płaskie końce, widać spiralę zwiniętego materaca), dwa górne kartony z bagażnika usunąć, na tylnym siedzeniu po lewej widoczny jeden karton, pies jedzie z tyłu po prawej (od u19).
+**Rozmiar (ocena Claude):** w u33 śpią na nim we dwoje z psem, więc to materac podwójny 140 cm, a zwinięty to rulon długości ok. 140 cm i grubości ok. 45 cm. Mieści się w długości dachu, bez wystawania.
+
+## Krok A6: materac jak na wzorze, kartony na miejscu (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = wariant 1 z A5 (w 2k), 2 = `referencje/materac-wzor.jpg` (tylko wygląd materaca).
+
+```text
+Edit image 1: the same street, car and camera. Fix the mattress on the roof and the boxes in the car.
+
+CHANGE:
+- The mattress on the roof rack looks exactly like the wrapped mattress in image 2 (use image 2 only for the mattress, nothing else from it): a tightly rolled double mattress wrapped snugly in clear plastic film, the film tight against the roll with soft creases. Both ends are flat and squared off, the spiral of the rolled white mattress layers clearly visible through the plastic on the end facing the camera. No twisted or gathered plastic at the ends. The roll is about 140 centimeters long and 45 centimeters thick, lying lengthwise along the roof between the front and rear edges of the roof, not overhanging. Two brown ratchet straps hold it down to the black roof rack.
+- In the boot, only the two boxes labelled "KUCHNIA" and "KSIĄŻKI" stay, standing on the boot floor; remove every box stacked on top of or behind them, so the boot is empty above them and the hatch could close.
+- Inside the passenger cabin, one plain brown moving box sits on the left side of the rear seat, visible through the left rear side window. The right side of the rear seat is empty.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback: paint, black rub strips and bumpers, silver wheels, the lifted rear hatch, the license plate
+- The "KUCHNIA" and "KSIĄŻKI" lettering on the two boxes
+- The tenement facade, the windows, the arched wooden gateway on the left, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the mattress wrapped like in image 2 and sized to the roof, two labelled boxes in the boot, one box on the left rear seat. 100% identical otherwise. Exactly one car, no people.
+```
+
+**Na co patrzeć:** płaskie końce rulonu ze spiralą (zero „cukierka”), rulon nie wystaje poza dach, w bagażniku tylko dwa kartony z napisami, jeden karton za lewą tylną szybą, żadnych ludzi ani niebieskiego auta z wzoru. Zapisz jako `referencje/u18-ulica-auto.jpg`.
+**Jeśli NBP pomiesza:** rozbijamy na dwa przejścia: najpierw materac, potem kartony.
+
 ## Krok B: Tomek przy drzwiach busa (klatka startowa)
 
 Do napisania po wyniku A5. Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.
