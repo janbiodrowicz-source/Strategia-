@@ -21,6 +21,7 @@ Ostatnia aktualizacja: 14.10.2026
    - przy wyborze wariantu sprawdzamy osobno każdy ruchomy element (drzwi, skrzydła, klapy),
    - **Omni źle znosi obroty postaci i chodzenie „do drzwi kierowcy”**: im więcej opisu obrotu, tym gorzej. Kierunki piszemy w kategoriach kadru (screen-left, away from the camera), a najlepiej ustawiamy postać na klatce startowej tak, żeby nie musiała się obracać,
    - postać zwrócona do kamery ma lewo i prawo jak w lustrze, więc „przez lewe ramię” myli model,
+   - **na 4 s jedna akcja.** Kilka akcji naraz (trzask + spojrzenie + kiwnięcie + marsz) model gubi albo dokłada swoje (u18, D2–D9),
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
@@ -39,7 +40,7 @@ Ostatnia aktualizacja: 14.10.2026
 | # | Oś | Ujęcie | Długość |
 |---|---|---|---|
 | 16 ✅ | 1:26,25–1:30 | Pożegnanie z kawalerką | 3,75 s |
-| 18 ⏳ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, patrzy na Anię z psem w bramie | 3,75 s |
+| 18 ✅ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, Ania z psem w bramie | 3,75 s |
 | 19 | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
 | 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd | 3,75 s |
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
@@ -50,7 +51,7 @@ Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.
 - Gotowe obrazy: `u18-ulica-auto.jpg` (ulica, auto z podniesioną klapą, kartony „KUCHNIA” i „KSIĄŻKI”, materac w rulonie, bez ludzi), `u18-start.jpg` (Tomek przy lewym rogu + Ania z psem w bramie).
 - Wideo D–D7: tablica wychodzi (z `auto.png`), ale Tomek przy obrocie do Ani kręci się jak bączek albo idzie od strony pasażera. Najlepszy kierunek marszu był w D2 i D5.
 - E1 zadziałało, E2 ❌: NBP znów postawił Tomka z lewej strony bagażnika.
-- **Decyzja autora (14.10):** zostaje `u18-start.jpg`. D8: Tomek klaskał, a piesek pobiegł do auta. **D9** (gotowy prompt): tylko trzask klapy, potem bezruch. Czekamy na wynik.
+- **Decyzja autora (14.10):** zostaje `u18-start.jpg`. D8: Tomek klaskał, a piesek pobiegł do auta. **D9 ✅**: tylko trzask klapy, potem bezruch. Plik `u18_klapa_3.75s.mp4` (cięcie od 0,25 s).
 - **Decyzja autora (14.10), następny krok:**
   1. Usunąć Tomka z `u18-start.jpg` (Ania i piesek zostają w bramie).
   2. Wkleić Tomka w nowej pozie: od razu twarzą do Ani (np. z prawej strony bagażnika, profil w lewo kadru, ręce na klapie), żeby w wideo nie musiał się obracać.

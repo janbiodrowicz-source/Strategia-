@@ -898,3 +898,6 @@ The loud thunk of the hatch slamming, then quiet street ambience with distant bi
 POSITIVE CONSTRAINTS
 Exactly two people, one puppy and one car. Everyone stays in place for the whole shot; the only movement is the hatch closing. Faces match the references. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
 ```
+
+**Wynik D9 (14.10): ✅** Tomek zamyka klapę, a potem ją dopycha. Autor akceptuje. Ania i piesek stoją w miejscu, a tablica „WA 12345” wychodzi czytelnie. Huk klapy wypada ok. 1,65 s, dopchnięcie ok. 2,4 s. Wniosek autora: w D2–D8 było za dużo akcji jak na 4 s.
+**Cięcie:** od 0,25 s do 4,0 s (3,75 s, bez dźwięku), plik `wyniki/u18_klapa_3.75s.mp4`. Na osi 1:30–1:33,75, huk w okolicy 1:31,4.
