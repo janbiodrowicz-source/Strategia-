@@ -84,8 +84,8 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 | 14 | 1:18,75–1:22,5 | 🆕 | Ania i Tomek na podłodze nad laptopem, na ekranie samo zdjęcie białego domu z ogrodem, a pies wciska się między nich | 47° |
 | 15 | 1:22,5–1:26,25 | 🆕 | Taśma przeciąga się przez karton z napisem markerem „KUCHNIA” | 18°, wstawka |
 | 16 | 1:26,25–1:30 | 🆕 | **ZMIANA 13.10:** pożegnanie z kawalerką. Pusty pokój w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi. (Dawne „kanapa na schodach” usunięte: za trudne technicznie) | 47° |
-| 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: **żółty hatchback zamiast busa (zmiana 13.10)**, w bagażniku kilka kartonów (kanapa zostaje w kawalerce, bo to mebel właściciela), Tomek zatrzaskuje klapę bagażnika na beat | 47° |
-| 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Żółte auto wyjeżdża z miasta. Pies wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania śmieje się obok | 47°, kamera na samochodzie |
+| 18 | 1:30–1:33,75 | 🆕 | Pod kamienicą: **żółty hatchback zamiast busa (zmiana 13.10)**, w bagażniku kilka kartonów (kanapa zostaje w kawalerce, bo to mebel właściciela), Tomek zatrzaskuje klapę bagażnika na beat, kiwa głową do Ani z psem stojących w bramie i wszyscy robią pół kroku do auta (14.10) | 47° |
+| 19 | 1:33,75–1:41,25 | 🆕 | **7,5 s (zmiana 13.10).** Żółte auto wyjeżdża z miasta. Pies (z tyłu po prawej) wystawia łeb przez okno, uszy łopoczą na wietrze, a Ania (fotel pasażera, ta sama strona) śmieje się obok | 47°, kamera na samochodzie |
 | 20 | 1:41,25–1:45 | 🆕 | Ulica na przedmieściach, drzewa i niskie domy. Żółte auto skręca na podjazd | 84° |
 
 ### Refren 2 (1:45–2:07,5)

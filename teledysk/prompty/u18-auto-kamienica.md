@@ -3,7 +3,7 @@
 **Scenariusz (zmiana 13.10):** pod kamienicą, w busie same kartony (kanapa zostaje w kawalerce), Tomek zatrzaskuje drzwi busa na beat. 47°. Ranek dnia przeprowadzki, zaraz po u16.
 **Plan (sprawdzony sposób):** krok A: ulica z busem (NBP, generacja, bo nie mamy jeszcze ulicy przed kamienicą), krok B: Tomek przy drzwiach busa (klatka startowa), krok C: wideo 4 s → cięcie 3,75 s.
 **Drzwi busa (lekcja z u01 i u16):** animacja drzwi to słaby punkt, więc na klatce startowej prawe tylne skrzydło jest już zamknięte, a Tomek trzyma otwarte lewe (zmiana autora 13.10, w kroku A było odwrotnie). W wideo wystarczy jeden zamach.
-**Beat:** 3,75 s = 2 takty (ok. 128 BPM), więc trzask najlepiej na początek drugiego taktu, ok. 1,9 s ujęcia (1:31,875).
+**Beat:** 3,75 s = 2 takty (ok. 128 BPM, beat co ok. 0,47 s). Pierwotnie trzask na 1,9 s, ale w nowym układzie (14.10) trzask na drugi beat, ok. 0,9 s, żeby zmieściło się kiwnięcie głową i pół kroku.
 
 ## Krok A: ulica przed kamienicą z busem (NBP, generacja)
 
@@ -98,6 +98,42 @@ ONLY CHANGE: two boxes instead of four, labelled "KUCHNIA" and "KSIĄŻKI", the 
 
 **Na co patrzeć:** dwa kartony poniżej linii szyby, oba napisy czytelne (z „Ą” i „Ż”), materac w przezroczystej folii z taśmą na końcach, pasy na miejscu, klapa bez zmian. Jeśli NBP pomiesza, rozbijamy: najpierw kartony, potem folia. Zapisz jako `referencje/u18-ulica-auto.jpg`.
 
+**Wynik A4 (14.10): ✅ prawie.** Dwa kartony poniżej szyby, „KUCHNIA” i „KSIĄŻKI” czytelne, materac w folii. Ale materac wyszedł płaski i złożony, a autor chce go zwiniętego w rulon.
+
+**Decyzje autora (14.10), nowy układ u18:**
+- Materac zwinięty w rulon, w przezroczystej folii, na bagażniku dachowym.
+- Dwa kartony na tylnym siedzeniu po lewej stronie (widoczne przez lewą tylną szybę). Pies jedzie z tyłu po prawej, ale dopiero od u19 (w u18 jeszcze stoi z Anią w bramie).
+- Akcja: Ania z psem stoją w bramie, Tomek zatrzaskuje klapę (na beat, ok. 0,9 s), odwraca się do nich i wyraźnie kiwa głową „jedziemy”, a wszyscy robią pół kroku w stronę auta. Wsiadania nie pokazujemy, dopowiada je cięcie na u19.
+- Rozpiska (4 s → 3,75 s): 0–0,9 s trzask klapy, 0,9–1,8 s Tomek odwraca się i kiwa głową (wyraźnie, uniesione brwi), 1,8–3,0 s Ania odpowiada uśmiechem, pół kroku wszystkich (Ania i pies z bramy w stronę auta, Tomek obraca się do drzwi kierowcy), 3,0–3,75 s zapas.
+- Kolejność klatki startowej: poprawka auta (A5), potem Tomek przy klapie (B), potem Ania z psem w bramie (C), potem wideo (D).
+
+## Krok A5: materac w rulonie, kartony na tylnym siedzeniu (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik A4 (w 2k).
+
+```text
+Edit image 1: the same street, car and camera, two small changes on the car.
+
+CHANGE:
+- The mattress on the roof rack becomes a tightly rolled single mattress: one fat cylinder about 40 centimeters thick lying lengthwise along the roof, sealed in clear thick plastic film, the ends twisted and wrapped with brown packing tape, the white mattress visible through the plastic, sunlight glinting on the film. The same two orange ratchet straps hold the roll down to the roof rack.
+- On the left side of the rear seat, two plain brown corrugated moving boxes stacked one on the other, clearly visible through the left rear side window; the right side of the rear seat stays empty.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback: paint, black rub strips and bumpers, silver wheels, the lifted rear hatch, the license plate
+- The two boxes in the boot labelled "KUCHNIA" and "KSIĄŻKI", their position and lettering
+- The tenement facade, the windows, the arched wooden gateway on the left, the cobblestones, the pavement and the kerb
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the mattress rolled into a cylinder in clear plastic, two boxes on the left side of the rear seat. 100% identical otherwise. Exactly one car, no people.
+```
+
+**Na co patrzeć:** materac jako jeden gruby rulon wzdłuż dachu (nie płaska paczka), dwa kartony za lewą tylną szybą, prawa strona kanapy pusta, napisy w bagażniku bez zmian, jedna klapa. Zapisz jako `referencje/u18-ulica-auto.jpg`.
+
 ## Krok B: Tomek przy drzwiach busa (klatka startowa)
 
-Do napisania po wyniku A. Założenie: Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.
+Do napisania po wyniku A5. Tomek (`tomek-koszulka.jpg`) stoi za autem, ręka na krawędzi podniesionej klapy, gotowy, żeby ją zatrzasnąć.
+
+## Krok C: Ania z psem w bramie
+
+Do napisania po wyniku B. Ania (`ania-paski.jpg`) i piesek (`piesek.png`) w otwartej bramie po lewej.
