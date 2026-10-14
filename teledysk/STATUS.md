@@ -42,15 +42,15 @@ Ostatnia aktualizacja: 14.10.2026
 |---|---|---|---|
 | 16 ✅ | 1:26,25–1:30 | Pożegnanie z kawalerką | 3,75 s |
 | 18 ✅ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, Ania z psem w bramie | 3,75 s |
-| 19 ⏳ | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
+| 19 ✅ | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
 | 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd | 3,75 s |
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
-## W toku ▶️ u19 (droga, piesek za oknem)
+## Zrobione ✅ u19 (droga, piesek za oknem)
 Szczegóły i prompty: `prompty/u19-droga-piesek.md`.
 - **Decyzje autora (14.10):** kadr z zewnątrz (kamera na prawym przednim błotniku, patrzy do tyłu: Ania na pierwszym planie, piesek za nią), aleja drzew, przed południem. Wnętrze od przodu odrzucone. Kamera wyszła z tyłu, więc Tomka nie widać (zmiana autora).
-- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Klatka startowa `u19-start.jpg` ✅ (po B, C i B2: Ania uparcie przy oknie, autor akceptuje). Wideo D: w najlepszym klipie auto z naprzeciwka znika w smugę ok. 4 s, w pozostałych auto jedzie do tyłu. `u19_droga_7.5s.mp4` jest tylko zapasowe. Prompt **D2** gotowy (kierunek jazdy w kategoriach kadru, pusty przeciwny pas). Czekamy na wynik.
+- A ✅ (`u19-auto-aleja.jpg`, kamera przy tylnym rogu, auto odjeżdża w aleję). Klatka startowa `u19-start.jpg` ✅ (po B, C i B2: Ania uparcie przy oknie, autor akceptuje). Wideo D: auta z naprzeciwka znikały, a w części klipów auto jechało do tyłu. **D2 ✅** (kierunek jazdy w kategoriach kadru, pusty przeciwny pas). Plik `u19_droga_7.5s.mp4` (cięcie od 0,5 s).
 
 ## Zrobione ▶️ u18 (auto pod kamienicą)
 Szczegóły i wszystkie prompty: `prompty/u18-auto-kamienica.md`.

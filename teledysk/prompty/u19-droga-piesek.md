@@ -222,3 +222,6 @@ Exactly one woman, one puppy and one yellow car in the foreground; the only othe
 ```
 
 **Na co patrzeć:** drzewa po prawej rosną i wychodzą z kadru w prawo (= jazda do przodu), budynek w głębi powoli rośnie, przeciwny pas pusty, rowerzysta i spacerowicze nie znikają.
+
+**Wynik D2 (14.10): ✅** Auto jedzie do przodu: drzewa po prawej rosną i wychodzą z kadru. Przeciwny pas jest pusty, spacerowicze i rowerzysta są mali i daleko, nikt nie znika. Piesek z łbem za oknem i językiem na wierzchu, Ania siedzi i patrzy przed siebie, materac na dachu.
+**Cięcie:** od 0,5 s do 8,0 s (7,5 s, bez dźwięku), plik `wyniki/u19_droga_7.5s.mp4`. Na osi 1:33,75–1:41,25. Stary klip D przemianowany na `u19_droga_zapas_D.mp4`.
