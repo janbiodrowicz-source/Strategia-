@@ -1037,3 +1037,25 @@ ONLY CHANGE: the same mattress, smaller, only as thick as the side windows are t
 ```
 
 **Na co patrzeć:** rulon niski (grubość jak wysokość bocznych szyb), wierzch wyraźnie poniżej podniesionej klapy, wygląd miękki jak w wariancie 1 (bez równej spirali), „KUCHNIA” z „I”, tablica „WA 12345” na klapie. Zapisz jako `referencje/u18-ulica-auto-v2.jpg`, potem F2.
+
+**Decyzja autora (15.10) po F1:** zamiast F1b wracamy do oryginału `u18-ulica-auto.jpg` (wielkość i ułożenie materaca zostają), zmieniamy tylko koniec rulonu od strony kamery. Wzór odbity lustrzanie, żeby koniec ze zwojami był po lewej, jak w naszym kadrze: `referencje/materac-rulon-paleta-lustro.png`. „KUCHNIA” i tablicę poprawimy osobnym przejściem, jeśli dalej będą złe.
+
+## Krok F1c: tylko koniec rulonu (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/materac-rulon-paleta-lustro.png` (tylko wygląd końca rulonu).
+
+```text
+Edit image 1: the same image, only the end of the rolled mattress facing the camera changes. Use image 2 only as the reference for how the end of a rolled mattress looks, nothing else from it.
+
+CHANGE:
+- The end of the mattress roll facing the camera, on the left, looks exactly like the left end of the roll in image 2: a soft white foam mattress rolled into only two or three thick, chunky, puffy turns, slightly squashed and uneven, with a soft hollow grey core in the middle, under loose crinkled clear plastic that is creased and folded over the end with bright highlights. The turns are thick and soft like folded foam, not thin even rings.
+
+PRESERVE EXACTLY:
+- The mattress roll's size, length, thickness and position on the roof rack, the clear plastic along its length and the two orange straps
+- Everything else in image 1: camera, framing, the yellow hatchback, the lifted hatch and its plate, the boxes "KUCHNIA" and "KSIĄŻKI" in the boot, the box on the rear seat, the roof rack, the street, the facade, the gateway, the cobblestones
+- The warm low morning sunlight, shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the camera-facing end of the roll shows two or three thick soft turns like the left end in image 2. 100% identical otherwise. Empty street, exactly one car.
+```
+
+**Na co patrzeć:** na końcu dwa, trzy grube, miękkie zwoje z szarym środkiem i pomiętą folią (jak na wzorze), żadnych cienkich równych pierścieni; rulon tej samej wielkości i w tym samym miejscu; reszta kadru bez zmian. Zapisz jako `referencje/u18-ulica-auto-v2.jpg`.
