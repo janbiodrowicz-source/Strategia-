@@ -21,7 +21,7 @@ Ostatnia aktualizacja: 14.10.2026
    - przy wyborze wariantu sprawdzamy osobno każdy ruchomy element (drzwi, skrzydła, klapy),
    - **Omni źle znosi obroty postaci i chodzenie „do drzwi kierowcy”**: im więcej opisu obrotu, tym gorzej. Kierunki piszemy w kategoriach kadru (screen-left, away from the camera), a najlepiej ustawiamy postać na klatce startowej tak, żeby nie musiała się obracać,
    - postać zwrócona do kamery ma lewo i prawo jak w lustrze, więc „przez lewe ramię” myli model,
-   - **wielkość psa:** zdanie SIZE z `postacie.md` w każdym prompcie z psem i planszka `piesek-skala.jpg` w referencjach (decyzja 15.10). u13 do poprawki (pies jak dorosły retriever), u14 na granicy,
+   - **wielkość psa:** zdanie SIZE z `postacie.md` w każdym prompcie z psem i planszka `piesek-skala.jpg` ✅ w referencjach (decyzja 15.10). u13 do poprawki (pies jak dorosły retriever), u14 na granicy,
    - **jadące auto: kierunek jazdy zawsze w kategoriach kadru** („away from the camera… the road streams toward the camera… never reverses”), inaczej auto jedzie do tyłu (u19); auta z naprzeciwka znikają w smugę, więc przeciwny pas zostawiamy pusty,
    - **na 4 s jedna akcja.** Kilka akcji naraz (trzask + spojrzenie + kiwnięcie + marsz) model gubi albo dokłada swoje (u18, D2–D9),
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
