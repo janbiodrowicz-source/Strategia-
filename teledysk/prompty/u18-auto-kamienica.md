@@ -901,3 +901,113 @@ Exactly two people, one puppy and one car. Everyone stays in place for the whole
 
 **Wynik D9 (14.10): ✅** Tomek zamyka klapę, a potem ją dopycha. Autor akceptuje. Ania i piesek stoją w miejscu, a tablica „WA 12345” wychodzi czytelnie. Huk klapy wypada ok. 1,65 s, dopchnięcie ok. 2,4 s. Wniosek autora: w D2–D8 było za dużo akcji jak na 4 s.
 **Cięcie:** od 0,25 s do 4,0 s (3,75 s, bez dźwięku), plik `wyniki/u18_klapa_3.75s.mp4`. Na osi 1:30–1:33,75, huk w okolicy 1:31,4.
+
+## Poprawka u18 (15.10): nowa klatka startowa od pustej ulicy
+
+**Uwagi autora do gotowego klipu (zrzut `referencje/u18-capcut-zrzut.jpg`):** Ania po animacji jest niewyraźna, w „KUCHNIA” brakuje „I”, materac wygląda jak kilka rurek włożonych w siebie, a nie jak zwinięty materac. Do tego skala pieska w referencjach.
+**Decyzja autora:** wracamy do pustej ulicy `referencje/u18-ulica-auto.jpg`, poprawiamy materac i napisy, dodajemy wszystkich do zdjęcia, a potem wideo jak D9 (sam trzask klapy).
+**Dlaczego Ania była rozmyta (ocena Claude):** stała w głębi bramy, więc jej twarz miała w 720p kilkanaście pikseli. Teraz stoi na chodniku przed bramą, mniej więcej tak blisko kamery jak Tomek, więc jest tej samej wielkości co on.
+**Nowe wzory materaca od autora:** `referencje/materac-rulon-paleta.png` (koniec rulonu: dwa, trzy grube miękkie zwoje w pomiętej folii) i `referencje/materac-rulon-dlonie.jpg` (luźna folia, rulon lekko spłaszczony). Zastępują dawny opis „płaski koniec ze spiralą jak pień” z A7, który dał efekt rurek. Ten sam wygląd przyda się potem w u19–u20 (B3).
+
+## Krok F1: materac jak na nowych wzorach, „KUCHNIA” i tablica (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto.jpg`, 2 = `referencje/materac-rulon-paleta.png`, 3 = `referencje/materac-rulon-dlonie.jpg`, 4 = `referencje/auto.png` (tylko tablica).
+
+```text
+Edit image 1: the same street, car and camera. Fix the rolled mattress on the roof and the lettering on the car. Use image 2 and image 3 only for how a rolled mattress looks, and image 4 only for the license plate; nothing else from them.
+
+CHANGE:
+- MATTRESS: the rolled mattress on the roof rack looks like a real rolled foam mattress, exactly as in images 2 and 3: a thick, soft white foam mattress rolled into only two or three loose, chunky turns, the layers thick and puffy, the roll slightly flattened under its own weight and pinched in where the two orange straps hold it down. It is wrapped in loose, crinkled clear plastic film with soft wrinkles and bright highlights. On the end facing the camera, a soft, irregular, thick swirl of white foam shows through the cloudy plastic, the plastic folded and creased over the end. It keeps its size and position on the roof, lying lengthwise between the front and rear edges of the roof.
+- BOXES: the box on the left in the boot reads exactly "KUCHNIA", all seven letters clearly written, including the "I"; the box on the right reads exactly "KSIĄŻKI". Both in large black hand-written marker capitals, sharp and readable.
+- PLATE: the license plate on the lifted rear hatch reads exactly "WA 12345" in black letters on a white plate, as in image 4.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback: paint, black rub strips and bumpers, silver wheels, the lifted rear hatch and its struts, the roof rack, the two orange straps, the box on the rear seat
+- The tenement facade, the windows, the house number 7, the arched wooden gateway on the left with its open doors, the pavement, the kerb, the cobblestones
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: a soft, chunky rolled mattress in loose plastic like images 2 and 3, the lettering "KUCHNIA" and the plate "WA 12345". 100% identical otherwise. Empty street, exactly one car.
+```
+
+**Na co patrzeć:** koniec materaca to dwa, trzy grube miękkie zwoje w pomiętej folii (żadnych cienkich równych pierścieni), rulon trochę spłaszczony i ściśnięty pasami, „KUCHNIA” z „I”, tablica „WA 12345”, reszta bez zmian. Zapisz jako `referencje/u18-ulica-auto-v2.jpg`.
+**Jeśli NBP pomiesza:** rozbijamy: najpierw sam materac, potem napisy i tablica.
+
+## Krok F2: Tomek, Ania i piesek naraz (NBP, edycja)
+
+Decyzja autora: wszyscy w jednym przejściu (do tej pory dodawaliśmy postacie po kolei, więc jeśli NBP pomiesza, wracamy do dwóch przejść jak w B i C). Tomek stoi tak jak w `u18-start.jpg`, bo z tej pozy D9 zadziałało. Ania przesuwa się z głębi bramy na chodnik, bliżej kamery.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto-v2.jpg` (wynik F1), 2 = `referencje/tomek-koszulka-kurtka.jpg`, 3 = `referencje/ania-paski-kardigan.jpg`, 4 = `referencje/piesek.png`, 5 = `referencje/piesek-skala.jpg` (tylko wielkość psa).
+
+```text
+Edit image 1: the same street, car and camera. Add the man from image 2, the woman from image 3 and the puppy from image 4. Use image 5 only for the puppy's size next to an adult, nothing else from it.
+
+CHANGE (add only these, nothing else moves):
+- THE MAN from image 2 stands on the cobblestones at the rear left corner of the yellow hatchback, just to the left of the open boot, his body in three-quarter view turned toward the car. His right arm is raised and his right hand grips the lower edge of the lifted rear hatch, ready to pull it down; his left hand rests on the roof edge of the car. He looks down into the boot with a small satisfied smile, lips closed. Open dark navy trucker jacket with the brown corduroy collar over the plain white t-shirt, blue jeans, brown suede sneakers, as in image 2. Both boxes "KUCHNIA" and "KSIĄŻKI" stay fully visible.
+- THE WOMAN from image 3 stands on the stone pavement in the left third of the frame, in front of the arched gateway, as close to the camera as the man, so her figure is the same size as his, whole figure visible from head to white sneakers, face sharp and clearly lit. Her body faces screen-right toward the car, she watches the man with a warm smile, lips closed, hands relaxed at her sides. Open bottle-green cable-knit cardigan over the navy-and-white striped Breton top, light blue jeans, brown belt, white sneakers, as in image 3.
+- THE PUPPY from image 4 sits on the pavement right beside her feet, on her screen-right side, facing screen-right toward the car, ears up. No leash. SIZE: a small puppy of about 8 kg, exactly the size in image 5; sitting, the top of its head reaches just below the woman's knee.
+- Each of them casts a long soft shadow on the stones, matching the low morning sun from the left.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The yellow hatchback with the lifted hatch and the plate "WA 12345", the rolled mattress on the roof with its straps, the boxes "KUCHNIA" and "KSIĄŻKI" in the boot, the box on the rear seat
+- The tenement facade, the windows, the arched gateway and its open wooden doors, the pavement, the kerb, the cobblestones
+- The warm low morning sunlight, colour grade, contrast, grain
+- The man 100% matches image 2, the woman 100% matches image 3, the puppy 100% matches image 4
+
+ONLY CHANGE: add the man at the boot, the woman on the pavement in front of the gateway and the small puppy at her feet. 100% identical otherwise. Exactly two people, one puppy and one car.
+```
+
+**Na co patrzeć:** dokładnie dwie osoby i jeden pies; Tomek z ręką naprawdę na krawędzi klapy; Ania na chodniku, tej samej wielkości co Tomek, z ostrą twarzą; kardigan rozpięty na paski; piesek mały (łebek tuż pod kolanem Ani), bez smyczy; oba napisy i tablica czytelne; materac z F1 bez zmian. Zapisz jako `referencje/u18-start-v3.jpg`.
+
+## Krok G1: wideo, sam trzask klapy (Omni 1.1 Flash)
+
+Prompt D9 (sprawdzony) z nową pozycją Ani, zdaniem SIZE i planszką skali.
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x3. 1 = `u18-start-v3.jpg` (klatka startowa), 2 = `tomek-koszulka-kurtka.jpg` (@TOMEK), 3 = `ania-paski-kardigan.jpg` (@ANIA), 4 = `piesek.png` (@PIESEK), 5 = `piesek-skala.jpg` (skala @PIESEK), 6 = `auto.png` (@AUTO). Cięcie 3,75 s, oś 1:30–1:33,75.
+
+```text
+SCENE CONTEXT
+A sunny autumn morning on an old cobbled street, continuing directly from the starting image. A young man slams the boot of a small yellow hatchback packed for moving day, pleased the packing is done. His girlfriend on the pavement in front of the tenement gateway smiles at the bang; their small puppy sits at her feet. The slam is the only action: everyone stays exactly where they are. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a plain white t-shirt, blue jeans, brown suede sneakers. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, open bottle-green cable-knit cardigan over a navy-and-white striped Breton top, light blue jeans, white sneakers. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar, no leash. SIZE: a small puppy of about 8 kg, exactly the size in the scale reference sheet; sitting, the top of its head reaches just below @ANIA's knee. It keeps this same small size for the whole shot. 100% matches the reference.
+@AUTO: the boxy yellow 1980s five-door hatchback, black rub strips and bumpers, silver five-spoke wheels, black roof rack; its rear license plate reads exactly "WA 12345", as in the right panel of the reference. 100% matches the reference.
+
+LOCATION MAP
+Exactly the street from the starting image: a pale ochre tenement facade along the back, a wide arched gateway with open wooden doors on the left, a stone pavement and kerb, grey cobblestones. @AUTO is parked along the kerb in the right half of the frame, rear toward the camera, front pointing screen-right. A thick, soft rolled foam mattress in loose crinkled clear plastic is strapped on its roof rack with two orange straps.
+SIGNAGE: The two boxes in the boot read exactly "KUCHNIA" and "KSIĄŻKI" in black hand-written marker capitals. The rear license plate on the hatch reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK stands on the cobblestones at the rear left corner of the car, body turned three-quarters toward the car, his right hand on the lower edge of the lifted hatch, smiling down at the boot. @ANIA stands on the pavement in the left third of the frame, in front of the gateway, as close to the camera as @TOMEK and the same size as him, body facing screen-right, smiling, hands relaxed at her sides, eyes on @TOMEK. @PIESEK sits on the pavement at her feet, on her screen-right side.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the whole street readable, deep focus: @TOMEK, @ANIA, @PIESEK and the car all stay sharp, @ANIA's face crisp and clearly readable, rule of thirds.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:00.9: @TOMEK pulls the hatch down in one fast, firm swing with his right hand; it bangs shut at 0:00.9 and the car rocks on its springs. The plate "WA 12345" comes into view on the closed hatch.
+0:00.9 to 0:04.0: Stillness. @TOMEK's hand rests flat on the closed hatch and stays there; his feet, body and hands stay still, a quiet satisfied smile, lips closed, eyes on the closed boot. @ANIA stays standing on the pavement in the same spot, hands relaxed at her sides; only her smile grows a little warmer. @PIESEK stays sitting at her feet for the whole shot, only its ears twitch at the bang. Only breathing and natural blinks until the end.
+
+PERFORMANCE
+A small, quiet moment: the boot is closed, the move is real. @TOMEK is quietly proud of his packing. @ANIA watches him with fond amusement. Eyes stay alive, with natural blinks. Lips stay closed; nobody speaks. Nobody looks into the camera.
+
+PHYSICS
+The hatch has real weight: it swings down fast on its gas struts, bangs shut flush and latches, it does not bounce back open. The car rocks once on its suspension and settles. The mattress stays strapped to the roof, its plastic film shivers slightly at the bang. The puppy's ears twitch once.
+
+LIGHTING
+Warm low autumn morning sunlight from the left, long soft shadows across the cobblestones, the facade glowing warm, @ANIA's face softly lit by the sun. No flat front light.
+
+AUDIO
+The loud thunk of the hatch slamming, then quiet street ambience with distant birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one puppy and one car. Everyone stays in place for the whole shot; the only movement is the hatch closing. Faces match the references and stay sharp. Stable picture, natural skin texture, fine film grain, warm autumn colors, no flickering.
+```
+
+**Na co patrzeć:** trzask klapy bez odbicia, Ania ostra przez cały klip, piesek mały i siedzi, napisy i tablica czytelne, materac się nie zmienia (bez rurek). Cięcie: 3,75 s od momentu tuż przed ruchem klapy, bez dźwięku.

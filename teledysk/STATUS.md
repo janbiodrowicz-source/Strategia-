@@ -10,12 +10,8 @@ Ostatnia aktualizacja: 15.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, 15.10) 👉
-1. **Poprawka u18 (auto pod kamienicą).** Autor zapowiedział poprawkę na zrzucie z CapCuta (`referencje/u18-capcut-zrzut.jpg`, oś ok. 1:31). Co dokładnie poprawiamy, **trzeba zapytać autora**. Kandydaci zauważeni przez Claude:
-   - materac pokazuje spiralny koniec („tarcza”, ten sam problem co w u20 B2),
-   - wielkość pieska porównać z planszką skali (tu wygląda OK: łebek przy kolanie Ani),
-   - ciągłość z u19 i u20 (materac, pasy).
-   Pliki: `prompty/u18-auto-kamienica.md` (gotowy klip `u18_klapa_3.75s.mp4` z D9; klatka startowa `u18-start.jpg`).
-2. **u20:** czeka krok B3 (materac bez „tarczy” + sylwetka Ani w tylnej szybie), prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
+1. **Poprawka u18 (auto pod kamienicą) ▶️ w toku.** Uwagi autora: Ania po animacji niewyraźna, w „KUCHNIA” brakuje „I”, materac wygląda jak rurki włożone w siebie, do tego skala pieska. Decyzja autora (15.10): od pustej ulicy `u18-ulica-auto.jpg`, wszyscy dodani w jednym przejściu, potem wideo. Prompty F1 (materac wg nowych wzorów `materac-rulon-paleta.png` i `materac-rulon-dlonie.jpg` + napisy + tablica), F2 (Tomek, Ania na chodniku bliżej kamery, piesek ze skalą) i G1 (wideo jak D9) gotowe w `prompty/u18-auto-kamienica.md`.
+2. **u20:** czeka krok B3 (sylwetka Ani w tylnej szybie; materac przepisać na nowy wygląd z u18 F1, czyli grube miękkie zwoje w pomiętej folii), prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
 3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora (poprawiać czy zostawić).
 4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek` (obie bez znikającej lampy).
 
