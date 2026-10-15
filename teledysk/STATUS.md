@@ -10,7 +10,7 @@ Ostatnia aktualizacja: 15.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, 15.10) 👉
-1. **Poprawka u18 (auto pod kamienicą) ▶️ w toku.** Uwagi autora: Ania po animacji niewyraźna, w „KUCHNIA” brakuje „I”, materac wygląda jak rurki włożone w siebie, do tego skala pieska. Decyzja autora (15.10): od pustej ulicy `u18-ulica-auto.jpg`, wszyscy dodani w jednym przejściu, potem wideo. F1c ✅ (materac), kadr przybliżony o ok. 15% (`u18-ulica-auto-v3.jpg`); następnie napisy, F2 i G1. Prompty F1 (materac wg nowych wzorów `materac-rulon-paleta.png` i `materac-rulon-dlonie.jpg` + napisy + tablica), F2 (Tomek, Ania na chodniku bliżej kamery, piesek ze skalą) i G1 (wideo jak D9) gotowe w `prompty/u18-auto-kamienica.md`.
+1. **Poprawka u18 ✅ (15.10).** Nowy klip `wyniki/u18_klapa_v2_3.75s.mp4` (G1: materac z grubymi zwojami, Ania ostra, piesek ze skalą, „WA 12345”). Wstawić w CapCucie na 1:30–1:33,75 w miejsce starego. Szczegóły: `prompty/u18-auto-kamienica.md` (F1–G1). W klipie Ania z pieskiem stoi po prawej stronie auta, przy drzwiach pasażera.
 2. **u20:** czeka krok B3 (sylwetka Ani w tylnej szybie; materac przepisać na nowy wygląd z u18 F1, czyli grube miękkie zwoje w pomiętej folii), prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
 3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora (poprawiać czy zostawić).
 4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek` (obie bez znikającej lampy).
@@ -30,6 +30,9 @@ Ostatnia aktualizacja: 15.10.2026
    - **wielkość psa:** zdanie SIZE z `postacie.md` w każdym prompcie z psem i planszka `piesek-skala.jpg` ✅ w referencjach (decyzja 15.10). u13 poprawione ✅ (mały piesek, skarpeta argyle, sam siad zamiast przewrotu, plik `u13_skarpetka_v2_3.75s.mp4`), u14 na granicy,
    - **jadące auto: kierunek jazdy zawsze w kategoriach kadru** („away from the camera… the road streams toward the camera… never reverses”), inaczej auto jedzie do tyłu (u19); auta z naprzeciwka znikają w smugę, więc przeciwny pas zostawiamy pusty,
    - **na 4 s jedna akcja.** Kilka akcji naraz (trzask + spojrzenie + kiwnięcie + marsz) model gubi albo dokłada swoje (u18, D2–D9),
+   - **wyraźna twarz = większa postać na klatce startowej:** kadrujemy obraz 2k przed animacją (ffmpeg), a postać stawiamy bliżej kamery; zoom gotowego klipu 720p nie dodaje ostrości (u18, 15.10),
+   - **materac w rulonie:** opis „płaski koniec ze spiralą jak pień” daje rurki; działa wzór `materac-rulon-paleta-lustro.png` i opis „two or three thick, chunky, soft turns” (u18 F1c),
+   - NBP przy dodawaniu postaci potrafi zepsuć wcześniej poprawione napisy, więc sprawdzamy je po każdym przejściu,
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅

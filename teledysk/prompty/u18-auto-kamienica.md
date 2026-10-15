@@ -1111,3 +1111,6 @@ Exactly two people, one puppy and one car. Everyone stays in place for the whole
 ```
 
 **Na co patrzeć:** trzask klapy bez odbicia, Ania ostra przez cały klip, piesek mały i siedzi, napisy i tablica czytelne, materac się nie zmienia (bez rurek). Cięcie: 3,75 s od momentu tuż przed ruchem klapy, bez dźwięku.
+
+**Wynik G1 (15.10): ✅** autor: „wyszło świetnie”. Uwaga: w klipie układ jest inny niż na `u18-start-v3.jpg`: Ania z pieskiem stoi po prawej stronie auta (od ulicy, przy drzwiach pasażera, co pasuje do u19), Tomek z lewej strony bagażnika, kamera bliżej tyłu auta. Ania ostra, piesek mały, tablica „WA 12345” czytelna po zamknięciu, materac z grubymi zwojami. Klapa zamyka się ok. 1,0–1,05 s.
+**Cięcie:** od 0,15 s, 3,75 s, bez dźwięku, plik `wyniki/u18_klapa_v2_3.75s.mp4` (surowy: `wyniki/u18_G1_raw.mp4`). Trzask wypada ok. 0,9 s od początku cięcia, czyli na drugi beat (ok. 1:30,9 na osi). Zastępuje `u18_klapa_3.75s.mp4` na 1:30–1:33,75.
