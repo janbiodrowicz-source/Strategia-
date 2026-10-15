@@ -80,7 +80,7 @@ Motyw przewodni to **klucz**. Na początku Ania daje Tomkowi klucz do swojej kaw
 
 | # | Czas | Źródło | Ujęcie | Kamera |
 |---|---|---|---|---|
-| 13 | **1:15–1:18,75** | 🆕 | **DROP, SMASH CUT.** Kawalerka, przeciąganie skarpetki: Tomek klęczy na podłodze i przeciąga się ze szczeniakiem skarpetką, piesek zapiera się łapkami i warczy na niby, Tomek nagle puszcza, piesek przewraca się na plecy, Ania śmieje się z zielonej kanapy (decyzja 12.10, zamiast doniczki). Generujemy 4 s | 84°, nisko, na wysokości psa |
+| 13 | **1:15–1:18,75** | 🆕 | **DROP, SMASH CUT.** Kawalerka, przeciąganie skarpetki: Tomek klęczy na podłodze i przeciąga się ze szczeniakiem skarpetką, piesek zapiera się łapkami i warczy na niby, Tomek nagle puszcza, piesek klapie na pupę ze zdziwioną miną (zmiana 15.10, zamiast przewrotu na plecy), Ania śmieje się z zielonej kanapy (decyzja 12.10, zamiast doniczki). Generujemy 4 s | 84°, nisko, na wysokości psa |
 | 14 | 1:18,75–1:22,5 | 🆕 | Ania i Tomek na podłodze nad laptopem, na ekranie samo zdjęcie białego domu z ogrodem, a pies wciska się między nich | 47° |
 | 15 | 1:22,5–1:26,25 | 🆕 | Taśma przeciąga się przez karton z napisem markerem „KUCHNIA” | 18°, wstawka |
 | 16 | 1:26,25–1:30 | 🆕 | **ZMIANA 13.10:** pożegnanie z kawalerką. Pusty pokój w porannym słońcu, Ania z pieskiem w drzwiach rozgląda się ostatni raz, piesek wybiega, Ania zamyka drzwi. (Dawne „kanapa na schodach” usunięte: za trudne technicznie) | 47° |

@@ -493,3 +493,57 @@ A playful puppy growl during the tug, a soft thump on the rug, her bright laugh,
 POSITIVE CONSTRAINTS
 Exactly two people, one small puppy and one sock. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
 ```
+
+**Decyzja autora (15.10):** przewrót odpuszczamy, piesek tylko klapie na pupę ze zdziwioną miną (plan B).
+
+## Krok 2 v5: sam siad (Omni 1.1 Flash)
+
+Zmiany względem v4: po puszczeniu skarpety piesek szybko klapie na pupę i zostaje w siadzie: zdziwienie, przekrzywiona głowa, potem jedno machnięcie ogonem. „Never lies down and never rolls over”. Ustawienia i 6 zdjęć jak w v3/v4.
+
+```text
+SCENE CONTEXT
+Night in a small cosy tenement studio, continuing directly from the starting image. A young man kneeling on the rug plays tug-of-war with a small puppy using an argyle sock. He suddenly lets go, and the puppy's own backward pull makes it plop down onto its bottom with a surprised look, the sock in its mouth, and his girlfriend bursts out laughing on the sofa. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, cream waffle-knit crew-neck sweater, charcoal chinos, brown suede sneakers. Kneels on the rug, both hands on the cuff end of the sock. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, fitted mustard ribbed turtleneck, dark jeans. Sits on the green sofa. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. SIZE: a small puppy of about 8 kg, exactly the size in the scale reference sheet; standing, its back is at the height of the kneeling man's knee; sitting, the top of its head is below the kneeling man's shoulder. It keeps this same small size for the whole shot. 100% matches the reference.
+@SKARPETA: one single long grey knee sock with burgundy and light-grey argyle diamonds, one open ribbed cuff and one closed rounded toe. 100% matches the reference.
+
+LOCATION MAP
+Exactly the room from the starting image: closed white double door in the center of the far wall, black guitar case beside the monstera on the left, TV and bookshelf along the left wall, bottle-green velvet sofa with a mustard cushion along the right wall, white wardrobe in the right foreground, jute rug in the center under a soft pool of warm ceiling light.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK kneels on the left half of the rug facing screen-right, holding the cuff of @SKARPETA. @PIESEK stands on the rug in front of him facing screen-left, the toe of @SKARPETA in its teeth, the sock stretched tight between them. @ANIA sits on the sofa, leaning forward, eyes on the puppy.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts, no jump to a closer shot.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot. Natural human-eye perspective, natural face and body proportions, the whole room readable.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level, exactly the framing of the starting image, perfectly still for the whole shot. No push-in, no zoom, no reframing. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:01.2: Tug-of-war. @PIESEK pulls backward with all four paws braced, shaking its head left and right, tail wagging. @TOMEK leans back and tugs in short teasing pulls, grinning.
+0:01.2 to 0:01.5: @TOMEK suddenly opens both hands and lets go of the sock.
+0:01.5 to 0:01.8: In the same instant, its own backward pull makes @PIESEK plop down hard onto its bottom in one quick bump at real-time speed, front legs straight, the slack sock still hanging from its mouth.
+0:01.8 to 0:02.5: It stays sitting right there, frozen in surprise: ears up, eyes wide, head tilted, blinking at the man, the sock dangling from its mouth.
+0:02.5 to 0:04: @ANIA bursts out laughing, throws her head back, one hand to her chest. @TOMEK laughs with his hands still open in the air. @PIESEK keeps sitting, tilts its head the other way, then gives one happy tail sweep across the rug, sock in mouth. It stays sitting until the end.
+
+PERFORMANCE
+@TOMEK teases like a big kid, the let-go is a deliberate prank. @ANIA's laugh is sudden and real, shoulders shaking. Lips stay closed except for laughing; nobody speaks.
+
+PHYSICS
+The puppy is small, soft and heavy for its size: its paws slip slightly on the jute, its body has real weight: the sit-down is fast and loose like a real clumsy puppy losing its footing, gravity pulls it down at once, nothing in slow motion; one solid continuous body from start to end, its head, legs and tail always clearly attached and readable; fur and ears bounce as it lands on its bottom. It never lies down and never rolls over. The sock is one soft knit tube with a single toe: it goes slack the moment it is released and hangs from the puppy's mouth.
+
+LIGHTING
+Night. The only light is the warm 2700K ceiling pendant above the center of the room, exactly as in the starting image. Soft round pool of warm light on the rug and the figures, darker corners and foreground. No daylight, no light from the window, no sun patches.
+
+AUDIO
+A playful puppy growl during the tug, a soft thump on the rug, her bright laugh, his short laugh. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one small puppy and one sock. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
+```
