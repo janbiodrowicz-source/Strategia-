@@ -1063,3 +1063,25 @@ ONLY CHANGE: the camera-facing end of the roll shows two or three thick soft tur
 **Wynik F1c (15.10): ✅** koniec rulonu z grubymi miękkimi zwojami, rozmiar bez zmian. Zapisane jako `referencje/u18-ulica-auto-v2.jpg`. Napisy nadal złe: „KUCHN'A” i tablica na klapie nieczytelna.
 
 **Przybliżenie kadru (decyzja autora 15.10):** żeby Ania była wyraźniejsza, kadrujemy klatkę przed animacją, nie gotowe wideo (zoom 720p w CapCucie nie dodaje ostrości). Claude przycięła w ffmpeg ok. 15% (crop 2384×1341 od x=40, y=95, skala lanczos z powrotem do 2752×1536): odpada prawa kamienica i pas fasady u góry, brama i całe auto zostają. Plik `referencje/u18-ulica-auto-v3.jpg`. Dalej: poprawka napisów na v3, potem F2 z obrazem 1 = poprawione v3.
+
+## Krok F1d: napisy na kartonie i tablica (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u18-ulica-auto-v3.jpg`, 2 = `referencje/auto.png` (tylko tablica).
+
+```text
+Edit image 1: the same image, only two pieces of lettering change. Use image 2 only for the license plate, nothing else from it.
+
+CHANGE:
+- BOX: the box on the left in the boot reads exactly "KUCHNIA" in large black hand-written marker capitals: K, U, C, H, N, I, A, seven letters, with a clear straight capital "I" between the "N" and the "A", evenly spaced, centred on the box.
+- PLATE: the license plate on the lifted rear hatch reads exactly "WA 12345" in black letters on a white plate, as on the plate in image 2, tilted with the hatch, clean and readable.
+
+PRESERVE EXACTLY:
+- The box on the right with its lettering "KSIĄŻKI", the box on the rear seat
+- The rolled mattress on the roof with its soft thick turns at the end, the clear plastic and the two orange straps
+- Everything else in image 1: camera, framing, the yellow hatchback, the lifted hatch and its struts, the roof rack, the street, the facade, the house number 7, the gateway, the pavement, the cobblestones
+- The warm low morning sunlight, shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the box reads "KUCHNIA" and the plate reads "WA 12345". 100% identical otherwise. Empty street, exactly one car.
+```
+
+**Na co patrzeć:** „KUCHNIA” z wyraźnym „I” (bez apostrofu), „KSIĄŻKI” bez zmian, tablica „WA 12345”, materac nietknięty (zwoje!). Zapisz jako `referencje/u18-ulica-auto-v4.jpg`, potem F2 z obrazem 1 = v4.
