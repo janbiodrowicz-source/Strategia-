@@ -1085,3 +1085,6 @@ ONLY CHANGE: the box reads "KUCHNIA" and the plate reads "WA 12345". 100% identi
 ```
 
 **Na co patrzeć:** „KUCHNIA” z wyraźnym „I” (bez apostrofu), „KSIĄŻKI” bez zmian, tablica „WA 12345”, materac nietknięty (zwoje!). Zapisz jako `referencje/u18-ulica-auto-v4.jpg`, potem F2 z obrazem 1 = v4.
+
+**Wynik F1d (15.10): ✅** „KUCHNIA” z „I”, materac nietknięty. Tablica na podniesionej klapie dalej nieczytelna, ale autor akceptuje: na klatce startowej klapa jest uniesiona i tablica patrzy w górę, a po zamknięciu w wideo Omni rysuje ją z `auto.png` (w D9 wyszła czytelnie). Zapisane jako `referencje/u18-ulica-auto-v4.jpg`.
+**F2 teraz:** obraz 1 = `referencje/u18-ulica-auto-v4.jpg` (zamiast v2), reszta zdjęć i prompt bez zmian.
