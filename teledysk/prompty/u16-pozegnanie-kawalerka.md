@@ -165,3 +165,8 @@ Exactly one person and one puppy. Faces match the references. The room stays emp
 
 **Wynik wideo (13.10): ✅** (x1). Na początku (0–0,7 s) Ania robi krok w stronę pokoju, a miała stać, więc autor chce to wyciąć. Dalej stoi i rozgląda się z uśmiechem (0,75–1,6 s), patrzy na pieska i wykonuje gest ręką (ok. 1,6–1,9 s), piesek wstaje i drepcze do przedpokoju (ok. 2,0–3,0 s), Ania domyka drzwi (3,0–4,0 s). Na końcu drzwi zostają uchylone na kilka centymetrów, a w szparze widać jeszcze pieska. Ust nie otwiera, pokój bez zmian.
 **Cięcie (v2, po uwadze autora):** od klatki 20 (0,83 s), kiedy Ania już stoi nieruchomo (w v1 od klatki 18 jeszcze przestępowała z nogi na nogę), do końca = 3,17 s, zwolnione ok. 83% z interpolacją ruchu (minterpolate mci), ostatnia klatka powielona, razem 90 klatek = 3,75 s. Bez dźwięku. Plik: `u16_pozegnanie_3.75s.mp4`. Na osi: 1:26,25–1:30.
+
+**Poprawka cięcia (15.10, uwaga autora):** w wersji v2 lampa w przedpokoju chwilami znikała. Winny był filtr minterpolate: dorysowane klatki gubią cienkie, małe obiekty na ciemnym tle (lampa na kablu). Nowe cięcia, bez dorysowywania klatek (lampa sprawdzona klatka po klatce, jest w każdej):
+- **A (`u16_pozegnanie_A_rowno_3.75s.mp4`):** klatki 20–95 (od 0,83 s), równo zwolnione do 84% przez powielanie klatek, 90 klatek = 3,75 s.
+- **B (`u16_pozegnanie_B_poczatek_3.75s.mp4`):** zwolniony tylko spokojny początek (klatki 20–48, 0,83–2,0 s: Ania stoi, rozgląda się i zaczyna gest) do ok. 68%, a reszta (piesek, drzwi) w normalnym tempie. 43 + 47 = 90 klatek = 3,75 s.
+Autor wybiera wersję w CapCucie. Oś bez zmian: 1:26,25–1:30.
