@@ -1011,3 +1011,29 @@ Exactly two people, one puppy and one car. Everyone stays in place for the whole
 ```
 
 **Na co patrzeć:** trzask klapy bez odbicia, Ania ostra przez cały klip, piesek mały i siedzi, napisy i tablica czytelne, materac się nie zmienia (bez rurek). Cięcie: 3,75 s od momentu tuż przed ruchem klapy, bez dźwięku.
+
+**Wynik F1 (15.10):** x2 w 768p. Wariant 1: materac miękki, pomięty, wygląda jak prawdziwy zwinięty materac ✅, ale jest za gruby (autor: za duży). Wariant 2: znów widać równą spiralę na końcu, czyli efekt rurek, i jest jeszcze większy. „KUCHNIA” i tablica w 768p nieczytelne, sprawdzamy w 2k. Baza: wariant 1 w 2k.
+
+## Krok F1b: mniejszy materac (NBP, edycja)
+
+Wielkość opisujemy porównaniem do auta, bo modele słabo rozumieją centymetry (jak przy psie).
+Flow · NBP · 16:9 · 2k · x3. 1 = wariant 1 z F1 (w 2k), 2 = `referencje/materac-rulon-paleta.png` (tylko wygląd materaca).
+
+```text
+Edit image 1: the same street, car and camera. Only make the rolled mattress on the roof smaller, and check the lettering on one box. Use image 2 only for how a rolled mattress looks, nothing else from it.
+
+CHANGE:
+- MATTRESS SIZE: the same soft rolled mattress in loose crinkled clear plastic, with the same chunky soft turns and creased plastic, but clearly smaller: the roll is only as thick as the height of the car's side windows, so it sits low on the roof rack, its top well below the top of the lifted hatch. It is a little shorter than the roof, lying lengthwise between the front and rear edges of the roof, not overhanging, held tight by the two orange straps.
+- BOX: the box on the left in the boot reads exactly "KUCHNIA", all seven letters clearly written, including the "I", in large black hand-written marker capitals.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The look of the mattress: soft, slightly flattened, wrapped in loose crinkled clear plastic with soft wrinkles and bright highlights
+- The yellow hatchback, the lifted rear hatch and its plate, the roof rack, the box "KSIĄŻKI", the box on the rear seat
+- The tenement facade, the windows, the house number 7, the arched gateway on the left with its open doors, the pavement, the kerb, the cobblestones
+- The warm low morning sunlight, long shadows, colour grade, contrast, grain
+
+ONLY CHANGE: the same mattress, smaller, only as thick as the side windows are tall; "KUCHNIA" readable. 100% identical otherwise. Empty street, exactly one car.
+```
+
+**Na co patrzeć:** rulon niski (grubość jak wysokość bocznych szyb), wierzch wyraźnie poniżej podniesionej klapy, wygląd miękki jak w wariancie 1 (bez równej spirali), „KUCHNIA” z „I”, tablica „WA 12345” na klapie. Zapisz jako `referencje/u18-ulica-auto-v2.jpg`, potem F2.
