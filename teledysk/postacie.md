@@ -40,8 +40,26 @@ Voice @TOMEK: "A 30-year-old Polish man, warm low baritone with a slight rasp; r
 ![Piesek](referencje/piesek.png)
 
 ```text
-@PIESEK: a 3-month-old fluffy mixed-breed puppy, wavy medium-length honey-gold coat, cream-white bib down the center of the chest, cream paws, soft floppy ears, round dark brown eyes, black nose, plain black fabric collar. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy mixed-breed puppy, wavy medium-length honey-gold coat, cream-white bib down the center of the chest, cream paws, soft floppy ears, round dark brown eyes, black nose, plain black fabric collar. SIZE: a small puppy of about 8 kg; sitting, the top of its head reaches just below an adult's knee; standing, its back is at an adult's mid-shin; lying stretched out, its whole body is about as long as an adult's forearm with the hand; small enough to carry easily in two arms against the chest. 100% matches the reference.
 ```
+
+**Wielkość (decyzja autora 15.10):** piesek ma jedną wielkość w całym dniu przeprowadzki (u13–u24). Zdanie SIZE w opisie wyżej trafia do każdego promptu z psem. Modele słabo rozumieją centymetry, więc skalę opisujemy porównaniami do ludzi w kadrze: kolano, łydka, przedramię, ramiona. Do tego planszka skali `referencje/piesek-skala.jpg` jako referencja w każdym ujęciu, w którym pies jest obok człowieka. Wzorem jest u18: siedzący piesek łebkiem przy kolanie Ani. Za duży wyszedł w u13 (leży na plecach jak dorosły retriever, do poprawki) i trochę w u14 (stoi na dwóch łapach przy stole).
+
+### Planszka skali (NBP)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/ania-paski.jpg`, 2 = `referencje/piesek.png`.
+
+```text
+A clean three-panel scale reference sheet on a plain seamless light-grey studio backdrop, soft even studio light from the upper left, gentle natural floor shadows, the same camera height (adult hip level) and the same scale in all three panels, separated by thin white vertical lines. The woman from image 1 and the puppy from image 2, full figures, nothing cropped.
+
+PANEL 1 (left): the woman stands facing the camera, relaxed, arms at her sides, a warm smile. The puppy sits upright beside her left foot, facing the camera; the top of its head reaches just below her knee.
+PANEL 2 (middle): side view. The woman stands in profile facing right. The puppy stands on all four paws beside her shins, also in profile facing right; its back is level with the middle of her shin, its tail up.
+PANEL 3 (right): the woman stands facing the camera and holds the puppy in both arms against her chest; its whole body fits comfortably in her arms, its head just below her chin, its back paws resting on her forearm.
+
+The woman: same face, wavy shoulder-length dark brown hair with caramel ends, navy-and-white striped Breton top, light blue jeans, brown belt, white sneakers, exactly as in image 1. The puppy: a 3-month-old fluffy mixed-breed puppy of about 8 kg, wavy honey-gold coat, cream-white chest, soft floppy ears, plain black fabric collar, exactly as in image 2. Identical puppy size in all three panels. Photorealistic, true-to-life colour, crisp natural detail, fine grain. No text, no labels, no rulers.
+```
+
+**Na co patrzeć:** w panelu 1 łebek siedzącego pieska tuż pod kolanem Ani, w panelu 2 grzbiet w połowie łydki, w panelu 3 piesek mieści się w ramionach. We wszystkich panelach ta sama wielkość psa i ten sam piesek co na `piesek.png`. Zapisz jako `referencje/piesek-skala.jpg`.
 
 **Charakter:** wieczny entuzjasta. Ogon w ruchu, przekrzywia głowę, kiedy coś go ciekawi, a chaos zostawia za sobą 🐶
 
