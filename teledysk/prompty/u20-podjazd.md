@@ -237,3 +237,32 @@ ONLY CHANGE: the mattress end shows thick soft turns like image 2, and the backs
 
 **Na co patrzeć:** koniec rulonu z grubymi miękkimi zwojami (bez „tarczy” z cienkich pierścieni), rulon tej samej wielkości; przez tylną szybę dwie głowy nad zagłówkami: z lewej Tomek (krótkie włosy, brązowy kołnierz), z prawej Ania (falowane włosy z karmelowymi końcówkami, zielony kardigan); kartony niżej; tablica „WA 12345”, światła stopu zgaszone; dom i płot bez zmian. Zapisz jako `referencje/u20-start.jpg`.
 **Jeśli NBP pomiesza:** rozbijamy: najpierw materac, potem głowy.
+
+**Wynik B4 (15.10): ❌** NBP przebudował cały kadr (dom w lewo, auto mniejsze, słońce i sąsiednie domy po prawej), auto znów „pudełkowate”, materac nadal jak tarcza (koniec rulonu widziany idealnie od tyłu zawsze jest kołem), a ludzie wyglądali, jakby siedzieli przy tylnej szybie twarzą do kamery.
+**Decyzja autora (15.10):** zaczynamy od samego domu i dodajemy auto z ludźmi w jednym przejściu. Model auta i materac bierzemy z u18 (pusta ulica `u18-ulica-auto-v4.jpg`), zamknięty tył z `auto-tyl.png`.
+
+## Krok B5: auto z u18 na podjeździe, z tyłami głów (NBP, edycja)
+
+Kamera zostaje jak na `u20-dom-plot.jpg`; auto widziane od tyłu i lekko z góry, żeby było widać dach i rulon leżący wzdłuż (skrócony walec), a nie samo koło.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/u18-ulica-auto-v4.jpg` (tylko model auta i materac), 3 = `referencje/materac-rulon-paleta.png` (tylko wygląd końca rulonu), 4 = `referencje/auto-tyl.png` (tylko zamknięty tył i tablica), 5 = `referencje/tomek-tyl.jpg` (tylko tył głowy i ramiona), 6 = `referencje/ania-tyl.jpg` (tylko tył głowy i ramiona).
+
+```text
+Edit image 1: the same house, fence, gates, garden, street, light and camera. Add one yellow hatchback on the driveway, seen from behind, with two people inside. Use image 2 only for the car model and the rolled mattress on its roof, image 3 only for how the end of the rolled mattress looks, image 4 only for the closed rear of the car and its plate, images 5 and 6 only for the backs of the two heads, hair and shoulders. Nothing else from images 2 to 6: no cobblestones, no tenement, no open boot, no warehouse, no pallet, no grey studio.
+
+CHANGE (add only this):
+- THE CAR: exactly the yellow 1980s five-door hatchback from image 2, with its black rub strips, black bumpers and silver five-spoke wheels. It stands on the paved driveway just past the two gate posts, in the middle of the driveway, its rear toward the camera, its nose pointing straight at the front door, seen from behind and slightly from above, at the right size for a small car a few metres beyond the gate. The house, the front door and the steps stay visible above and beside it.
+- THE REAR, as in image 4: the rear hatch closed, the large rear window, both red tail lights switched off, the rear license plate reading exactly "WA 12345" in black letters on a white plate.
+- THE MATTRESS: the same rolled mattress as on the roof in image 2, lying lengthwise along the roof rack from the rear edge of the roof to the windscreen, held by two orange straps. Because we look slightly down onto the roof, the top of the roll runs forward along the roof as a short foreshortened cylinder in clear crinkled plastic. Its rear end, facing the camera, shows two or three thick, chunky, soft turns of white foam with a soft grey core, like the end of the roll in image 3, under creased plastic, in soft warm shade with a golden rim of light along the top.
+- THE PEOPLE: through the rear window, below the headrests, the tops of a few brown boxes in the boot. Further forward, in the two front seats, two people facing the house, away from the camera, so we see only the backs of their heads and their faces are hidden: on the left, the driver, the man from image 5, short tousled dark brown hair, the brown corduroy collar of his navy jacket; on the right, the passenger, the woman from image 6, wavy shoulder-length dark brown hair with caramel ends, her bottle-green knit cardigan. The low sun beyond the house backlights them: small dark silhouettes with warm glowing rims in their hair.
+- The car casts a long soft shadow toward the camera across the driveway.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house, its door, windows and steps; the whole fence with the pedestrian gate and letterbox, the gate posts, the orange lamp, the open sliding gate
+- The driveway, the front garden, the trees, the neighbouring houses, the empty asphalt street, the kerb and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the yellow hatchback from image 2 on the driveway, seen from behind, mattress lengthwise on the roof, the backs of two heads in the front seats. 100% identical otherwise. Exactly one car and two people inside it; no animals, nobody outside the car.
+```
+
+**Na co patrzeć:** kadr domu identyczny jak na `u20-dom-plot.jpg` (dom w tym samym miejscu!); auto to nasz hatchback z u18, nie „pudełko”; klapa zamknięta, „WA 12345”, światła zgaszone; materac leży wzdłuż dachu, widać kawałek jego długości, koniec z grubymi zwojami; dwie małe głowy z tyłu, twarzy nie widać; brak bruku, kamienicy, palety. Zapisz jako `referencje/u20-start.jpg`.
