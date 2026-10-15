@@ -211,3 +211,29 @@ ONLY CHANGE: the mattress end is a crumpled plastic bundle, and both people show
 ```
 
 **Na co patrzeć:** koniec materaca to miękka, pomięta folia bez spirali; przez tylną szybę dwie głowy (z lewej Tomek, krótkie włosy; z prawej Ania, falowane włosy podświetlone słońcem); auto i tablica bez zmian. Zapisz jako `referencje/u20-start.jpg`.
+
+**Decyzja autora (15.10):** B3 zastępujemy krokiem B4. Materac dostaje ten sam wygląd co w u18 (grube, miękkie zwoje wg `materac-rulon-paleta-lustro.png`, zamiast pomysłu z zaklejoną folią). Przez tylną szybę tylko tyły głów Tomka i Ani, bez psa w oknie. Nowe referencje: `referencje/tomek-tyl.jpg` i `referencje/ania-tyl.jpg` (z nich bierzemy tylko głowę, włosy i ramiona; ubrania na tych zdjęciach są inne: sweter, szare spodnie, ciemne jeansy). Pies jedzie na tylnym siedzeniu, niewidoczny.
+
+## Krok B4: materac jak w u18 i tyły głów przez tylną szybę (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-start-v1.jpg` (oryginał 2k, nie zrzut), 2 = `referencje/materac-rulon-paleta-lustro.png` (tylko wygląd końca rulonu), 3 = `referencje/auto-tyl.png` (tylko tył auta), 4 = `referencje/tomek-tyl.jpg` (tylko głowa i ramiona), 5 = `referencje/ania-tyl.jpg` (tylko głowa i ramiona).
+
+```text
+Edit image 1: the same house, fence, car, driveway, street and camera. Change only the end of the mattress roll on the roof and add two people seen from behind through the rear window. Use image 2 only for how the end of a rolled mattress looks, image 3 only for the rear of the car, and images 4 and 5 only for the backs of the two heads, hair and shoulders; nothing else from images 2 to 5.
+
+CHANGE:
+- MATTRESS: the rolled mattress stays lengthwise on the roof rack with the same size and the two orange straps, but its end facing the camera, seen end-on, looks like the left end of the roll in image 2: a soft white foam mattress rolled into only two or three thick, chunky, puffy turns, slightly squashed and uneven, with a soft hollow grey core, under loose crinkled clear plastic creased over the end. The turns are thick and soft like folded foam, not thin even rings. The end is in soft warm shade, with a golden rim of sunlight along the top of the roll.
+- PEOPLE: through the large rear window, the boxes in the boot sit low, below the headrests. Above them, two people sit in the front seats, seen from behind: on the left, the driver, the man from image 4, the back of his head with short tousled dark brown hair, the brown corduroy collar of his dark navy jacket at the neck; on the right, the passenger, the woman from image 5, the back of her head with wavy shoulder-length dark brown hair with caramel ends, her bottle-green knit cardigan on her shoulders. The low sun ahead of the car backlights them: dark warm silhouettes with glowing rims of light in their hair.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The car: its position on the driveway, size and shape, the closed rear hatch, the rear window shape, the tail lights switched off, the rear license plate "WA 12345", the roof rack and the orange straps, matching image 3
+- The house, the door, the windows, the fence with the pedestrian gate and letterbox, the gate posts and the orange lamp, the open sliding gate
+- The driveway, the garden, the trees, the neighbouring houses, the empty street and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the mattress end shows thick soft turns like image 2, and the backs of two heads show through the rear window. 100% identical otherwise. Exactly one car, two people inside it; no animals, nobody outside the car.
+```
+
+**Na co patrzeć:** koniec rulonu z grubymi miękkimi zwojami (bez „tarczy” z cienkich pierścieni), rulon tej samej wielkości; przez tylną szybę dwie głowy nad zagłówkami: z lewej Tomek (krótkie włosy, brązowy kołnierz), z prawej Ania (falowane włosy z karmelowymi końcówkami, zielony kardigan); kartony niżej; tablica „WA 12345”, światła stopu zgaszone; dom i płot bez zmian. Zapisz jako `referencje/u20-start.jpg`.
+**Jeśli NBP pomiesza:** rozbijamy: najpierw materac, potem głowy.
