@@ -547,3 +547,6 @@ A playful puppy growl during the tug, a soft thump on the rug, her bright laugh,
 POSITIVE CONSTRAINTS
 Exactly two people, one small puppy and one sock. Faces match the references. Natural skin texture, fine film grain, warm evening colors, stable picture, no flickering.
 ```
+
+**Wynik v5 (15.10): ✅** Statyczna kamera, noc. Piesek mały przez cały czas, skarpeta jedna. Tomek puszcza ok. 1,2 s, piesek klapie na pupę 1,4–1,7 s i zostaje w siadzie ze skarpetą w pyszczku. Ania wybucha śmiechem od ok. 2,5 s do końca, Tomek śmieje się z rękami w powietrzu.
+**Cięcie:** od 0,25 s do 4,0 s (3,75 s, bez dźwięku), plik `wyniki/u13_skarpetka_v2_3.75s.mp4`. Na osi 1:15,0–1:18,75, zamiast starej wersji z dużym psem.
