@@ -355,3 +355,31 @@ Exactly two people, one small puppy and one sock. Faces match the references. Na
 ```
 
 **Na co patrzeć:** piesek na plecach dalej mały (jak przedramię Tomka), jedna skarpeta z jednym palcem, Tomek puszcza ok. 1,2 s, przewrót przed 2,6 s, śmiech Ani do końca.
+
+**Zmiana autora (15.10):** jednak wieczór, jak w poprzedniej wersji. Najpierw nocne światło na zdjęciu (krok 1c v3), potem wideo v2 z blokiem LIGHTING nocnym (z kroku 2), a nie porannym.
+
+## Krok 1c v3: nocne światło na nowej klatce (NBP, edycja)
+
+Prompt 1c v2 (sprawdzony 12.10). W PRESERVE zamiast paskowej skarpety jest skarpeta argyle, do tego zdanie o małym piesku.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u13-start-v3-rano.jpg`.
+
+```text
+Edit image 1: the same moment at night, lit only by the ceiling lamp.
+
+CHANGE (lighting only):
+- The ceiling pendant lamp stays exactly where it is in image 1, the same size, mostly above the top edge of the frame: only its lower rim is barely visible at the top center. It is switched on and is the only light source in the room.
+- Night outside. The window behind the camera gives no light at all: the bright sun patch on the rug and the floor is completely gone, no window-shaped light, no light beams, no hard-edged light shapes anywhere.
+- The ceiling light falls straight down from above: one soft round pool of warm 2700K tungsten light centered on the rug under the ceiling center, softly lighting the three figures from above, short soft shadows directly under them. The light fades smoothly toward the walls; the foreground floor near the camera, the corners and the upper walls are noticeably darker.
+- Warm amber tones on hair, the puppy's fur, the knit sweater, the velvet sofa and the parquet; cosy evening exposure, soft contrast.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing
+- Both people and the puppy: faces, expressions, poses, hands, clothing; the puppy's small size exactly as in image 1
+- The single grey argyle sock stretched between the man's hands and the puppy's mouth, with one cuff and one toe
+- The whole room: the closed white double door, the guitar case beside the monstera, the TV, bookshelf and books, both framed prints, the floor lamp switched off, the green sofa with the mustard cushion and the small plant, the white wardrobe, the cornice, walls, parquet and jute rug
+- Grain
+
+ONLY CHANGE: the light, from morning sun to warm night light from the ceiling lamp above. 100% identical otherwise.
+```
+
+**Na co patrzeć:** lampa ledwo widoczna u góry (nie zjeżdża do kadru), brak plamy słońca w kształcie okna, ciepła okrągła plama światła na dywanie, piesek dalej mały, jedna skarpeta. Zapisz jako `referencje/u13-start-v3.jpg`.
