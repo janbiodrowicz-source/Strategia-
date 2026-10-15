@@ -242,3 +242,32 @@ Exactly two people and one puppy. Faces match the references. Natural skin textu
 
 **Wynik wideo (12.10, x1): ✅** akceptujemy. Przeciąganie 0–1,3 s, Tomek puszcza ok. 1,3 s, piesek przewraca się na plecy w 1,5–2,0 s i wierzga łapami ze skarpetką na pyszczku jak w czapce, Ania wybucha śmiechem od ok. 2,7 s (ręka na piersi, głowa w tył), Tomek śmieje się z rękami w górze. Najazd płynny, pokój i światło jak na klatce startowej, jeden piesek.
 **Cięcie:** klatki 6–95 = 0,25–4,0 s (90 klatek = 3,75 s), bez dźwięku. Plik: `u13_skarpetka_3.75s.mp4`. Na osi: 1:15,0–1:18,75. Z początku wypada 0,25 s, a na końcu zostaje najmocniejszy śmiech.
+
+## Poprawka wielkości psa (15.10)
+
+**Problem:** w wideo piesek leżący na plecach ma długość dorosłego golden retrievera. Już na klatce startowej jest za duży: stojąc, ma prawie 70% wysokości klęczącego Tomka, a według planszki skali powinien mieć ok. 40% wysokości stojącego dorosłego.
+**Plan:** krok 1d (NBP) to mniejszy piesek na klatce startowej, w tym samym miejscu i z tą samą skarpetką. Potem krok 2 v2, czyli wideo z tym samym promptem, plus zdanie SIZE, planszka skali w referencjach i zdanie, że piesek nie rośnie.
+
+## Krok 1d: mniejszy piesek na klatce startowej (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u13-start.jpg` (wieczorna, ta sama co do wideo), 2 = `referencje/piesek-skala.jpg`, 3 = `referencje/piesek.png`.
+
+```text
+Edit image 1: the same room, man, woman, sock, light and camera. Replace the puppy with a smaller one, at the size shown in image 2.
+
+CHANGE (only the puppy):
+- Remove the current puppy. In the same spot on the rug, about one metre in front of the kneeling man, the puppy from image 3 now stands at its correct size from image 2: a small 3-month-old puppy of about 8 kg; standing on all four paws its back would reach just below a standing adult's knee, so next to the kneeling man its back is only at the height of his knee on the rug, and its whole body is shorter than his thigh.
+- It faces screen-left toward the man, all four paws braced, pulling backward, the other end of the same grey-and-white striped sock clamped in its teeth, the sock stretched tight between them. Tail up, ears flopping.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and framing of image 1
+- The man: kneeling pose, both hands on his end of the sock, face, cream sweater, charcoal chinos
+- The woman on the green sofa: pose, laugh, mustard turtleneck, dark jeans
+- The room: closed white double door, guitar case, monstera, TV, bookshelf, sofa with the mustard cushion, wardrobe, jute rug
+- The night light: the warm ceiling pendant, the soft round pool of light on the rug, darker corners, colour grade, grain
+- Nothing else from image 2: only the puppy's size
+
+ONLY CHANGE: the puppy is smaller, at the size from image 2, same place, same sock. 100% identical otherwise. Exactly two people and one puppy.
+```
+
+**Na co patrzeć:** piesek wyraźnie mniejszy, grzbiet na wysokości kolana klęczącego Tomka. Ta sama sierść i obroża, skarpetka napięta, reszta kadru bez zmian. Zapisz jako `referencje/u13-start-v2.jpg`, potem krok 2 v2 (wideo).
