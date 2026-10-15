@@ -266,3 +266,28 @@ ONLY CHANGE: the yellow hatchback from image 2 on the driveway, seen from behind
 ```
 
 **Na co patrzeć:** kadr domu identyczny jak na `u20-dom-plot.jpg` (dom w tym samym miejscu!); auto to nasz hatchback z u18, nie „pudełko”; klapa zamknięta, „WA 12345”, światła zgaszone; materac leży wzdłuż dachu, widać kawałek jego długości, koniec z grubymi zwojami; dwie małe głowy z tyłu, twarzy nie widać; brak bruku, kamienicy, palety. Zapisz jako `referencje/u20-start.jpg`.
+
+**Wynik B5 (15.10): ✅ prawie.** Kadr domu zachowany. Wariant 1: auto skręcone, stoi na linii bramy, kierowca z ręką za oknem. Wariant 3: auto lekko skręcone, też w bramie. **Wariant 2 (baza):** auto prosto na osi podjazdu, za słupkami, tyłem do kamery, „WA 12345”. Do poprawy (autor): materac za duży, a głowy wyglądają, jakby siedzieli z tyłu przy tylnej szybie, a mają siedzieć z przodu.
+
+## Krok B6: mniejszy materac, ludzie na przednich fotelach (NBP, edycja)
+
+Głębię w aucie opisujemy kolejnymi planami: tylna szyba → kartony i puste tylne siedzenie z zagłówkami → dopiero za nimi małe głowy z przodu, oprawione przednią szybą.
+Flow · NBP · 16:9 · 2k · x3. 1 = wariant 2 z B5 (w 2k), 2 = `referencje/materac-rulon-paleta.png` (tylko wygląd rulonu), 3 = `referencje/tomek-tyl.jpg` (tylko tył głowy), 4 = `referencje/ania-tyl.jpg` (tylko tył głowy).
+
+```text
+Edit image 1: the same house, fence, car, driveway, street, light and camera. Change only the size of the mattress roll on the roof and where the two people sit inside the car. Use image 2 only for how a rolled mattress looks, images 3 and 4 only for the backs of the two heads; nothing else from images 2 to 4.
+
+CHANGE:
+- MATTRESS: the same rolled mattress in crinkled clear plastic with thick soft turns at its end, but clearly smaller: the round end facing the camera is only as wide as the middle half of the rear window, and the roll sits low on the roof rack, its top only a little above the roof line, held by the two orange straps.
+- PEOPLE: the two people sit in the FRONT seats, far from the camera, at the front of the car. Looking through the rear window we see, in this order: first the boxes low in the boot, then the empty rear seat with its two headrests, and only beyond them, framed by the windscreen ahead, the backs of two small heads: on the left the driver, the man from image 3, short tousled dark brown hair; on the right the passenger, the woman from image 4, wavy shoulder-length dark brown hair with caramel ends. Their heads are small, about the size of the rear headrests, backlit by the low sun ahead, dark silhouettes with warm glowing rims. Nobody sits in the rear seat.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The car: its position straight on the driveway past the gate posts, size, shape, closed rear hatch, tail lights switched off, the license plate "WA 12345", the roof rack and the orange straps
+- The house, the door, the windows, the fence with the pedestrian gate and letterbox, the gate posts and the orange lamp, the open sliding gate, the driveway, the garden, the trees, the neighbouring houses, the empty street and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: a smaller mattress roll, and the two people moved to the front seats behind the empty rear seat. 100% identical otherwise. Exactly one car and two people inside it; no animals, nobody outside the car.
+```
+
+**Na co patrzeć:** rulon wyraźnie mniejszy (koniec szeroki na pół tylnej szyby), nadal ze zwojami; w aucie od tyłu: kartony, puste tylne zagłówki, a za nimi dwie małe głowy (z lewej Tomek, z prawej Ania); auto, tablica i kadr bez zmian. Zapisz jako `referencje/u20-start.jpg`.
