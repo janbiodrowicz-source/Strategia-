@@ -298,3 +298,60 @@ ONLY CHANGE: add the kneeling man, the small puppy, the single argyle sock betwe
 
 **Na co patrzeć:** jedna skarpeta z jednym zamkniętym palcem (pyszczek pieska) i otwartym ściągaczem (ręce Tomka), wzór w romby; piesek mały, grzbietem na wysokości kolana klęczącego Tomka; Tomek klęczy na piętach, nie „jak do oświadczyn”; Ania na kanapie się śmieje. Zapisz jako `referencje/u13-start-v3-rano.jpg`.
 **Potem:** krok 1c v2 (nocne światło) bez zmian, tylko w PRESERVE zamiast „the striped sock” wpisujemy „the grey argyle sock”. Na koniec wideo v2.
+
+**Wynik 1b v3 (15.10): ✅** Piesek mniejszy, skarpeta w romby z jednym palcem, Ania śmieje się na kanapie, poranne słońce. Zapisz jako `referencje/u13-start-v3-rano.jpg`.
+**Decyzja autora:** animujemy od razu wersję poranną (bez kroku 1c v2, czyli bez nocnego światła). Uwaga Claude: u14 dzieje się wieczorem (za oknem ciemno), więc rano w u13 i wieczór w u14 to jeden dzień, od rana do wieczora. To ma sens, a gdyby jednak zgrzytało, mamy w zapasie nocne światło 1c v2.
+
+## Krok 2 v2: wideo z małym pieskiem (Omni 1.1 Flash)
+
+Prompt z kroku 2 (zaakceptowany 12.10), a w nim: poranne światło, @PIESEK ze zdaniem SIZE i „keeps this same small size”, @SKARPETA jako osobna referencja (jeden palec).
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x3. 1 = `u13-start-v3-rano.jpg` (klatka startowa), 2 = `tomek-sweter.jpg` (@TOMEK), 3 = `ania-golf.jpg` (@ANIA), 4 = `piesek.png` (@PIESEK), 5 = `piesek-skala.jpg` (skala @PIESEK), 6 = `skarpeta.jpg` (@SKARPETA). Cięcie 3,75 s, oś 1:15,0–1:18,75.
+
+```text
+SCENE CONTEXT
+A sunny morning in a small cosy tenement studio, continuing directly from the starting image. A young man kneeling on the rug plays tug-of-war with a small puppy using an argyle sock. He suddenly lets go, the puppy tumbles onto its back with the sock in its mouth, and his girlfriend bursts out laughing on the sofa. Nobody speaks.
+
+ACTIVE REFERENCES
+@TOMEK: early 30s lean man, tousled dark brown hair, short stubble, cream waffle-knit crew-neck sweater, charcoal chinos, brown suede sneakers. Kneels on the rug, both hands on the cuff end of the sock. 100% matches the reference.
+@ANIA: early 30s slim woman, wavy shoulder-length dark brown hair with caramel ends, light freckles, small gold stud earring, fitted mustard ribbed turtleneck, dark jeans. Sits on the green sofa. 100% matches the reference.
+@PIESEK: a 3-month-old fluffy honey-gold puppy, cream-white chest, floppy ears, black fabric collar. SIZE: a small puppy of about 8 kg, exactly the size in the scale reference sheet; standing, its back is at the height of the kneeling man's knee; lying on its back, its whole body is about as long as his forearm with the hand. It keeps this same small size for the whole shot. 100% matches the reference.
+@SKARPETA: one single long grey knee sock with burgundy and light-grey argyle diamonds, one open ribbed cuff and one closed rounded toe. 100% matches the reference.
+
+LOCATION MAP
+Exactly the room from the starting image: closed white double door in the center of the far wall, black guitar case beside the monstera on the left, TV and bookshelf along the left wall, bottle-green velvet sofa with a mustard cushion along the right wall, white wardrobe in the right foreground, jute rug in the center with a bright sun patch.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same positions, same light. @TOMEK kneels on the left half of the rug facing screen-right, holding the cuff of @SKARPETA. @PIESEK stands on the rug in front of him facing screen-left, the toe of @SKARPETA in its teeth, the sock stretched tight between them. @ANIA sits on the sofa, leaning forward, eyes on the puppy.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot. Natural human-eye perspective, natural face and body proportions, the whole room readable.
+
+CAMERA
+Quick, smooth push-in at standing eye level from the starting position toward the rug, about 1 meter in 4 seconds, ending with all three figures larger in frame and @ANIA still visible on the sofa. One movement only. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:01.2: Tug-of-war. @PIESEK pulls backward with all four paws braced, shaking its head left and right, tail wagging. @TOMEK leans back and tugs in short teasing pulls, grinning.
+0:01.2 to 0:01.5: @TOMEK suddenly opens both hands and lets go of the sock.
+0:01.5 to 0:02.6: The released tension throws @PIESEK backward: it sits down hard, tips over and rolls onto its back on the rug, four paws in the air, the sock still in its mouth.
+0:02.6 to 0:04: @ANIA bursts out laughing, throws her head back, one hand to her chest. @TOMEK laughs with his hands still open in the air. @PIESEK wriggles on its back, sock in mouth, tail sweeping the rug.
+
+PERFORMANCE
+@TOMEK teases like a big kid, the let-go is a deliberate prank. @ANIA's laugh is sudden and real, shoulders shaking. Lips stay closed except for laughing; nobody speaks.
+
+PHYSICS
+The puppy is small, soft and heavy for its size: its paws slip slightly on the jute, its body has real weight when it tips over, fur and ears bounce on landing; on its back it is still a small puppy, no bigger than at the start. The sock is one soft knit tube with a single toe: it goes slack the moment it is released and flops over the puppy's chest.
+
+LIGHTING
+Morning sunlight exactly as in the starting image: sun from the window behind the camera, a bright warm patch on the rug, soft shadows, warm cream walls. The light stays the same for the whole shot.
+
+AUDIO
+A playful puppy growl during the tug, a soft thump on the rug, her bright laugh, his short laugh. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two people, one small puppy and one sock. Faces match the references. Natural skin texture, fine film grain, warm morning colors, stable picture, no flickering.
+```
+
+**Na co patrzeć:** piesek na plecach dalej mały (jak przedramię Tomka), jedna skarpeta z jednym palcem, Tomek puszcza ok. 1,2 s, przewrót przed 2,6 s, śmiech Ani do końca.
