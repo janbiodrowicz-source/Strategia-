@@ -1059,3 +1059,7 @@ ONLY CHANGE: the camera-facing end of the roll shows two or three thick soft tur
 ```
 
 **Na co patrzeć:** na końcu dwa, trzy grube, miękkie zwoje z szarym środkiem i pomiętą folią (jak na wzorze), żadnych cienkich równych pierścieni; rulon tej samej wielkości i w tym samym miejscu; reszta kadru bez zmian. Zapisz jako `referencje/u18-ulica-auto-v2.jpg`.
+
+**Wynik F1c (15.10): ✅** koniec rulonu z grubymi miękkimi zwojami, rozmiar bez zmian. Zapisane jako `referencje/u18-ulica-auto-v2.jpg`. Napisy nadal złe: „KUCHN'A” i tablica na klapie nieczytelna.
+
+**Przybliżenie kadru (decyzja autora 15.10):** żeby Ania była wyraźniejsza, kadrujemy klatkę przed animacją, nie gotowe wideo (zoom 720p w CapCucie nie dodaje ostrości). Claude przycięła w ffmpeg ok. 15% (crop 2384×1341 od x=40, y=95, skala lanczos z powrotem do 2752×1536): odpada prawa kamienica i pas fasady u góry, brama i całe auto zostają. Plik `referencje/u18-ulica-auto-v3.jpg`. Dalej: poprawka napisów na v3, potem F2 z obrazem 1 = poprawione v3.
