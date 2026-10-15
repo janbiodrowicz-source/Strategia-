@@ -271,3 +271,30 @@ ONLY CHANGE: the puppy is smaller, at the size from image 2, same place, same so
 ```
 
 **Na co patrzeć:** piesek wyraźnie mniejszy, grzbiet na wysokości kolana klęczącego Tomka. Ta sama sierść i obroża, skarpetka napięta, reszta kadru bez zmian. Zapisz jako `referencje/u13-start-v2.jpg`, potem krok 2 v2 (wideo).
+
+**Zmiana autora (15.10):** zamiast kroku 1d robimy klatkę od nowa z pustego pokoju. Mamy wszystkie planszki i dodatkowo referencję skarpety, bo model za każdym razem robił skarpetę z dwoma końcami od strony palców. Skarpeta jest teraz **szara w romby (argyle)** z bordowymi i jasnoszarymi rombami, według zdjęcia autora `skarpeta.jpg` (zdjęcie produktowe, poza repo). Krok 1d jest nieaktualny.
+
+## Krok 1b v3: para, mniejszy piesek i skarpeta argyle (NBP, edycja pustego pokoju)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u13-pokoj-pusty.jpg`, 2 = `referencje/tomek-sweter.jpg`, 3 = `referencje/ania-golf.jpg`, 4 = `referencje/piesek.png`, 5 = `referencje/piesek-skala.jpg`, 6 = `skarpeta.jpg`.
+
+```text
+Edit image 1: the same empty room and camera. Add three figures: the young man from image 2 kneeling on the jute rug, the puppy from image 4 playing tug-of-war with him using the sock from image 6, and the young woman from image 3 sitting on the green sofa.
+
+CHANGE (add only these, nothing else moves):
+- The young man from image 2 kneels on the left half of the jute rug, in the sunlit patch, about 2 meters away from the sofa. His body is in profile facing screen-right, sitting back on his heels and leaning back. Both hands grip the open ribbed cuff of the sock and pull it toward his chest. Teasing grin, eyes on the puppy. Same cream waffle-knit crew-neck sweater, charcoal chinos and brown suede sneakers as in image 2.
+- THE SOCK: exactly the single sock from image 6, a long grey knee sock with burgundy and light-grey argyle diamonds and thin pink dotted lines. One sock with one open ribbed cuff at the man's end and one closed rounded toe at the puppy's end; a single toe, one continuous tube of knit fabric, stretched tight in one straight line between his hands and the puppy's mouth.
+- The puppy from image 4, at its exact size from image 5: a small 3-month-old puppy of about 8 kg; next to the kneeling man its back is only at the height of his knee on the rug, and its whole body is shorter than his thigh. It stands on the right half of the rug, 1 meter in front of him, facing him in profile toward screen-left, front paws braced on the rug, rear raised, tail up, the closed toe of the sock clamped in its teeth.
+- The young woman from image 3 sits on the far half of the bottle-green sofa, between the mustard cushion and the floor lamp, her body turned toward the rug. She leans forward with her elbows on her knees, laughing openly at the tug-of-war, eyes crinkled. Same mustard ribbed turtleneck, dark jeans with the brown belt and white sneakers as in image 3.
+
+PRESERVE EXACTLY:
+- Everything in image 1: camera position, height, lens and framing; the closed white double door; the black guitar case beside the monstera; the TV, bookshelf and books; both framed prints; the floor lamp; the sofa with the mustard cushion and the small plant; the white wardrobe in the right foreground; the plaster cornice, walls, parquet and jute rug
+- Morning sunlight from the window behind the camera, the bright sun patch on the rug, shadows, colour grade, contrast, grain
+- Faces and hair: the man 100% matches image 2, the woman 100% matches image 3, the puppy 100% matches image 4
+- Nothing else from images 5 and 6: from image 5 only the puppy's size, from image 6 only the sock; no grey studio, no striped top
+
+ONLY CHANGE: add the kneeling man, the small puppy, the single argyle sock between them and the woman on the sofa. 100% identical otherwise. Exactly two people, one puppy and one sock. Rule of thirds.
+```
+
+**Na co patrzeć:** jedna skarpeta z jednym zamkniętym palcem (pyszczek pieska) i otwartym ściągaczem (ręce Tomka), wzór w romby; piesek mały, grzbietem na wysokości kolana klęczącego Tomka; Tomek klęczy na piętach, nie „jak do oświadczyn”; Ania na kanapie się śmieje. Zapisz jako `referencje/u13-start-v3-rano.jpg`.
+**Potem:** krok 1c v2 (nocne światło) bez zmian, tylko w PRESERVE zamiast „the striped sock” wpisujemy „the grey argyle sock”. Na koniec wideo v2.
