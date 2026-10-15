@@ -1,13 +1,23 @@
 # Status prac: teledysk „Zostań tu”
 
-Ostatnia aktualizacja: 14.10.2026
+Ostatnia aktualizacja: 15.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Najnowsza praca jest na gałęzi **`ccr-baa341b7-hv20hr`** (kontynuacja `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
-- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u15-karton-kuchnia.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`.
+- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u13-skarpetka.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`, `u19-droga-piesek.md`, `u20-podjazd.md`. W `postacie.md` jest **zdanie SIZE psa** i planszka skali `referencje/piesek-skala.jpg`: obie idą do każdego promptu z psem.
 - Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Pierwsze zdjęcie = klatka startowa, maks. 10 zdjęć. Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
 - **Przycinanie robi Claude:** wybór fragmentu, bez dźwięku, zapis do `teledysk/wyniki/` (poza gitem), wysyłka pliku. Gdy trzeba wyciąć początek, a brakuje długości: zwolnienie do ok. 80–85% z `minterpolate` wygląda naturalnie (u15, u16). **Uwaga (15.10):** minterpolate gubi cienkie detale (lampa w u16 znikała). Przy cienkich obiektach w kadrze zwalniamy przez powielanie klatek albo zwalniamy tylko spokojny fragment.
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
+
+## NASTĘPNY KROK (nowy wątek, 15.10) 👉
+1. **Poprawka u18 (auto pod kamienicą).** Autor zapowiedział poprawkę na zrzucie z CapCuta (`referencje/u18-capcut-zrzut.jpg`, oś ok. 1:31). Co dokładnie poprawiamy, **trzeba zapytać autora**. Kandydaci zauważeni przez Claude:
+   - materac pokazuje spiralny koniec („tarcza”, ten sam problem co w u20 B2),
+   - wielkość pieska porównać z planszką skali (tu wygląda OK: łebek przy kolanie Ani),
+   - ciągłość z u19 i u20 (materac, pasy).
+   Pliki: `prompty/u18-auto-kamienica.md` (gotowy klip `u18_klapa_3.75s.mp4` z D9; klatka startowa `u18-start.jpg`).
+2. **u20:** czeka krok B3 (materac bez „tarczy” + sylwetka Ani w tylnej szybie), prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
+3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora (poprawiać czy zostawić).
+4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek` (obie bez znikającej lampy).
 
 ## Sprawdzony sposób na ujęcie ✅
 1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (16:9).
@@ -28,7 +38,7 @@ Ostatnia aktualizacja: 14.10.2026
 
 ## Zrobione ✅
 - Akt 1 (u01–u12) zmontowany w CapCucie (oś do 1:15,0).
-- **u13 skarpetka** ✅ 1:15,0–1:18,75. **u14 laptop i dom** ✅ 1:18,75–1:22,5. **u15 karton „KUCHNIA”** ✅ 1:22,5–1:26,25.
+- **u13 skarpetka** ✅ 1:15,0–1:18,75 (v2 z 15.10: mały piesek, skarpeta argyle, sam siad; `u13_skarpetka_v2_3.75s.mp4`). **u14 laptop i dom** ✅ 1:18,75–1:22,5. **u15 karton „KUCHNIA”** ✅ 1:22,5–1:26,25.
 - **u16 pożegnanie z kawalerką** ✅ 1:26,25–1:30. Plik `u16_pozegnanie_3.75s.mp4` (cięcie od 0,83 s, zwolnione do 3,75 s). Pokój po spakowaniu: meble właściciela zostają (kanapa, pusty regał, szafa, lampa, dywan), rzeczy pary zniknęły.
 - Nowe planszki: `ania-paski.jpg` (bluzka bretońska), `ania-paski-kardigan.jpg` (+ zielony kardigan), `tomek-koszulka-kurtka.jpg` (+ granatowa kurtka trucker), `auto.png` (żółty hatchback z lat 80., tablica „WA 12345”), `materac-wzor.jpg` i `materac-wzor-lustro.jpg`.
 
