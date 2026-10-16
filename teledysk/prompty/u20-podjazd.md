@@ -291,3 +291,26 @@ ONLY CHANGE: a smaller mattress roll, and the two people moved to the front seat
 ```
 
 **Na co patrzeć:** rulon wyraźnie mniejszy (koniec szeroki na pół tylnej szyby), nadal ze zwojami; w aucie od tyłu: kartony, puste tylne zagłówki, a za nimi dwie małe głowy (z lewej Tomek, z prawej Ania); auto, tablica i kadr bez zmian. Zapisz jako `referencje/u20-start.jpg`.
+
+**Decyzja autora (16.10):** zamiast B6 najpierw osobna referencja: samo auto z materacem i z Tomkiem i Anią w środku, na szarym tle studia. Potem tę jedną referencję wstawiamy do domu, więc NBP nie musi składać auta, materaca i ludzi naraz. Nowa referencja wyglądu auta z materacem: `referencje/auto-materac-u18.jpg` (wycinek z u18, nowy materac ze zwojami).
+
+## Referencja `auto-z-para.jpg`: auto z materacem i parą w środku (NBP, edycja)
+
+Bazą jest `auto-tyl.png` (to samo studio, ten sam kąt), bo NBP lepiej edytuje niż generuje od zera. Widok z tyłu i z prawej strony auta, więc Ania (pasażerka, prawy przedni fotel) jest bliżej kamery, a Tomek (kierowca) dalej, po lewej stronie auta.
+Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/auto-tyl.png`, 2 = `referencje/auto-materac-u18.jpg` (tylko materac na dachu), 3 = `referencje/tomek-tyl.jpg` (tylko głowa, włosy, kołnierz kurtki), 4 = `referencje/ania-tyl.jpg` (tylko głowa, włosy, kardigan na ramionach).
+
+```text
+Edit image 1: the same yellow hatchback, the same camera angle, the same plain grey studio. Add the rolled mattress on the roof rack and two people sitting in the front seats. Use image 2 only for the rolled mattress, images 3 and 4 only for the backs of the two heads, hair and shoulders; nothing else from images 2 to 4: no street, no tenement, no open boot, no boxes with lettering.
+
+CHANGE:
+- MATTRESS: the rolled mattress from the roof in image 2 lies lengthwise on the black roof rack, from just in front of the rear edge of the roof to just behind the windscreen, a little shorter than the roof, held down by two orange ratchet straps. It is a soft white foam mattress rolled into two or three thick, chunky turns, wrapped in loose crinkled clear plastic. The roll is only as thick as the side windows are tall. Its rear end, facing the back of the car, shows the thick soft turns with a soft grey core under creased plastic.
+- PEOPLE: two people sit in the FRONT seats, facing forward, away from the camera, so we see only the backs and sides of their heads, their faces hidden. The woman from image 4 sits in the front passenger seat on the near side of the car: through the front passenger side window and the rear window we see the back of her head with wavy shoulder-length dark brown hair with caramel ends and her bottle-green knit cardigan on her shoulder. The man from image 3 sits in the driver's seat on the far side: the back of his head with short tousled dark brown hair and the brown corduroy collar of his dark navy jacket. Between them and the rear window, the empty rear seat with its two headrests and the tops of a few plain brown boxes in the boot, lower than the headrests.
+
+PRESERVE EXACTLY:
+- The car: shape, yellow paint, black rub strips and bumpers, silver five-spoke wheels, the closed rear hatch, the rear window, the red tail lights, the rear license plate reading exactly "WA 12345", the black roof rack
+- The camera angle, height, lens and framing of image 1, the plain mid-grey studio backdrop and floor, the soft studio light and shadows, colour grade, grain
+
+ONLY CHANGE: the rolled mattress on the roof rack and the two people in the front seats. 100% identical otherwise. Exactly one car and two people inside it; no animals, nobody outside the car.
+```
+
+**Na co patrzeć:** auto identyczne jak na `auto-tyl.png` (tablica!); materac leży wzdłuż dachu, gruby jak wysokość szyb, z grubymi miękkimi zwojami z tyłu; ludzie na **przednich** fotelach, twarzy nie widać, Ania bliżej (prawa strona auta), Tomek dalej (kierowca); puste tylne siedzenie z zagłówkami i niskie kartony; tło szare studio. Zapisz jako `referencje/auto-z-para.jpg`. Potem krok B7: `u20-dom-plot.jpg` + `auto-z-para.jpg` (auto od tyłu na podjeździe).

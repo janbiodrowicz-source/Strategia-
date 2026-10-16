@@ -11,7 +11,7 @@ Ostatnia aktualizacja: 15.10.2026
 
 ## NASTĘPNY KROK (nowy wątek, 15.10) 👉
 1. **Poprawka u18 ✅ (15.10).** Nowy klip `wyniki/u18_klapa_v2_3.75s.mp4` (G1: materac z grubymi zwojami, Ania ostra, piesek ze skalą, „WA 12345”). Wstawić w CapCucie na 1:30–1:33,75 w miejsce starego. Szczegóły: `prompty/u18-auto-kamienica.md` (F1–G1). W klipie Ania z pieskiem stoi po prawej stronie auta, przy drzwiach pasażera.
-2. **u20:** B4 ❌ (NBP przebudował kadr); B5 ✅ prawie (wariant 2); czeka krok B6: mniejszy materac i ludzie na przednich fotelach, prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
+2. **u20:** B4 ❌ (NBP przebudował kadr); B5 ✅ prawie (wariant 2); najpierw referencja `auto-z-para.jpg` (auto z materacem i parą w środku, studio), potem B7: wstawienie jej do `u20-dom-plot.jpg`, prompt gotowy w `prompty/u20-podjazd.md`. Potem wideo: auto jedzie prosto do domu i staje, światła stopu na beat.
 3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora (poprawiać czy zostawić).
 4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek` (obie bez znikającej lampy).
 
