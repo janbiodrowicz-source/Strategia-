@@ -314,3 +314,5 @@ ONLY CHANGE: the rolled mattress on the roof rack and the two people in the fron
 ```
 
 **Na co patrzeć:** auto identyczne jak na `auto-tyl.png` (tablica!); materac leży wzdłuż dachu, gruby jak wysokość szyb, z grubymi miękkimi zwojami z tyłu; ludzie na **przednich** fotelach, twarzy nie widać, Ania bliżej (prawa strona auta), Tomek dalej (kierowca); puste tylne siedzenie z zagłówkami i niskie kartony; tło szare studio. Zapisz jako `referencje/auto-z-para.jpg`. Potem krok B7: `u20-dom-plot.jpg` + `auto-z-para.jpg` (auto od tyłu na podjeździe).
+
+**Wynik `auto-z-para.jpg` (16.10): ❌** (autor: „trochę nie wyszło”). Nowy plan autora: klatka z wideo u18 z zamkniętą klapą, w Flow usuwamy z niej ludzi i psa, i z tego robimy referencję auta. Claude wycięła klatkę z `wyniki/u18_G1_raw.mp4` w 2,2 s (klapa zamknięta, „WA 12345”, Ania najdalej od tyłu auta): `referencje/u18-klatka-auto.png` (1280×720, pełna rozdzielczość klipu).
