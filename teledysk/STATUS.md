@@ -10,7 +10,7 @@ Ostatnia aktualizacja: 17.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, od 17.10 wieczorem) 👉
-1. **u23: pusty salon w słońcu** (2:00–2:07,5, 7,5 s, 84°): Ania kręci się w środku z rozłożonymi rękami, a Tomek wnosi pudła. Baza: `referencje/salon.jpg` (trzy wysokie okna na ogród z u22, dąb na podłodze, kartony pod prawą ścianą). W domu stroje mogą być zdjęte (decyzja 13–14.10), do ustalenia z autorem. Zacząć od rozmowy o kadrze i akcji (jedna akcja; Tomek z pudłem może stać, zamiast chodzić).
+1. **u23: pusty salon w słońcu** ▶️ (2:00–2:07,5, 7,5 s, 84°). Decyzje autora 17.10: kadr jak `salon.jpg`, Tomek bez kurtki (`tomek-koszulka.jpg`), Ania w rozpiętym kardiganie, jeden wolny obrót Ani, Tomek stoi i odstawia pudło „SYPIALNIA” na podłogę, bez psa. Prompty A (Ania), B (Tomek), C (wideo) gotowe w `prompty/u23-salon.md`; czekamy na wyniki A.
 2. **Do CapCuta (jeśli jeszcze nie):** u20 `wyniki/u20_podjazd_3.75s.mp4` → 1:41,25–1:45; **u21** `wyniki/u21_klucz_v2_7.5s.mp4` → 1:45–1:52,5; **u22** `wyniki/u22_ogrod_7.5s.mp4` → 1:52,5–2:00 (oba 1080p); u18 v2 → 1:30–1:33,75.
 3. **Niebo w u22** jest niebieskie (popołudnie), a w u21 złote. Jeśli razi w montażu, to korekta kolorów w CapCucie.
 4. Stare sprawy: u14 (piesek trochę za duży), u16 (wybór wersji A/B).
