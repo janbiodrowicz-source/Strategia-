@@ -388,3 +388,30 @@ ONLY CHANGE: one box behind the man and the small puppy behind the woman on the 
 ```
 
 **Na co patrzeć:** karton po lewej (przed głową Tomka), piesek po prawej (przed głową Ani), piesek mały i tyłem do kamery; reszta bez zmian. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
+
+**Wynik tył v2 (17.10): ❌** NBP postawił karton i psa w bagażniku, tuż przy tylnej szybie (wyglądają na duże i bliskie). Poprawka: opisujemy głębię warstwa po warstwie i mówimy, że bagażnik przy szybie zostaje pusty.
+
+## Tył auta v3: karton i piesek na tylnej kanapie, tuż za przednimi fotelami (NBP, edycja)
+
+Flow · NBP · 1:1 (albo najbliższe) · 2k · x3. 1 = `referencje/auto-z-para-tyl-v1.jpg` (znów od wersji bez psa), 2 = `referencje/piesek.png`, 3 = `referencje/piesek-skala.jpg` (tylko wielkość psa).
+
+```text
+Edit image 1: the same rear view of the same yellow car on the grey studio backdrop, the same two people in the same front seats. Add one moving box and the puppy on the REAR SEAT inside the passenger cabin, not in the boot. Use image 2 for the puppy and image 3 only for its size; nothing else from them.
+
+Depth inside the car, from the camera forward: first the rear window glass; right behind it the low boot and the parcel shelf, which stay as they are, with nothing new on them; then the rear seat backrest; then the rear seat cushion; then the backs of the two front seats with their headrests; then the man and the woman in the front seats.
+
+CHANGE:
+- The box and the puppy sit on the rear seat cushion, beyond the rear seat backrest, pressed right up against the backs of the front seats, so they are far from the rear window, small in the view, and their lower parts are hidden behind the rear seat backrest.
+- LEFT: directly behind the driver's seat, against the back of the man's seat, one plain brown cardboard moving box; only its top half shows above the rear seat backrest, below the man's headrest.
+- RIGHT: directly behind the passenger seat, against the back of the woman's seat, the puppy from image 2 sits upright facing forward; only the back of its small fluffy honey-gold head and its floppy ears show above the rear seat backrest, below the woman's headrest. SIZE: a small puppy of about 8 kg, exactly the size in image 3; its head is clearly smaller than the woman's head.
+
+PRESERVE EXACTLY:
+- The framing, the grey studio, the light
+- The car, the closed rear hatch, the rear window, the tail lights, the plate "WA 12345", the roof rack and the mattress
+- The boot and the parcel shelf just inside the rear window
+- The man on the left and the woman on the right in the front seats: hair, heads, positions; the front seat headrests
+
+ONLY CHANGE: one box behind the driver's seat and the small puppy behind the passenger seat, both on the rear seat against the front seat backs. 100% identical otherwise. Exactly two people, one puppy and one car.
+```
+
+**Na co patrzeć:** karton i piesek **daleko od tylnej szyby**, małe, wystają tylko znad oparcia tylnej kanapy, tuż pod przednimi zagłówkami; bagażnik przy szybie bez zmian; karton po lewej, piesek po prawej. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
