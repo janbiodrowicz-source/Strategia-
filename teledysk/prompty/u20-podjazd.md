@@ -539,3 +539,54 @@ ONLY CHANGE: a grey pavement along the fence between the planting and the street
 ```
 
 **Na co patrzeć:** szary chodnik wzdłuż całego płotu, rośliny dalej przed płotem, podjazd przechodzi przez chodnik do obniżonego krawężnika, cienie płotu i auta leżą na chodniku; na drzwiach stalowa klamka i wkładka zamka; auto i rodzina bez zmian. Zapisz jako `referencje/u20-start.png` (nadpisz) albo `u20-start-v2.png`.
+
+**Wynik B8 (17.10): ✅** chodnik wzdłuż płotu i klamka z zamkiem. Klatka startowa: `referencje/u20-start-v2.jpg`.
+**Uwaga autora po próbie wideo C:** auto zatrzymuje się prawie tam, gdzie stało na starcie, czyli w samej bramie. Ma podjechać dalej, za linię płotu, bliżej domu, i stanąć tak, żeby wszyscy mieli miejsce na otwarcie drzwi i wyjście.
+
+## Krok C2: auto wjeżdża za bramę i staje na szerokim podjeździe (Omni 1.1 Flash)
+
+Kotwice miejsca zatrzymania: za linią płotu, tam gdzie podjazd się rozszerza, przedni zderzak ok. 2 m przed schodami, wolna kostka po obu stronach auta. Auto ma wyraźnie zmaleć w kadrze. Stop na szósty beat, ok. 2,8 s.
+Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x3. 1 = `u20-start-v2.jpg` (klatka startowa), 2 = `auto-z-para-tyl.png` (@AUTO). Cięcie 3,75 s, oś 1:41,25–1:45.
+
+```text
+SCENE CONTEXT
+Late afternoon, golden sunset, continuing directly from the starting image. A small yellow hatchback loaded for moving day drives in through the open gate, rolls up the driveway of a new single-storey house and parks in front of it, with room all around it to open the doors. A couple sits in the front seats and their puppy sits behind the passenger; they have arrived home. Nobody gets out, nobody speaks.
+
+ACTIVE REFERENCES
+@AUTO: the boxy yellow 1980s hatchback seen from behind, black bumper, black roof rack with a rolled mattress in clear plastic strapped lengthwise along the middle of the roof, its rear end showing thick soft turns; rear license plate reading exactly "WA 12345". Inside, exactly as in the reference: a man with short dark hair in the driver's seat on the left, a woman with wavy shoulder-length hair in the passenger seat on the right, a cardboard box on the rear seat behind the man, a fluffy honey-gold puppy on the rear seat behind the woman. 100% matches the reference.
+
+LOCATION MAP
+Exactly the place from the starting image: the camera stands on the asphalt street, facing the house straight on. In the foreground a grey pavement and kerb. Behind it a horizontal-slat wooden fence with dark posts runs across the frame: the pedestrian gate and letterbox on the left, the open gateway in the middle, the fence and an orange lamp on the right. Beyond the fence line the paved driveway opens up into a wide paved area in front of the white house, with a dark front door, a steel handle and two steps.
+SIGNAGE: The rear license plate reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same light. @AUTO stands in the open gateway between the two gate posts, its rear toward the camera, its nose pointing straight at the front door, tail lights off. The two heads and the puppy are visible through the rear window.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, the house, fence and car all sharp, rule of thirds.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level on the street, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:02.8: @AUTO drives slowly forward, away from the camera and straight toward the front door, about five metres in total, at a gentle walking pace. It passes fully beyond the gate posts and the line of the fence and rolls onto the wide paved area in front of the house. It moves only forward, away from the camera, and becomes clearly smaller in the frame, about three quarters of its starting size; the paving passes under it toward the camera. It never reverses and never turns.
+0:02.8: @AUTO stops well inside the property, beyond the fence line, its front bumper about two metres before the bottom step, with open paving on both sides of the car, wide enough to open every door. Both red brake lights switch on brightly at the moment it stops, and the car dips gently on its front springs and settles.
+0:02.8 to 0:04.0: Stillness. @AUTO stands still with the brake lights glowing red. Inside, the two heads stay in the front seats facing the house; the puppy's ears lift. The car does not move again.
+
+PHYSICS
+A small car with real weight: smooth slow roll, gentle braking, a soft forward dip and settle when it stops. The wheels turn while it rolls and stop when it stops. The mattress stays strapped to the roof, same shape and size. A faint wisp of exhaust in the cool evening air.
+
+LIGHTING
+Warm low sunset light from the right behind the house; the rear of the car in soft warm shade with a golden rim along the roof and the mattress; long fence shadows striping the pavement and the street. The red brake lights glow warm against the shaded rear. No flat front light.
+
+AUDIO
+A small engine idling down, tyres crunching softly on the paving, a short brake squeak, then evening birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one car, two people and one puppy inside it; nobody outside the car. The house, fence, gates, pavement and plants stay exactly as in the starting image. Stable picture, fine film grain, warm sunset colours, no flickering.
+```
+
+**Na co patrzeć:** auto przejeżdża całe za słupki i linię płotu, wyraźnie maleje (ok. 3/4), staje ok. 2 m przed schodami z wolnym miejscem po bokach; światła stopu przy zatrzymaniu (ok. 2,8 s); kierunek od kamery, bez cofania.
