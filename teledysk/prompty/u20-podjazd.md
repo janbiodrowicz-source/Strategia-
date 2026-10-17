@@ -688,3 +688,53 @@ Exactly one car, two people and one puppy inside it. All doors stay closed for t
 ```
 
 **Na co patrzeć:** auto wjeżdża kawałek i staje ok. 0,5 m za bramą; drzwi przez cały czas zamknięte, nikt nie wysiada; światła stopu ok. 2,3 s.
+
+**Wynik C4 ❌ (autor, 17.10):** auto staje za wcześnie, tył nie mija bramy. Model nie umie odmierzyć „half a metre beyond the line of the gate posts”, a „just far enough” i „slowly” go hamują.
+
+## Krok C5: auto przejeżdża swoją długość, za nim odsłania się brama (Omni 1.1 Flash)
+
+Ustawienia i zdjęcia jak w C3: Flow · Omni 1.1 Flash · 16:9 · 4 s · 720p · x3. 1 = `u20-start-v2.jpg`, 2 = `auto-z-para-tyl.png` (@AUTO).
+**Zmiany względem C4:** dystans w długościach auta („about one full car length”) zamiast metrów, opis obrazu końcowego (puste słupki i pas kostki między bramą a zderzakiem, odsłonięta kostka w bramie), stała prędkość zamiast „slowly / just far enough”, jazda do 2,8 s, dom „far away”, bez słów entrance/steps.
+
+```text
+SCENE CONTEXT
+Late afternoon, golden sunset, continuing directly from the starting image. A small yellow hatchback loaded for moving day drives forward out of the open gateway onto the paved driveway and stops there, the whole car now clearly inside the property. One simple action: the car drives in and stops. Everyone stays seated inside, all doors stay closed for the whole shot.
+
+ACTIVE REFERENCES
+@AUTO: the boxy yellow 1980s hatchback seen from behind, black bumper, black roof rack with a rolled mattress in clear plastic strapped lengthwise along the middle of the roof, its rear end showing thick soft turns; rear license plate reading exactly "WA 12345". Inside, exactly as in the reference: a man with short dark hair in the driver's seat on the left, a woman with wavy shoulder-length hair in the passenger seat on the right, a cardboard box on the rear seat behind the man, a fluffy honey-gold puppy on the rear seat behind the woman. 100% matches the reference.
+
+LOCATION MAP
+Exactly the place from the starting image: the camera stands on the asphalt street, facing the house straight on. In the foreground a grey pavement and kerb. Behind it a horizontal-slat wooden fence with dark posts runs across the frame: the pedestrian gate and letterbox on the left, the open gateway with its two dark gate posts in the middle, the fence and an orange lamp on the right. Beyond the gateway a long paved driveway leads far back to the white house.
+SIGNAGE: The rear license plate reads exactly "WA 12345" in black letters on a white plate.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first frame is exactly the starting image: same framing, same light. @AUTO stands in the open gateway, its rear between the two gate posts, its rear toward the camera, its nose pointing straight at the house, tail lights off.
+
+FORMAT MODE
+Single continuous take. Real-time motion. No cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, the same lens for the whole shot, no zoom. Natural perspective, everything sharp, rule of thirds.
+
+CAMERA
+Locked-off camera on a tripod at standing eye level on the street, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
+
+ACTION TIMING
+0:00 to 0:02.8: @AUTO drives straight forward at a steady rolling speed, away from the camera, and travels about one full car length. It moves only away from the camera and becomes clearly smaller in the frame; the paving streams under it toward the camera. It never reverses and never turns. As it pulls away, the gateway behind it opens up: the paving that was under the car becomes visible again between the two gate posts.
+0:02.8: @AUTO stops. Final picture: the two gate posts stand fully free with empty paving between them, then a clear strip of empty paving, about half a metre, then the rear bumper of the car. No part of the car is between the gate posts anymore. The car is still far from the house. Both red brake lights switch on brightly at the moment it stops, and the car dips gently on its front springs and settles.
+0:02.8 to 0:04.0: Stillness. @AUTO stands still with the brake lights glowing red, all four doors and the rear hatch closed. Nothing else moves.
+
+PHYSICS
+A small car with real weight: a smooth steady roll, gentle braking, a soft forward dip and settle when it stops. The wheels turn while it rolls and stop when it stops. The mattress stays strapped to the roof, same shape and size. A faint wisp of exhaust in the cool evening air.
+
+LIGHTING
+Warm low sunset light from the right behind the house; the rear of the car in soft warm shade with a golden rim along the roof and the mattress; long fence shadows striping the pavement and the street. The red brake lights glow warm against the shaded rear. No flat front light.
+
+AUDIO
+A small engine, tyres rolling softly on the paving, a short brake squeak, then evening birds. Nobody speaks. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one car, two people and one puppy inside it. All doors stay closed for the whole shot; nobody gets out, nobody outside the car. The house, fence, gates, pavement and plants stay exactly as in the starting image. Stable picture, fine film grain, warm sunset colours, no flickering.
+```
+
+**Na co patrzeć:** czy tył auta mija słupki i między bramą a zderzakiem widać pas pustej kostki (ok. 0,5 m); czy auto nie jedzie za daleko (pod dom jak w C2); drzwi przez cały czas zamknięte; światła stopu ok. 2,8 s. Jeśli przejedzie za daleko, w C6 zmieniamy „one full car length” na „about half a car length plus a little”, a nadmiar ewentualnie przycinamy w ffmpeg (stop na beat da się przesunąć cięciem).

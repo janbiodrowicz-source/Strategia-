@@ -3,7 +3,7 @@
 Ostatnia aktualizacja: 17.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
-- Najnowsza praca jest na gałęzi **`ccr-baa341b7-hv20hr`** (kontynuacja `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
+- Najnowsza praca jest na gałęzi **`ccr-8a6ed68e-6dmahk`** (kontynuacja `ccr-baa341b7-hv20hr` i `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
 - Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u13-skarpetka.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`, `u19-droga-piesek.md`, `u20-podjazd.md`. W `postacie.md` jest **zdanie SIZE psa** i planszka skali `referencje/piesek-skala.jpg`: obie idą do każdego promptu z psem.
 - Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Pierwsze zdjęcie = klatka startowa, maks. 10 zdjęć. Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
 - **Przycinanie robi Claude:** wybór fragmentu, bez dźwięku, zapis do `teledysk/wyniki/` (poza gitem), wysyłka pliku. Gdy trzeba wyciąć początek, a brakuje długości: zwolnienie do ok. 80–85% z `minterpolate` wygląda naturalnie (u15, u16). **Uwaga (15.10):** minterpolate gubi cienkie detale (lampa w u16 znikała). Przy cienkich obiektach w kadrze zwalniamy przez powielanie klatek albo zwalniamy tylko spokojny fragment.
@@ -12,7 +12,7 @@ Ostatnia aktualizacja: 17.10.2026
 ## NASTĘPNY KROK (nowy wątek, 17.10) 👉
 1. **u20 wideo (podjazd):** klatka startowa gotowa ✅ `referencje/u20-start-v2.jpg` (dom z płotem, chodnik, klamka z zamkiem, auto w bramie z rodziną w środku: Tomek z lewej, Ania z prawej, karton za Tomkiem, piesek za Anią, materac ze zwojami, „WA 12345”). Referencja auta: `referencje/auto-z-para-tyl.png`.
    - **Cel (autor):** jedna prosta akcja. Auto wjeżdża ok. **pół metra za bramę** (tył mija słupki) i staje, światła stopu przy zatrzymaniu. Nikt nie otwiera drzwi, nikt nie wysiada.
-   - Próby: C (auto prawie stało), C2 (za daleko, przy schodach), C3 (pasażerowie otwierali drzwi, bo prompt wspominał o drzwiach), **C4 też ❌**. Na początku nowego wątku **zapytać autora, co poszło nie tak w C4**, i obejrzeć klipy (arkusze klatek).
+   - Próby: C (auto prawie stało), C2 (za daleko, przy schodach), C3 (pasażerowie otwierali drzwi, bo prompt wspominał o drzwiach), C4 ❌ (auto staje za wcześnie, tył nie mija bramy: model nie odmierza „pół metra”). **C5 gotowy do generowania:** dystans „about one full car length”, opis obrazu końcowego (puste słupki, pas kostki, zderzak), stała prędkość, stop 2,8 s. Czekamy na wynik.
    - Pomysły na kolejną próbę: krótszy prompt (mniej tekstu = mniej pomysłów modelu), bez słowa „house entrance/steps”, może klatka końcowa (auto już za bramą, zrobione w NBP/GPT Image 2) jako drugi kadr, jeśli Flow pozwala na start i koniec; albo zaakceptować najbliższy wynik i przyciąć.
    - Prompty i cała historia: `prompty/u20-podjazd.md` (B4–B8, C–C4).
 2. **u18 ✅** nowy klip `wyniki/u18_klapa_v2_3.75s.mp4`, wstawić w CapCucie na 1:30–1:33,75 (jeśli jeszcze nie).
