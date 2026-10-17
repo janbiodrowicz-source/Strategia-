@@ -10,11 +10,7 @@ Ostatnia aktualizacja: 17.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, 17.10) 👉
-1. **u20 wideo (podjazd):** klatka startowa gotowa ✅ `referencje/u20-start-v2.jpg` (dom z płotem, chodnik, klamka z zamkiem, auto w bramie z rodziną w środku: Tomek z lewej, Ania z prawej, karton za Tomkiem, piesek za Anią, materac ze zwojami, „WA 12345”). Referencja auta: `referencje/auto-z-para-tyl.png`.
-   - **Cel (autor):** jedna prosta akcja. Auto wjeżdża ok. **pół metra za bramę** (tył mija słupki) i staje, światła stopu przy zatrzymaniu. Nikt nie otwiera drzwi, nikt nie wysiada.
-   - Próby: C (auto prawie stało), C2 (za daleko, przy schodach), C3 (pasażerowie otwierali drzwi, bo prompt wspominał o drzwiach), C4 ❌ (auto staje za wcześnie, tył nie mija bramy: model nie odmierza „pół metra”). **C5 gotowy do generowania:** dystans „about one full car length”, opis obrazu końcowego (puste słupki, pas kostki, zderzak), stała prędkość, stop 2,8 s. Czekamy na wynik.
-   - Pomysły na kolejną próbę: krótszy prompt (mniej tekstu = mniej pomysłów modelu), bez słowa „house entrance/steps”, może klatka końcowa (auto już za bramą, zrobione w NBP/GPT Image 2) jako drugi kadr, jeśli Flow pozwala na start i koniec; albo zaakceptować najbliższy wynik i przyciąć.
-   - Prompty i cała historia: `prompty/u20-podjazd.md` (B4–B8, C–C4).
+1. **u20 ✅ (podjazd):** C5 wyszedł, plik `wyniki/u20_podjazd_3.75s.mp4` (cięcie 0,25–4,0 s, światła stopu na 2,625 s). Wstawić w CapCucie na 1:41,25–1:45. Lekcja: dystans podajemy w długościach auta i opisujemy obraz końcowy, a nie metry (`prompty/u20-podjazd.md`, C4→C5).
 2. **u18 ✅** nowy klip `wyniki/u18_klapa_v2_3.75s.mp4`, wstawić w CapCucie na 1:30–1:33,75 (jeśli jeszcze nie).
 3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora.
 4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek`.
@@ -42,6 +38,7 @@ Ostatnia aktualizacja: 17.10.2026
    - **referencja „aktora” najpierw:** auto z rodziną w środku robimy osobno na szarym tle (`auto-z-para-tyl.png`), potem wstawiamy do sceny; kto gdzie siedzi: kotwica „ręce na kierownicy” i strony opisane osobno dla widoku z przodu i z tyłu (lustro),
    - koniec rulonu widziany idealnie od tyłu zawsze jest kołem; materac robimy wg `materac-rulon-paleta(-lustro)` z grubymi zwojami,
    - **nie wspominamy w prompcie wideo o akcji, która ma się nie wydarzyć** (np. „drzwi mogą się otworzyć”), bo model ją dopisuje; piszemy wprost „all doors stay closed”,
+   - **dystans jazdy w długościach auta + opis obrazu końcowego** („about one full car length”, „gate posts stand fully free… then the rear bumper”); metry („half a metre beyond”) i „slowly / just far enough” sprawiają, że auto staje za wcześnie (u20 C4→C5),
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
@@ -62,11 +59,11 @@ Ostatnia aktualizacja: 17.10.2026
 | 16 ✅ | 1:26,25–1:30 | Pożegnanie z kawalerką | 3,75 s |
 | 18 ✅ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, Ania z psem w bramie | 3,75 s |
 | 19 ✅ | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
-| 20 | 1:41,25–1:45 | Przedmieścia, żółte auto skręca na podjazd | 3,75 s |
+| 20 ✅ | 1:41,25–1:45 | Przedmieścia, żółte auto wjeżdża przez bramę i staje | 3,75 s |
 | 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
-## W toku ▶️ u20 (podjazd)
+## Zrobione ✅ u20 (podjazd)
 Plan i prompty: `prompty/u20-podjazd.md`. Decyzja autora (14.10): bez skrętu, auto wjeżdża prosto na podjazd i staje przed domem, kamera na wprost domu jak na `dom.png`, późne popołudnie. Kroki: A (dom 16:9), B (auto + piesek), C (wideo 4 s). A ✅. Decyzja autora: drewniany płot z bramą przesuwną, odsuniętą na stałe (zapisane w `lokacje.md`). A2: płot dobry, ale brama po lewej. Decyzja: brama w prawo, do tego furtka, lampka i trójkąt, wszystko w stylu płotu. A4 ✅, czyli dom z płotem gotowy: `referencje/u20-dom-plot.jpg` (stała referencja domu). B ❌, a autor rezygnuje z psa w oknie. B2 ✅ prawie (materac wygląda jak tarcza, nie widać Ani). Prompt B3 (poprawki punktowe) gotowy. Nowe referencje: `auto-materac.jpg`, `auto-tyl.png`.
 
 ## Zrobione ✅ u19 (droga, piesek za oknem)

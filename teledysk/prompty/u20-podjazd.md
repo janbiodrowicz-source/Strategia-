@@ -738,3 +738,5 @@ Exactly one car, two people and one puppy inside it. All doors stay closed for t
 ```
 
 **Na co patrzeć:** czy tył auta mija słupki i między bramą a zderzakiem widać pas pustej kostki (ok. 0,5 m); czy auto nie jedzie za daleko (pod dom jak w C2); drzwi przez cały czas zamknięte; światła stopu ok. 2,8 s. Jeśli przejedzie za daleko, w C6 zmieniamy „one full car length” na „about half a car length plus a little”, a nadmiar ewentualnie przycinamy w ffmpeg (stop na beat da się przesunąć cięciem).
+
+**Wynik C5 ✅ (17.10):** autor wybrał najlepszy klip. Auto przejeżdża przez bramę i staje za słupkami, światła stopu zapalają się ok. 2,875 s, drzwi zamknięte, tablica „WA 12345” czytelna. Cięcie 0,25–4,0 s (stop na 2,625 s), bez dźwięku: `wyniki/u20_podjazd_3.75s.mp4`.
