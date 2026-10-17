@@ -339,3 +339,29 @@ Soft even studio light from the front-left in both panels, gentle shadows under 
 ```
 
 **Na co patrzeć:** dwa panele, to samo auto i te same osoby; **lewy (przód):** Tomek z rękami na kierownicy po **prawej** stronie panelu, Ania po lewej, twarze widoczne; **prawy (tył):** Tomek po **lewej**, Ania po prawej, tylko tyły głów, za pustym tylnym siedzeniem; materac wzdłuż dachu z grubymi zwojami; „WA 12345” z obu stron; szare studio. Zapisz jako `referencje/auto-z-para-planszka.jpg`. Potem B7: `u20-dom-plot.jpg` + prawy panel planszki.
+
+**Wynik planszki (17.10): ✅ prawie** (najlepsza z kilku prób autora, `referencje/auto-z-para-planszka-v1.jpg`). Miejsca dobre: z przodu Ania po lewej, Tomek z kierownicą po prawej; z tyłu Tomek po lewej, Ania po prawej, przednie zagłówki przed nimi. Brakuje (autor): kartonu na tylnej kanapie za Tomkiem i pieska. Uwaga Claude: rulon w obu panelach leży przy prawej krawędzi kadru, co się wyklucza (od przodu i od tyłu strony są odwrócone); w u18 leży na środku dachu. Tył auta wygląda trochę inaczej niż `auto-tyl.png`.
+
+## Planszka v2: karton za Tomkiem i piesek za Anią (NBP, edycja)
+
+Piesek jedzie z tyłu po prawej (decyzja z u19), czyli za Anią; karton z tyłu po lewej, za Tomkiem. Lustro: na przednim panelu karton jest po prawej stronie panelu, piesek po lewej; na tylnym odwrotnie.
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/auto-z-para-planszka-v1.jpg`, 2 = `referencje/piesek.png`, 3 = `referencje/piesek-skala.jpg` (tylko wielkość psa).
+
+```text
+Edit image 1: the same two-panel sheet, the same car, the same two people in the same seats. Add one moving box and the puppy on the rear seat. Use image 2 for the puppy and image 3 only for its size next to an adult; nothing else from them.
+
+CHANGE (the same in both panels):
+- On the rear seat directly behind the driver, behind the man at the steering wheel, one plain brown cardboard moving box, about as tall as the seat back.
+- On the rear seat directly behind the passenger, behind the woman, the puppy from image 2 sits upright, its fluffy honey-gold head and floppy ears showing just above the bottom edge of the windows. SIZE: a small puppy of about 8 kg, exactly the size in image 3, its head much smaller than an adult's head.
+- LEFT PANEL, the front view: through the windscreen, the box shows behind the man on the right side of the panel, and the puppy's head shows behind the woman on the left side of the panel.
+- RIGHT PANEL, the rear view: through the rear window, the box is on the left side of the panel, in front of the man's head, and the puppy is on the right side of the panel, in front of the woman's head.
+
+PRESERVE EXACTLY:
+- Both panels' framing, the grey studio, the light
+- The car, the plates "WA 12345", the roof rack and the mattress
+- The man behind the steering wheel and the woman in the passenger seat: faces, hair, clothes, positions; the front seat headrests
+
+ONLY CHANGE: one box behind the driver and the small puppy behind the passenger, in both panels. 100% identical otherwise. Exactly two people, one puppy, one car in each panel.
+```
+
+**Na co patrzeć:** karton za Tomkiem, piesek za Anią w obu panelach (przód: karton po prawej, pies po lewej; tył: karton po lewej, pies po prawej); piesek mały; reszta bez zmian. Zapisz jako `referencje/auto-z-para-planszka.jpg`.
