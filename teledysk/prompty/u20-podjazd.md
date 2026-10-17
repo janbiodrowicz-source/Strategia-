@@ -415,3 +415,26 @@ ONLY CHANGE: one box behind the driver's seat and the small puppy behind the pas
 ```
 
 **Na co patrzeć:** karton i piesek **daleko od tylnej szyby**, małe, wystają tylko znad oparcia tylnej kanapy, tuż pod przednimi zagłówkami; bagażnik przy szybie bez zmian; karton po lewej, piesek po prawej. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
+
+**Wynik tył v3 (17.10):** w NBP karton i pies uparcie lądowały w bagażniku. Autor zrobił to w **GPT Image 2** i wyszło ✅: karton na tylnej kanapie za Tomkiem, piesek za Anią, półka z kartonami przy szybie. Zapisane jako `referencje/auto-z-para-tyl-v2.png`. **Lekcja:** głębia wnętrza auta (co jest na tylnej kanapie, a co w bagażniku) lepiej wychodzi w GPT Image 2 niż w NBP. Do poprawy (autor): piesek za mały w porównaniu z u19.
+
+## Tył auta v4: większy piesek, jak w u19 (GPT Image 2, edycja)
+
+W u19 piesek jest blisko kamery, więc jego głowa wygląda prawie jak głowa Ani. Od tyłu siedzi bliżej kamery niż Ania, więc też może być duży: głowa ok. 3/4 głowy Ani. Przesuwamy go pod prawe tylne okno, jak w u19, żeby nie zasłaniał Ani.
+GPT Image 2 · 2k · jakość high. 1 = `referencje/auto-z-para-tyl-v2.png`, 2 = `referencje/u19-start.jpg` (tylko wygląd i wielkość psa obok Ani).
+
+```text
+Edit image 1: change only the puppy on the rear seat. Use image 2 only for how the puppy looks and how big it is next to the woman; nothing else from image 2.
+
+CHANGE:
+- The same fluffy honey-gold puppy with floppy ears and a black collar sits upright on the right side of the rear seat, close to the right rear side window, behind the woman in the passenger seat, facing forward, away from the camera. It is bigger than now, the same dog as in image 2: the back of its head, both floppy ears and the top of its shoulders show above the rear seat backrest; its head is about three quarters the size of the woman's head. It sits a little to the right of her headrest, so her head stays fully visible.
+
+PRESERVE EXACTLY:
+- Everything else in image 1, pixel for pixel: the car, the rear window, the plate "WA 12345", the tail lights, the roof rack, the mattress, the grey studio, the light
+- The man on the left and the woman on the right in the front seats, their heads, hair and headrests
+- The box on the rear seat behind the man, the boxes on the parcel shelf
+
+ONLY CHANGE: a bigger puppy on the right side of the rear seat, under the right rear side window. 100% identical otherwise.
+```
+
+**Na co patrzeć:** piesek wyraźnie większy (głowa ok. 3/4 głowy Ani), z tyłu po prawej, pod prawym tylnym oknem, nie zasłania Ani; reszta bez zmian. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
