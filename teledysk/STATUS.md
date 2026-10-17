@@ -1,6 +1,6 @@
 # Status prac: teledysk „Zostań tu”
 
-Ostatnia aktualizacja: 15.10.2026
+Ostatnia aktualizacja: 17.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Najnowsza praca jest na gałęzi **`ccr-baa341b7-hv20hr`** (kontynuacja `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
@@ -9,11 +9,16 @@ Ostatnia aktualizacja: 15.10.2026
 - **Przycinanie robi Claude:** wybór fragmentu, bez dźwięku, zapis do `teledysk/wyniki/` (poza gitem), wysyłka pliku. Gdy trzeba wyciąć początek, a brakuje długości: zwolnienie do ok. 80–85% z `minterpolate` wygląda naturalnie (u15, u16). **Uwaga (15.10):** minterpolate gubi cienkie detale (lampa w u16 znikała). Przy cienkich obiektach w kadrze zwalniamy przez powielanie klatek albo zwalniamy tylko spokojny fragment.
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
-## NASTĘPNY KROK (nowy wątek, 15.10) 👉
-1. **Poprawka u18 ✅ (15.10).** Nowy klip `wyniki/u18_klapa_v2_3.75s.mp4` (G1: materac z grubymi zwojami, Ania ostra, piesek ze skalą, „WA 12345”). Wstawić w CapCucie na 1:30–1:33,75 w miejsce starego. Szczegóły: `prompty/u18-auto-kamienica.md` (F1–G1). W klipie Ania z pieskiem stoi po prawej stronie auta, przy drzwiach pasażera.
-2. **u20:** B4 ❌ (NBP przebudował kadr); B5 ✅ prawie (wariant 2); referencja auta z rodziną ✅ (`auto-z-para-tyl.png`, karton i pies na tylnej kanapie zrobione w GPT Image 2); B7 ✅ (`u20-start.png`); czeka wideo C (auto podjeżdża kawałek i staje, światła stopu ok. 2,3 s), prompt w `prompty/u20-podjazd.md`.
-3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora (poprawiać czy zostawić).
-4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek` (obie bez znikającej lampy).
+## NASTĘPNY KROK (nowy wątek, 17.10) 👉
+1. **u20 wideo (podjazd):** klatka startowa gotowa ✅ `referencje/u20-start-v2.jpg` (dom z płotem, chodnik, klamka z zamkiem, auto w bramie z rodziną w środku: Tomek z lewej, Ania z prawej, karton za Tomkiem, piesek za Anią, materac ze zwojami, „WA 12345”). Referencja auta: `referencje/auto-z-para-tyl.png`.
+   - **Cel (autor):** jedna prosta akcja. Auto wjeżdża ok. **pół metra za bramę** (tył mija słupki) i staje, światła stopu przy zatrzymaniu. Nikt nie otwiera drzwi, nikt nie wysiada.
+   - Próby: C (auto prawie stało), C2 (za daleko, przy schodach), C3 (pasażerowie otwierali drzwi, bo prompt wspominał o drzwiach), **C4 też ❌**. Na początku nowego wątku **zapytać autora, co poszło nie tak w C4**, i obejrzeć klipy (arkusze klatek).
+   - Pomysły na kolejną próbę: krótszy prompt (mniej tekstu = mniej pomysłów modelu), bez słowa „house entrance/steps”, może klatka końcowa (auto już za bramą, zrobione w NBP/GPT Image 2) jako drugi kadr, jeśli Flow pozwala na start i koniec; albo zaakceptować najbliższy wynik i przyciąć.
+   - Prompty i cała historia: `prompty/u20-podjazd.md` (B4–B8, C–C4).
+2. **u18 ✅** nowy klip `wyniki/u18_klapa_v2_3.75s.mp4`, wstawić w CapCucie na 1:30–1:33,75 (jeśli jeszcze nie).
+3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora.
+4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek`.
+5. Potem u21 (klucz w złotej godzinie; klamka z wkładką na zamek już jest na drzwiach w u20).
 
 ## Sprawdzony sposób na ujęcie ✅
 1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (16:9).
@@ -33,6 +38,10 @@ Ostatnia aktualizacja: 15.10.2026
    - **wyraźna twarz = większa postać na klatce startowej:** kadrujemy obraz 2k przed animacją (ffmpeg), a postać stawiamy bliżej kamery; zoom gotowego klipu 720p nie dodaje ostrości (u18, 15.10),
    - **materac w rulonie:** opis „płaski koniec ze spiralą jak pień” daje rurki; działa wzór `materac-rulon-paleta-lustro.png` i opis „two or three thick, chunky, soft turns” (u18 F1c),
    - NBP przy dodawaniu postaci potrafi zepsuć wcześniej poprawione napisy, więc sprawdzamy je po każdym przejściu,
+   - **głębia wnętrza auta** (tylna kanapa czy bagażnik) wychodzi w **GPT Image 2**, NBP uparcie kładzie rzeczy przy tylnej szybie (u20, 17.10),
+   - **referencja „aktora” najpierw:** auto z rodziną w środku robimy osobno na szarym tle (`auto-z-para-tyl.png`), potem wstawiamy do sceny; kto gdzie siedzi: kotwica „ręce na kierownicy” i strony opisane osobno dla widoku z przodu i z tyłu (lustro),
+   - koniec rulonu widziany idealnie od tyłu zawsze jest kołem; materac robimy wg `materac-rulon-paleta(-lustro)` z grubymi zwojami,
+   - **nie wspominamy w prompcie wideo o akcji, która ma się nie wydarzyć** (np. „drzwi mogą się otworzyć”), bo model ją dopisuje; piszemy wprost „all doors stay closed”,
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
