@@ -31,12 +31,14 @@ ONLY CHANGE: the woman in the centre of the room. 100% identical otherwise.
 
 **Na co patrzeć:** cała postać ze stopami, Ania przodem do kamery, ręce dopiero się unoszą (nie rozłożone do końca), usta zamknięte, kardigan rozpięty i widać paski, kartony i żarówka bez zmian. Zapisz jako `referencje/u23-ania.jpg`.
 
+**Wynik A ✅ (17.10, Lovable):** jedna Ania na środku (trochę bardziej w prawo niż w prompcie, przed prawym oknem), ręce lekko uniesione, oczy przymknięte, kardigan rozpięty, kadr i cztery kartony bez zmian. W Lovable dodatkowo portret z planszki jako image 3 z dopiskiem „Image 3 is a close-up of the same woman's face; use it only for her face.” (działa). Plik `referencje/u23-ania.png` (1376×768).
+
 ## Krok B: Tomek z pudłem „SYPIALNIA” (NBP lub Lovable, edycja)
 
-Flow · NBP · 16:9 · 2k · x3. 1 = wynik A (`u23-ania.jpg`), 2 = `referencje/tomek-koszulka.jpg`.
+Flow · NBP · 16:9 · 2k · x3. 1 = wynik A (`u23-ania.png`), 2 = `referencje/tomek-koszulka.jpg`, opcjonalnie 3 = portret Tomka z planszki.
 
 ```text
-Edit image 1: add the man from image 2 standing in the living room with one more moving box. Use image 2 only as the reference for his face, hair and clothing; take nothing else from it.
+Edit image 1: add the man from image 2 standing in the living room with one more moving box. Use image 2 only as the reference for his face, hair and clothing; take nothing else from it. Image 3 is a close-up of the same man's face; use it only for his face.
 
 CHANGE:
 - THE MAN: in the right third of the frame, just in front of and to the left of the stack of four cardboard boxes, a little closer to the camera than the stack. Full figure, feet on the floor. He stands still in a three-quarter profile, his body and face turned toward the left of the frame, looking at the woman in the centre of the room with a warm, quiet, closed-mouth smile.
