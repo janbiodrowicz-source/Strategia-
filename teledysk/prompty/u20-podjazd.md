@@ -438,3 +438,29 @@ ONLY CHANGE: a bigger puppy on the right side of the rear seat, under the right 
 ```
 
 **Na co patrzeć:** piesek wyraźnie większy (głowa ok. 3/4 głowy Ani), z tyłu po prawej, pod prawym tylnym oknem, nie zasłania Ani; reszta bez zmian. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
+
+**Wynik tył v4 (17.10): ✅** piesek większy, z tyłu po prawej za Anią, jej głowa widoczna; karton za Tomkiem. Zapisane jako `referencje/auto-z-para-tyl.png` (gotowa referencja auta z całą rodziną od tyłu). Rulon nadal przy prawej krawędzi dachu, poprawiamy w B7.
+
+## Krok B7: auto z rodziną na podjeździe (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/auto-z-para-tyl.png` (auto z rodziną od tyłu), 3 = `referencje/auto-u18-puste.jpg` (tylko materac: leży na środku dachu).
+
+```text
+Edit image 1: the same house, fence, gates, garden, street, light and camera. Add the yellow car from image 2, exactly as it is in image 2, seen from behind on the driveway. Use image 3 only for how the mattress sits on the roof; nothing else from images 2 and 3: no grey studio, no street, no tenement.
+
+CHANGE (add only this):
+- THE CAR from image 2, with everything inside it exactly as in image 2: the man in the driver's seat on the left, the woman in the passenger seat on the right, the box on the rear seat behind the man, the puppy on the rear seat behind the woman, the boxes on the parcel shelf. It stands on the paved driveway just past the two gate posts, in the middle of the driveway, its rear toward the camera, its nose pointing straight at the front door, at the right size for a small car a few metres beyond the gate. The house, the front door and the steps stay visible above and beside it.
+- The rear hatch closed, the tail lights switched off, the rear license plate reading exactly "WA 12345".
+- THE MATTRESS lies lengthwise along the middle of the roof rack, centred on the roof as in image 3, held by two orange straps, its rear end with the thick soft turns facing the camera.
+- LIGHT: the low sun beyond the house backlights the car: the rear of the car in soft warm shade, a golden rim of light along the roof and the mattress, the heads of the people and the puppy as dark warm silhouettes with glowing rims in the hair and fur. The car casts a long soft shadow toward the camera across the driveway.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The house, its door, windows and steps; the whole fence with the pedestrian gate and letterbox, the gate posts, the orange lamp, the open sliding gate
+- The driveway, the front garden, the trees, the neighbouring houses, the empty asphalt street, the kerb and the striped fence shadows
+- The warm low sunset light from the right, colour grade, contrast, grain
+
+ONLY CHANGE: the car from image 2 with the whole family inside, on the driveway, seen from behind, the mattress centred on the roof. 100% identical otherwise. Exactly one car; two people and one puppy inside it; nobody outside the car.
+```
+
+**Na co patrzeć:** kadr domu identyczny jak na zdjęciu 1; auto prosto na osi podjazdu, za słupkami; w środku jak na referencji: Tomek z lewej, Ania z prawej, karton za Tomkiem, piesek za Anią; rulon **na środku** dachu; „WA 12345”, światła zgaszone; pod słońce sylwetki ze złotą obwódką. Zapisz jako `referencje/u20-start.jpg`.
