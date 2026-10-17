@@ -365,3 +365,26 @@ ONLY CHANGE: one box behind the driver and the small puppy behind the passenger,
 ```
 
 **Na co patrzeć:** karton za Tomkiem, piesek za Anią w obu panelach (przód: karton po prawej, pies po lewej; tył: karton po lewej, pies po prawej); piesek mały; reszta bez zmian. Zapisz jako `referencje/auto-z-para-planszka.jpg`.
+
+**Zmiana autora (17.10):** do edycji idzie tylko tył auta. Claude wycięła prawy panel planszki v1: `referencje/auto-z-para-tyl-v1.jpg`.
+
+## Tył auta v2: karton za Tomkiem i piesek za Anią (NBP, edycja)
+
+Flow · NBP · 9:10 (albo najbliższe pionowe/kwadratowe) · 2k · x3. 1 = `referencje/auto-z-para-tyl-v1.jpg`, 2 = `referencje/piesek.png`, 3 = `referencje/piesek-skala.jpg` (tylko wielkość psa).
+
+```text
+Edit image 1: the same rear view of the same yellow car on the grey studio backdrop, the same two people in the same front seats. Add one moving box and the puppy on the rear seat. Use image 2 for the puppy and image 3 only for its size next to an adult; nothing else from them.
+
+CHANGE:
+- On the left side of the rear seat, directly behind the man in the driver's seat on the left, one plain brown cardboard moving box, about as tall as the rear seat back, seen through the left part of the rear window in front of the man's head.
+- On the right side of the rear seat, directly behind the woman in the passenger seat on the right, the puppy from image 2 sits upright facing forward, so we see the back of its fluffy honey-gold head and its floppy ears through the right part of the rear window, in front of the woman's head. SIZE: a small puppy of about 8 kg, exactly the size in image 3; its head is much smaller than the woman's head and sits lower than hers.
+
+PRESERVE EXACTLY:
+- The framing, the grey studio, the light
+- The car, the closed rear hatch, the rear window, the tail lights, the plate "WA 12345", the roof rack and the mattress
+- The man on the left and the woman on the right in the front seats: hair, heads, positions; the front seat headrests; the boxes on the parcel shelf
+
+ONLY CHANGE: one box behind the man and the small puppy behind the woman on the rear seat. 100% identical otherwise. Exactly two people, one puppy and one car.
+```
+
+**Na co patrzeć:** karton po lewej (przed głową Tomka), piesek po prawej (przed głową Ani), piesek mały i tyłem do kamery; reszta bez zmian. Zapisz jako `referencje/auto-z-para-tyl.jpg`.
