@@ -514,3 +514,28 @@ Exactly one car, two people and one puppy inside it; nobody outside the car. The
 ```
 
 **Na co patrzeć:** auto jedzie **od kamery** do domu (nie cofa się, nie skręca), staje ok. 2,3 s, światła stopu zapalają się przy zatrzymaniu; materac, tablica i ludzie bez zmian; dom i płot stoją. Cięcie: 3,75 s tak, żeby zatrzymanie wypadło na beat.
+
+**Uwagi autora do `u20-start.png` (17.10):** brakuje chodnika wzdłuż płotu (od rabat od razu jest jezdnia), a drzwi wejściowe nie mają klamki ani zamka. Rośliny przed płotem zostają.
+
+## Krok B8: chodnik wzdłuż płotu i klamka z zamkiem (NBP, edycja)
+
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-start.png`.
+
+```text
+Edit image 1: the same image, the same camera. Two small additions only: a pavement along the fence, and a handle with a lock on the front door.
+
+CHANGE:
+- PAVEMENT: between the planting strips in front of the fence and the asphalt street, add a public pavement running across the whole width of the frame, parallel to the fence: light grey concrete paving slabs, about one and a half metres wide, with a low grey kerb on the street side. The shrubs, grasses and lavender in front of the fence stay exactly where they are, on their side of the pavement. Where the driveway meets the street, the pavement crosses it at the same level, with the driveway paving continuing across it to a lowered kerb. The striped fence shadows and the car's long shadow fall across the new pavement the same way they fall across the street.
+- DOOR: on the dark grey front door, on its left edge at hip height, a slim brushed-steel lever handle, and just below it a small round steel lock cylinder with a keyhole, catching a little warm light.
+
+PRESERVE EXACTLY:
+- Camera position, height, lens and the 16:9 framing of image 1
+- The yellow car on the driveway with everything in and on it: the two people, the puppy, the boxes, the mattress, the plate "WA 12345", the tail lights off, its shadow
+- The house, the door panel and its narrow vertical glass strip, the wood cladding, the windows, the steps
+- The whole fence, the pedestrian gate and letterbox, the gate posts, the orange lamp, every shrub, grass and lavender in front of the fence
+- The trees, the neighbouring houses, the sky and the low sun, colour grade, contrast, grain
+
+ONLY CHANGE: a grey pavement along the fence between the planting and the street, and a lever handle with a lock on the front door. 100% identical otherwise.
+```
+
+**Na co patrzeć:** szary chodnik wzdłuż całego płotu, rośliny dalej przed płotem, podjazd przechodzi przez chodnik do obniżonego krawężnika, cienie płotu i auta leżą na chodniku; na drzwiach stalowa klamka i wkładka zamka; auto i rodzina bez zmian. Zapisz jako `referencje/u20-start.png` (nadpisz) albo `u20-start-v2.png`.
