@@ -654,11 +654,11 @@ ACTIVE REFERENCES
 @AUTO: the boxy yellow 1980s hatchback seen from behind, black bumper, black roof rack with a rolled mattress in clear plastic strapped lengthwise along the middle of the roof, its rear end showing thick soft turns; rear license plate reading exactly "WA 12345". Inside, exactly as in the reference: a man with short dark hair in the driver's seat on the left, a woman with wavy shoulder-length hair in the passenger seat on the right, a cardboard box on the rear seat behind the man, a fluffy honey-gold puppy on the rear seat behind the woman. 100% matches the reference.
 
 LOCATION MAP
-Exactly the place from the starting image: the camera stands on the asphalt street, facing the house straight on. In the foreground a grey pavement and kerb. Behind it a horizontal-slat wooden fence with dark posts runs across the frame: the pedestrian gate and letterbox on the left, the open gateway in the middle, the fence and an orange lamp on the right. Beyond the fence line the paved driveway opens up into a wide paved area in front of the white house, with a dark front door, a steel handle and two steps.
+Exactly the place from the starting image: the camera stands on the asphalt street, facing the house straight on. In the foreground a grey pavement and kerb. Behind it a horizontal-slat wooden fence with dark posts runs across the frame: the pedestrian gate and letterbox on the left, the open gateway in the middle, the fence and an orange lamp on the right. Beyond the fence line the paved driveway opens up into a wide paved area in front of the white house with its wood-clad entrance and two steps.
 SIGNAGE: The rear license plate reads exactly "WA 12345" in black letters on a white plate.
 
 FIRST FRAME AND SPATIAL BLOCKING
-The first frame is exactly the starting image: same framing, same light. @AUTO stands in the open gateway between the two gate posts, its rear toward the camera, its nose pointing straight at the front door, tail lights off. The two heads and the puppy are visible through the rear window.
+The first frame is exactly the starting image: same framing, same light. @AUTO stands in the open gateway between the two gate posts, its rear toward the camera, its nose pointing straight at the house, tail lights off. The two heads and the puppy are visible through the rear window.
 
 FORMAT MODE
 Single continuous take. Real-time motion. No cuts.
@@ -670,7 +670,7 @@ CAMERA
 Locked-off camera on a tripod at standing eye level on the street, perfectly still for the whole shot. The image is the camera's point of view; the camera itself is never visible.
 
 ACTION TIMING
-0:00 to 0:02.3: @AUTO rolls slowly forward, away from the camera and straight toward the front door, at walking pace, just far enough for its rear bumper to pass the line of the two gate posts. It moves only forward, away from the camera, and becomes a little smaller in the frame; the paving passes under it toward the camera. It never reverses and never turns.
+0:00 to 0:02.3: @AUTO rolls slowly forward, away from the camera and straight toward the house, at walking pace, just far enough for its rear bumper to pass the line of the two gate posts. It moves only forward, away from the camera, and becomes a little smaller in the frame; the paving passes under it toward the camera. It never reverses and never turns.
 0:02.3: @AUTO stops with its rear bumper about half a metre beyond the line of the gate posts: the whole car is now inside the property, the two gate posts just behind its rear corners. Both red brake lights switch on brightly at the moment it stops, and the car dips gently on its front springs and settles.
 0:02.3 to 0:04.0: Stillness. @AUTO stands still with the brake lights glowing red, all four doors and the rear hatch closed. Inside, the two heads stay in the front seats facing the house and the puppy stays on the rear seat. Nothing else moves.
 
