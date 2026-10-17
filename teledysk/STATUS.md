@@ -4,17 +4,17 @@ Ostatnia aktualizacja: 17.10.2026
 
 ## Jak wrócić do pracy (nowy wątek) 🔁
 - Najnowsza praca jest na gałęzi **`ccr-8a6ed68e-6dmahk`** (kontynuacja `ccr-baa341b7-hv20hr` i `ccr-2f0602d0-vubnss`; na `main` jej nie ma!).
-- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u13-skarpetka.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`, `u19-droga-piesek.md`, `u20-podjazd.md`. W `postacie.md` jest **zdanie SIZE psa** i planszka skali `referencje/piesek-skala.jpg`: obie idą do każdego promptu z psem.
-- Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Pierwsze zdjęcie = klatka startowa, maks. 10 zdjęć. Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
+- Przeczytaj: `CLAUDE.md`, `teledysk/README.md` (zasady, **umowa „rozmowa a polecenie”**, jak działają referencje we Flow), `postacie.md`, `lokacje.md` (nowy rekwizyt: żółte auto), `scenariusz-zostan-tu.md`, ten plik oraz pliki ostatnich ujęć: `prompty/u13-skarpetka.md`, `u16-pozegnanie-kawalerka.md`, `u18-auto-kamienica.md`, `u19-droga-piesek.md`, `u20-podjazd.md`, `u21-klucz.md`, `u22-ogrod.md`. W `postacie.md` jest **zdanie SIZE psa** i planszka skali `referencje/piesek-skala.jpg`: obie idą do każdego promptu z psem.
+- Autor generuje we **Flow**: obrazy w Nano Banana Pro (NBP) (od 17.10 także w aplikacji **Lovable**, dobrze trzyma kadr przy dodawaniu postaci), wideo w Omni 1.1 Flash (4 s pod 3,75 s, 8 s pod 7,5 s, 720p). Pierwsze zdjęcie = klatka startowa, maks. 10 zdjęć. Claude pisze prompty, ocenia wyniki (arkusze klatek z ffmpeg), przycina klipy i odsyła pliki.
 - **Przycinanie robi Claude:** wybór fragmentu, bez dźwięku, zapis do `teledysk/wyniki/` (poza gitem), wysyłka pliku. Gdy trzeba wyciąć początek, a brakuje długości: zwolnienie do ok. 80–85% z `minterpolate` wygląda naturalnie (u15, u16). **Uwaga (15.10):** minterpolate gubi cienkie detale (lampa w u16 znikała). Przy cienkich obiektach w kadrze zwalniamy przez powielanie klatek albo zwalniamy tylko spokojny fragment.
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
-## NASTĘPNY KROK (nowy wątek, 17.10) 👉
-1. **u20 ✅ (podjazd):** C5 wyszedł, plik `wyniki/u20_podjazd_3.75s.mp4` (cięcie 0,25–4,0 s, światła stopu na 2,625 s). Wstawić w CapCucie na 1:41,25–1:45. Lekcja: dystans podajemy w długościach auta i opisujemy obraz końcowy, a nie metry (`prompty/u20-podjazd.md`, C4→C5).
-2. **u18 ✅** nowy klip `wyniki/u18_klapa_v2_3.75s.mp4`, wstawić w CapCucie na 1:30–1:33,75 (jeśli jeszcze nie).
-3. **u14 (laptop):** piesek na dwóch łapach trochę za duży, do decyzji autora.
-4. **u16:** autor wybiera w CapCucie między `u16_pozegnanie_A_rowno` a `u16_pozegnanie_B_poczatek`.
-5. Potem u21 (klucz w złotej godzinie; klamka z wkładką na zamek już jest na drzwiach w u20).
+## NASTĘPNY KROK (nowy wątek, od 17.10 wieczorem) 👉
+1. **u23: pusty salon w słońcu** (2:00–2:07,5, 7,5 s, 84°): Ania kręci się w środku z rozłożonymi rękami, a Tomek wnosi pudła. Baza: `referencje/salon.jpg` (trzy wysokie okna na ogród z u22, dąb na podłodze, kartony pod prawą ścianą). W domu stroje mogą być zdjęte (decyzja 13–14.10), do ustalenia z autorem. Zacząć od rozmowy o kadrze i akcji (jedna akcja; Tomek z pudłem może stać, zamiast chodzić).
+2. **Do CapCuta (jeśli jeszcze nie):** u20 `wyniki/u20_podjazd_3.75s.mp4` → 1:41,25–1:45; **u21** `wyniki/u21_klucz_v2_7.5s.mp4` → 1:45–1:52,5; **u22** `wyniki/u22_ogrod_7.5s.mp4` → 1:52,5–2:00 (oba 1080p); u18 v2 → 1:30–1:33,75.
+3. **Niebo w u22** jest niebieskie (popołudnie), a w u21 złote. Jeśli razi w montażu, to korekta kolorów w CapCucie.
+4. Stare sprawy: u14 (piesek trochę za duży), u16 (wybór wersji A/B).
+5. Potem u24: zachód, pizza na kartonach w pustym salonie, piesek je ze swojej miski.
 
 ## Sprawdzony sposób na ujęcie ✅
 1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (16:9).
@@ -39,6 +39,11 @@ Ostatnia aktualizacja: 17.10.2026
    - koniec rulonu widziany idealnie od tyłu zawsze jest kołem; materac robimy wg `materac-rulon-paleta(-lustro)` z grubymi zwojami,
    - **nie wspominamy w prompcie wideo o akcji, która ma się nie wydarzyć** (np. „drzwi mogą się otworzyć”), bo model ją dopisuje; piszemy wprost „all doors stay closed”,
    - **dystans jazdy w długościach auta + opis obrazu końcowego** („about one full car length”, „gate posts stand fully free… then the rear bumper”); metry („half a metre beyond”) i „slowly / just far enough” sprawiają, że auto staje za wcześnie (u20 C4→C5),
+   - **baza z oryginału:** kadr bliżej (np. same drzwi w u21) wycinamy ffmpeg z referencji w pełnej rozdzielczości (`u20-dom-plot.jpg`, 2752 px), a nie z już powiększonej bazy; NBP/Lovable i tak przerysuje w 2k,
+   - **przenoszenie postaci nie działa** (też w Lovable): para stała na stopniu, „przesuń na podest” nie wyszło. Działa nowy czat od czystej bazy z opisem, gdzie stoją stopy („heels almost touch the door, the step edge visible in front of their toes”) i z blokadą kadru („do not zoom out”) (u21),
+   - **klatka startowa = stan przed akcją** dotyczy też rekwizytu: klucz już w opuszczonej dłoni, a nie wyjmowany z kieszeni (u21),
+   - **wszystkie postacie w jednym przejściu NBP** działają w szerokim kadrze, gdzie twarze są małe; rozpoznaje się je po strojach (u22),
+   - **zmiana widoku lokacji z dwóch referencji** (front `dom.png` + wnętrze `salon.jpg`) dała spójny tył domu w NBP; kierunek słońca ustalamy z obu zdjęć (u22),
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
@@ -60,8 +65,14 @@ Ostatnia aktualizacja: 17.10.2026
 | 18 ✅ | 1:30–1:33,75 | Pod kamienicą: Tomek zatrzaskuje klapę żółtego auta, Ania z psem w bramie | 3,75 s |
 | 19 ✅ | 1:33,75–1:41,25 | Droga: piesek z łbem za oknem (tył, prawa strona), Ania się śmieje | 7,5 s |
 | 20 ✅ | 1:41,25–1:45 | Przedmieścia, żółte auto wjeżdża przez bramę i staje | 3,75 s |
-| 21–23 | 1:45–2:07,5 | klucz (złota godzina), ogród, salon w słońcu | |
+| 21 ✅ | 1:45–1:52,5 | Lustro klucza: Tomek wkłada Ani klucz do dłoni przed drzwiami | 7,5 s |
+| 22 ✅ | 1:52,5–2:00 | Ogród za domem: piesek pędzi na kamerę, Ania go goni, Tomek na tarasie | 7,5 s |
+| 23 | 2:00–2:07,5 | Pusty salon w słońcu | 7,5 s |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
+
+## Zrobione ✅ u21 (klucz) i u22 (ogród), 17.10
+- **u21:** szczegóły w `prompty/u21-klucz.md`. Baza = kadr drzwi wycięty z `u20-dom-plot.jpg`; klamka i zamki oraz para dodane w Lovable. Klatka `referencje/u21-start.png`, nowy srebrny klucz `referencje/klucz-dom.jpg` (inny niż mosiężny z aktu 1, w prompcie bez logo). Tylko przekazanie klucza, bez otwierania drzwi. Klip v2 `wyniki/u21_klucz_v2_7.5s.mp4`.
+- **u22:** szczegóły w `prompty/u22-ogrod.md`. Ogród **za domem** (nowa lokacja z `dom.png` + `salon.jpg`, plik `referencje/u22-ogrod.jpg` jest u autora). Tomek bez kartonu, ręce w kieszeniach. Klip `wyniki/u22_ogrod_7.5s.mp4`.
 
 ## Zrobione ✅ u20 (podjazd)
 Plan i prompty: `prompty/u20-podjazd.md`. Decyzja autora (14.10): bez skrętu, auto wjeżdża prosto na podjazd i staje przed domem, kamera na wprost domu jak na `dom.png`, późne popołudnie. Kroki: A (dom 16:9), B (auto + piesek), C (wideo 4 s). A ✅. Decyzja autora: drewniany płot z bramą przesuwną, odsuniętą na stałe (zapisane w `lokacje.md`). A2: płot dobry, ale brama po lewej. Decyzja: brama w prawo, do tego furtka, lampka i trójkąt, wszystko w stylu płotu. A4 ✅, czyli dom z płotem gotowy: `referencje/u20-dom-plot.jpg` (stała referencja domu). B ❌, a autor rezygnuje z psa w oknie. B2 ✅ prawie (materac wygląda jak tarcza, nie widać Ani). Prompt B3 (poprawki punktowe) gotowy. Nowe referencje: `auto-materac.jpg`, `auto-tyl.png`.
