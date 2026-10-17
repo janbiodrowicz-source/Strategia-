@@ -316,3 +316,26 @@ ONLY CHANGE: the rolled mattress on the roof rack and the two people in the fron
 **Na co patrzeć:** auto identyczne jak na `auto-tyl.png` (tablica!); materac leży wzdłuż dachu, gruby jak wysokość szyb, z grubymi miękkimi zwojami z tyłu; ludzie na **przednich** fotelach, twarzy nie widać, Ania bliżej (prawa strona auta), Tomek dalej (kierowca); puste tylne siedzenie z zagłówkami i niskie kartony; tło szare studio. Zapisz jako `referencje/auto-z-para.jpg`. Potem krok B7: `u20-dom-plot.jpg` + `auto-z-para.jpg` (auto od tyłu na podjeździe).
 
 **Wynik `auto-z-para.jpg` (16.10): ❌** (autor: „trochę nie wyszło”). Nowy plan autora: klatka z wideo u18 z zamkniętą klapą, w Flow usuwamy z niej ludzi i psa, i z tego robimy referencję auta. Claude wycięła klatkę z `wyniki/u18_G1_raw.mp4` w 2,2 s (klapa zamknięta, „WA 12345”, Ania najdalej od tyłu auta): `referencje/u18-klatka-auto.png` (1280×720, pełna rozdzielczość klipu).
+
+**Wynik usunięcia ludzi z klatki u18 (16.10): ✅** samo auto na ulicy, bok dorysowany czysto, tablica i materac bez zmian. Zapisz w 2k jako `referencje/auto-u18-puste.jpg`. Galeria prób `auto-z-para` pokazała, że model myli miejsca (ludzie z tyłu, Ania za kierownicą).
+**Decyzja autora (17.10):** planszka z dwoma widokami, przód i tył, żeby model wiedział, kto gdzie siedzi. Kotwica: kierownica (Tomek trzyma ją w rękach). Pułapka lustra: od przodu kierowca jest po prawej stronie kadru, od tyłu po lewej.
+
+## Planszka `auto-z-para-planszka.jpg`: przód i tył auta z parą (NBP)
+
+Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/auto-u18-puste.jpg` (auto z materacem), 2 = `referencje/auto.png` (przód auta i tablice), 3 = `referencje/auto-tyl.png` (tył i tablica), 4 = `referencje/tomek-koszulka-kurtka.jpg` (twarz i strój Tomka), 5 = `referencje/ania-paski-kardigan.jpg` (twarz i strój Ani), 6 = `referencje/tomek-tyl.jpg` (tył głowy), 7 = `referencje/ania-tyl.jpg` (tył głowy).
+
+```text
+Two studio photographs side by side on one plain mid-grey studio backdrop, a film vehicle sheet of the same car with the same two people inside: on the left panel the car seen straight from the front, on the right panel the same car seen straight from behind. The same real car and the same two real people in both panels, consistent across panels.
+
+The car in both panels is exactly the yellow 1980s five-door hatchback from image 1, with black rub strips, black bumpers, silver five-spoke wheels and a black roof rack; its front as in image 2, its rear as in image 3, the license plates reading exactly "WA 12345" in black letters on white plates. On the roof rack in both panels lies the same rolled mattress as in image 1, lengthwise along the roof, wrapped in crinkled clear plastic, held by two orange straps, its ends showing two or three thick soft turns of white foam.
+
+Seating, the same in both panels: the man from image 4 sits in the driver's seat behind the steering wheel, both hands on the wheel; the woman from image 5 sits in the front passenger seat next to him. Both sit in the FRONT seats; the rear seat is empty, with only a few plain brown boxes in the boot below the rear headrests.
+
+LEFT PANEL, the front view: through the clean windscreen with soft minimal reflections we see both faces clearly. The man behind the steering wheel is on the right side of the panel; the woman is on the left side of the panel. The man, as in image 4: tousled dark brown hair, short stubble, open dark navy trucker jacket with a brown corduroy collar over a white t-shirt. The woman, as in image 5: wavy shoulder-length dark brown hair with caramel ends, light freckles, open bottle-green cable-knit cardigan over a navy-and-white striped top. Both look ahead past the camera with calm, happy faces, lips closed.
+
+RIGHT PANEL, the rear view: the rear hatch closed, the large rear window, the tail lights off. Through the rear window, beyond the empty rear seat and its two headrests, we see only the backs of their heads in the front seats: the man on the left side of the panel, as in image 6, short tousled dark brown hair above the brown corduroy collar; the woman on the right side of the panel, as in image 7, wavy shoulder-length dark brown hair with caramel ends above her green cardigan. Their heads are small, a little beyond the rear headrests.
+
+Soft even studio light from the front-left in both panels, gentle shadows under the car, true-to-life colour, crisp natural detail, fine grain, cinematic film still quality. Nothing else from images 1 to 7: no street, no tenement, no cobblestones.
+```
+
+**Na co patrzeć:** dwa panele, to samo auto i te same osoby; **lewy (przód):** Tomek z rękami na kierownicy po **prawej** stronie panelu, Ania po lewej, twarze widoczne; **prawy (tył):** Tomek po **lewej**, Ania po prawej, tylko tyły głów, za pustym tylnym siedzeniem; materac wzdłuż dachu z grubymi zwojami; „WA 12345” z obu stron; szare studio. Zapisz jako `referencje/auto-z-para-planszka.jpg`. Potem B7: `u20-dom-plot.jpg` + prawy panel planszki.
