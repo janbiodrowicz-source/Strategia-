@@ -322,12 +322,12 @@ ONLY CHANGE: the rolled mattress on the roof rack and the two people in the fron
 
 ## Planszka `auto-z-para-planszka.jpg`: przód i tył auta z parą (NBP)
 
-Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/auto-u18-puste.jpg` (auto z materacem), 2 = `referencje/auto.png` (przód auta i tablice), 3 = `referencje/auto-tyl.png` (tył i tablica), 4 = `referencje/tomek-koszulka-kurtka.jpg` (twarz i strój Tomka), 5 = `referencje/ania-paski-kardigan.jpg` (twarz i strój Ani), 6 = `referencje/tomek-tyl.jpg` (tył głowy), 7 = `referencje/ania-tyl.jpg` (tył głowy).
+Flow · NBP · 3:2 · 2k · x3. 1 = `referencje/auto-u18-puste.jpg` (auto z materacem), 2 = `referencje/auto-tyl.png` (tył i tablica), 3 = `referencje/auto-przod.png` (przód auta i przednia tablica), 4 = `referencje/tomek-koszulka-kurtka.jpg` (twarz i strój Tomka), 5 = `referencje/ania-paski-kardigan.jpg` (twarz i strój Ani), 6 = `referencje/tomek-tyl.jpg` (tył głowy), 7 = `referencje/ania-tyl.jpg` (tył głowy).
 
 ```text
 Two studio photographs side by side on one plain mid-grey studio backdrop, a film vehicle sheet of the same car with the same two people inside: on the left panel the car seen straight from the front, on the right panel the same car seen straight from behind. The same real car and the same two real people in both panels, consistent across panels.
 
-The car in both panels is exactly the yellow 1980s five-door hatchback from image 1, with black rub strips, black bumpers, silver five-spoke wheels and a black roof rack; its front as in image 2, its rear as in image 3, the license plates reading exactly "WA 12345" in black letters on white plates. On the roof rack in both panels lies the same rolled mattress as in image 1, lengthwise along the roof, wrapped in crinkled clear plastic, held by two orange straps, its ends showing two or three thick soft turns of white foam.
+The car in both panels is exactly the yellow 1980s five-door hatchback from image 1, with black rub strips, black bumpers, silver five-spoke wheels and a black roof rack; its rear as in image 2, its front as in image 3, the license plates reading exactly "WA 12345" in black letters on white plates. On the roof rack in both panels lies the same rolled mattress as in image 1, lengthwise along the roof, wrapped in crinkled clear plastic, held by two orange straps, its ends showing two or three thick soft turns of white foam.
 
 Seating, the same in both panels: the man from image 4 sits in the driver's seat behind the steering wheel, both hands on the wheel; the woman from image 5 sits in the front passenger seat next to him. Both sit in the FRONT seats; the rear seat is empty, with only a few plain brown boxes in the boot below the rear headrests.
 
