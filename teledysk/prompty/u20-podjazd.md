@@ -443,15 +443,15 @@ ONLY CHANGE: a bigger puppy on the right side of the rear seat, under the right 
 
 ## Krok B7: auto z rodziną na podjeździe (NBP, edycja)
 
-Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/auto-z-para-tyl.png` (auto z rodziną od tyłu), 3 = `referencje/auto-u18-puste.jpg` (tylko materac: leży na środku dachu).
+Flow · NBP · 16:9 · 2k · x3. 1 = `referencje/u20-dom-plot.jpg`, 2 = `referencje/auto-z-para-tyl.png` (auto z rodziną od tyłu). (Decyzja autora 17.10: tylko dwa zdjęcia, bez trzeciego z materacem.)
 
 ```text
-Edit image 1: the same house, fence, gates, garden, street, light and camera. Add the yellow car from image 2, exactly as it is in image 2, seen from behind on the driveway. Use image 3 only for how the mattress sits on the roof; nothing else from images 2 and 3: no grey studio, no street, no tenement.
+Edit image 1: the same house, fence, gates, garden, street, light and camera. Add the yellow car from image 2, exactly as it is in image 2, seen from behind on the driveway. Nothing else from image 2: no grey studio.
 
 CHANGE (add only this):
 - THE CAR from image 2, with everything inside it exactly as in image 2: the man in the driver's seat on the left, the woman in the passenger seat on the right, the box on the rear seat behind the man, the puppy on the rear seat behind the woman, the boxes on the parcel shelf. It stands on the paved driveway just past the two gate posts, in the middle of the driveway, its rear toward the camera, its nose pointing straight at the front door, at the right size for a small car a few metres beyond the gate. The house, the front door and the steps stay visible above and beside it.
 - The rear hatch closed, the tail lights switched off, the rear license plate reading exactly "WA 12345".
-- THE MATTRESS lies lengthwise along the middle of the roof rack, centred on the roof as in image 3, held by two orange straps, its rear end with the thick soft turns facing the camera.
+- THE MATTRESS lies lengthwise along the middle of the roof rack, centred between the left and right edges of the roof, held by two orange straps, its rear end with the thick soft turns facing the camera.
 - LIGHT: the low sun beyond the house backlights the car: the rear of the car in soft warm shade, a golden rim of light along the roof and the mattress, the heads of the people and the puppy as dark warm silhouettes with glowing rims in the hair and fur. The car casts a long soft shadow toward the camera across the driveway.
 
 PRESERVE EXACTLY:
