@@ -10,7 +10,7 @@ Ostatnia aktualizacja: 17.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, od 17.10 wieczorem) 👉
-1. **u24: zachód, pizza na kartonach w pustym salonie, piesek je ze swojej miski** (2:07,5–2:15, 7,5 s, 18°, statyczna, cisza: bas się zacina). Zacząć od rozmowy o kadrze i akcji. Baza: `salon.jpg` / `u23-start.jpg`, pudło „SYPIALNIA” leży już na podłodze. **u23 ✅** (18.10): `wyniki/u23_salon_7.5s.mp4` → 2:00–2:07,5.
+1. **u25: HARD CUT, Tomek wpina wtyczkę i girlanda żarówek rozbłyska pod sufitem** (2:15–2:18,75, 3,75 s, 47°, start refrenu 2). Zacząć od rozmowy o kadrze (girlandy jeszcze nie mamy w referencjach). **u23 ✅** `wyniki/u23_salon_7.5s.mp4` → 2:00–2:07,5, **u24 ✅** `wyniki/u24_pizza_7.5s.mp4` → 2:07,5–2:15 (bez zachodu: ciepłe popołudnie, piesek trochę za duży).
 2. **Do CapCuta (jeśli jeszcze nie):** u20 `wyniki/u20_podjazd_3.75s.mp4` → 1:41,25–1:45; **u21** `wyniki/u21_klucz_v2_7.5s.mp4` → 1:45–1:52,5; **u22** `wyniki/u22_ogrod_7.5s.mp4` → 1:52,5–2:00 (oba 1080p); u18 v2 → 1:30–1:33,75.
 3. **Niebo w u22** jest niebieskie (popołudnie), a w u21 złote. Jeśli razi w montażu, to korekta kolorów w CapCucie.
 4. Stare sprawy: u14 (piesek trochę za duży), u16 (wybór wersji A/B).
@@ -44,6 +44,7 @@ Ostatnia aktualizacja: 17.10.2026
    - **wszystkie postacie w jednym przejściu NBP** działają w szerokim kadrze, gdzie twarze są małe; rozpoznaje się je po strojach (u22),
    - **zmiana widoku lokacji z dwóch referencji** (front `dom.png` + wnętrze `salon.jpg`) dała spójny tył domu w NBP; kierunek słońca ustalamy z obu zdjęć (u22),
    - **obrót postaci w Omni działa**, gdy jest jeden, wolny, w miejscu, ma 3–4 s w ACTION TIMING i kończy się przodem do kamery (u23); psuły się obroty przy chodzeniu,
+   - **wideo prosto z referencji** (Lovable, bez klatki startowej) daje dobrą treść, ale model sam wybiera kadr i porę dnia (u24: przepadły 18° i zachód); gdy liczy się kadr lub światło, robimy klatkę startową,
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
@@ -68,7 +69,7 @@ Ostatnia aktualizacja: 17.10.2026
 | 21 ✅ | 1:45–1:52,5 | Lustro klucza: Tomek wkłada Ani klucz do dłoni przed drzwiami | 7,5 s |
 | 22 ✅ | 1:52,5–2:00 | Ogród za domem: piesek pędzi na kamerę, Ania go goni, Tomek na tarasie | 7,5 s |
 | 23 ✅ | 2:00–2:07,5 | Pusty salon w słońcu: piruet Ani, Tomek odkłada pudło „SYPIALNIA” | 7,5 s |
-| 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
+| 24 ✅ | 2:07,5–2:15 | Pizza z pudełka na podłodze salonu, piesek je ze swojej miski | 7,5 s |
 
 ## Zrobione ✅ u21 (klucz) i u22 (ogród), 17.10
 - **u21:** szczegóły w `prompty/u21-klucz.md`. Baza = kadr drzwi wycięty z `u20-dom-plot.jpg`; klamka i zamki oraz para dodane w Lovable. Klatka `referencje/u21-start.png`, nowy srebrny klucz `referencje/klucz-dom.jpg` (inny niż mosiężny z aktu 1, w prompcie bez logo). Tylko przekazanie klucza, bez otwierania drzwi. Klip v2 `wyniki/u21_klucz_v2_7.5s.mp4`.

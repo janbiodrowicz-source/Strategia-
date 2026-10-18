@@ -1,4 +1,4 @@
-# Ujęcie 24: Pizza w pustym salonie (2:07,5–2:15) ▶️
+# Ujęcie 24: Pizza w pustym salonie (2:07,5–2:15) ✅
 
 **Scenariusz:** zachód słońca, pierwszy posiłek w nowym domu: pizza z pudełka w pustym salonie, pies je obok ze swojej miski (dawne u17). Patrzą na siebie i biorą oddech. 18°, statyczna, cisza (pauza 2: bas się zacina i milknie). 7,5 s.
 **Decyzje autora (18.10):**
@@ -166,3 +166,10 @@ Near silence: the soft crunch of kibble, a quiet breath, distant evening birds. 
 POSITIVE CONSTRAINTS
 Exactly two people and one small puppy. All three stay in their places for the whole shot. The word "SYPIALNIA" stays sharp and correctly spelled. Stable picture, fine film grain, warm sunset colours, no flickering.
 ```
+
+## Wynik ✅ (18.10, „ujdzie w tłumie”)
+
+Plik autora `moving-day-first-meal.mp4` (1080p, z dźwiękiem, prompt z referencji, bez klatki startowej). Dobre: oboje siedzą na podłodze naprzeciw siebie i jedzą z pudełka, stroje jak w u23, „SYPIALNIA” poprawna, piesek je z miski przez cały klip i macha ogonem, pod koniec patrzą na siebie i się uśmiechają. Odstępstwa: zamiast zachodu ciepłe późne popołudnie (pasuje do u23), kadr szerszy i frontalny zamiast teleobiektywu 18° (widać całe trzy okna), piesek ma krótszą sierść, wygląda bardziej na retrievera i jest trochę za duży (stoi bliżej kamery; łba prawie nie widać, bo cały czas w misce), wspólny oddech ledwo zaznaczony. Cięcie 0,5–8,0 s, bez dźwięku → `wyniki/u24_pizza_7.5s.mp4`.
+
+**Lekcja:** wideo prosto z referencji (bez klatki startowej) daje poprawną treść, ale model sam wybiera kadr i porę dnia: optyka (18°) i zachód z promptu przepadły. Do ujęć, gdzie liczy się kadr albo światło, zostaje klatka startowa.
+
