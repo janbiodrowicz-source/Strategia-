@@ -10,11 +10,10 @@ Ostatnia aktualizacja: 17.10.2026
 - **Umowa z autorem:** prompty wideo według `cinedance` (+ `acting`), obrazy według `lira-image-prompts`. **Domyślnie rozmawiamy; pliki i prompty dopiero po wyraźnym „robimy / zapisz / daj prompt”.** O niezgodnościach mówimy wprost.
 
 ## NASTĘPNY KROK (nowy wątek, od 17.10 wieczorem) 👉
-1. **u23: pusty salon w słońcu** ▶️ (2:00–2:07,5, 7,5 s, 84°). Decyzje autora 17.10: kadr jak `salon.jpg`, Tomek bez kurtki (`tomek-koszulka.jpg`), Ania w rozpiętym kardiganie, jeden wolny obrót Ani, Tomek stoi i odstawia pudło „SYPIALNIA” na podłogę, bez psa. Prompty A (Ania), B (Tomek), C (wideo) gotowe w `prompty/u23-salon.md`; czekamy na wyniki A.
+1. **u24: zachód, pizza na kartonach w pustym salonie, piesek je ze swojej miski** (2:07,5–2:15, 7,5 s, 18°, statyczna, cisza: bas się zacina). Zacząć od rozmowy o kadrze i akcji. Baza: `salon.jpg` / `u23-start.jpg`, pudło „SYPIALNIA” leży już na podłodze. **u23 ✅** (18.10): `wyniki/u23_salon_7.5s.mp4` → 2:00–2:07,5.
 2. **Do CapCuta (jeśli jeszcze nie):** u20 `wyniki/u20_podjazd_3.75s.mp4` → 1:41,25–1:45; **u21** `wyniki/u21_klucz_v2_7.5s.mp4` → 1:45–1:52,5; **u22** `wyniki/u22_ogrod_7.5s.mp4` → 1:52,5–2:00 (oba 1080p); u18 v2 → 1:30–1:33,75.
 3. **Niebo w u22** jest niebieskie (popołudnie), a w u21 złote. Jeśli razi w montażu, to korekta kolorów w CapCucie.
 4. Stare sprawy: u14 (piesek trochę za duży), u16 (wybór wersji A/B).
-5. Potem u24: zachód, pizza na kartonach w pustym salonie, piesek je ze swojej miski.
 
 ## Sprawdzony sposób na ujęcie ✅
 1. **Baza lokacji:** klatka z wcześniejszego klipu albo referencja (16:9).
@@ -44,6 +43,7 @@ Ostatnia aktualizacja: 17.10.2026
    - **klatka startowa = stan przed akcją** dotyczy też rekwizytu: klucz już w opuszczonej dłoni, a nie wyjmowany z kieszeni (u21),
    - **wszystkie postacie w jednym przejściu NBP** działają w szerokim kadrze, gdzie twarze są małe; rozpoznaje się je po strojach (u22),
    - **zmiana widoku lokacji z dwóch referencji** (front `dom.png` + wnętrze `salon.jpg`) dała spójny tył domu w NBP; kierunek słońca ustalamy z obu zdjęć (u22),
+   - **obrót postaci w Omni działa**, gdy jest jeden, wolny, w miejscu, ma 3–4 s w ACTION TIMING i kończy się przodem do kamery (u23); psuły się obroty przy chodzeniu,
    - napisy z polskimi znakami („KSIĄŻKI”) i tablica („WA 12345”) wychodzą, gdy są w prompcie i w referencji (`auto.png`).
 
 ## Zrobione ✅
@@ -67,7 +67,7 @@ Ostatnia aktualizacja: 17.10.2026
 | 20 ✅ | 1:41,25–1:45 | Przedmieścia, żółte auto wjeżdża przez bramę i staje | 3,75 s |
 | 21 ✅ | 1:45–1:52,5 | Lustro klucza: Tomek wkłada Ani klucz do dłoni przed drzwiami | 7,5 s |
 | 22 ✅ | 1:52,5–2:00 | Ogród za domem: piesek pędzi na kamerę, Ania go goni, Tomek na tarasie | 7,5 s |
-| 23 | 2:00–2:07,5 | Pusty salon w słońcu | 7,5 s |
+| 23 ✅ | 2:00–2:07,5 | Pusty salon w słońcu: piruet Ani, Tomek odkłada pudło „SYPIALNIA” | 7,5 s |
 | 24 | 2:07,5–2:15 | Zachód: pizza na kartonach w pustym salonie, piesek je ze swojej miski | 7,5 s |
 
 ## Zrobione ✅ u21 (klucz) i u22 (ogród), 17.10

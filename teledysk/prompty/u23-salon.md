@@ -1,4 +1,4 @@
-# Ujęcie 23: Pusty salon w słońcu (2:00–2:07,5) ▶️
+# Ujęcie 23: Pusty salon w słońcu (2:00–2:07,5) ✅
 
 **Scenariusz:** pusty salon w słońcu z dużych okien. Ania kręci się w środku z rozłożonymi rękami, a Tomek wnosi pudła. 84°. 7,5 s.
 **Decyzje autora (17.10):**
@@ -112,3 +112,8 @@ Exactly two people. @TOMEK stays on the same spot for the whole shot. @ANIA stay
 ```
 
 **Na co patrzeć:** jeden obrót (nie dwa), twarz Ani po obrocie ta sama, kardigan się rozwiewa, Ania kończy przodem do kamery, Tomek nie chodzi i odstawia pudło na podłogę, napis „SYPIALNIA” bez zmian, cztery kartony w stosie. Cięcie do 7,5 s, bez dźwięku → `wyniki/u23_salon_7.5s.mp4`.
+
+**Wynik C ✅ (18.10, 1080p, ocena 7/10):** jeden czysty obrót (ok. 1,5–4,5 s) z zachowaną twarzą Ani, kardigan się rozwiewa, na początku mały podskok (spoza promptu, pasuje). Tomek nie chodzi, odkłada pudło w 4,5–5,5 s i patrzy na Anię. „SYPIALNIA” czytelna, cztery kartony, Omni sam dodał Tomkowi cień i cieplejsze światło. Słabsze: Tomek dominuje w kadrze (wada klatki B), schyla się w pasie bez uginania kolan, końcówka 6–8 s statyczna, jeansy Ani szare. Cięcie 0–7,5 s, bez dźwięku → `wyniki/u23_salon_7.5s.mp4`.
+
+**Lekcja:** obrót postaci w Omni działa, gdy jest **jeden, wolny, w miejscu**, z czasem w ACTION TIMING (ok. 3–4 s) i zakończeniem przodem do kamery. Obroty psuły się wcześniej przy chodzeniu, a nie przy piruecie.
+
